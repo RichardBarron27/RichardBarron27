@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
+</p>
+
+<br>
+
 # 👾 Red Specter – Offensive Cyber Engineering
 
 Hi, I’m **Richard Barron** — cybersecurity engineer and creator of the **Red Specter Offensive Framework**.
