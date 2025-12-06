@@ -65,3 +65,5 @@ Thank you for helping me build the future of lawful cyber offense. 👊
 
 **“Precision is the real power.”**
 
+Want to collaborate on AI security research or defensive tools? 👉 Open an issue or connect on LinkedIn.
+
