@@ -8,7 +8,7 @@
 # 👁‍🗨 Red Specter — AI Defense Tools
 🛡️ AI security & prompt-level data leakage detection
 
-Hi, I’m **Richard ** — cybersecurity engineer and creator of the **Red Specter Offensive Framework** and the **Red Specter AI Breach Monitor**.
+Hi, I’m * Richard * — cybersecurity engineer and creator of the **Red Specter Offensive Framework** and the **Red Specter AI Breach Monitor**.
 
 I build lawful, effective, and business-ready tooling for:
 
