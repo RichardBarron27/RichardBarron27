@@ -20,6 +20,11 @@ My current focus is combining **offense-driven defense** with **AI safety** – 
 
 Always authorized. Always ethical. Always learning. ⚔️
 
+<p>
+<a href="https://github.com/RichardBarron27"><b>🔗 GitHub Profile</b></a> • 
+<a href="https://www.linkedin.com/in/richard-barron27/"><b>💼 LinkedIn</b></a>
+</p>
+
 
 ---
 
