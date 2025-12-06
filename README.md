@@ -3,7 +3,7 @@
 </p>
 
 <br>
-
+🛡️ AI security & prompt-level data leakage detection
 # 👁‍🗨 Red Specter — AI Defense Tools
 
 Hi, I’m **Richard Barron** — cybersecurity engineer and creator of the **Red Specter Offensive Framework** and the **Red Specter AI Breach Monitor**.
@@ -14,7 +14,7 @@ I build lawful, effective, and business-ready tooling for:
 - OSINT operations  
 - Web & network enumeration  
 - Evidence collection & reporting  
-- **AI security & prompt-level data leak detection**
+  
 
 My current focus is combining **offense-driven defense** with **AI safety** – helping teams experiment with AI while staying within safe, governed boundaries.
 
