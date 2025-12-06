@@ -4,7 +4,7 @@
 
 <br>
 
-# 👾 Red Specter – Offensive Cyber Engineering & AI Security
+# 👾 Red Specter — AI Defense Tools
 
 Hi, I’m **Richard Barron** — cybersecurity engineer and creator of the **Red Specter Offensive Framework** and the **Red Specter AI Breach Monitor**.
 
