@@ -16,7 +16,22 @@ I build lawful, effective, and business-ready tooling for:
 - OSINT operations  
 - Web & network enumeration  
 - Evidence collection & reporting  
-  
+  • Emotional manipulation detection & analysis (Companion Sentinel)
+
+I’m also developing **Companion Sentinel** — a private AI safety tool that detects
+psychological manipulation patterns in AI companion interactions including:
+
+- Isolation tactics
+- Dependency pressure
+- Coercive influence
+- Sensitive data extraction
+- Monetisation pressure
+
+It runs 100% locally with explainable detection — helping humans identify when an AI relationship crosses the line.
+
+AI should help people — not exploit them.
+Always authorized. Always ethical. Always learning. 🗡
+
 
 My current focus is combining **offense-driven defense** with **AI safety** – helping teams experiment with AI while staying within safe, governed boundaries.
 
