@@ -1,84 +1,70 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
-</p>
+Who We Are
 
-<br>
+Red Specter builds ethical, AI-powered cyber-defense tools.
+ We specialise in threats that traditional security stacks miss:
+ emotional manipulation, covert C2 channels, AI misuse, and behavioural anomalies.
 
+The Problem
 
-# 👁‍🗨 Red Specter — AI Defense Tools
-🛡️ AI security & prompt-level data leakage detection
+Cybersecurity is shifting from infrastructure to interaction.
+ Attackers now exploit:
 
-Hi, I’m  Richard  — cybersecurity engineer and creator of the **Red Specter Offensive Framework** and the **Red Specter AI Breach Monitor**.
+ • AI systems
 
-I build lawful, effective, and business-ready tooling for:
+ • human behaviour
 
-- Reconnaissance  
-- OSINT operations  
-- Web & network enumeration  
-- Evidence collection & reporting  
-• Emotional manipulation detection & analysis (Companion Sentinel)
+ • outbound traffic patterns
 
-I’m also developing **Companion Sentinel** — a private AI safety tool that detects
-psychological manipulation patterns in AI companion interactions including:
+ • low-signal, high-impact techniques
 
-- Isolation tactics
-- Dependency pressure
-- Coercive influence
-- Sensitive data extraction
-- Monetisation pressure
+Most organisations have no visibility into these layers.
 
-It runs 100% locally with explainable detection — helping humans identify when an AI relationship crosses the line.
+Our Solution
 
-AI should help people — not exploit them.
-Always authorized. Always ethical. Always learning. 🗡
+Red Specter develops precise, explainable, locally-run security tools that detect early-stage compromise signals across:
 
+AI Security
 
-My current focus is combining **offense-driven defense** with **AI safety** – helping teams experiment with AI while staying within safe, governed boundaries.
+• AI Firewall Proxy
 
-Always authorized. Always ethical. Always learning. ⚔️
+ • AI Breach Monitor
 
-<p>
-<a href="https://github.com/RichardBarron27"><b>🔗 GitHub Profile</b></a> • 
-</p>
+ • Endpoint Guard
 
+Network & Host Defense
 
----
+• Beacon Detector (state-of-the-art behavioural C2 detection)
 
-## 🔧 Public Red Specter Tools
+ • Botnet Radar
 
-| Project | Purpose | Link |
-|--------|---------|------|
-| **Red Specter Offensive Framework** | Full offensive workflow launcher (recon → enum → wifi ops) | 🔗 https://github.com/RichardBarron27/red-specter-offensive-framework |
-| **ScriptMap** | Auto-mapping of scripts, dependencies, and execution order | 🔗 https://github.com/RichardBarron27/redspecter-scriptmap |
-| **EmailOSINT** | Email-focused intelligence gathering | 🔗 https://github.com/RichardBarron27/redspecter-emailosint |
-| **Evidence Collector** | Structured capture during pentest operations | 🔗 https://github.com/RichardBarron27/redspecter-evidence-collector |
+ • DDoS Flood Detector
 
----
+ • C2 Hunter
 
-## 🧪 Skills & Focus
+ • Port Surge Detector
 
-- Linux / Kali / Bash engineering  
-- OSINT & recon automation  
-- Web & endpoint attack surface mapping  
-- Reporting and traceable evidence workflows  
+ • Log Scanner
 
-Currently working on:
-> Red Specter v2 — modular + GUI + cloud-ready
+Offensive / OSINT
 
----
+• Red Specter Offensive Framework
 
-## ❤️ Support Red Specter
+ • Evidence Ledger
 
-Your support accelerates development:
+ • Email OSINT Tool
 
-- ☕ Buy me a coffee: https://www.buymeacoffee.com/redspecter  
-- 💼 PayPal: https://paypal.me/richardbarron1747
+Private R&D
 
-Thank you for helping me build the future of lawful cyber offense. 👊
+• Companion Sentinel — emotional-manipulation detection
 
----
+ • Red Defender — autonomous AI defensive agents
 
-**“Precision is the real power.”**
+ • Botnet Radar Pro — predictive botnet telemetry
 
-Want to collaborate on AI security research or defensive tools? 👉 Open an issue or connect on LinkedIn.
+ • Internal Beacon Detector — compromised host identification
 
+Our Mission
+
+Ethical. Precise. Unseen.
+
+We build tools that reveal the threats others don’t even know to look for.
