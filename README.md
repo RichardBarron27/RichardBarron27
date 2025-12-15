@@ -68,3 +68,5 @@ Our Mission
 Ethical. Precise. Unseen.
 
 We build tools that reveal the threats others don’t even know to look for.
+
+Red Specter — Innovation Beyond Belief
