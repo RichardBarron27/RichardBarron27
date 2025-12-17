@@ -56,6 +56,10 @@ Botnet Radar Pro — predictive botnet telemetry and early-warning intelligence
 
 Internal Beacon Detector — compromised host identification
 
+AI / Human-Centric Defense 
+
+Cognitive Drift Sentinel — Detects gradual human–AI influence, dependency, and decision drift.
+
 Our Mission
 
 Ethical. Precise. Unseen.
