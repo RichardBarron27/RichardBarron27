@@ -10,8 +10,7 @@ Table of contents
 - [Usage & Access](#usage--access)
 - [Responsible Use & Legal](#responsible-use--legal)
 - [Contributing](#contributing)
-- [Security & Disclosure](#security--disclosure)
-- [License & Contact](#license--contact)
+
 
 Overview
 Red Specter comprises detection, reconnaissance, and containment tooling aimed at improving visibility into botnet activity, DDoS, AI-related data leakage, and other operational threats. This repo provides a high-level inventory and links to individual tool documentation (where available).
@@ -61,16 +60,9 @@ This repository contains tools and research that can be misused. By using any co
 Contributing
 - Open an issue for large ideas or feature requests.
 - Small fixes: fork, create a branch, and submit a PR. Include tests and documentation.
-- See CONTRIBUTING.md (create one if you don’t have it) for code standards and the review process.
 
-Security & disclosure
-If you find a security vulnerability or sensitive data exposure, please follow responsible disclosure. Provide a method of contact (email) and expected timeframes. Consider adding a SECURITY.md with the process and PGP key (if you have one).
 
-License & contact
-- Add a LICENSE file to state terms (e.g., MIT, Apache-2.0). If parts are proprietary, mark them clearly.
-- Contact: add an email or link to issues for access and questions (e.g., `security@example.com`).
+Red Specter - Innovation Beyond Belief
 
-Notes and next steps
-- Add per-tool READMEs or documentation links so each item can be explored in detail.
-- Add badges (CI, license, docs) and a short demo or screenshot where feasible.
-- Consider a one-line “status” field for each tool (alpha / beta / production).
+
+
