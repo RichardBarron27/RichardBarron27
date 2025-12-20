@@ -1,69 +1,56 @@
-Who We Are
+🔴 Red Specter Tooling (Flagship Overview)
+Public Tools
 
-Red Specter builds ethical, AI-powered cyber-defense tools.
-We specialise in threats traditional security stacks miss: AI misuse, emotional manipulation, covert C2 channels, behavioural anomalies, and low-signal attacks.
-Our focus is early detection, explainability, and locally run defensive tooling.
+Botnet Radar — host-level botnet and DDoS early warning
 
-The Problem
+Offensive Framework — ethical lab recon to reporting
 
-Cybersecurity is shifting from infrastructure to interaction.
-Attackers increasingly exploit AI systems, human behaviour, outbound traffic patterns, and subtle coordination techniques.
-Most organisations have little or no visibility into these layers.
+ScriptMap — script inventory and supply-chain visibility
 
-Our Solution
+Email OSINT — passive domain email intelligence
 
-Red Specter develops precise, explainable, privacy-first security tools that surface early-stage compromise signals across AI, network, and host environments.
+Evidence Collector — DFIR and pentest evidence ledger
 
-AI Security
+DDoS Flood Sentinel — UDP flood and carpet detection
 
-AI Firewall Proxy
+Port Surge Guardian — sudden listening-port exposure alerts
 
-AI Breach Monitor
+Threat Recon Watcher — brute-force and high-volume IP detection
 
-AI Endpoint Guard
+C2 Hunter — outbound beaconing and C2 behavior detection
 
-AI Usage Watchdog
+AI Breach Monitor — AI prompt data-leak detection
 
-Network & Host Defense
+AI Endpoint Guard — endpoint visibility into AI usage
 
-Beacon Detector (behavioural C2 detection)
+AI Usage Watchdog — privacy-first AI telemetry agent
 
-Botnet Radar
-
-DDoS Flood Sentinel
-
-C2 Hunter
-
-Port Surge Guardian
-
-Threat Recon Watcher
-
-Offensive & OSINT (Ethical / Lab-Focused)
-
-Red Specter Offensive Framework
-
-Evidence Collector
-
-Email OSINT Tool
+AI Firewall Proxy — policy enforcement for AI access
 
 Private R&D
 
-Companion Sentinel — emotional manipulation and influence detection
+Breach Containment Switch — one-command web containment + evidence
 
-Red Defender — autonomous multi-agent defensive AI prototype
+AI ShadowOps Detector — covert AI usage detection
 
-Botnet Radar Pro — predictive botnet telemetry and early-warning intelligence
+Cognitive Drift Sentinel — AI behavior drift monitoring
 
-Internal Beacon Detector — compromised host identification
+Ransomware Canary Sentinel — pre-encryption mass-change alerts
 
-AI / Human-Centric Defense 
+AI Jailbreak IDS — prompt-injection detection
 
-Cognitive Drift Sentinel — Detects gradual human–AI influence, dependency, and decision drift.
+AI Decision Provenance — cryptographic AI decision logging
 
-Our Mission
+LLM Memory Forensics Kit — AI memory and log forensics
 
-Ethical. Precise. Unseen.
+Red Defender — autonomous multi-agent defensive AI
 
-We build tools that expose threats others do not even know to look for.
+Log Anomaly Sentinel — rare command and log pattern detection
 
-Red Specter — Innovation Beyond Belief
+Beacon Detector — timed C2 beaconing detection
+
+Companion Sentinel — AI manipulation and dependency detection
+
+Botnet Radar Pro — enterprise botnet scoring
+
+Red Specter Lab — internal lab, SOPs, and tooling backbone
