@@ -1,68 +1,97 @@
-# Red Specter Tooling — Flagship Overview
+# Red Specter — Innovation Beyond Belief 🔥
 
-Short description
-A collection of defensive and offensive security tools, research projects, and internal R&D maintained by Red Specter. Designed for use by security teams, incident responders, and authorized researchers.
+A collection of defensive and offensive security tools, research projects, and internal R&D maintained by **Red Specter**.  
+Built for security teams, incident responders, and authorized researchers.  
+**Detect → Block → Contain → Prove.**
 
-Table of contents
+## Table of contents
 - [Overview](#overview)
-- [Public Tools](#public-tools)
+- [Public tools](#public-tools)
 - [Private R&D](#private-rd)
-- [Usage & Access](#usage--access)
-- [Responsible Use & Legal](#responsible-use--legal)
+- [Usage & access](#usage--access)
+- [Responsible use & legal](#responsible-use--legal)
 - [Contributing](#contributing)
 
+## Overview
+Red Specter focuses on practical visibility and response across:
+- Botnet activity and early-stage DDoS signals  
+- C2-style outbound behaviour and beaconing  
+- Sudden service exposure and brute-force patterns  
+- AI-era risks: shadow AI usage, prompt injection, and data leakage  
+- Fast containment and evidence-first reporting
 
-Overview
-Red Specter comprises detection, reconnaissance, and containment tooling aimed at improving visibility into botnet activity, DDoS, AI-related data leakage, and other operational threats. This repo provides a high-level inventory and links to individual tool documentation (where available).
+This profile README is a high-level inventory with links to each repo.
 
-Public tools
-(Available for authorized public use; follow the usage & licensing notes below.)
-- Botnet Radar — Host-level botnet and DDoS early warning. Collects signals and scores hosts for likely botnet/DDoS involvement.
-- Offensive Framework — Ethical lab recon to reporting. Framework for authorized penetration testing and automated evidence collection.
-- ScriptMap — Script inventory and supply-chain visibility. Tracks scripts and their provenance across environments.
-- Email OSINT — Passive domain email intelligence. Gathers publicly available email-related telemetry for investigations.
-- Evidence Collector — DFIR and pentest evidence ledger. Securely records and packages forensic evidence for reporting.
-- DDoS Flood Sentinel — UDP flood and carpet detection. Network-level heuristics and alerts for volumetric events.
-- Port Surge Guardian — Sudden listening-port exposure alerts. Detects rapid exposure of services.
-- Threat Recon Watcher — Brute-force and high-volume IP detection. Identifies credential stuffing and password spray patterns.
-- C2 Hunter — Outbound beaconing and C2 behavior detection. Behavioral detection for command-and-control patterns.
-- AI Breach Monitor — AI prompt data-leak detection. Identifies likely exfiltration of sensitive data to LLM endpoints.
-- AI Endpoint Guard — Endpoint visibility into AI usage. Endpoint agent telemetry for AI model interactions.
-- AI Usage Watchdog — Privacy-first AI telemetry agent. Collects metadata to inform policy without recording user prompts.
-- AI Firewall Proxy — Policy enforcement for AI access. Centralized proxy to control and log AI model access.
+## Public tools
+(Available for authorized public use; follow each repo’s README and license.)
 
-Private R&D
-(Internal, restricted; not for public distribution without authorization.)
-- Breach Containment Switch — One-command web containment + evidence.
-- AI ShadowOps Detector — Covert AI usage detection.
-- Cognitive Drift Sentinel — AI behavior drift monitoring.
-- Ransomware Canary Sentinel — Pre-encryption mass-change alerts.
-- AI Jailbreak IDS — Prompt-injection detection.
-- AI Decision Provenance — Cryptographic AI decision logging.
-- LLM Memory Forensics Kit — AI memory and log forensics.
-- Red Defender — Autonomous multi-agent defensive AI.
-- Log Anomaly Sentinel — Rare command and log pattern detection.
-- Beacon Detector — Timed C2 beaconing detection.
-- Companion Sentinel — AI manipulation and dependency detection.
-- Botnet Radar Pro — Enterprise botnet scoring.
-- Red Specter Lab — Internal lab, SOPs, and tooling backbone.
+- **Botnet Radar** — Host-level botnet/DDoS early warning and scoring.  
+  https://github.com/RichardBarron27/redspecter-botnet-radar
 
-Usage & access
-- Public tools: each public tool should have its own directory or documentation link. If you want access, open an issue or contact the maintainers (see Contact).
-- Private R&D: restricted to internal staff and vetted partners. Do not attempt to run or distribute private components without approval.
+- **Offensive Framework** — Ethical lab toolkit for recon → reporting (authorized testing only).  
+  https://github.com/RichardBarron27/red-specter-offensive-framework
 
-Responsible use & legal
-This repository contains tools and research that can be misused. By using any code or guidance here you agree to follow all applicable laws, have written authorization for offensive testing, and follow your employer’s policies. Always:
-- Obtain written permission before testing systems you do not own.
-- Follow local laws and organizational rules.
-- Treat threat data and indicators responsibly and avoid public disclosure of sensitive information.
+- **ScriptMap** — Script inventory and supply-chain visibility.  
+  https://github.com/RichardBarron27/redspecter-scriptmap
 
-Contributing
-- Open an issue for large ideas or feature requests.
-- Small fixes: fork, create a branch, and submit a PR. Include tests and documentation.
+- **Email OSINT** — Passive domain-based email intelligence.  
+  https://github.com/RichardBarron27/redspecter-emailosint
 
+- **Evidence Collector** — DFIR/pentest evidence ledger into structured case files.  
+  https://github.com/RichardBarron27/redspecter-evidence-collector
 
-Red Specter - Innovation Beyond Belief
+- **DDoS Flood Sentinel** — UDP flood / carpet detection heuristics and alerts.  
+  https://github.com/RichardBarron27/redspecter-ddos-flood-sentinel
 
+- **Port Surge Guardian** — Sudden listening-port exposure change alerts.  
+  https://github.com/RichardBarron27/redspecter-port-surge-guardian
 
+- **Threat Recon Watcher** — Brute-force / high-volume IP detection from logs.  
+  https://github.com/RichardBarron27/redspecter-threat-recon-watcher
 
+- **C2 Hunter** — Outbound monitoring for C2-like behaviour.  
+  https://github.com/RichardBarron27/redspecter-c2-hunter
+
+- **AI Breach Monitor** — Detects likely sensitive data leaks in AI prompt logs.  
+  https://github.com/RichardBarron27/redspecter-ai-breach-monitor
+
+- **AI Endpoint Guard** — Endpoint visibility into AI tool usage.  
+  https://github.com/RichardBarron27/redspecter-ai-endpoint-guard
+
+- **AI Usage Watchdog** — Privacy-first Linux telemetry for AI/LLM usage signals.  
+  https://github.com/RichardBarron27/redspecter-ai-usage-watchdog
+
+- **AI Firewall Proxy** — Policy-enforcing proxy to control and log AI model access.  
+  https://github.com/RichardBarron27/redspecter-ai-firewall-proxy
+
+## Private R&D
+(Internal and restricted. Not for public distribution without authorization.)
+
+- **Breach Containment Switch** — One-command web containment + evidence snapshot.  
+- **AI ShadowOps Detector** — Covert AI usage detection with evidence logs.  
+- **Cognitive Drift Sentinel** — Model behaviour drift monitoring over time.  
+- **Ransomware Canary Sentinel** — Pre-encryption mass-change alerts without encryption.  
+- **AI Jailbreak IDS** — Prompt-injection / jailbreak intent detection with logging.  
+- **AI Decision Provenance** — Cryptographic decision logging for AI accountability.  
+- **LLM Memory Forensics Kit** — Scans AI memory/log dumps for risky indicators + tamper-evident reports.  
+- **Red Defender** — Autonomous multi-agent defensive AI prototype.  
+- **Log Anomaly Sentinel** — Rare command and log pattern detection.  
+- **Beacon Detector** — Timed C2 beaconing detection.  
+- **Companion Sentinel** — Manipulation/dependency pattern detection in AI companion chats.  
+- **Botnet Radar Pro** — Enterprise-tier botnet scoring and enrichment.  
+- **Red Specter Lab** — Internal lab scripts, SOPs, and tooling backbone.  
+- **Takedown Dossier Generator** — Converts JSONL telemetry into evidence-ready takedown packs (IOCs, timeline, templates, tamper-evident hashes).  
+- **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack).
+
+## Usage & access
+- **Public tools:** follow each repo’s README, licensing, and usage notes.  
+- **Private R&D:** restricted to internal staff and vetted partners. Do not attempt to run or distribute without approval.
+
+## Responsible use & legal
+Some tooling and research can be misused.  
+You must follow applicable laws, have written authorization for offensive testing, and follow employer/client policies.  
+Always obtain explicit permission before testing systems you do not own.
+
+## Contributing
+- Open an issue for feature requests and larger proposals.  
+- For fixes: fork, branch, PR, and include tests + docs.
