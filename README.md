@@ -83,6 +83,21 @@ This profile README is a high-level inventory with links to each repo.
 - **Takedown Dossier Generator** — Converts JSONL telemetry into evidence-ready takedown packs (IOCs, timeline, templates, tamper-evident hashes).  
 - **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack).
 
+## 🔥 Current Focus: Red Specter AI Shield
+
+I'm building **Red Specter AI Shield**—an integrated platform to secure the AI/LLM stack.
+
+It moves beyond fragmented tools with:
+- **12 unified modules** for prevention, detection, and response.
+- A **correlated event schema** (`RS Event v1`) for clear telemetry.
+- **Tamper-evident case packaging** for forensics and compliance.
+
+*Making AI security verifiable: telemetry you can trust, evidence you can act on.*
+
+> **Status:** MVP Integrated | Seeking Design Partners
+>
+> **Explore:** [GitHub Repository Link Here]
+
 ## Usage & access
 - **Public tools:** follow each repo’s README, licensing, and usage notes.  
 - **Private R&D:** restricted to internal staff and vetted partners. Do not attempt to run or distribute without approval.
