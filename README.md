@@ -8,6 +8,7 @@ Built for security teams, incident responders, and authorized researchers.
 - [Overview](#overview)
 - [Public tools](#public-tools)
 - [Private R&D](#private-rd)
+- [Current Focus: Red Specter AI Shield](#-current-focus-red-specter-ai-shield-deployment-ready)
 - [Usage & access](#usage--access)
 - [Responsible use & legal](#responsible-use--legal)
 - [Contributing](#contributing)
@@ -81,20 +82,47 @@ This profile README is a high-level inventory with links to each repo.
 - **Botnet Radar Pro** — Enterprise-tier botnet scoring and enrichment.  
 - **Red Specter Lab** — Internal lab scripts, SOPs, and tooling backbone.  
 - **Takedown Dossier Generator** — Converts JSONL telemetry into evidence-ready takedown packs (IOCs, timeline, templates, tamper-evident hashes).  
-- **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack).
+- **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack).  
+- **Agentic Action Gatekeeper** — Policy enforcement + circuit breaker for agent actions (framework-agnostic gateway with auditable decisions).  
 
 ## 🚀 Current Focus: Red Specter AI Shield (Deployment Ready)
 
 **A fully integrated, production-ready platform for AI security.**
 
-The Red Specter AI Shield unifies **12 security modules**—from prevention to forensic response—into a single deployable suite. It is fully functional, tested, and ready to secure AI/LLM deployments.
+Red Specter AI Shield unifies **13 security modules**—from prevention to forensic response—into a single deployable suite.  
+It is functional, integrated, and tested end-to-end for controlled pilot deployments.
 
 **Core Deliverables:**
-✅ **Integrated Platform:** 12 modules on a unified event schema (`RS Event v1`).
-✅ **Forensic Evidence:** Automated, tamper-evident case packaging.
-✅ **Status:** **Deployment Ready** — Available for pilot deployment and evaluation.
+✅ **Integrated Platform:** 13 modules on a unified event schema (**RS Event v1**)  
+✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
+✅ **Status:** **Deployment Ready** — available for pilot evaluation (private)
 
-**Interested in a deployment pilot or seeing a technical walkthrough?** Please connect with me on LinkedIn to discuss.
+<details>
+<summary><b>AI Shield Modules (13)</b></summary>
+
+**Prevent & Protect**
+- **AI Firewall Proxy** — enforce AI access policy and log control-plane decisions.  
+- **Agentic Action Gatekeeper** — approve/deny high-risk agent actions + circuit breaker + audit trail.  
+- **AI Jailbreak IDS** — prompt injection/jailbreak intent detection.  
+- **AI Endpoint Guard** — host-level AI tool visibility.  
+- **AI ShadowOps Detector** — covert/unauthorised AI usage detection.
+
+**Detect & Monitor**
+- **AI Breach Monitor** — sensitive data leakage detection in AI prompts/logs.  
+- **AI Usage Watchdog** — privacy-first telemetry for LLM governance and baselining.  
+- **Deepfake Verification Guard** — liveness + out-of-band verification packs (voice/video + ticket/QR).  
+- **LLM Memory Forensics Kit** — scan memory/log dumps for risky indicators.  
+- **Evidence Collector** — structured evidence ledger into case files.
+
+**Respond & Prove**
+- **Breach Containment Switch** — one-command containment + evidence snapshot.  
+- **Takedown Dossier Generator** — evidence-ready packs (IOCs, timeline, templates, hashes).  
+- **AI Decision Provenance** — cryptographic audit logging for AI decisions and accountability.
+
+</details>
+
+**Interested in a pilot deployment or technical walkthrough?**  
+Connect with me on LinkedIn to discuss controlled evaluation.
 
 ## Usage & access
 - **Public tools:** follow each repo’s README, licensing, and usage notes.  
