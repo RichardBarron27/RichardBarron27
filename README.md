@@ -121,7 +121,7 @@ It is functional, integrated, and tested end-to-end for controlled pilot deploym
 - **Takedown Dossier Generator** — evidence-ready packs (IOCs, timeline, templates, hashes).  
 - **AI Decision Provenance** — cryptographic audit logging for AI decisions and accountability.
 
-- ### Install (Private / with submodules)
+### Install (Private / with submodules)
 ```bash
 git clone --recurse-submodules <AI_SHIELD_REPO_URL>
 cd redspecter-ai-shield
