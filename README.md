@@ -84,28 +84,30 @@ This profile README is a high-level inventory with links to each repo.
 - **Takedown Dossier Generator** — Converts JSONL telemetry into evidence-ready takedown packs (IOCs, timeline, templates, tamper-evident hashes).  
 - **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack).  
 - **Agentic Action Gatekeeper** — Policy enforcement + circuit breaker for agent actions (framework-agnostic gateway with auditable decisions).  
+- **Red Specter Scrambler** — Reverse-proxy chokepoint + tripwire scoring to disrupt agentic/automated intrusion workflows (traps, RS Event v1 alerts, evidence packs).  
 
 ## 🚀 Current Focus: Red Specter AI Shield (Deployment Ready)
 
 **A fully integrated, production-ready platform for AI security.**
 
-Red Specter AI Shield unifies **13 security modules**—from prevention to forensic response—into a single deployable suite.  
+Red Specter AI Shield unifies **14 security modules**—from prevention to forensic response—into a single deployable suite.  
 It is functional, integrated, and tested end-to-end for controlled pilot deployments.
 
 **Core Deliverables:**
-✅ **Integrated Platform:** 13 modules on a unified event schema (**RS Event v1**)  
+✅ **Integrated Platform:** 14 modules on a unified event schema (**RS Event v1**)  
 ✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
 ✅ **Status:** **Deployment Ready** — available for pilot evaluation (private)
 
 <details>
-<summary><b>AI Shield Modules (13)</b></summary>
+<summary><b>AI Shield Modules (14)</b></summary>
 
 **Prevent & Protect**
 - **AI Firewall Proxy** — enforce AI access policy and log control-plane decisions.  
 - **Agentic Action Gatekeeper** — approve/deny high-risk agent actions + circuit breaker + audit trail.  
 - **AI Jailbreak IDS** — prompt injection/jailbreak intent detection.  
 - **AI Endpoint Guard** — host-level AI tool visibility.  
-- **AI ShadowOps Detector** — covert/unauthorised AI usage detection.
+- **AI ShadowOps Detector** — covert/unauthorised AI usage detection.  
+- **Red Specter Scrambler** — reverse-proxy chokepoint + traps + tripwire scoring to disrupt automated/agentic intrusion chains.  
 
 **Detect & Monitor**
 - **AI Breach Monitor** — sensitive data leakage detection in AI prompts/logs.  
@@ -118,6 +120,13 @@ It is functional, integrated, and tested end-to-end for controlled pilot deploym
 - **Breach Containment Switch** — one-command containment + evidence snapshot.  
 - **Takedown Dossier Generator** — evidence-ready packs (IOCs, timeline, templates, hashes).  
 - **AI Decision Provenance** — cryptographic audit logging for AI decisions and accountability.
+
+- ### Install (Private / with submodules)
+```bash
+git clone --recurse-submodules <AI_SHIELD_REPO_URL>
+cd redspecter-ai-shield
+git submodule update --init --recursive
+
 
 </details>
 
