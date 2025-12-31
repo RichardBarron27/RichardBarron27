@@ -85,21 +85,23 @@ This profile README is a high-level inventory with links to each repo.
 - **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack).  
 - **Agentic Action Gatekeeper** — Policy enforcement + circuit breaker for agent actions (framework-agnostic gateway with auditable decisions).  
 - **Red Specter Scrambler** — Reverse-proxy chokepoint + tripwire scoring to disrupt agentic/automated intrusion workflows (traps, RS Event v1 alerts, evidence packs).  
+- **Kernel Trust Sentinel** — kernel trust posture + module/tracing cross-checks (rootkit-deception indicators) → RS Event v1 evidence.  
+- **PoisonWatch** — defensive poisoning/backdoor scanner for datasets & RAG corpora (prompt-injection + obfuscation heuristics) → RS Event v1.  
 
 ## 🚀 Current Focus: Red Specter AI Shield (Deployment Ready)
 
 **A fully integrated, production-ready platform for AI security.**
 
-Red Specter AI Shield unifies **14 security modules**—from prevention to forensic response—into a single deployable suite.  
+Red Specter AI Shield unifies **16 security modules**—from prevention to forensic response—into a single deployable suite.  
 It is functional, integrated, and tested end-to-end for controlled pilot deployments.
 
 **Core Deliverables:**
-✅ **Integrated Platform:** 14 modules on a unified event schema (**RS Event v1**)  
+✅ **Integrated Platform:** 16 modules on a unified event schema (**RS Event v1**)  
 ✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
 ✅ **Status:** **Deployment Ready** — available for pilot evaluation (private)
 
 <details>
-<summary><b>AI Shield Modules (14)</b></summary>
+<summary><b>AI Shield Modules (16)</b></summary>
 
 **Prevent & Protect**
 - **AI Firewall Proxy** — enforce AI access policy and log control-plane decisions.  
@@ -114,19 +116,14 @@ It is functional, integrated, and tested end-to-end for controlled pilot deploym
 - **AI Usage Watchdog** — privacy-first telemetry for LLM governance and baselining.  
 - **Deepfake Verification Guard** — liveness + out-of-band verification packs (voice/video + ticket/QR).  
 - **LLM Memory Forensics Kit** — scan memory/log dumps for risky indicators.  
-- **Evidence Collector** — structured evidence ledger into case files.
+- **PoisonWatch** — poisoning/backdoor risk scan for datasets & RAG corpora (prompt-injection + obfuscation heuristics).  
+- **Evidence Collector** — structured evidence ledger into case files.  
+- **Kernel Trust Sentinel** — kernel trust posture + module/tracing cross-checks → RS Event v1 evidence correlation.  
 
 **Respond & Prove**
 - **Breach Containment Switch** — one-command containment + evidence snapshot.  
 - **Takedown Dossier Generator** — evidence-ready packs (IOCs, timeline, templates, hashes).  
 - **AI Decision Provenance** — cryptographic audit logging for AI decisions and accountability.
-
-### Install (Private / with submodules)
-```bash
-git clone --recurse-submodules <AI_SHIELD_REPO_URL>
-cd redspecter-ai-shield
-git submodule update --init --recursive
-
 
 </details>
 
