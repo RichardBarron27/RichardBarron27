@@ -104,11 +104,11 @@ This profile README is a high-level inventory with links to each repo.
 
 **A fully integrated, production-ready platform for AI security.**
 
-Red Specter AI Shield unifies **17 security modules**—from prevention to forensic response—into a single deployable suite.  
+Red Specter AI Shield unifies **18 security modules**—from prevention to forensic response—into a single deployable suite.  
 It is functional, integrated, and tested end-to-end for controlled pilot deployments.
 
 **Core Deliverables:**
-✅ **Integrated Platform:** 17 modules on a unified event schema (**RS Event v1**)  
+✅ **Integrated Platform:** 18 modules on a unified event schema (**RS Event v1**)  
 ✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
 ✅ **Operational Coverage:** **18 playbooks** mapped to modules + sanity coverage checker  
 ✅ **Status:** **Deployment Ready** — available for pilot evaluation (private)
