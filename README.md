@@ -111,6 +111,7 @@ It is functional, integrated, and tested end-to-end for controlled pilot deploym
 ✅ **Integrated Platform:** 18 modules on a unified event schema (**RS Event v1**)  
 ✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
 ✅ **Operational Coverage:** **18 playbooks** mapped to modules + sanity coverage checker  
+✅ **CSOAI-ready export lane:** submission summary + export bundle + checksums (Watchdog-style evidence packaging)  
 ✅ **Status:** **Deployment Ready** — available for pilot evaluation (private)
 
 **New capability added:**
