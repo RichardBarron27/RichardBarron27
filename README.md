@@ -86,9 +86,9 @@ It is functional, integrated, and tested end-to-end for controlled pilot deploym
 - **Phish Interceptor (Defensive)** — phishing/BEC .eml triage → IOC extraction + evidence pack output
 - **Local Web GUI** — Localhost-only Flask interface for non-CLI users
 
-### 🔗 Links
+### 🔗 Interested?
 
-**[→ View AI Shield Repository](https://github.com/RichardBarron27/redspecter-ai-shield)** | **[Request Pilot Access](https://www.linkedin.com/in/richard-b-42469439b/)**
+**[→ Request Pilot Access](https://www.linkedin.com/in/richard-b-42469439b/)** — Connect on LinkedIn to discuss controlled evaluation
 
 ---
 
