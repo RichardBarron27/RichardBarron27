@@ -7,7 +7,7 @@
 <p align="center">
   <img alt="tools" src="https://img.shields.io/badge/public%20tools-13-brightgreen">
   <img alt="modules" src="https://img.shields.io/badge/private%20R&D-20+-orange">
-  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-deployment%20ready-blue">
+  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-strategic%20evaluation-critical">
   <img alt="playbooks" src="https://img.shields.io/badge/playbooks-18-purple">
   <img alt="location" src="https://img.shields.io/badge/location-London%2C%20UK-red">
 </p>
@@ -18,10 +18,43 @@ Built for security teams, incident responders, and authorized researchers.
 
 ---
 
+## ⚡ Strategic Update: AI Shield at a Crossroads
+
+After 30+ years in technology—from MS-DOS to AI security—I've built **AI Shield**: an 18-module framework for AI threat detection, forensics, and incident response.
+
+**Compliant with:**
+→ EU AI Act  
+→ ISO/IEC 42001 (AI Management System)  
+→ NIST AI Risk Management Framework  
+→ ISO/IEC 23894 (AI Risk Management)
+
+**The decision:** Partnership with a compliance platform vs. open source release.
+
+**The pattern is clear:**
+- Kubernetes commoditized containers
+- Terraform forced AWS to adapt
+- Prometheus disrupted monitoring
+
+**Open source wins in security tooling because security teams trust code they can audit.**
+
+**If AI Shield goes open source:**
+- Enterprises deploy it for free (global AI compliance covered)
+- They ask: "Why am I paying £15K-£40K/year for compliance platforms when operational security is free?"
+- Compliance platforms become "documentation tools"
+
+**The alternative:** Strategic partnership with one platform. Exclusive integration. Competitive moat.
+
+**Decision timeline:** Under evaluation through February 2026.
+
+**CISOs and platform executives—take note.**
+
+---
+
 ## 📑 Table of Contents
+- [Strategic Update](#-strategic-update-ai-shield-at-a-crossroads)
 - [Overview](#-overview)
 - [At a Glance](#-at-a-glance)
-- [Featured: Red Specter AI Shield](#️-featured-red-specter-ai-shield-deployment-ready)
+- [Featured: Red Specter AI Shield](#️-featured-red-specter-ai-shield)
 - [Public Tools](#-public-tools)
 - [Private R&D](#-private-rd)
 - [Why This Matters Now](#-why-this-matters-now)
@@ -49,46 +82,67 @@ This profile README is a high-level inventory with links to each repo.
 |----------|-------|--------|
 | Public Tools | 13 | Open Source |
 | Private R&D Modules | 20+ | Internal |
-| Integrated Platform (AI Shield) | 18 modules | Deployment Ready |
+| Integrated Platform (AI Shield) | 18 modules | Production Ready |
 | Operational Playbooks | 18 | Production |
 | Case Pack Exports | CSOAI-ready | Tamper-Evident |
 
 ---
 
-## 🛡️ Featured: Red Specter AI Shield (Deployment Ready)
+## 🛡️ Featured: Red Specter AI Shield
 
 <p align="center">
-  <img alt="status" src="https://img.shields.io/badge/status-deployment%20ready-success">
+  <img alt="status" src="https://img.shields.io/badge/status-strategic%20evaluation-critical">
   <img alt="modules" src="https://img.shields.io/badge/modules-18-brightgreen">
   <img alt="playbooks" src="https://img.shields.io/badge/playbooks-18-blue">
   <img alt="telemetry" src="https://img.shields.io/badge/telemetry-RS%20Event%20v1-1f6feb">
   <img alt="casepacks" src="https://img.shields.io/badge/case%20packs-tamper--evident-8a2be2">
   <img alt="export" src="https://img.shields.io/badge/export-CSOAI--ready-0a7">
+  <img alt="compliance" src="https://img.shields.io/badge/compliance-EU%20AI%20Act%20%7C%20ISO%2042001%20%7C%20NIST-success">
 </p>
 
 **A fully integrated, production-ready platform for AI security governance and incident response.**
 
 Red Specter AI Shield unifies **18 security modules**—from prevention to forensic response—into a single deployable suite.  
-It is functional, integrated, and tested end-to-end for controlled pilot deployments.
+It provides the **operational security layer** that compliance platforms cannot deliver.
 
-### 🎯 Core Deliverables
+### 🎯 What Compliance Platforms Miss
+
+Current compliance platforms provide:
+- Policy templates and questionnaires
+- Documentation frameworks
+- Audit trail management
+
+**What they don't provide:**
+- Tamper-evident evidence chains
+- Forensic artifact collection
+- Real-time incident response capabilities
+- Demonstrable operational controls
+
+**Regulations demand operational proof:**
+- **EU AI Act Article 12:** Logging and traceability requirements
+- **ISO/IEC 42001:** Demonstrable AI management controls
+- **NIST AI RMF:** Continuous monitoring and risk management
+- **ISO/IEC 23894:** Operational risk assessment
+
+AI Shield delivers what regulations actually require—not just documentation.
+
+### 🚀 Core Capabilities
 
 ✅ **Integrated Platform:** 18 modules on a unified event schema (**RS Event v1**)  
 ✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
 ✅ **Operational Coverage:** **18 playbooks** mapped to modules + sanity coverage checker  
 ✅ **CSOAI-ready Export:** Submission summary + export bundle + checksums (Watchdog-style evidence packaging)  
 ✅ **Local GUI:** 4-button web interface for golden-path workflows (Preflight → Init → Build → Verify)  
-✅ **Status:** **Deployment Ready** — available for pilot evaluation (private)
+✅ **Cross-Platform:** Full Linux/WSL2 support, automated Windows installer available  
+✅ **Compliance Ready:** EU AI Act, ISO/IEC 42001, NIST AI RMF, ISO/IEC 23894 alignment
 
-### 🚀 New Capabilities
+### 🔗 Strategic Inquiries
 
-- **AI Usage Watchdog Baseline + Drift** — baselining + drift scoring + RS Event v1 alert emit + export-ready JSONL
-- **Phish Interceptor (Defensive)** — phishing/BEC .eml triage → IOC extraction + evidence pack output
-- **Local Web GUI** — Localhost-only Flask interface for non-CLI users
+**For compliance platform executives:** Partnership discussions  
+**For CISOs:** Technical briefings on operational capabilities  
+**For security teams:** Architecture and integration details
 
-### 🔗 Interested?
-
-**[→ Request Pilot Access](https://www.linkedin.com/in/richard-b-42469439b/)** — Connect on LinkedIn to discuss controlled evaluation
+**[→ Contact on LinkedIn](https://www.linkedin.com/in/richard-b-42469439b/)**
 
 ---
 
@@ -160,15 +214,13 @@ It is functional, integrated, and tested end-to-end for controlled pilot deploym
 
 ## 🎯 Why This Matters Now
 
-The threat market is actively selling "malicious AI" packages and automation aimed at **phishing, BEC, and social engineering**.
+The threat landscape has fundamentally shifted with AI-powered attacks reaching industrial scale.
 
 Red Specter's stance is simple:
 1. **Detect early** — Spot threats before they cause damage
 2. **Block where you can** — Prevent unauthorized actions at policy chokepoints
 3. **Contain fast** — Rapid response with one-command containment
 4. **Prove everything** — Evidence-first: hashes, timelines, tamper-evident case packs
-
-That's the gap AI Shield is built to close.
 
 ### 🔴 Current Threat Landscape
 
@@ -177,8 +229,9 @@ That's the gap AI Shield is built to close.
 - **Prompt injection** attacks bypassing traditional security controls
 - **Model poisoning** targeting RAG systems and fine-tuned models
 - **Deepfake fraud** in voice/video authentication
+- **Regulatory pressure** demanding demonstrable operational controls
 
-**AI Shield addresses these threats with integrated prevention, detection, and forensic response.**
+**AI Shield addresses these threats with integrated prevention, detection, and forensic response—delivering the operational layer that compliance frameworks require but platforms cannot provide.**
 
 ---
 
@@ -192,12 +245,12 @@ That's the gap AI Shield is built to close.
 ### Private R&D
 - Restricted to internal staff and vetted partners
 - **Do not attempt to run or distribute without approval**
-- Contact for pilot evaluation or licensing inquiries
+- Contact for technical briefings or strategic discussions
 
-### AI Shield Pilot Program
-- **Status:** Private pilot - limited availability
-- **Requirements:** Controlled evaluation environment, written agreement
-- **Contact:** See [Contact & Collaboration](#-contact--collaboration) section below
+### AI Shield
+- **Status:** Strategic evaluation phase
+- **Access:** Currently private—partnership discussions or technical briefings by request
+- **Timeline:** Decision under evaluation through February 2026
 
 ---
 
@@ -231,11 +284,11 @@ By using these tools, you agree to use them responsibly and legally.
 
 ## 📬 Contact & Collaboration
 
-**Interested in:**
-- 🛡️ AI Shield pilot deployment?
-- 🔬 Security research collaboration?
-- 🔧 Tool evaluation or licensing?
-- 💼 Enterprise security consulting?
+**Strategic Inquiries:**
+- 🛡️ **Compliance Platform Executives:** Partnership discussions
+- 🔬 **CISOs:** Technical briefings on AI Shield capabilities
+- 🔧 **Security Teams:** Architecture and integration details
+- 💼 **Enterprise Consulting:** AI security governance and compliance
 
 ### Connect
 
