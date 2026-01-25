@@ -43,7 +43,7 @@ Think of it as antivirus software, but for AI agents.
 
 **Built by Red Specter Security Research - 30+ years defending systems from MS-DOS to AI.**
 
-**[→ Module 19 Repository](https://github.com/RichardBarron27/ai-shield-module19)** | **[→ Contact on LinkedIn](https://www.linkedin.com/in/richard-b-42469439b/)**
+ **[→ Contact on LinkedIn](https://www.linkedin.com/in/richard-b-42469439b/)**
 
 ---
 
