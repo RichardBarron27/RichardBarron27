@@ -13,19 +13,19 @@
 
 ---
 
-## The Problem Nobody's Solving
+## The AI Compliance Gap: Runtime Security
 
-Compliance platforms like Vanta, Drata, and Secureframe are deploying AI agents with system access to automate screenshots, answer questionnaires, and map policies to controls. They're building the future of continuous compliance.
+Compliance platforms are increasingly deploying AI agents to accelerate evidence collection, questionnaires, and control mapping. For example, [Vanta publicly describes](https://www.vanta.com/resources/introducing-the-all-new-vanta-ai-agent) using AI agents to streamline compliance workflows.
 
-**But they're not securing the AI agents doing the compliance work.**
+**But the hard problem isn't documentation—it's runtime security for the AI agents doing the work:** prompt injection, tool abuse, data leakage, and provable audit trails.
 
-Traditional compliance platforms provide documentation frameworks, audit trails, and policy templates. They don't provide runtime protection, incident response, or forensic capabilities for the AI systems themselves.
+Research shows 65% of IT leaders admit their defenses are inadequate against AI-driven attacks, while [OpenAI has stated](https://openai.com/index/hardening-atlas-against-prompt-injection/) that prompt injection "is unlikely to ever be fully 'solved'" and represents an ongoing security challenge for AI agents.
 
-**Regulations demand operational proof, not just documentation:**
-- EU AI Act Article 12: Logging and traceability requirements (August 2026)
-- ISO/IEC 42001: Demonstrable AI management controls
-- NIST AI RMF: Continuous monitoring and risk management
-- ISO/IEC 23894: Operational risk assessment
+**Regulators and frameworks increasingly demand operational proof, not just paperwork:**
+- **[EU AI Act Article 12](https://artificialintelligenceact.eu/article/12/)**: High-risk AI systems must allow automatic recording of events over their lifetime (major obligations apply by August 2026)
+- **ISO/IEC 42001**: Demonstrable AI management controls
+- **NIST AI RMF**: Continuous monitoring and risk management
+- **ISO/IEC 23894**: Operational risk assessment
 
 **The compliance platforms secure the business. AI Shield secures the AI securing the business.**
 
@@ -49,11 +49,31 @@ Traditional compliance platforms provide documentation frameworks, audit trails,
 
 **Compliance platforms can't do this because they operate at the documentation layer, not the runtime layer.**
 
+### How It Works
+
+**AI Shield follows a 4-step operational model:**
+
+1. **Detect** - Identify threats before damage occurs (prompt injection, jailbreak attempts, anomalous behavior)
+2. **Monitor** - Runtime visibility into AI agent actions and decision-making processes  
+3. **Contain** - Automated response and isolation when threats are detected
+4. **Prove** - Case Pack format with cryptographic evidence chains for regulatory submissions and forensic analysis
+
+### Platform Architecture
+
+| Component | Status | Description |
+|-----------|--------|-------------|
+| Core Platform | Production Ready | 18 integrated security modules |
+| Module 19 | Live - Pilot Phase | Agent Runtime Protection (newest addition) |
+| Operational Playbooks | Production | 18 threat-specific response procedures |
+| Case Pack Format | Production | Tamper-evident evidence packaging |
+| RS Event v1 | Production | Unified telemetry schema across all modules |
+| Cross-Platform Support | Production | Linux/WSL2 + Windows automated installer |
+
 ### 🚨 Module 19: Agent Runtime Protection
 
 **The #1 AI security threat enterprises face in 2026 is compromised autonomous agents.**
 
-OpenAI recently stated that prompt injection against AI agents is "unsolvable" at the model level. 65% of enterprises have zero defenses against agent compromise.
+OpenAI recently acknowledged that prompt injection against AI agents ["is unlikely to ever be fully 'solved'"](https://openai.com/index/hardening-atlas-against-prompt-injection/) and represents a continuous security challenge. Research indicates 65% of IT leaders believe their defenses are inadequate against AI-driven attacks ([Lenovo, 2025](https://news.lenovo.com/pressroom/press-releases/it-leaders-admit-their-defenses-cant-withstand-ai-cybercrime/)).
 
 **AI Shield Module 19 provides three layers of protection:**
 
@@ -71,6 +91,16 @@ OpenAI recently stated that prompt injection against AI agents is "unsolvable" a
 
 **[→ Module 19 Technical Repository](https://github.com/RichardBarron27/ai-shield-module19)**
 
+### Verifiable Security
+
+**AI Shield turns marketing claims into evidence:**
+
+- **Cryptographically signed Case Packs** - Every incident investigation produces tamper-evident evidence packages with cryptographic signatures
+- **RS Event v1 correlation** - Unified telemetry format allows cross-module threat correlation and forensic timeline reconstruction
+- **Local/offline operation** - No cloud dependencies means AI Shield works in air-gapped environments and provides complete data sovereignty
+
+These aren't features—they're verifiable operational controls that satisfy regulatory requirements and forensic standards.
+
 ---
 
 ## 🎯 Who This Is For
@@ -87,20 +117,7 @@ Pilot programs for organizations deploying AI agents in production environments 
 ### Regulators and Auditors
 Demonstrations of demonstrable operational controls for AI systems under EU AI Act, ISO/IEC 42001, and NIST AI RMF.
 
-**EU AI Act enforcement begins August 2026. Can you afford the risk?**
-
----
-
-## 📊 Platform Overview
-
-| Component | Status | Description |
-|-----------|--------|-------------|
-| Core Platform | Production Ready | 18 integrated security modules |
-| Module 19 | Live - Pilot Phase | Agent Runtime Protection (newest addition) |
-| Operational Playbooks | Production | 18 threat-specific response procedures |
-| Case Pack Format | Production | Tamper-evident evidence packaging |
-| RS Event v1 | Production | Unified telemetry schema across all modules |
-| Cross-Platform Support | Production | Linux/WSL2 + Windows automated installer |
+**EU AI Act major obligations apply by August 2026. Can you afford the risk?**
 
 ---
 
