@@ -11,6 +11,8 @@
   <img alt="location" src="https://img.shields.io/badge/location-London%2C%20UK-red">
 </p>
 
+**Access:** AI Shield repositories are currently **private** (pilot/partnership access by request).
+
 ---
 
 ## The AI Compliance Gap: Runtime Security
@@ -19,10 +21,10 @@ Compliance platforms are increasingly deploying AI agents to accelerate evidence
 
 **But the hard problem isn't documentation—it's runtime security for the AI agents doing the work:** prompt injection, tool abuse, data leakage, and provable audit trails.
 
-Research shows 65% of IT leaders admit their defenses are inadequate against AI-driven attacks, while [OpenAI has stated](https://openai.com/index/hardening-atlas-against-prompt-injection/) that prompt injection "is unlikely to ever be fully 'solved'" and represents an ongoing security challenge for AI agents.
+[OpenAI has stated](https://openai.com/index/hardening-atlas-against-prompt-injection/) that prompt injection "is unlikely to ever be fully 'solved'" and represents an ongoing security challenge for AI agents.
 
 **Regulators and frameworks increasingly demand operational proof, not just paperwork:**
-- **[EU AI Act Article 12](https://artificialintelligenceact.eu/article/12/)**: High-risk AI systems must allow automatic recording of events over their lifetime (major obligations apply by August 2026)
+- **[EU AI Act Article 12](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12)**: High-risk AI systems must allow automatic recording of events over their lifetime (major obligations apply from 2 August 2026)
 - **ISO/IEC 42001**: Demonstrable AI management controls
 - **NIST AI RMF**: Continuous monitoring and risk management
 - **ISO/IEC 23894**: Operational risk assessment
@@ -73,7 +75,7 @@ Research shows 65% of IT leaders admit their defenses are inadequate against AI-
 
 **The #1 AI security threat enterprises face in 2026 is compromised autonomous agents.**
 
-OpenAI recently acknowledged that prompt injection against AI agents ["is unlikely to ever be fully 'solved'"](https://openai.com/index/hardening-atlas-against-prompt-injection/) and represents a continuous security challenge. Research indicates 65% of IT leaders believe their defenses are inadequate against AI-driven attacks ([Lenovo, 2025](https://news.lenovo.com/pressroom/press-releases/it-leaders-admit-their-defenses-cant-withstand-ai-cybercrime/)).
+OpenAI recently acknowledged that prompt injection against AI agents ["is unlikely to ever be fully 'solved'"](https://openai.com/index/hardening-atlas-against-prompt-injection/) and represents a continuous security challenge. Lenovo research reports that [65% of IT leaders say their defenses are outdated and unable to withstand AI-enabled attacks](https://news.lenovo.com/pressroom/press-releases/it-leaders-admit-their-defenses-cant-withstand-ai-cybercrime/) (Lenovo, 2025).
 
 **AI Shield Module 19 provides three layers of protection:**
 
@@ -89,6 +91,11 @@ OpenAI recently acknowledged that prompt injection against AI agents ["is unlike
 - Provides cryptographic proof for compliance audits
 - Framework-agnostic (works with any agent architecture)
 
+**Module 19 is currently in pilot phase with select enterprise customers.**
+
+**→ [Request Technical Briefing & Pilot Access](#-strategic-inquiries)**
+
+**Note:** Module 19 technical repository is private (available for pilot/briefing on request).
 
 ### Verifiable Security
 
@@ -116,7 +123,7 @@ Pilot programs for organizations deploying AI agents in production environments 
 ### Regulators and Auditors
 Demonstrations of demonstrable operational controls for AI systems under EU AI Act, ISO/IEC 42001, and NIST AI RMF.
 
-**EU AI Act major obligations apply by August 2026. Can you afford the risk?**
+**EU AI Act major obligations apply from 2 August 2026. Can you afford the risk?**
 
 ---
 
