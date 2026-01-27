@@ -89,7 +89,6 @@ OpenAI recently acknowledged that prompt injection against AI agents ["is unlike
 - Provides cryptographic proof for compliance audits
 - Framework-agnostic (works with any agent architecture)
 
-**[→ Module 19 Technical Repository](https://github.com/RichardBarron27/ai-shield-module19)**
 
 ### Verifiable Security
 
