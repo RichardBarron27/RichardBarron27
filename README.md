@@ -2,380 +2,225 @@
   <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
 </p>
 
-# Red Specter — Innovation Beyond Belief 🔥
+# Red Specter Security Research
 
 <p align="center">
-  <img alt="tools" src="https://img.shields.io/badge/public%20tools-13-brightgreen">
-  <img alt="modules" src="https://img.shields.io/badge/private%20R&D-20+-orange">
-  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-Module%2019%20Live-critical">
+  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-19%20Modules%20Live-critical">
+  <img alt="compliance" src="https://img.shields.io/badge/compliance-EU%20AI%20Act%20%7C%20ISO%2042001%20%7C%20NIST-success">
   <img alt="playbooks" src="https://img.shields.io/badge/playbooks-18-purple">
   <img alt="location" src="https://img.shields.io/badge/location-London%2C%20UK-red">
 </p>
 
 ---
 
-## 🚨 AI Shield Module 19: Agent Runtime Protection
+## The Problem Nobody's Solving
 
-**OpenAI just admitted prompt injection against AI agents is "unsolvable."**
+Compliance platforms like Vanta, Drata, and Secureframe are deploying AI agents with system access to automate screenshots, answer questionnaires, and map policies to controls. They're building the future of continuous compliance.
 
-**65% of enterprises have zero defenses.**
+**But they're not securing the AI agents doing the compliance work.**
 
-**We solved it.**
+Traditional compliance platforms provide documentation frameworks, audit trails, and policy templates. They don't provide runtime protection, incident response, or forensic capabilities for the AI systems themselves.
 
-### The Holy Grail of AI Security
+**Regulations demand operational proof, not just documentation:**
+- EU AI Act Article 12: Logging and traceability requirements (August 2026)
+- ISO/IEC 42001: Demonstrable AI management controls
+- NIST AI RMF: Continuous monitoring and risk management
+- ISO/IEC 23894: Operational risk assessment
 
-**AI Shield Module 19: Agent Runtime Protection** detects malicious prompts in real-time, monitors what your AI agents are doing, and provides court-admissible cryptographic proof when incidents happen.
-
-Think of it as antivirus software, but for AI agents.
-
-**The problem:** AI agents can be tricked into doing things they shouldn't - transferring funds, leaking data, deleting files.
-
-**Our solution:** Three layers of protection:
-1. **Detection** - Catches prompt injection attacks as they happen
-2. **Monitoring** - Watches agent behavior for anomalies  
-3. **Evidence** - Creates tamper-proof audit trails
-
-**Why us?** We're the only solution that runs on your infrastructure (not cloud), works offline, and provides cryptographic proof for compliance and forensics.
-
-**The EU AI Act goes into force August 2026.** Can you afford to take the risk?
-
-**Enquiries welcome.** Limited pilot availability.
-
-**Built by Red Specter Security Research - 30+ years defending systems from MS-DOS to AI.**
-
- **[→ Contact on LinkedIn](https://www.linkedin.com/in/richard-b-42469439b/)**
+**The compliance platforms secure the business. AI Shield secures the AI securing the business.**
 
 ---
 
-A collection of defensive and offensive security tools, research projects, and internal R&D maintained by **Red Specter**.  
-Built for security teams, incident responders, and authorized researchers.  
-**Detect → Block → Contain → Prove.**
+## 🛡️ AI Shield: The Operational Security Layer
+
+**AI Shield** is a production-ready platform providing the runtime protection, monitoring, and incident response capabilities that AI-powered systems need.
+
+**18 core security modules** spanning prevention, detection, response, and forensics - plus the newly released **Module 19: Agent Runtime Protection**.
+
+### What Makes AI Shield Different
+
+**Built for the AI security gap:**
+- **19 security modules** across prevention, detection, response, and forensics
+- **Cross-platform deployment** (Linux/Windows) with automated installation
+- **Case Pack evidence format** - tamper-evident packaging for regulatory submissions, government audits, and forensic investigations
+- **RS Event v1 telemetry** - unified event schema across all modules for correlation and analysis
+- **18 operational playbooks** mapped to specific threats and incidents
+- **Export compatibility** - EU AI Act, ISO/IEC audits, government inquiries, law enforcement, internal compliance
+
+**Compliance platforms can't do this because they operate at the documentation layer, not the runtime layer.**
+
+### 🚨 Module 19: Agent Runtime Protection
+
+**The #1 AI security threat enterprises face in 2026 is compromised autonomous agents.**
+
+OpenAI recently stated that prompt injection against AI agents is "unsolvable" at the model level. 65% of enterprises have zero defenses against agent compromise.
+
+**AI Shield Module 19 provides three layers of protection:**
+
+1. **Detection** - Real-time prompt injection and jailbreak attempt identification
+2. **Monitoring** - Behavioral analysis of agent actions (file access, API calls, system commands)
+3. **Evidence** - Case Pack format with cryptographic audit trails for regulatory compliance
+
+**Think of it as antivirus software for AI agents** - but with forensic-grade evidence chains that satisfy regulatory requirements.
+
+**Why us?**
+- Runs on your infrastructure (not cloud-dependent)
+- Works offline (no external dependencies)
+- Provides cryptographic proof for compliance audits
+- Framework-agnostic (works with any agent architecture)
+
+**[→ Module 19 Technical Repository](https://github.com/RichardBarron27/ai-shield-module19)**
 
 ---
 
-## ⚡ Strategic Update: AI Shield at a Crossroads
+## 🎯 Who This Is For
 
-After 30+ years in technology—from MS-DOS to AI security—I've built **AI Shield**: an 18-module framework for AI threat detection, forensics, and incident response.
+### Compliance Platform Executives
+AI Shield provides the operational security layer your AI-powered compliance vision needs. Partnership discussions welcome.
 
-**Compliant with:**
-→ EU AI Act  
-→ ISO/IEC 42001 (AI Management System)  
-→ NIST AI Risk Management Framework  
-→ ISO/IEC 23894 (AI Risk Management)
+### CISOs and Security Leaders
+Technical briefings on AI Shield's architecture, deployment models, and integration with existing security infrastructure.
 
-**The decision:** Partnership with a compliance platform vs. open source release.
+### Enterprise Security Teams
+Pilot programs for organizations deploying AI agents in production environments - particularly financial services, healthcare, and regulated industries.
 
-**The pattern is clear:**
-- Kubernetes commoditized containers
-- Terraform forced AWS to adapt
-- Prometheus disrupted monitoring
+### Regulators and Auditors
+Demonstrations of demonstrable operational controls for AI systems under EU AI Act, ISO/IEC 42001, and NIST AI RMF.
 
-**Open source wins in security tooling because security teams trust code they can audit.**
-
-**If AI Shield goes open source:**
-- Enterprises deploy it for free (global AI compliance covered)
-- They ask: "Why am I paying £15K-£40K/year for compliance platforms when operational security is free?"
-- Compliance platforms become "documentation tools"
-
-**The alternative:** Strategic partnership with one platform. Exclusive integration. Competitive moat.
-
-**Decision timeline:** Under evaluation through February 2026.
-
-**CISOs and platform executives—take note.**
+**EU AI Act enforcement begins August 2026. Can you afford the risk?**
 
 ---
 
-## 📑 Table of Contents
-- [AI Shield Module 19](#-ai-shield-module-19-agent-runtime-protection)
-- [Strategic Update](#-strategic-update-ai-shield-at-a-crossroads)
-- [Overview](#-overview)
-- [At a Glance](#-at-a-glance)
-- [Featured: Red Specter AI Shield](#️-featured-red-specter-ai-shield)
-- [Public Tools](#-public-tools)
-- [Private R&D](#-private-rd)
-- [Why This Matters Now](#-why-this-matters-now)
-- [Usage & Access](#-usage--access)
-- [Responsible Use & Legal](#️-responsible-use--legal)
-- [Contact & Collaboration](#-contact--collaboration)
+## 📊 Platform Overview
+
+| Component | Status | Description |
+|-----------|--------|-------------|
+| Core Platform | Production Ready | 18 integrated security modules |
+| Module 19 | Live - Pilot Phase | Agent Runtime Protection (newest addition) |
+| Operational Playbooks | Production | 18 threat-specific response procedures |
+| Case Pack Format | Production | Tamper-evident evidence packaging |
+| RS Event v1 | Production | Unified telemetry schema across all modules |
+| Cross-Platform Support | Production | Linux/WSL2 + Windows automated installer |
 
 ---
 
-## 🎯 Overview
-Red Specter focuses on practical visibility and response across:
-- Botnet activity and early-stage DDoS signals  
-- C2-style outbound behaviour and beaconing  
-- Sudden service exposure and brute-force patterns  
-- AI-era risks: shadow AI usage, prompt injection, data leakage, and model integrity  
-- Fast containment and **evidence-first reporting**
+## 🔧 Public Security Tools
 
-This profile README is a high-level inventory with links to each repo.
+Beyond AI Shield, Red Specter maintains open source security tools for authorized research and testing:
 
----
+### Network & Infrastructure Security
+- **[Botnet Radar](https://github.com/RichardBarron27/redspecter-botnet-radar)** - Host-level botnet/DDoS early warning
+- **[DDoS Flood Sentinel](https://github.com/RichardBarron27/redspecter-ddos-flood-sentinel)** - UDP flood detection and alerts
+- **[Port Surge Guardian](https://github.com/RichardBarron27/redspecter-port-surge-guardian)** - Listening port exposure monitoring
+- **[C2 Hunter](https://github.com/RichardBarron27/redspecter-c2-hunter)** - Outbound C2 behavior detection
+- **[Threat Recon Watcher](https://github.com/RichardBarron27/redspecter-threat-recon-watcher)** - Brute-force attack detection
 
-## 📊 At a Glance
+### AI Security Tools
+- **[AI Breach Monitor](https://github.com/RichardBarron27/redspecter-ai-breach-monitor)** - Sensitive data leak detection in AI logs
+- **[AI Endpoint Guard](https://github.com/RichardBarron27/redspecter-ai-endpoint-guard)** - AI tool usage visibility
+- **[AI Usage Watchdog](https://github.com/RichardBarron27/redspecter-ai-usage-watchdog)** - Privacy-first AI/LLM usage telemetry
+- **[AI Firewall Proxy](https://github.com/RichardBarron27/redspecter-ai-firewall-proxy)** - Policy-enforcing proxy for AI model access
 
-| Category | Count | Status |
-|----------|-------|--------|
-| Public Tools | 13 | Open Source |
-| Private R&D Modules | 20+ | Internal |
-| Integrated Platform (AI Shield) | 18 modules | Production Ready |
-| **AI Shield Module 19** | **Runtime Protection** | **Pilot Phase** |
-| Operational Playbooks | 18 | Production |
-| Case Pack Exports | CSOAI-ready | Tamper-Evident |
+### Reconnaissance & Response
+- **[Offensive Framework](https://github.com/RichardBarron27/red-specter-offensive-framework)** - Authorized security testing toolkit
+- **[Evidence Collector](https://github.com/RichardBarron27/redspecter-evidence-collector)** - DFIR evidence ledger and case files
+- **[ScriptMap](https://github.com/RichardBarron27/redspecter-scriptmap)** - Script inventory and supply chain visibility
+- **[Email OSINT](https://github.com/RichardBarron27/redspecter-emailosint)** - Domain-based email intelligence
 
----
-
-## 🛡️ Featured: Red Specter AI Shield
-
-<p align="center">
-  <img alt="status" src="https://img.shields.io/badge/status-strategic%20evaluation-critical">
-  <img alt="modules" src="https://img.shields.io/badge/modules-18-brightgreen">
-  <img alt="module19" src="https://img.shields.io/badge/Module%2019-Agent%20Runtime%20Protection-success">
-  <img alt="playbooks" src="https://img.shields.io/badge/playbooks-18-blue">
-  <img alt="telemetry" src="https://img.shields.io/badge/telemetry-RS%20Event%20v1-1f6feb">
-  <img alt="casepacks" src="https://img.shields.io/badge/case%20packs-tamper--evident-8a2be2">
-  <img alt="export" src="https://img.shields.io/badge/export-CSOAI--ready-0a7">
-  <img alt="compliance" src="https://img.shields.io/badge/compliance-EU%20AI%20Act%20%7C%20ISO%2042001%20%7C%20NIST-success">
-</p>
-
-**A fully integrated, production-ready platform for AI security governance and incident response.**
-
-Red Specter AI Shield unifies **18 security modules**—from prevention to forensic response—into a single deployable suite.  
-It provides the **operational security layer** that compliance platforms cannot deliver.
-
-**NEW: AI Shield Module 19 - Agent Runtime Protection** addresses the #1 AI security threat: prompt injection and autonomous agent compromise. [Learn more →](https://github.com/RichardBarron27/ai-shield-module19)
-
-### 🎯 What Compliance Platforms Miss
-
-Current compliance platforms provide:
-- Policy templates and questionnaires
-- Documentation frameworks
-- Audit trail management
-
-**What they don't provide:**
-- Tamper-evident evidence chains
-- Forensic artifact collection
-- Real-time incident response capabilities
-- Demonstrable operational controls
-
-**Regulations demand operational proof:**
-- **EU AI Act Article 12:** Logging and traceability requirements
-- **ISO/IEC 42001:** Demonstrable AI management controls
-- **NIST AI RMF:** Continuous monitoring and risk management
-- **ISO/IEC 23894:** Operational risk assessment
-
-AI Shield delivers what regulations actually require—not just documentation.
-
-### 🚀 Core Capabilities
-
-✅ **Integrated Platform:** 18 modules on a unified event schema (**RS Event v1**)  
-✅ **Module 19:** Runtime protection for autonomous AI agents (prompt injection detection, action monitoring, evidence chains)  
-✅ **Forensic Evidence:** Automated, tamper-evident case packaging (timeline + IOCs + hashes)  
-✅ **Operational Coverage:** **18 playbooks** mapped to modules + sanity coverage checker  
-✅ **CSOAI-ready Export:** Submission summary + export bundle + checksums (Watchdog-style evidence packaging)  
-✅ **Local GUI:** 4-button web interface for golden-path workflows (Preflight → Init → Build → Verify)  
-✅ **Cross-Platform:** Full Linux/WSL2 support, automated Windows installer available  
-✅ **Compliance Ready:** EU AI Act, ISO/IEC 42001, NIST AI RMF, ISO/IEC 23894 alignment
-
-### 🔗 Strategic Inquiries
-
-**For compliance platform executives:** Partnership discussions  
-**For CISOs:** Technical briefings on operational capabilities  
-**For security teams:** Architecture and integration details  
-**For Module 19 pilots:** Agent runtime protection implementation
-
-**[→ Contact on LinkedIn](https://www.linkedin.com/in/richard-b-42469439b/)**
+**All tools provided for authorized security testing, incident response, and research purposes only.**
 
 ---
 
-## 🔧 Public Tools
+## 🚀 Current Focus: Enterprise AI Security
 
-### 🌐 Network & Infrastructure Security
+Red Specter is actively working with organizations deploying AI agents in production environments, particularly those in:
 
-- **[Botnet Radar](https://github.com/RichardBarron27/redspecter-botnet-radar)** — Host-level botnet/DDoS early warning and scoring
-- **[DDoS Flood Sentinel](https://github.com/RichardBarron27/redspecter-ddos-flood-sentinel)** — UDP flood / carpet detection heuristics and alerts
-- **[Port Surge Guardian](https://github.com/RichardBarron27/redspecter-port-surge-guardian)** — Sudden listening-port exposure change alerts
-- **[C2 Hunter](https://github.com/RichardBarron27/redspecter-c2-hunter)** — Outbound monitoring for C2-like behaviour
-- **[Threat Recon Watcher](https://github.com/RichardBarron27/redspecter-threat-recon-watcher)** — Brute-force / high-volume IP detection from logs
+- **Financial Services** - AI-powered compliance, trading systems, customer service
+- **Healthcare** - Medical AI assistants, diagnostic support, patient data systems
+- **Legal** - Contract analysis, document review, legal research automation
+- **Compliance Platforms** - AI agents for continuous monitoring and audit automation
 
-### 🔍 Reconnaissance & Intelligence
+**The threat landscape has fundamentally shifted:**
+- AI-powered attacks reaching industrial scale
+- Prompt injection bypassing traditional security controls
+- Model poisoning targeting RAG systems and fine-tuned models
+- Shadow AI creating compliance and data leakage risks
+- Regulatory pressure demanding demonstrable operational controls
 
-- **[Offensive Framework](https://github.com/RichardBarron27/red-specter-offensive-framework)** — Ethical lab toolkit for recon → reporting (authorized testing only)
-- **[ScriptMap](https://github.com/RichardBarron27/redspecter-scriptmap)** — Script inventory and supply-chain visibility
-- **[Email OSINT](https://github.com/RichardBarron27/redspecter-emailosint)** — Passive domain-based email intelligence
-
-### 🤖 AI Security
-
-- **[AI Shield Module 19](https://github.com/RichardBarron27/ai-shield-module19)** — **NEW:** Runtime protection for autonomous AI agents
-- **[AI Breach Monitor](https://github.com/RichardBarron27/redspecter-ai-breach-monitor)** — Detects likely sensitive data leaks in AI prompt logs
-- **[AI Endpoint Guard](https://github.com/RichardBarron27/redspecter-ai-endpoint-guard)** — Endpoint visibility into AI tool usage
-- **[AI Usage Watchdog](https://github.com/RichardBarron27/redspecter-ai-usage-watchdog)** — Privacy-first Linux telemetry for AI/LLM usage signals
-- **[AI Firewall Proxy](https://github.com/RichardBarron27/redspecter-ai-firewall-proxy)** — Policy-enforcing proxy to control and log AI model access
-
-### 📋 Evidence & Response
-
-- **[Evidence Collector](https://github.com/RichardBarron27/redspecter-evidence-collector)** — DFIR/pentest evidence ledger into structured case files
+**Red Specter's approach:**
+1. **Detect early** - Identify threats before damage occurs
+2. **Monitor continuously** - Runtime visibility into AI agent behavior
+3. **Respond fast** - Automated containment and evidence collection
+4. **Prove everything** - Case Pack format with cryptographic audit trails for regulatory compliance
 
 ---
 
-## 🔒 Private R&D
-*(Internal and restricted. Not for public distribution without authorization.)*
+## 📬 Strategic Inquiries
 
-### 🛡️ Prevention & Control
+**AI Shield Module 19 Pilots**  
+Limited availability for enterprise pilot programs - technical demonstrations and architecture discussions
 
-- **Breach Containment Switch** — One-command web containment + evidence snapshot
-- **AI ShadowOps Detector** — Covert AI usage detection with evidence logs
-- **AI Jailbreak IDS** — Prompt-injection / jailbreak intent detection with logging
-- **Agentic Action Gatekeeper** — Policy enforcement + circuit breaker for agent actions (framework-agnostic gateway with auditable decisions)
-- **Red Specter Scrambler** — Reverse-proxy chokepoint + tripwire scoring to disrupt agentic/automated intrusion workflows (traps, RS Event v1 alerts, evidence packs)
+**Compliance Platform Partnerships**  
+Integration discussions for platforms deploying AI-powered compliance capabilities
 
-### 🔍 Detection & Monitoring
+**Enterprise Security Briefings**  
+Technical presentations on AI Shield architecture, deployment models, and regulatory alignment
 
-- **Cognitive Drift Sentinel** — Model behaviour drift monitoring over time
-- **Ransomware Canary Sentinel** — Pre-encryption mass-change alerts without encryption
-- **LLM Memory Forensics Kit** — Scans AI memory/log dumps for risky indicators + tamper-evident reports
-- **Log Anomaly Sentinel** — Rare command and log pattern detection
-- **Beacon Detector** — Timed C2 beaconing detection
-- **Companion Sentinel** — Manipulation/dependency pattern detection in AI companion chats
-- **Botnet Radar Pro** — Enterprise-tier botnet scoring and enrichment
-- **Kernel Trust Sentinel** — Kernel trust posture + module/tracing cross-checks (rootkit-deception indicators) → RS Event v1 evidence
-- **PoisonWatch** — Defensive poisoning/backdoor scanner for datasets & RAG corpora (prompt-injection + obfuscation heuristics) → RS Event v1
-- **Phish Interceptor (Defensive)** — .eml phishing/BEC triage → IOCs + RS Event v1 + tamper-evident case pack
-
-### ⚡ Response & Forensics
-
-- **AI Decision Provenance** — Cryptographic decision logging for AI accountability
-- **Takedown Dossier Generator** — Converts telemetry into evidence-ready takedown packs (IOCs, timeline, templates, tamper-evident hashes)
-- **Deepfake Verification Guard** — Liveness + out-of-band verification packs for voice/video fraud (includes Ticket/QR Verification Pack)
-
-### 🧪 Research & Innovation
-
-- **Red Defender** — Autonomous multi-agent defensive AI prototype
-- **Red Specter Lab** — Internal lab scripts, SOPs, and tooling backbone
-
----
-
-## 🎯 Why This Matters Now
-
-The threat landscape has fundamentally shifted with AI-powered attacks reaching industrial scale.
-
-Red Specter's stance is simple:
-1. **Detect early** — Spot threats before they cause damage
-2. **Block where you can** — Prevent unauthorized actions at policy chokepoints
-3. **Contain fast** — Rapid response with one-command containment
-4. **Prove everything** — Evidence-first: hashes, timelines, tamper-evident case packs
-
-### 🔴 Current Threat Landscape
-
-- **AI-powered phishing** reaching unprecedented sophistication
-- **Shadow AI usage** creating compliance and data leakage risks
-- **Prompt injection** attacks bypassing traditional security controls (OpenAI admits "unsolvable")
-- **Model poisoning** targeting RAG systems and fine-tuned models
-- **Deepfake fraud** in voice/video authentication
-- **Regulatory pressure** demanding demonstrable operational controls (EU AI Act: August 2026)
-- **Agent autonomy risks** - 65% of enterprises lack AI-specific security controls
-
-**AI Shield Module 19 addresses the #1 threat enterprises face in 2026: compromised autonomous agents.**
-
----
-
-## 🚀 Usage & Access
-
-### Public Tools
-- Follow each repo's **README**, licensing, and usage notes
-- Open source and available for authorized security testing
-- Contributions welcome via issues and pull requests
-
-### AI Shield Module 19
-- **Status:** Pilot phase - limited availability
-- **Access:** Enterprise pilots and technical briefings by request
-- **Repository:** [github.com/RichardBarron27/ai-shield-module19](https://github.com/RichardBarron27/ai-shield-module19)
-- **Timeline:** Launching March 1, 2026
-
-### Private R&D
-- Restricted to internal staff and vetted partners
-- **Do not attempt to run or distribute without approval**
-- Contact for technical briefings or strategic discussions
-
-### AI Shield (Core Platform)
-- **Status:** Strategic evaluation phase
-- **Access:** Currently private—partnership discussions or technical briefings by request
-- **Timeline:** Decision under evaluation through February 2026
-
----
-
-## ⚖️ Responsible Use & Legal
-
-**Important Notice:**
-
-Some tooling and research can be misused. You **must**:
-
-✅ Follow all applicable laws and regulations  
-✅ Obtain written authorization for offensive testing  
-✅ Follow employer/client policies and procedures  
-✅ Get explicit permission before testing systems you do not own  
-✅ Use tools only for legitimate security research and authorized assessments  
-
-**Red Specter tools are provided for:**
-- Authorized security testing and research
-- Incident response and forensic investigation
-- Defense capability development
-- Educational purposes in controlled environments
-
-**Not for:**
-- Unauthorized access or testing
-- Malicious purposes or illegal activities
-- Violation of computer fraud and abuse laws
-- Bypassing security controls without permission
-
-By using these tools, you agree to use them responsibly and legally.
-
----
-
-## 📬 Contact & Collaboration
-
-**Strategic Inquiries:**
-- 🛡️ **AI Shield Module 19:** Pilot programs and technical demonstrations
-- 🤝 **Compliance Platform Executives:** Partnership discussions
-- 🔬 **CISOs:** Technical briefings on AI Shield capabilities
-- 🔧 **Security Teams:** Architecture and integration details
-- 💼 **Enterprise Consulting:** AI security governance and compliance
+**CISO Advisory**  
+Strategic guidance on AI security governance, EU AI Act compliance, and operational controls
 
 ### Connect
 
 - **LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-b-42469439b/)
-- **Email:** [Contact via LinkedIn](https://www.linkedin.com/in/richard-b-42469439b/)
 - **GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)
 - **Location:** London, UK 🇬🇧
 
-### Contributing to Public Tools
+**Built by Red Specter Security Research - 30+ years defending systems from MS-DOS to AI.**
 
-**We welcome contributions!**
+---
 
-- 🐛 **Bug Reports:** Open an issue with reproduction steps
-- 💡 **Feature Requests:** Describe your use case and proposal
-- 🔧 **Pull Requests:** Fork, branch, PR with tests + docs
-- 📖 **Documentation:** Help improve guides and examples
+## ⚖️ Responsible Use
 
-**Contribution Guidelines:**
-1. Check existing issues before opening new ones
-2. Follow the code style of the existing project
-3. Include tests for new functionality
-4. Update documentation as needed
-5. Keep PRs focused on a single feature/fix
+Red Specter tools are provided for authorized security testing, incident response, forensic investigation, and legitimate research purposes.
+
+**You must:**
+- Follow all applicable laws and regulations
+- Obtain written authorization for security testing
+- Use tools only on systems you own or have explicit permission to test
+- Respect privacy and data protection requirements
+
+**Not for:**
+- Unauthorized access or malicious purposes
+- Violation of computer fraud and abuse laws
+- Bypassing security controls without permission
+
+By using these tools, you agree to responsible and legal use.
+
+---
+
+## 🤝 Contributing to Public Tools
+
+Contributions to open source tools are welcome:
+
+- **Bug Reports:** Open issues with reproduction steps
+- **Feature Requests:** Describe use cases and proposals
+- **Pull Requests:** Fork, branch, test, document
+- **Documentation:** Improve guides and examples
+
+Follow existing code style, include tests, and keep PRs focused on single features.
 
 ---
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20with-Python%20%7C%20Bash%20%7C%20Go-blue">
-  <img src="https://img.shields.io/badge/Focus-AI%20Security%20%7C%20Incident%20Response-orange">
-  <img src="https://img.shields.io/badge/Status-Active%20Development-success">
+  <img src="https://img.shields.io/badge/Focus-AI%20Security%20%7C%20Operational%20Controls-orange">
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-success">
 </p>
 
 <p align="center">
-  <sub>Built by Red Specter Security Research | London, UK | 2024-2026</sub>
+  <sub>Red Specter Security Research | London, UK | Established 2024</sub>
 </p>
 
 <p align="center">
-  <sub>⚡ Innovation Beyond Belief 🔥</sub>
+  <strong>The compliance platforms secure the business. AI Shield secures the AI securing the business.</strong>
 </p>
