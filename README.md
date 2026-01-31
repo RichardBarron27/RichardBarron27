@@ -79,7 +79,6 @@ Compliance platforms can't do this because they operate at the documentation lay
 
 **Complete OWASP Top 10 Coverage for Agentic Applications 2026** ✅
 
-**→ [AI Shield Repository](https://github.com/RichardBarron27/redspecter-ai-shield)** *(Module details available under enterprise licensing)*
 
 ### 🚨 Module 19: Agent Runtime Protection
 
