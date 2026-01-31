@@ -8,7 +8,7 @@
   <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-25%20modules-blue">
   <img alt="compliance" src="https://img.shields.io/badge/compliance-EU%20AI%20Act%20ready-green">
   <img alt="playbooks" src="https://img.shields.io/badge/playbooks-18-purple">
-  <img alt="location" src="https://img.shields.io/badge/location-London%2C%20UK-red">
+  <img alt="location" src="https://img.shields.io/badge/location-UK-red">
 </p>
 
 ---
@@ -79,6 +79,7 @@ Compliance platforms can't do this because they operate at the documentation lay
 
 **Complete OWASP Top 10 Coverage for Agentic Applications 2026** ✅
 
+*Access: AI Shield repositories are currently private (pilot/partnership access by request).*
 
 ### 🚨 Module 19: Agent Runtime Protection
 
@@ -98,6 +99,12 @@ Think of it as antivirus software for AI agents - but with forensic-grade eviden
 - Works offline (no external dependencies)
 - Provides cryptographic proof for compliance audits
 - Framework-agnostic (works with any agent architecture)
+
+Module 19 is currently in pilot phase with select enterprise customers.
+
+**→ Request Technical Briefing & Pilot Access**
+
+*Note: Module 19 technical repository is private (available for pilot/briefing on request).*
 
 ### Verifiable Security
 
@@ -181,7 +188,7 @@ Red Specter is actively working with organizations deploying AI agents in produc
 
 ## 📬 Strategic Inquiries
 
-### AI Shield Pilots (Modules 19-25)
+### AI Shield Module 19 Pilots
 Limited availability for enterprise pilot programs - technical demonstrations and architecture discussions
 
 ### Compliance Platform Partnerships
@@ -196,7 +203,7 @@ Strategic guidance on AI security governance, EU AI Act compliance, and operatio
 ### Connect
 **LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-barron)  
 **GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)  
-**Location:** London, UK 🇬🇧
+**Location:** UK 🇬🇧
 
 *Built by Red Specter Security Research - 30+ years defending systems from MS-DOS to AI.*
 
@@ -234,6 +241,6 @@ Follow existing code style, include tests, and keep PRs focused on single featur
 ---
 
 <p align="center">
-  <sub>Red Specter Security Research | London, UK | Established 2024</sub><br>
+  <sub>Red Specter Security Research | UK | Established 2024</sub><br>
   <sub><em>The compliance platforms secure the business. AI Shield secures the AI securing the business.</em></sub>
 </p>
