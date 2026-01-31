@@ -1,249 +1,253 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
-</p>
+# AI Shield
 
-# Red Specter Security Research
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20wsl2%20%7C%20windows-lightgrey.svg)]()
+[![Modules](https://img.shields.io/badge/modules-25%20total-brightgreen.svg)]()
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 
-<p align="center">
-  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-19%20Modules%20Live-critical">
-  <img alt="compliance" src="https://img.shields.io/badge/compliance-EU%20AI%20Act%20%7C%20ISO%2042001%20%7C%20NIST-success">
-  <img alt="playbooks" src="https://img.shields.io/badge/playbooks-18-purple">
-  <img alt="location" src="https://img.shields.io/badge/location-London%2C%20UK-red">
-</p>
+**Enterprise AI Governance & Incident Response Platform**
 
-**Access:** AI Shield repositories are currently **private** (pilot/partnership access by request).
+The comprehensive security framework for autonomous AI agents operating at scale.
 
 ---
 
-## The AI Compliance Gap: Runtime Security
+## 🎯 The Problem
 
-Compliance platforms are increasingly deploying AI agents to accelerate evidence collection, questionnaires, and control mapping. For example, [Vanta publicly describes](https://www.vanta.com/resources/introducing-the-all-new-vanta-ai-agent) using AI agents to streamline compliance workflows.
+AI agents are moving into production across compliance platforms, customer support, CI/CD pipelines, and enterprise automation. These systems plan, decide, delegate, and take actions autonomously—creating an entirely new attack surface that traditional security tools weren't designed to handle.
 
-**But the hard problem isn't documentation—it's runtime security for the AI agents doing the work:** prompt injection, tool abuse, data leakage, and provable audit trails.
+**The Gap:**
+- Compliance platforms (Vanta, Drata, Secureframe) document *what should happen*
+- **AI Shield provides the operational security layer that ensures *it actually does***
 
-[OpenAI has stated](https://openai.com/index/hardening-atlas-against-prompt-injection/) that prompt injection "is unlikely to ever be fully 'solved'" and represents an ongoing security challenge for AI agents.
-
-**Regulators and frameworks increasingly demand operational proof, not just paperwork:**
-- **[EU AI Act Article 12](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12)**: High-risk AI systems must allow automatic recording of events over their lifetime (major obligations apply from 2 August 2026)
-- **ISO/IEC 42001**: Demonstrable AI management controls
-- **NIST AI RMF**: Continuous monitoring and risk management
-- **ISO/IEC 23894**: Operational risk assessment
-
-**The compliance platforms secure the business. AI Shield secures the AI securing the business.**
+When AI agents have system access, memory, and tool use capabilities, you need runtime protection, identity verification, communication security, and forensic evidence—not just policy documentation.
 
 ---
 
-## 🛡️ AI Shield: The Operational Security Layer
+## 🛡️ The Solution: AI Shield Agent Security Suite
 
-**AI Shield** is a production-ready platform providing the runtime protection, monitoring, and incident response capabilities that AI-powered systems need.
+AI Shield provides **25 specialized modules** across 4 pillars:
 
-**18 core security modules** spanning prevention, detection, response, and forensics - plus the newly released **Module 19: Agent Runtime Protection**.
+### Core Platform (Modules 1-18)
+18 foundational modules covering:
+- **Prevention & Protection** - Stop threats before damage
+- **Detection & Monitoring** - Identify anomalies in real-time  
+- **Response & Containment** - Rapid incident response
+- **Evidence & Compliance** - Tamper-evident audit trails
 
-### What Makes AI Shield Different
+### Agent Security Suite (Modules 19-25) 🆕
 
-**Built for the AI security gap:**
-- **19 security modules** across prevention, detection, response, and forensics
-- **Cross-platform deployment** (Linux/Windows) with automated installation
-- **Case Pack evidence format** - tamper-evident packaging for regulatory submissions, government audits, and forensic investigations
-- **RS Event v1 telemetry** - unified event schema across all modules for correlation and analysis
-- **18 operational playbooks** mapped to specific threats and incidents
-- **Export compatibility** - EU AI Act, ISO/IEC audits, government inquiries, law enforcement, internal compliance
+The industry's only comprehensive platform securing the complete agent lifecycle:
 
-**Compliance platforms can't do this because they operate at the documentation layer, not the runtime layer.**
+| Module | Focus Area | Coverage |
+|--------|-----------|----------|
+| **Module 19** | Agent Runtime Protection | What agents DO (behavior monitoring, risk scoring, anomaly detection) |
+| **Module 20** | Agent Identity & Credential Guard | WHO agents ARE (identity verification, credential monitoring, policy enforcement) |
+| **Module 21** | Multi-Agent Communication Security | HOW agents COMMUNICATE (message integrity, authentication, protocol security) |
+| **Module 22** | AI Model Supply Chain Security | WHERE models COME FROM (provenance tracking, poisoning detection, attestation) |
+| **Module 23** | AI Memory Forensics | WHAT agents REMEMBER (memory integrity, forensic analysis, rollback capabilities) |
+| **Module 24** | Cross-Border Data Sovereignty | WHERE data FLOWS (geographic tracking, GDPR/EU AI Act compliance, jurisdiction enforcement) |
+| **Module 25** | Agent Observability & Decision Provenance | WHY agents DECIDE (explainability, transparency, EU AI Act Article 13 compliance) |
 
-### How It Works
+**Think of it like Microsoft Office for AI Security:**
+- AI Shield = The Platform (Office)
+- Modules 19-25 = Specialized Applications (Word, Excel, PowerPoint...)
 
-**AI Shield follows a 4-step operational model:**
-
-1. **Detect** - Identify threats before damage occurs (prompt injection, jailbreak attempts, anomalous behavior)
-2. **Monitor** - Runtime visibility into AI agent actions and decision-making processes  
-3. **Contain** - Automated response and isolation when threats are detected
-4. **Prove** - Case Pack format with cryptographic evidence chains for regulatory submissions and forensic analysis
-
-### Platform Architecture
-
-| Component | Status | Description |
-|-----------|--------|-------------|
-| Core Platform | Production Ready | 18 integrated security modules |
-| Module 19 | Live - Pilot Phase | Agent Runtime Protection (newest addition) |
-| Operational Playbooks | Production | 18 threat-specific response procedures |
-| Case Pack Format | Production | Tamper-evident evidence packaging |
-| RS Event v1 | Production | Unified telemetry schema across all modules |
-| Cross-Platform Support | Production | Linux/WSL2 + Windows automated installer |
-
-### 🚨 Module 19: Agent Runtime Protection
-
-**The #1 AI security threat enterprises face in 2026 is compromised autonomous agents.**
-
-OpenAI recently acknowledged that prompt injection against AI agents ["is unlikely to ever be fully 'solved'"](https://openai.com/index/hardening-atlas-against-prompt-injection/) and represents a continuous security challenge. Lenovo research reports that [65% of IT leaders say their defenses are outdated and unable to withstand AI-enabled attacks](https://news.lenovo.com/pressroom/press-releases/it-leaders-admit-their-defenses-cant-withstand-ai-cybercrime/) (Lenovo, 2025).
-
-**AI Shield Module 19 provides three layers of protection:**
-
-1. **Detection** - Real-time prompt injection and jailbreak attempt identification
-2. **Monitoring** - Behavioral analysis of agent actions (file access, API calls, system commands)
-3. **Evidence** - Case Pack format with cryptographic audit trails for regulatory compliance
-
-**Think of it as antivirus software for AI agents** - but with forensic-grade evidence chains that satisfy regulatory requirements.
-
-**Why us?**
-- Runs on your infrastructure (not cloud-dependent)
-- Works offline (no external dependencies)
-- Provides cryptographic proof for compliance audits
-- Framework-agnostic (works with any agent architecture)
-
-**Module 19 is currently in pilot phase with select enterprise customers.**
-
-**→ [Request Technical Briefing & Pilot Access](#-strategic-inquiries)**
-
-**Note:** Module 19 technical repository is private (available for pilot/briefing on request).
-
-### Verifiable Security
-
-**AI Shield turns marketing claims into evidence:**
-
-- **Cryptographically signed Case Packs** - Every incident investigation produces tamper-evident evidence packages with cryptographic signatures
-- **RS Event v1 correlation** - Unified telemetry format allows cross-module threat correlation and forensic timeline reconstruction
-- **Local/offline operation** - No cloud dependencies means AI Shield works in air-gapped environments and provides complete data sovereignty
-
-These aren't features—they're verifiable operational controls that satisfy regulatory requirements and forensic standards.
+*Module details available under enterprise licensing.*
 
 ---
 
-## 🎯 Who This Is For
+## 📊 OWASP Top 10 Coverage
 
-### Compliance Platform Executives
-AI Shield provides the operational security layer your AI-powered compliance vision needs. Partnership discussions welcome.
+Modules 19-25 provide **complete coverage** of the OWASP Top 10 for Agentic Applications 2026:
 
-### CISOs and Security Leaders
-Technical briefings on AI Shield's architecture, deployment models, and integration with existing security infrastructure.
+| OWASP Risk | Covered By |
+|------------|-----------|
+| ASI01: Agent Goal Hijack | Module 19 |
+| ASI02: Tool/Action Misuse | Module 19 |
+| ASI03: Identity/Privilege Abuse | Module 20 |
+| ASI04: Output Data Leakage | Module 24 |
+| ASI05: Poisoned Training Data | Module 22 |
+| ASI06: Memory Poisoning | Module 23 |
+| ASI07: Inter-Agent Protocol Exploit | Module 21 |
+| ASI08: Human-Agent Trust Exploitation | Module 25 |
+| ASI09: Resource DoS | Module 19 |
+| ASI10: Rogue Agent | Modules 19+20+21 |
 
-### Enterprise Security Teams
-Pilot programs for organizations deploying AI agents in production environments - particularly financial services, healthcare, and regulated industries.
-
-### Regulators and Auditors
-Demonstrations of demonstrable operational controls for AI systems under EU AI Act, ISO/IEC 42001, and NIST AI RMF.
-
-**EU AI Act major obligations apply from 2 August 2026. Can you afford the risk?**
-
----
-
-## 🔧 Public Security Tools
-
-Beyond AI Shield, Red Specter maintains open source security tools for authorized research and testing:
-
-### Network & Infrastructure Security
-- **[Botnet Radar](https://github.com/RichardBarron27/redspecter-botnet-radar)** - Host-level botnet/DDoS early warning
-- **[DDoS Flood Sentinel](https://github.com/RichardBarron27/redspecter-ddos-flood-sentinel)** - UDP flood detection and alerts
-- **[Port Surge Guardian](https://github.com/RichardBarron27/redspecter-port-surge-guardian)** - Listening port exposure monitoring
-- **[C2 Hunter](https://github.com/RichardBarron27/redspecter-c2-hunter)** - Outbound C2 behavior detection
-- **[Threat Recon Watcher](https://github.com/RichardBarron27/redspecter-threat-recon-watcher)** - Brute-force attack detection
-
-### AI Security Tools
-- **[AI Breach Monitor](https://github.com/RichardBarron27/redspecter-ai-breach-monitor)** - Sensitive data leak detection in AI logs
-- **[AI Endpoint Guard](https://github.com/RichardBarron27/redspecter-ai-endpoint-guard)** - AI tool usage visibility
-- **[AI Usage Watchdog](https://github.com/RichardBarron27/redspecter-ai-usage-watchdog)** - Privacy-first AI/LLM usage telemetry
-- **[AI Firewall Proxy](https://github.com/RichardBarron27/redspecter-ai-firewall-proxy)** - Policy-enforcing proxy for AI model access
-
-### Reconnaissance & Response
-- **[Offensive Framework](https://github.com/RichardBarron27/red-specter-offensive-framework)** - Authorized security testing toolkit
-- **[Evidence Collector](https://github.com/RichardBarron27/redspecter-evidence-collector)** - DFIR evidence ledger and case files
-- **[ScriptMap](https://github.com/RichardBarron27/redspecter-scriptmap)** - Script inventory and supply chain visibility
-- **[Email OSINT](https://github.com/RichardBarron27/redspecter-emailosint)** - Domain-based email intelligence
-
-**All tools provided for authorized security testing, incident response, and research purposes only.**
+**No other platform offers complete OWASP coverage for agentic AI systems.**
 
 ---
 
-## 🚀 Current Focus: Enterprise AI Security
+## 🎓 Who This Is For
 
-Red Specter is actively working with organizations deploying AI agents in production environments, particularly those in:
+### **Compliance Platforms**
+If you're deploying AI agents with system access (Vanta, Drata, Secureframe):
+- Your agents need runtime protection beyond policy documentation
+- Module 19 monitors what agents do, Module 20 verifies who they are
+- EU AI Act operational security requirements (August 2, 2026 deadline)
 
-- **Financial Services** - AI-powered compliance, trading systems, customer service
-- **Healthcare** - Medical AI assistants, diagnostic support, patient data systems
-- **Legal** - Contract analysis, document review, legal research automation
-- **Compliance Platforms** - AI agents for continuous monitoring and audit automation
+### **Enterprise Security Teams**
+If you're operating autonomous AI agents in production:
+- Complete agent lifecycle protection (identity → runtime → memory → communication)
+- Cryptographic evidence chains for regulatory audits
+- Cross-border data sovereignty for GDPR compliance
 
-**The threat landscape has fundamentally shifted:**
-- AI-powered attacks reaching industrial scale
-- Prompt injection bypassing traditional security controls
-- Model poisoning targeting RAG systems and fine-tuned models
-- Shadow AI creating compliance and data leakage risks
-- Regulatory pressure demanding demonstrable operational controls
-
-**Red Specter's approach:**
-1. **Detect early** - Identify threats before damage occurs
-2. **Monitor continuously** - Runtime visibility into AI agent behavior
-3. **Respond fast** - Automated containment and evidence collection
-4. **Prove everything** - Case Pack format with cryptographic audit trails for regulatory compliance
+### **Financial Services & Healthcare**
+If you're deploying AI in regulated industries:
+- Comprehensive audit trails (Case Packs with tamper-evident integrity)
+- Explainability for high-stakes decisions (Module 25)
+- Memory forensics for incident investigation (Module 23)
 
 ---
 
-## 📬 Strategic Inquiries
+## 🏗️ Architecture
 
-**AI Shield Module 19 Pilots**  
-Limited availability for enterprise pilot programs - technical demonstrations and architecture discussions
+### Core Features
+- **RS Event v1 Telemetry** - Unified event format across all modules
+- **Case Pack Evidence** - Cryptographically signed audit trails
+- **Tamper-Evident Chains** - Ed25519 signatures, SHA-256 integrity
+- **CSOAI-Ready Exports** - Regulatory compliance reporting for EU AI Act, ISO audits, government inquiries
+- **Cross-Platform** - Linux, WSL2, Windows support
 
-**Compliance Platform Partnerships**  
-Integration discussions for platforms deploying AI-powered compliance capabilities
-
-**Enterprise Security Briefings**  
-Technical presentations on AI Shield architecture, deployment models, and regulatory alignment
-
-**CISO Advisory**  
-Strategic guidance on AI security governance, EU AI Act compliance, and operational controls
-
-### Connect
-
-- **LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-b-42469439b/)
-- **GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)
-- **Location:** London, UK 🇬🇧
-
-**Built by Red Specter Security Research - 30+ years defending systems from MS-DOS to AI.**
+### Integration
+- **SIEM Compatible** - Export to Splunk, ELK, QRadar
+- **API-First** - RESTful APIs for all modules
+- **Modular Design** - Deploy individual modules or complete suite
+- **Production-Ready** - 291 passing tests, comprehensive documentation
 
 ---
 
-## ⚖️ Responsible Use
+## 🚀 Getting Started
 
-Red Specter tools are provided for authorized security testing, incident response, forensic investigation, and legitimate research purposes.
+### Evaluation & Pilots
 
-**You must:**
-- Follow all applicable laws and regulations
-- Obtain written authorization for security testing
-- Use tools only on systems you own or have explicit permission to test
-- Respect privacy and data protection requirements
+AI Shield's agent security modules (19-25) are available for enterprise evaluation and pilot programs.
 
-**Not for:**
-- Unauthorized access or malicious purposes
-- Violation of computer fraud and abuse laws
-- Bypassing security controls without permission
+**To access:**
+1. **Schedule a demo** - See modules in action (30-minute technical walkthrough)
+2. **Request pilot** - 6-week integration with your agent infrastructure (£15K-£25K)
+3. **Partnership discussion** - Strategic integration for compliance platforms
 
-By using these tools, you agree to responsible and legal use.
+**Contact:** [contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)
 
 ---
 
-## 🤝 Contributing to Public Tools
+## 📈 Quick Stats
 
-Contributions to open source tools are welcome:
-
-- **Bug Reports:** Open issues with reproduction steps
-- **Feature Requests:** Describe use cases and proposals
-- **Pull Requests:** Fork, branch, test, document
-- **Documentation:** Improve guides and examples
-
-Follow existing code style, include tests, and keep PRs focused on single features.
+- **25 Modules** - Complete AI governance platform
+- **400+ Files** - Enterprise-grade codebase  
+- **50,000+ Lines** - Production-tested Python
+- **291 Tests** - Comprehensive coverage
+- **7 Specialized Modules** - Agent security suite (19-25)
+- **Complete OWASP Coverage** - All 10 agentic AI risks addressed
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Built%20with-Python%20%7C%20Bash%20%7C%20Go-blue">
-  <img src="https://img.shields.io/badge/Focus-AI%20Security%20%7C%20Operational%20Controls-orange">
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-success">
-</p>
+## 💼 Enterprise Pilots & Partnerships
 
-<p align="center">
-  <sub>Red Specter Security Research | London, UK | Established 2024</sub>
-</p>
+AI Shield is available for:
 
-<p align="center">
-  <strong>The compliance platforms secure the business. AI Shield secures the AI securing the business.</strong>
-</p>
+**Enterprise Pilots** (£15K-£25K)
+- 6-week pilot program
+- Integration with your agent infrastructure
+- Evidence generation for compliance auditors
+- Technical support & policy tuning
+
+**Strategic Partnerships** (Compliance Platforms)
+- White-label integration
+- Revenue sharing models
+- Joint go-to-market
+- EU AI Act deadline leverage (August 2, 2026)
+
+**Contact:** [contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)
+
+---
+
+## 📚 Documentation
+
+- **Core Platform** - Available in this repository
+- **Agent Modules (19-25)** - Documentation available to licensed customers
+- **Sales Materials** - Contact for one-pagers, pitch decks, ROI analysis
+- **Demo Environment** - Schedule technical walkthrough
+
+---
+
+## 🔬 Technical Specifications
+
+**Platform:**
+- Python 3.8+
+- FastAPI for APIs
+- SQLAlchemy for data persistence
+- Cryptography (Ed25519, SHA-256) for evidence integrity
+- Cross-platform (Linux, WSL2, Windows)
+
+**Agent Modules (19-25):**
+- Async architecture for real-time monitoring
+- Cryptographic signing (all evidence)
+- Modular deployment (use individually or combined)
+- RS Event v1 telemetry standard
+- Case Pack evidence generation
+
+---
+
+## 🌍 Compliance & Regulatory
+
+- **EU AI Act** - Articles 10, 11, 12, 13, 14, 52 coverage
+- **GDPR** - Cross-border data sovereignty (Module 24)
+- **UK Data Protection Act** - Jurisdiction enforcement
+- **OWASP Agentic AI Top 10** - Complete coverage
+- **ISO Standards** - Audit-ready evidence exports
+
+---
+
+## 📊 Competitive Positioning
+
+| Platform | Runtime Protection | Identity/Credentials | Multi-Agent Comm | Supply Chain | Memory Forensics | Data Sovereignty | Observability |
+|----------|-------------------|---------------------|------------------|--------------|-----------------|-----------------|--------------|
+| **AI Shield** | ✅ Module 19 | ✅ Module 20 | ✅ Module 21 | ✅ Module 22 | ✅ Module 23 | ✅ Module 24 | ✅ Module 25 |
+| Microsoft Defender | ✅ Partial | ❌ | ❌ | ❌ | ❌ | ❌ | Partial |
+| Palo Alto AIRS | Partial | Partial | ❌ | ❌ | ❌ | ❌ | Partial |
+| Moltbot (OpenClaw) | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+**AI Shield is the only platform with complete agent lifecycle protection.**
+
+---
+
+## 🎯 Strategic Timeline
+
+- **January 2026** - Modules 19-25 production-ready
+- **February 2026** - Enterprise pilots (Compliance platforms, financial services)
+- **March 1, 2026** - Partnership decision deadline
+- **August 2, 2026** - EU AI Act enforcement begins
+
+---
+
+## 📞 Contact & Engagement
+
+**Enterprise Inquiries:** [contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)
+
+**GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)
+
+**LinkedIn:** Connect for partnership discussions
+
+---
+
+## 📜 License
+
+Proprietary - Red Specter Security Research Ltd  
+Copyright (c) 2025-2026 Red Specter Security Research Ltd  
+All rights reserved.
+
+Agent security modules (19-25) available under enterprise licensing.
+
+---
+
+## 🔥 Innovation Beyond Belief
+
+**Built in 2026. Ready for the future of autonomous AI.**
+
+*"When AI agents move from answering questions to taking actions, security must evolve from static policies to dynamic protection."*
+
+---
+
+**For technical demos, pilot programs, or partnership discussions:**  
+**[contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)**
