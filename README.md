@@ -42,6 +42,7 @@ AI Shield is a production-ready platform providing the runtime protection, monit
 Built for the AI security gap:
 - **25 security modules** across prevention, detection, response, and forensics
 - **Agent Security Suite** - Complete OWASP Top 10 coverage for agentic AI
+- **Gartner AI TRiSM Alignment** - Module 19 implements Layer 2: AI Runtime Inspection & Enforcement, the operational security layer enterprises struggle to deploy
 - Cross-platform deployment (Linux/Windows) with automated installation
 - **Case Pack evidence format** - tamper-evident packaging for regulatory submissions, government audits, and forensic investigations
 - **RS Event v1 telemetry** - unified event schema across all modules for correlation and analysis
@@ -67,17 +68,17 @@ Compliance platforms can't do this because they operate at the documentation lay
 
 **The industry's only comprehensive platform securing the complete autonomous agent lifecycle.**
 
-| Module | Focus | OWASP Coverage |
-|--------|-------|----------------|
-| **Module 19** | Agent Runtime Protection | ASI01, ASI02, ASI09 |
-| **Module 20** | Agent Identity & Credential Guard | ASI03 |
-| **Module 21** | Multi-Agent Communication Security | ASI07 |
-| **Module 22** | AI Model Supply Chain Security | ASI05 |
-| **Module 23** | AI Memory Forensics | ASI06 |
-| **Module 24** | Cross-Border Data Sovereignty | ASI04 |
-| **Module 25** | Agent Observability & Decision Provenance | ASI08 |
+| Module | Focus | OWASP LLM Top 10 Coverage |
+|--------|-------|---------------------------|
+| **Module 19** | Agent Runtime Protection | LLM01 (Prompt Injection), LLM06 (Excessive Agency), LLM10 (Unbounded Consumption) |
+| **Module 20** | Agent Identity & Credential Guard | LLM02 (Sensitive Information Disclosure) |
+| **Module 21** | Multi-Agent Communication Security | LLM05 (Improper Output Handling) |
+| **Module 22** | AI Model Supply Chain Security | LLM03 (Supply Chain), LLM04 (Data Poisoning) |
+| **Module 23** | AI Memory Forensics | LLM04 (Data Poisoning), LLM08 (Vector Weaknesses) |
+| **Module 24** | Cross-Border Data Sovereignty | LLM02 (Sensitive Information Disclosure) |
+| **Module 25** | Agent Observability & Decision Provenance | LLM07 (System Prompt Leakage), LLM09 (Misinformation) |
 
-**Complete OWASP Top 10 Coverage for Agentic Applications 2026** ✅
+**Complete OWASP Top 10 for LLM Applications 2025 Coverage** ✅
 
 *Access: AI Shield repositories are currently private (pilot/partnership access by request).*
 
@@ -205,7 +206,7 @@ Strategic guidance on AI security governance, EU AI Act compliance, and operatio
 **GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)  
 **Location:** UK 🇬🇧
 
-*Built by Red Specter Security Research - 30+ years defending systems from MS-DOS to AI.*
+*Built by Red Specter Security Research - From MS-DOS to AI security.*
 
 ---
 
