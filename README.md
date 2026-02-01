@@ -53,7 +53,6 @@ EU AI Act Article 14 requires a "stop button" for AI systems. **This is it.**
 
 > *"The module you hope you never need. The module regulators will ask if you had."*
 
-**[View Module 99 →](https://github.com/RichardBarron27/ai-shield-module-99)**
 
 ---
 
