@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-26%20modules-blue">
+  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-28%20modules-blue">
   <img alt="owasp" src="https://img.shields.io/badge/OWASP-Complete%20Coverage-green">
   <img alt="gartner" src="https://img.shields.io/badge/Gartner-AI%20TRiSM%20Aligned-purple">
   <img alt="compliance" src="https://img.shields.io/badge/EU%20AI%20Act-Ready-red">
@@ -26,7 +26,7 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## 🛡️ AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **26-module** security platform implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework.
+AI Shield is a **28-module** security platform implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework.
 
 ### Platform Overview
 
@@ -34,7 +34,36 @@ AI Shield is a **26-module** security platform implementing Gartner's **AI Runti
 |-----------|---------|-------------|
 | **Core Platform** | 1-18 | Prevention, Detection, Response, Evidence |
 | **Agent Security Suite** | 19-25 | Complete agent lifecycle protection |
+| **Infrastructure Modules** | 26-27 | Insurance & multi-tenant isolation |
 | **Doomsday Protocol** | 99 | Emergency kill switch |
+
+### Agent Security Suite (Modules 19-25)
+
+| Module | Focus | Coverage |
+|--------|-------|----------|
+| **19** | Agent Runtime Protection | What agents DO |
+| **20** | Identity & Credential Guard | WHO agents ARE |
+| **21** | Multi-Agent Communication Security | HOW agents COMMUNICATE |
+| **22** | AI Model Supply Chain Security | WHERE models COME FROM |
+| **23** | AI Memory Forensics | WHAT agents REMEMBER |
+| **24** | Cross-Border Data Sovereignty | WHERE data FLOWS |
+| **25** | Agent Observability & Decision Provenance | WHY agents DECIDE |
+
+### Infrastructure Modules (26-27)
+
+**Module 26: AI Agent Insurance & Liability Shield**
+- Real-time insurability scoring for cyber insurance carriers
+- Policy compliance monitoring (does this action violate coverage?)
+- Automated claims documentation with cryptographic evidence
+- CSOAI export format for insurance carrier integration
+- **Opens insurance market:** CFO/Risk Management buyers, carrier partnerships
+
+**Module 27: Multi-Tenant Agent Isolation**
+- Cryptographic tenant boundary enforcement for SaaS platforms
+- Cross-contamination prevention (prompt injection, cache poisoning)
+- Per-tenant kill switch (quarantine one customer without affecting others)
+- GDPR Article 32 compliance for multi-processing environments
+- **Opens SaaS market:** Salesforce, HubSpot, ServiceNow scale deployments
 
 ### 🔴 Module 99: Doomsday Protocol
 
@@ -52,7 +81,6 @@ When your AI agents go rogue, compliance documentation won't save you. **Module 
 EU AI Act Article 14 requires a "stop button" for AI systems. **This is it.**
 
 > *"The module you hope you never need. The module regulators will ask if you had."*
-
 
 ---
 
@@ -72,7 +100,7 @@ AI Shield provides **complete coverage** of both OWASP Top 10 for LLM Applicatio
 | ASI06: Memory Poisoning | Module 23 |
 | ASI07: Inter-Agent Protocol Exploit | Module 21 |
 | ASI08: Human-Agent Trust Exploitation | Module 25 |
-| ASI09: Resource DoS | Module 19 |
+| ASI09: Resource DoS | Module 19, Module 27 |
 | ASI10: Rogue Agent | **Module 99** |
 
 ---
@@ -94,9 +122,11 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **EU AI Act Article 12** | Automatic event recording (RS Event telemetry, Case Packs) |
 | **EU AI Act Article 13** | Transparency (Module 25 decision provenance) |
 | **EU AI Act Article 14** | Human oversight & stop button (**Module 99**) |
+| **GDPR Article 32** | Appropriate technical measures for multi-processing (Module 27) |
 | **GDPR** | Cross-border data sovereignty (Module 24) |
 | **ISO/IEC 42001** | Demonstrable operational controls |
 | **NIST AI RMF** | Continuous monitoring and management |
+| **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
 
 **EU AI Act major obligations apply August 2, 2026.**
 
@@ -109,6 +139,12 @@ Your AI agents need runtime protection beyond policy documentation. Module 99 pr
 
 ### Enterprise Security Teams
 Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits.
+
+### Insurance Carriers & Brokers
+Module 26 provides real-time risk data for accurate premium pricing, automated claims documentation, and policy compliance monitoring.
+
+### SaaS Platforms
+Module 27 ensures Customer A's agent cannot access Customer B's data with cryptographic proof of tenant isolation for GDPR Article 32 compliance.
 
 ### Financial Services & Healthcare
 Comprehensive audit trails, explainability for high-stakes decisions, and immediate containment capability.
@@ -140,11 +176,23 @@ Comprehensive audit trails, explainability for high-stakes decisions, and immedi
 
 ## 💼 Enterprise Engagement
 
-### AI Shield Pilots (£15K-£25K)
-6-week pilot program with Module 99 deployment, evidence generation, and technical support.
+### AI Shield Pilots
+Enterprise pilot programs with Module 99 deployment, evidence generation, and technical support.
 
 ### Strategic Partnerships
-White-label integration, revenue sharing, joint go-to-market for compliance platforms.
+
+**Compliance Platforms:**
+- White-label integration, revenue sharing, joint go-to-market
+
+**Insurance Carriers:**
+- Module 26 data licensing for underwriting
+- Real-time risk scoring integration
+- Claims validation API access
+
+**SaaS Platforms:**
+- Module 27 tenant isolation infrastructure
+- White-label deployment for customer base
+- Per-tenant revenue model
 
 ### Technical Briefings
 Architecture deep-dives, regulatory alignment, deployment planning.
