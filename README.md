@@ -154,7 +154,7 @@ Comprehensive audit trails, explainability for high-stakes decisions, and immedi
 ## 🔧 Public Security Tools
 
 ### AI Security
-- **[AI Shield Module 99](https://github.com/RichardBarron27/ai-shield-module-99)** - Emergency kill switch for AI agents
+- **[AI Shield Module 99](https://github.com/RichardBarron27/ai-shield-module-)** - Emergency kill switch for AI agents
 - **[AI Breach Monitor](https://github.com/RichardBarron27/redspecter-ai-breach-monitor)** - Sensitive data leak detection
 - **[AI Endpoint Guard](https://github.com/RichardBarron27/redspecter-ai-endpoint-guard)** - AI tool usage visibility
 - **[AI Usage Watchdog](https://github.com/RichardBarron27/redspecter-ai-usage-watchdog)** - Privacy-first AI/LLM telemetry
