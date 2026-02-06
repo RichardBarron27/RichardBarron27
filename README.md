@@ -5,6 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
+  <img alt="live-apis" src="https://img.shields.io/badge/Live%20APIs-11-brightgreen">
   <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-28%20modules-blue">
   <img alt="owasp" src="https://img.shields.io/badge/OWASP-Complete%20Coverage-green">
   <img alt="gartner" src="https://img.shields.io/badge/Gartner-AI%20TRiSM%20Aligned-purple">
@@ -27,6 +28,29 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 ## 🛡️ AI Shield: Operational Security for Autonomous AI Agents
 
 AI Shield is a **28-module** security platform implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework.
+
+### 🔴 Live Interactive Demos
+
+**11 operational APIs deployed on production infrastructure:**
+
+#### AI Shield - Agentic AI Security (6 modules live)
+- **[Module 19: Agent Runtime Protection](http://209.97.139.8:8000/)** - Real-time threat detection for autonomous agents
+- **[Module 20: Identity & Credential Guard](http://209.97.139.8:8001/)** - Cryptographic identity verification
+- **[Module 21: Multi-Agent Communication Security](http://209.97.139.8:8021/)** - Secure inter-agent channels
+- **[Module 22: AI Model Supply Chain Security](http://209.97.139.8:8022/)** - Provenance verification
+- **[Module 25: Agent Observability & Decision Provenance](http://209.97.139.8:8025/)** - Cryptographic audit trails
+- **[Module 99: Doomsday Protocol](http://209.97.139.8:8099)** - Emergency kill switch
+
+#### Purple Team Defensive Suite (5 tools live)
+- **[Cognitive Drift Sentinel](http://209.97.139.8:8026/)** - Psychological manipulation detection
+- **[Deepfake Verification Guard](http://209.97.139.8:8027/)** - Liveness challenge system
+- **[AI Breach Monitor](http://209.97.139.8:8028/)** - Real-time prompt stream scanning
+- **[AI Endpoint Guard](http://209.97.139.8:8029/)** - Network-level AI service detection
+- **[AI Usage Watchdog](http://209.97.139.8:8030/)** - Privacy-preserving process monitoring
+
+**Built for UK Online Safety Act compliance and vulnerable population protection.**
+
+---
 
 ### Platform Overview
 
@@ -127,6 +151,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **ISO/IEC 42001** | Demonstrable operational controls |
 | **NIST AI RMF** | Continuous monitoring and management |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
+| **UK Online Safety Act** | Vulnerable population protection (Purple Team Suite) |
 
 **EU AI Act major obligations apply August 2, 2026.**
 
@@ -149,16 +174,19 @@ Module 27 ensures Customer A's agent cannot access Customer B's data with crypto
 ### Financial Services & Healthcare
 Comprehensive audit trails, explainability for high-stakes decisions, and immediate containment capability.
 
+### Academic Researchers & Child Safety Organizations
+Purple Team Defensive Suite provides privacy-first protective technology for vulnerable population research under UK Online Safety Act.
+
 ---
 
 ## 🔧 Public Security Tools
 
 ### AI Security
-- **[AI Shield Module 99](https://github.com/RichardBarron27/ai-shield-module-)** - Emergency kill switch for AI agents
 - **[AI Breach Monitor](https://github.com/RichardBarron27/redspecter-ai-breach-monitor)** - Sensitive data leak detection
 - **[AI Endpoint Guard](https://github.com/RichardBarron27/redspecter-ai-endpoint-guard)** - AI tool usage visibility
 - **[AI Usage Watchdog](https://github.com/RichardBarron27/redspecter-ai-usage-watchdog)** - Privacy-first AI/LLM telemetry
-- **[AI Firewall Proxy](https://github.com/RichardBarron27/redspecter-ai-firewall-proxy)** - Policy-enforcing proxy for AI model access
+- **[Cognitive Drift Sentinel](https://github.com/RichardBarron27/redspecter-cognitive-drift-sentinel)** - Psychological manipulation detection
+- **[Deepfake Verification Guard](https://github.com/RichardBarron27/redspecter-deepfake-verification-guard)** - Liveness challenge system
 
 ### Network & Infrastructure
 - **[Botnet Radar](https://github.com/RichardBarron27/redspecter-botnet-radar)** - Host-level botnet/DDoS early warning
@@ -168,7 +196,6 @@ Comprehensive audit trails, explainability for high-stakes decisions, and immedi
 - **[Threat Recon Watcher](https://github.com/RichardBarron27/redspecter-threat-recon-watcher)** - Brute-force attack detection
 
 ### Reconnaissance & Response
-- **[Offensive Framework](https://github.com/RichardBarron27/red-specter-offensive-framework)** - Authorized security testing toolkit
 - **[Evidence Collector](https://github.com/RichardBarron27/redspecter-evidence-collector)** - DFIR evidence ledger
 - **[Email OSINT](https://github.com/RichardBarron27/redspecter-emailosint)** - Domain-based email intelligence
 
@@ -194,6 +221,11 @@ Enterprise pilot programs with Module 99 deployment, evidence generation, and te
 - White-label deployment for customer base
 - Per-tenant revenue model
 
+**Academic Research Institutions:**
+- Purple Team Defensive Suite for vulnerable population protection research
+- UK Online Safety Act compliance infrastructure
+- Privacy-first data collection methodology
+
 ### Technical Briefings
 Architecture deep-dives, regulatory alignment, deployment planning.
 
@@ -201,8 +233,9 @@ Architecture deep-dives, regulatory alignment, deployment planning.
 
 ## 📬 Connect
 
+**Website:** [http://red-specter.co.uk](http://red-specter.co.uk)  
 **Email:** [contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)  
-**LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-barron)  
+**LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-b-42469439b/)  
 **GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)  
 **Location:** UK 🇬🇧
 
@@ -223,6 +256,11 @@ Attackers: *"Thanks, we'll be done before you finish the audit."*
 </p>
 
 <p align="center">
+  <b>Purple Team: Because vulnerable populations deserve protective technology, not policy documents.</b>
+</p>
+
+<p align="center">
   <sub>Red Specter Security Research | UK | Established 2024</sub><br>
-  <sub><em>From MS-DOS to AI security. 30+ years of technology experience.</em></sub>
+  <sub><em>From MS-DOS to AI security. 30+ years of technology experience.</em></sub><br>
+  <sub><em>Innovation Beyond Belief</em></sub>
 </p>
