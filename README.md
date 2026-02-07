@@ -1,16 +1,11 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RichardBarron27/red-specter-offensive-framework/main/assets/red-specter-logo.png" alt="Red Specter Logo" width="200">
+  <b>🔴 RED SPECTER</b>
 </p>
 
 # Red Specter Security Research
 
 <p align="center">
-  <img alt="live-apis" src="https://img.shields.io/badge/Live%20APIs-16-brightgreen">
-  <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-28%20modules-blue">
-  <img alt="owasp" src="https://img.shields.io/badge/OWASP-Complete%20Coverage-green">
-  <img alt="gartner" src="https://img.shields.io/badge/Gartner-AI%20TRiSM%20Aligned-purple">
-  <img alt="compliance" src="https://img.shields.io/badge/EU%20AI%20Act-Ready-red">
-  <img alt="location" src="https://img.shields.io/badge/location-UK-lightgrey">
+  Live APIs: 16 | AI Shield: 28 modules | OWASP: Complete Coverage | Gartner: AI TRiSM Aligned | EU AI Act: Ready | UK
 </p>
 
 ---
@@ -53,7 +48,7 @@ AI Shield is a **28-module** security platform implementing Gartner's **AI Runti
 #### Guardian Suite - Child Protection (3 components)
 - **Guardian Sentinel** - CEOP-compliant grooming detection (128 patterns, 14 categories)
 - **Guardian Parent Dashboard** - Parent portal with Stripe billing (£9.99/month)
-- **Guardian Monitor App** - Android monitoring app for WhatsApp, Discord, Snapchat, Instagram, Telegram
+- **Guardian Monitor Browser Extension** - Monitors 8 messaging platforms (WhatsApp, Discord, Messenger, Instagram, Telegram, Google Chat, Teams, Slack)
 
 **Built for UK Online Safety Act compliance and vulnerable population protection.**
 
@@ -124,15 +119,17 @@ Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catche
 ### Components
 
 **Guardian Sentinel API**
-- 128 CEOP-aligned detection patterns
-- 14 grooming categories (sexual approach, trust building, isolation, secrecy demands, etc.)
-- Forensic evidence packaging
+- Two-stage detection: progressive grooming tracking (stages 1&ndash;3) and instant alerts (stages 4&ndash;6)
+- 100+ CEOP-aligned detection patterns across 14 grooming categories
+- 7 behavioural indicators (rapid escalation, stage progression, late-night contact, etc.)
+- Forensic evidence packaging with cryptographic integrity
 - Multi-channel alerting (email, SMS, push notifications)
 
-**Guardian Monitor Android App**
-- Monitors WhatsApp, Discord, Snapchat, Instagram, Telegram
-- Real-time analysis via Guardian API
-- Push notifications to parents
+**Guardian Monitor Browser Extension**
+- Monitors 8 web platforms: WhatsApp, Discord, Messenger, Instagram, Telegram, Google Chat, Teams, Slack
+- Two-stage detection: progressive grooming tracking and instant alerts for stage 4&ndash;6 patterns
+- Runs on Chrome, Firefox, Edge, Brave, Opera, and Vivaldi
+- Real-time analysis via Guardian Sentinel API
 
 **Guardian Parent Dashboard**
 - Login/signup with JWT authentication
@@ -142,10 +139,10 @@ Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catche
 - Stripe billing integration (£9.99/month subscription)
 
 ### Use Cases
-- **Social Media Platforms:** TikTok, Instagram, Discord, Roblox in-platform safety
-- **Schools:** Google Workspace monitoring, safeguarding compliance
-- **Parental Control Apps:** Bark, Qustodio white-label integration
-- **Law Enforcement:** Digital forensics, seized device analysis
+- **Social Media Platforms:** Instagram, Discord, TikTok in-platform safety
+- **Schools:** Google Workspace and Teams monitoring, safeguarding compliance
+- **Parental Control Apps:** White-label integration via Guardian Sentinel API
+- **Law Enforcement:** Digital forensics, seized device analysis, court-ready evidence
 - **ISPs/Mobile Carriers:** Family safety bundling
 
 **Revenue Models:**
@@ -272,10 +269,7 @@ Architecture deep-dives, regulatory alignment, deployment planning.
 
 ## 📬 Connect
 
-**Website:** red-specter.co.uk  
-**Email:** contact@red-specter.co.uk  
-**LinkedIn:** Richard Barron  
-**GitHub:** @RichardBarron27  
+**Website:** red-specter.co.uk
 **Location:** UK 🇬🇧
 
 ---
