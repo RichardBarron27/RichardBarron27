@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  <img alt="live-apis" src="https://img.shields.io/badge/Live%20APIs-11-brightgreen">
+  <img alt="live-apis" src="https://img.shields.io/badge/Live%20APIs-16-brightgreen">
   <img alt="ai-shield" src="https://img.shields.io/badge/AI%20Shield-28%20modules-blue">
   <img alt="owasp" src="https://img.shields.io/badge/OWASP-Complete%20Coverage-green">
   <img alt="gartner" src="https://img.shields.io/badge/Gartner-AI%20TRiSM%20Aligned-purple">
@@ -31,22 +31,29 @@ AI Shield is a **28-module** security platform implementing Gartner's **AI Runti
 
 ### 🔴 Live Interactive Demos
 
-**11 operational APIs deployed on production infrastructure:**
+**16 operational APIs deployed on production infrastructure:**
 
-#### AI Shield - Agentic AI Security (6 modules live)
-- **[Module 19: Agent Runtime Protection](http://209.97.139.8:8000/)** - Real-time threat detection for autonomous agents
-- **[Module 20: Identity & Credential Guard](http://209.97.139.8:8001/)** - Cryptographic identity verification
-- **[Module 21: Multi-Agent Communication Security](http://209.97.139.8:8021/)** - Secure inter-agent channels
-- **[Module 22: AI Model Supply Chain Security](http://209.97.139.8:8022/)** - Provenance verification
-- **[Module 25: Agent Observability & Decision Provenance](http://209.97.139.8:8025/)** - Cryptographic audit trails
-- **[Module 99: Doomsday Protocol](http://209.97.139.8:8099)** - Emergency kill switch
+#### Core AI Shield Platform (6 modules live)
+- **[Module 19: Agent Runtime Protection](https://demo.red-specter.co.uk/runtime/docs)** - Real-time threat detection for autonomous agents
+- **[Module 20: Identity & Credential Guard](https://demo.red-specter.co.uk/identity/docs)** - Cryptographic identity verification
+- **[Module 21: Multi-Agent Communication Security](https://demo.red-specter.co.uk/comms/docs)** - Secure inter-agent channels
+- **[Module 22: AI Model Supply Chain Security](https://demo.red-specter.co.uk/supply/docs)** - Provenance verification
+- **[Module 25: Agent Observability & Decision Provenance](https://demo.red-specter.co.uk/observ/docs)** - Cryptographic audit trails
+- **[Module 99: Doomsday Protocol](https://demo.red-specter.co.uk/killswitch)** - Emergency kill switch
 
-#### Purple Team Defensive Suite (5 tools live)
-- **[Cognitive Drift Sentinel](http://209.97.139.8:8026/)** - Psychological manipulation detection
-- **[Deepfake Verification Guard](http://209.97.139.8:8027/)** - Liveness challenge system
-- **[AI Breach Monitor](http://209.97.139.8:8028/)** - Real-time prompt stream scanning
-- **[AI Endpoint Guard](http://209.97.139.8:8029/)** - Network-level AI service detection
-- **[AI Usage Watchdog](http://209.97.139.8:8030/)** - Privacy-preserving process monitoring
+#### Sentinel Suite - Threat Detection (7 tools live)
+- **[Cognitive Drift Sentinel](https://demo.red-specter.co.uk/cognitive/docs)** - Psychological manipulation detection
+- **[Deepfake Verification Guard](https://demo.red-specter.co.uk/deepfake/docs)** - Liveness challenge system
+- **[AI Breach Monitor](https://demo.red-specter.co.uk/breach/docs)** - Real-time prompt stream scanning
+- **[AI Endpoint Guard](https://demo.red-specter.co.uk/endpoint/redoc)** - Network-level AI service detection
+- **[AI Usage Watchdog](https://demo.red-specter.co.uk/usage)** - Privacy-preserving process monitoring
+- **[Ransomware Canary Sentinel](https://demo.red-specter.co.uk/canary/docs)** - Ransomware detection
+- **[Takedown Dossier Generator](https://demo.red-specter.co.uk/dossier/docs)** - Evidence packaging for law enforcement
+
+#### Guardian Suite - Child Protection (3 components live)
+- **[Guardian Sentinel](https://demo.red-specter.co.uk/guardian/docs)** - CEOP-compliant grooming detection (128 patterns, 14 categories)
+- **[Guardian Parent Dashboard](http://209.97.139.8:8034)** - Parent portal with Stripe billing (£9.99/month)
+- **[Guardian Monitor APK](https://red-specter.co.uk/guardian-monitor.apk)** - Android monitoring app (6.2 MB)
 
 **Built for UK Online Safety Act compliance and vulnerable population protection.**
 
@@ -108,6 +115,50 @@ EU AI Act Article 14 requires a "stop button" for AI systems. **This is it.**
 
 ---
 
+## 🛡️ Guardian Suite: Child Protection Technology
+
+**Real-Time Grooming Detection | UK Online Safety Act Ready**
+
+Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catches what keyword filters miss. Court-admissible evidence packages with cryptographic integrity.
+
+### Components
+
+**Guardian Sentinel API**
+- 128 CEOP-aligned detection patterns
+- 14 grooming categories (sexual approach, trust building, isolation, secrecy demands, etc.)
+- Forensic evidence packaging
+- Multi-channel alerting (email, SMS, push notifications)
+- Live demo: [https://demo.red-specter.co.uk/guardian/docs](https://demo.red-specter.co.uk/guardian/docs)
+
+**Guardian Monitor Android App**
+- Monitors WhatsApp, Discord, Snapchat, Instagram, Telegram
+- Real-time analysis via Guardian API
+- Push notifications to parents
+- Download: [https://red-specter.co.uk/guardian-monitor.apk](https://red-specter.co.uk/guardian-monitor.apk) (6.2 MB)
+
+**Guardian Parent Dashboard**
+- Login/signup with JWT authentication
+- Alert dashboard with severity statistics
+- Flagged conversations viewer
+- Evidence download (forensic packages)
+- Stripe billing integration (£9.99/month subscription)
+- Access: [http://209.97.139.8:8034](http://209.97.139.8:8034)
+
+### Use Cases
+- **Social Media Platforms:** TikTok, Instagram, Discord, Roblox in-platform safety
+- **Schools:** Google Workspace monitoring, safeguarding compliance
+- **Parental Control Apps:** Bark, Qustodio white-label integration
+- **Law Enforcement:** Digital forensics, seized device analysis
+- **ISPs/Mobile Carriers:** Family safety bundling
+
+**Revenue Models:**
+- Consumer: £9.99/month per family
+- Schools: £500/month (up to 1,000 students)
+- Platforms: £0.0001 per message analyzed
+- Enterprise: Custom licensing
+
+---
+
 ## 📊 Complete OWASP Coverage
 
 AI Shield provides **complete coverage** of both OWASP Top 10 for LLM Applications 2025 and OWASP Top 10 for Agentic Applications 2026.
@@ -151,7 +202,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **ISO/IEC 42001** | Demonstrable operational controls |
 | **NIST AI RMF** | Continuous monitoring and management |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
-| **UK Online Safety Act** | Vulnerable population protection (Purple Team Suite) |
+| **UK Online Safety Act** | Vulnerable population protection (Guardian Suite) |
 
 **EU AI Act major obligations apply August 2, 2026.**
 
@@ -175,7 +226,10 @@ Module 27 ensures Customer A's agent cannot access Customer B's data with crypto
 Comprehensive audit trails, explainability for high-stakes decisions, and immediate containment capability.
 
 ### Academic Researchers & Child Safety Organizations
-Purple Team Defensive Suite provides privacy-first protective technology for vulnerable population research under UK Online Safety Act.
+Guardian Suite provides privacy-first protective technology for vulnerable population research under UK Online Safety Act.
+
+### Social Media & Gaming Platforms
+Guardian Sentinel API integration for real-time grooming detection before harmful messages reach children.
 
 ---
 
@@ -221,8 +275,18 @@ Enterprise pilot programs with Module 99 deployment, evidence generation, and te
 - White-label deployment for customer base
 - Per-tenant revenue model
 
+**Social Media & Gaming Platforms:**
+- Guardian Sentinel API integration (£0.0001 per message analyzed)
+- White-label child safety features
+- UK Online Safety Act compliance infrastructure
+
+**Parental Control App Developers:**
+- Guardian API licensing (30% revenue share or per-user fee)
+- Enhanced grooming detection vs. keyword filters
+- White-label technology integration
+
 **Academic Research Institutions:**
-- Purple Team Defensive Suite for vulnerable population protection research
+- Guardian Suite for vulnerable population protection research
 - UK Online Safety Act compliance infrastructure
 - Privacy-first data collection methodology
 
@@ -233,7 +297,8 @@ Architecture deep-dives, regulatory alignment, deployment planning.
 
 ## 📬 Connect
 
-**Website:** [http://red-specter.co.uk](http://red-specter.co.uk)  
+**Website:** [https://red-specter.co.uk](https://red-specter.co.uk)  
+**Demo Environment:** [https://demo.red-specter.co.uk](https://demo.red-specter.co.uk)  
 **Email:** [contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)  
 **LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-b-42469439b/)  
 **GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)  
@@ -256,7 +321,7 @@ Attackers: *"Thanks, we'll be done before you finish the audit."*
 </p>
 
 <p align="center">
-  <b>Purple Team: Because vulnerable populations deserve protective technology, not policy documents.</b>
+  <b>Guardian Suite: Because vulnerable populations deserve protective technology, not policy documents.</b>
 </p>
 
 <p align="center">
