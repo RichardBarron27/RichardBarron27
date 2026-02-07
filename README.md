@@ -33,27 +33,27 @@ AI Shield is a **28-module** security platform implementing Gartner's **AI Runti
 
 **16 operational APIs deployed on production infrastructure:**
 
-#### Core AI Shield Platform (6 modules live)
-- **[Module 19: Agent Runtime Protection](https://demo.red-specter.co.uk/runtime/docs)** - Real-time threat detection for autonomous agents
-- **[Module 20: Identity & Credential Guard](https://demo.red-specter.co.uk/identity/docs)** - Cryptographic identity verification
-- **[Module 21: Multi-Agent Communication Security](https://demo.red-specter.co.uk/comms/docs)** - Secure inter-agent channels
-- **[Module 22: AI Model Supply Chain Security](https://demo.red-specter.co.uk/supply/docs)** - Provenance verification
-- **[Module 25: Agent Observability & Decision Provenance](https://demo.red-specter.co.uk/observ/docs)** - Cryptographic audit trails
-- **[Module 99: Doomsday Protocol](https://demo.red-specter.co.uk/killswitch)** - Emergency kill switch
+#### Core AI Shield Platform (6 modules)
+- **Module 19: Agent Runtime Protection** - Real-time threat detection for autonomous agents
+- **Module 20: Identity & Credential Guard** - Cryptographic identity verification
+- **Module 21: Multi-Agent Communication Security** - Secure inter-agent channels
+- **Module 22: AI Model Supply Chain Security** - Provenance verification
+- **Module 25: Agent Observability & Decision Provenance** - Cryptographic audit trails
+- **Module 99: Doomsday Protocol** - Emergency kill switch
 
-#### Sentinel Suite - Threat Detection (7 tools live)
-- **[Cognitive Drift Sentinel](https://demo.red-specter.co.uk/cognitive/docs)** - Psychological manipulation detection
-- **[Deepfake Verification Guard](https://demo.red-specter.co.uk/deepfake/docs)** - Liveness challenge system
-- **[AI Breach Monitor](https://demo.red-specter.co.uk/breach/docs)** - Real-time prompt stream scanning
-- **[AI Endpoint Guard](https://demo.red-specter.co.uk/endpoint/redoc)** - Network-level AI service detection
-- **[AI Usage Watchdog](https://demo.red-specter.co.uk/usage)** - Privacy-preserving process monitoring
-- **[Ransomware Canary Sentinel](https://demo.red-specter.co.uk/canary/docs)** - Ransomware detection
-- **[Takedown Dossier Generator](https://demo.red-specter.co.uk/dossier/docs)** - Evidence packaging for law enforcement
+#### Sentinel Suite - Threat Detection (7 tools)
+- **Cognitive Drift Sentinel** - Psychological manipulation detection
+- **Deepfake Verification Guard** - Liveness challenge system
+- **AI Breach Monitor** - Real-time prompt stream scanning
+- **AI Endpoint Guard** - Network-level AI service detection
+- **AI Usage Watchdog** - Privacy-preserving process monitoring
+- **Ransomware Canary Sentinel** - Ransomware detection
+- **Takedown Dossier Generator** - Evidence packaging for law enforcement
 
-#### Guardian Suite - Child Protection (3 components live)
-- **[Guardian Sentinel](https://demo.red-specter.co.uk/guardian/docs)** - CEOP-compliant grooming detection (128 patterns, 14 categories)
-- **[Guardian Parent Dashboard](http://209.97.139.8:8034)** - Parent portal with Stripe billing (£9.99/month)
-- **[Guardian Monitor APK](https://red-specter.co.uk/guardian-monitor.apk)** - Android monitoring app (6.2 MB)
+#### Guardian Suite - Child Protection (3 components)
+- **Guardian Sentinel** - CEOP-compliant grooming detection (128 patterns, 14 categories)
+- **Guardian Parent Dashboard** - Parent portal with Stripe billing (£9.99/month)
+- **Guardian Monitor App** - Android monitoring app for WhatsApp, Discord, Snapchat, Instagram, Telegram
 
 **Built for UK Online Safety Act compliance and vulnerable population protection.**
 
@@ -128,13 +128,11 @@ Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catche
 - 14 grooming categories (sexual approach, trust building, isolation, secrecy demands, etc.)
 - Forensic evidence packaging
 - Multi-channel alerting (email, SMS, push notifications)
-- Live demo: [https://demo.red-specter.co.uk/guardian/docs](https://demo.red-specter.co.uk/guardian/docs)
 
 **Guardian Monitor Android App**
 - Monitors WhatsApp, Discord, Snapchat, Instagram, Telegram
 - Real-time analysis via Guardian API
 - Push notifications to parents
-- Download: [https://red-specter.co.uk/guardian-monitor.apk](https://red-specter.co.uk/guardian-monitor.apk) (6.2 MB)
 
 **Guardian Parent Dashboard**
 - Login/signup with JWT authentication
@@ -142,7 +140,6 @@ Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catche
 - Flagged conversations viewer
 - Evidence download (forensic packages)
 - Stripe billing integration (£9.99/month subscription)
-- Access: [http://209.97.139.8:8034](http://209.97.139.8:8034)
 
 ### Use Cases
 - **Social Media Platforms:** TikTok, Instagram, Discord, Roblox in-platform safety
@@ -233,28 +230,6 @@ Guardian Sentinel API integration for real-time grooming detection before harmfu
 
 ---
 
-## 🔧 Public Security Tools
-
-### AI Security
-- **[AI Breach Monitor](https://github.com/RichardBarron27/redspecter-ai-breach-monitor)** - Sensitive data leak detection
-- **[AI Endpoint Guard](https://github.com/RichardBarron27/redspecter-ai-endpoint-guard)** - AI tool usage visibility
-- **[AI Usage Watchdog](https://github.com/RichardBarron27/redspecter-ai-usage-watchdog)** - Privacy-first AI/LLM telemetry
-- **[Cognitive Drift Sentinel](https://github.com/RichardBarron27/redspecter-cognitive-drift-sentinel)** - Psychological manipulation detection
-- **[Deepfake Verification Guard](https://github.com/RichardBarron27/redspecter-deepfake-verification-guard)** - Liveness challenge system
-
-### Network & Infrastructure
-- **[Botnet Radar](https://github.com/RichardBarron27/redspecter-botnet-radar)** - Host-level botnet/DDoS early warning
-- **[DDoS Flood Sentinel](https://github.com/RichardBarron27/redspecter-ddos-flood-sentinel)** - UDP flood detection
-- **[Port Surge Guardian](https://github.com/RichardBarron27/redspecter-port-surge-guardian)** - Listening port exposure monitoring
-- **[C2 Hunter](https://github.com/RichardBarron27/redspecter-c2-hunter)** - Outbound C2 behavior detection
-- **[Threat Recon Watcher](https://github.com/RichardBarron27/redspecter-threat-recon-watcher)** - Brute-force attack detection
-
-### Reconnaissance & Response
-- **[Evidence Collector](https://github.com/RichardBarron27/redspecter-evidence-collector)** - DFIR evidence ledger
-- **[Email OSINT](https://github.com/RichardBarron27/redspecter-emailosint)** - Domain-based email intelligence
-
----
-
 ## 💼 Enterprise Engagement
 
 ### AI Shield Pilots
@@ -297,11 +272,10 @@ Architecture deep-dives, regulatory alignment, deployment planning.
 
 ## 📬 Connect
 
-**Website:** [https://red-specter.co.uk](https://red-specter.co.uk)  
-**Demo Environment:** [https://demo.red-specter.co.uk](https://demo.red-specter.co.uk)  
-**Email:** [contact@red-specter.co.uk](mailto:contact@red-specter.co.uk)  
-**LinkedIn:** [Richard Barron](https://www.linkedin.com/in/richard-b-42469439b/)  
-**GitHub:** [@RichardBarron27](https://github.com/RichardBarron27)  
+**Website:** red-specter.co.uk  
+**Email:** contact@red-specter.co.uk  
+**LinkedIn:** Richard Barron  
+**GitHub:** @RichardBarron27  
 **Location:** UK 🇬🇧
 
 ---
