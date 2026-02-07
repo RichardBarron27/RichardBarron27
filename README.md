@@ -269,7 +269,7 @@ Architecture deep-dives, regulatory alignment, deployment planning.
 
 ## 📬 Connect
 
-**Website:** red-specter.co.uk
+**Website:** https://red-specter.co.uk/
 **Location:** UK 🇬🇧
 
 ---
