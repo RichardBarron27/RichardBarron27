@@ -52,12 +52,12 @@ AI Shield is a **28-module** security platform implementing Gartner's **AI Runti
 - **Guardian Monitor Browser Extension** - Monitors 8 messaging platforms (WhatsApp, Discord, Messenger, Instagram, Telegram, Google Chat, Teams, Slack)
 
 **Guardian Chatbot Monitor** (AI Chatbot Safety) **NEW**
-- **[Chatbot Detection Engine](https://github.com/RichardBarron27/guardian-chatbot-detection)** - 150+ risk patterns across 6 categories, 3-stage detection pipeline
-- **[Chatbot Browser Extension](https://github.com/RichardBarron27/guardian-chatbot-extension)** - Monitors ChatGPT, Claude, and other AI chatbots in real time
+- **Chatbot Detection Engine** - 150+ risk patterns across 6 categories, 3-stage detection pipeline
+- **Chatbot Browser Extension** - Monitors ChatGPT, Claude, and other AI chatbots in real time
 - **[Live Demo](https://demo.red-specter.co.uk/dashboard/chatbot-monitor/demo)** | **[Landing Page](https://demo.red-specter.co.uk/dashboard/chatbot-landing)**
 
 **Shared**
-- **[Guardian Parent Dashboard](https://github.com/RichardBarron27/guardian-parent-dashboard)** - Unified parent portal for both products with email alerts, JWT auth, and Stripe billing
+- **Guardian Parent Dashboard** - Unified parent portal for both products with email alerts, JWT auth, and Stripe billing
 
 **Built for UK Online Safety Act compliance and vulnerable population protection.**
 
@@ -150,7 +150,7 @@ Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conve
 
 **[Try the Live Demo](https://demo.red-specter.co.uk/dashboard/chatbot-monitor/demo)** | **[Learn More](https://demo.red-specter.co.uk/dashboard/chatbot-landing)**
 
-**Chatbot Detection Engine** ([repo](https://github.com/RichardBarron27/guardian-chatbot-detection))
+**Chatbot Detection Engine**
 - 3-stage pipeline: pattern matching, contextual analysis, composite scoring
 - 150+ regex patterns across 6 risk categories with weighted severity (0.35&ndash;0.98)
 - Behavioural indicators: late-night usage, session volume, rapid messaging
@@ -168,14 +168,14 @@ Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conve
 | **Isolation Indicators** | Late-night usage, social withdrawal, sleep impact |
 | **Misinformation** | Accepting AI hallucinations as fact, academic dishonesty |
 
-**Chatbot Browser Extension** ([repo](https://github.com/RichardBarron27/guardian-chatbot-extension))
+**Chatbot Browser Extension**
 - Monitors ChatGPT and Claude conversations in real time
 - Resilient DOM extraction with MutationObserver and fallback selectors
 - Persistent message queue with exponential backoff
 - Tamper detection and heartbeat monitoring
 - Chrome and Firefox support (Manifest V3)
 
-### Guardian Parent Dashboard ([repo](https://github.com/RichardBarron27/guardian-parent-dashboard))
+### Guardian Parent Dashboard
 
 Unified parent portal for both Guardian Sentinel and Guardian Chatbot Monitor:
 - Login/signup with JWT authentication
