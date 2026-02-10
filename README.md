@@ -54,10 +54,11 @@ AI Shield is a **28-module** security platform implementing Gartner's **AI Runti
 **Guardian Chatbot Monitor** (AI Chatbot Safety) **NEW**
 - **Chatbot Detection Engine** - 150+ risk patterns across 6 categories, 3-stage detection pipeline
 - **Chatbot Browser Extension** - Monitors ChatGPT, Claude, and other AI chatbots in real time
-- **[Live Demo](https://demo.red-specter.co.uk/dashboard/chatbot-monitor/demo)** | **[Landing Page](https://demo.red-specter.co.uk/dashboard/chatbot-landing)**
+- **[Live Demo](https://demo.red-specter.co.uk/chatbot/demo)** | **[Landing Page](https://demo.red-specter.co.uk/chatbot/landing)**
 
-**Shared**
-- **Guardian Parent Dashboard** - Unified parent portal for both products with email alerts, JWT auth, and Stripe billing
+**Dashboards** (separate apps, zero crossover)
+- **Guardian Sentinel Dashboard** - Parent portal for messaging safety alerts (port 8034)
+- **Guardian Chatbot Monitor Dashboard** - Parent portal for AI chatbot safety alerts (port 8035)
 
 **Built for UK Online Safety Act compliance and vulnerable population protection.**
 
@@ -148,7 +149,7 @@ CEOP-aligned behavioral pattern detection that catches what keyword filters miss
 
 Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conversations using a 3-stage detection pipeline with 150+ risk patterns.
 
-**[Try the Live Demo](https://demo.red-specter.co.uk/dashboard/chatbot-monitor/demo)** | **[Learn More](https://demo.red-specter.co.uk/dashboard/chatbot-landing)**
+**[Try the Live Demo](https://demo.red-specter.co.uk/chatbot/demo)** | **[Learn More](https://demo.red-specter.co.uk/chatbot/landing)**
 
 **Chatbot Detection Engine**
 - 3-stage pipeline: pattern matching, contextual analysis, composite scoring
@@ -175,17 +176,21 @@ Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conve
 - Tamper detection and heartbeat monitoring
 - Chrome and Firefox support (Manifest V3)
 
-### Guardian Parent Dashboard
+### Guardian Parent Dashboards
 
-Unified parent portal for both Guardian Sentinel and Guardian Chatbot Monitor:
-- Login/signup with JWT authentication
+Two completely independent web applications — separate ports, separate logins, zero shared UI:
+
+**Guardian Sentinel Dashboard** (port 8034 — `/dashboard/`)
 - Real-time alert dashboard with severity statistics
-- Chatbot risk category cards with alert counts and scores
-- Platform usage tracking (ChatGPT, Claude, Gemini)
 - Flagged conversations viewer with evidence download
 - Email alerts for HIGH/CRITICAL risks via Resend API
-- Public landing page, interactive demo, and "coming soon" signup
 - Stripe billing integration (£9.99/month subscription)
+
+**Guardian Chatbot Monitor Dashboard** (port 8035 — `/chatbot/`)
+- Chatbot risk category cards with alert counts and scores
+- Platform usage tracking (ChatGPT, Claude, Gemini)
+- Email alerts for HIGH/CRITICAL risks via Resend API
+- Public landing page, interactive demo, and "coming soon" signup
 
 ### Use Cases
 - **Parents:** Real-time alerts when children encounter risks on AI chatbots or messaging platforms
