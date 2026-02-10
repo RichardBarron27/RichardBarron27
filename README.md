@@ -45,10 +45,19 @@ AI Shield is a **28-module** security platform implementing Gartner's **AI Runti
 - **Ransomware Canary Sentinel** - Ransomware detection
 - **Takedown Dossier Generator** - Evidence packaging for law enforcement
 
-#### Guardian Suite - Child Protection (3 components)
-- **Guardian Sentinel** - CEOP-compliant grooming detection (128 patterns, 14 categories)
-- **Guardian Parent Dashboard** - Parent portal with Stripe billing (£9.99/month)
+#### Guardian Suite - Child Protection (7 components)
+
+**Guardian Sentinel** (Messaging Safety)
+- **Guardian Sentinel API** - CEOP-compliant grooming detection (128 patterns, 14 categories)
 - **Guardian Monitor Browser Extension** - Monitors 8 messaging platforms (WhatsApp, Discord, Messenger, Instagram, Telegram, Google Chat, Teams, Slack)
+
+**Guardian Chatbot Monitor** (AI Chatbot Safety) **NEW**
+- **[Chatbot Detection Engine](https://github.com/RichardBarron27/guardian-chatbot-detection)** - 150+ risk patterns across 6 categories, 3-stage detection pipeline
+- **[Chatbot Browser Extension](https://github.com/RichardBarron27/guardian-chatbot-extension)** - Monitors ChatGPT, Claude, and other AI chatbots in real time
+- **[Live Demo](https://demo.red-specter.co.uk/dashboard/chatbot-monitor/demo)** | **[Landing Page](https://demo.red-specter.co.uk/dashboard/chatbot-landing)**
+
+**Shared**
+- **[Guardian Parent Dashboard](https://github.com/RichardBarron27/guardian-parent-dashboard)** - Unified parent portal for both products with email alerts, JWT auth, and Stripe billing
 
 **Built for UK Online Safety Act compliance and vulnerable population protection.**
 
@@ -112,11 +121,13 @@ EU AI Act Article 14 requires a "stop button" for AI systems. **This is it.**
 
 ## 🛡️ Guardian Suite: Child Protection Technology
 
-**Real-Time Grooming Detection | UK Online Safety Act Ready**
+**Real-Time Threat Detection | UK Online Safety Act Ready**
 
-Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catches what keyword filters miss. Court-admissible evidence packages with cryptographic integrity.
+Two products protecting children from online threats: **Guardian Sentinel** for messaging platform grooming detection and **Guardian Chatbot Monitor** for AI chatbot safety.
 
-### Components
+### Guardian Sentinel — Messaging Safety
+
+CEOP-aligned behavioral pattern detection that catches what keyword filters miss. Court-admissible evidence packages with cryptographic integrity.
 
 **Guardian Sentinel API**
 - Two-stage detection: progressive grooming tracking (stages 1&ndash;3) and instant alerts (stages 4&ndash;6)
@@ -131,17 +142,56 @@ Guardian Sentinel provides CEOP-aligned behavioral pattern detection that catche
 - Runs on Chrome, Firefox, Edge, Brave, Opera, and Vivaldi
 - Real-time analysis via Guardian Sentinel API
 
-**Guardian Parent Dashboard**
+### Guardian Chatbot Monitor — AI Chatbot Safety **NEW**
+
+**64% of UK children use AI chatbots. 35% consider AI a friend. 1 in 4 share personal information.**
+
+Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conversations using a 3-stage detection pipeline with 150+ risk patterns.
+
+**[Try the Live Demo](https://demo.red-specter.co.uk/dashboard/chatbot-monitor/demo)** | **[Learn More](https://demo.red-specter.co.uk/dashboard/chatbot-landing)**
+
+**Chatbot Detection Engine** ([repo](https://github.com/RichardBarron27/guardian-chatbot-detection))
+- 3-stage pipeline: pattern matching, contextual analysis, composite scoring
+- 150+ regex patterns across 6 risk categories with weighted severity (0.35&ndash;0.98)
+- Behavioural indicators: late-night usage, session volume, rapid messaging
+- Webhook alerts for HIGH/CRITICAL risks with forensic evidence IDs
+- SQLite with WAL mode for concurrent access
+
+**6 Risk Categories:**
+
+| Category | Description |
+|----------|-------------|
+| **Harmful Advice** | Self-harm, suicide, eating disorders, dangerous activities, secrecy |
+| **Inappropriate Content** | Sexual content, jailbreak attempts, violence, drugs |
+| **Emotional Dependency** | Treating AI as a friend/partner, preferring AI over humans |
+| **Data & Privacy** | Sharing addresses, phone numbers, passwords, school names |
+| **Isolation Indicators** | Late-night usage, social withdrawal, sleep impact |
+| **Misinformation** | Accepting AI hallucinations as fact, academic dishonesty |
+
+**Chatbot Browser Extension** ([repo](https://github.com/RichardBarron27/guardian-chatbot-extension))
+- Monitors ChatGPT and Claude conversations in real time
+- Resilient DOM extraction with MutationObserver and fallback selectors
+- Persistent message queue with exponential backoff
+- Tamper detection and heartbeat monitoring
+- Chrome and Firefox support (Manifest V3)
+
+### Guardian Parent Dashboard ([repo](https://github.com/RichardBarron27/guardian-parent-dashboard))
+
+Unified parent portal for both Guardian Sentinel and Guardian Chatbot Monitor:
 - Login/signup with JWT authentication
-- Alert dashboard with severity statistics
-- Flagged conversations viewer
-- Evidence download (forensic packages)
+- Real-time alert dashboard with severity statistics
+- Chatbot risk category cards with alert counts and scores
+- Platform usage tracking (ChatGPT, Claude, Gemini)
+- Flagged conversations viewer with evidence download
+- Email alerts for HIGH/CRITICAL risks via Resend API
+- Public landing page, interactive demo, and "coming soon" signup
 - Stripe billing integration (£9.99/month subscription)
 
 ### Use Cases
+- **Parents:** Real-time alerts when children encounter risks on AI chatbots or messaging platforms
 - **Social Media Platforms:** Instagram, Discord, TikTok in-platform safety
 - **Schools:** Google Workspace and Teams monitoring, safeguarding compliance
-- **Parental Control Apps:** White-label integration via Guardian Sentinel API
+- **Parental Control Apps:** White-label integration via Guardian APIs
 - **Law Enforcement:** Digital forensics, seized device analysis, court-ready evidence
 - **ISPs/Mobile Carriers:** Family safety bundling
 
@@ -219,11 +269,14 @@ Module 27 ensures Customer A's agent cannot access Customer B's data with crypto
 ### Financial Services & Healthcare
 Comprehensive audit trails, explainability for high-stakes decisions, and immediate containment capability.
 
+### Parents & Families
+Guardian Chatbot Monitor alerts you when your child encounters harmful content, shares personal information, or develops emotional dependency on AI chatbots. Guardian Sentinel watches for grooming patterns across messaging platforms.
+
 ### Academic Researchers & Child Safety Organizations
 Guardian Suite provides privacy-first protective technology for vulnerable population research under UK Online Safety Act.
 
 ### Social Media & Gaming Platforms
-Guardian Sentinel API integration for real-time grooming detection before harmful messages reach children.
+Guardian Sentinel API integration for real-time grooming detection. Guardian Chatbot Monitor integration for AI chatbot safety.
 
 ---
 
