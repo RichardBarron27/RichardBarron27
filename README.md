@@ -111,18 +111,34 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 
 ### 🔴 Module 99: Doomsday Protocol
 
-**The Emergency Kill Switch for Autonomous AI Agents**
+**5-Phase Anti-Replication Kill System for Autonomous AI Agents**
 
 When your AI agents go rogue, compliance documentation won't save you. **Module 99 will.**
 
-- **One button. Every agent stops. Instantly.**
-- Pre-termination evidence capture with cryptographic signing
-- Credential revocation cascade across all identity providers
-- Network isolation enforcement
-- Regulatory notification package auto-generated
-- **Sub-5-second execution**
+**Phase 1 — Pre-Kill Reconnaissance**
+- Map all agent instances, network connections, and persistence mechanisms before firing
+- Snapshot running state for forensic evidence with Ed25519 signatures
 
-EU AI Act Article 14 requires a "stop button" for AI systems. **This is it.**
+**Phase 2 — 7-Layer Simultaneous Kill**
+- Network isolation first (prevent escape), then comms, process, orchestration, identity, persistence, storage
+- SIGSTOP then SIGKILL bottom-up — no partial shutdowns, no orphaned processes
+- Credential revocation cascade across all identity providers
+
+**Phase 3 — Post-Kill Verification**
+- Confirm every layer is dead — network, process, identity, storage
+- Cryptographic proof of termination for regulatory audit
+
+**Phase 4 — Dead Agent Traps**
+- Deploy honeypot listeners on killed agent endpoints
+- Any reconnection attempt triggers immediate alert and evidence capture
+
+**Phase 5 — Anti-Resurrection Blocking**
+- Blacklist agent identities, revoke all tokens, block registration endpoints
+- Prevent compromised agents from re-spawning under new credentials
+
+**Sub-5-second execution. One button. Every agent stops. None come back.**
+
+EU AI Act Article 14 requires a "stop button" for AI systems. **This is the stop button that actually works.**
 
 > *"The module you hope you never need. The module regulators will ask if you had."*
 
