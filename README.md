@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  Live APIs: 16 | AI Shield: 38 modules | 1,262 tests passing | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~85%
+  Live APIs: 16 | AI Shield: 41 modules | 1,686 tests passing | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~85%
 </p>
 
 ---
@@ -22,9 +22,9 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## 🛡️ AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **38-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 38 modules built, tested, and on GitHub — **1,262 tests passing** across the agent security modules alone.
+AI Shield is a **41-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 41 modules built, tested, and on GitHub — **1,686 tests passing** across the agent security modules alone.
 
-### Full 38-Module Framework
+### Full 41-Module Framework
 
 #### Core Platform (Modules 1-18)
 
@@ -38,9 +38,9 @@ AI Shield is a **38-module** security framework implementing Gartner's **AI Runt
 
 Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519 signatures, and **CSOAI-ready export** bundles for SIEM/SOAR integration.
 
-#### Agent Security Suite (Modules 19-37 + 99)
+#### Agent Security Suite (Modules 19-40 + 99)
 
-20 specialized modules securing the complete agent lifecycle:
+23 specialized modules securing the complete agent lifecycle:
 
 | Group | Modules | Description |
 |-------|---------|-------------|
@@ -51,6 +51,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Supply Chain & Integrity** | 22, 23 | Model provenance, memory forensics & poisoning detection |
 | **Observability & Compliance** | 25, 34, 36, 37 | Decision provenance, shadow agent discovery, lifecycle management, compliance automation |
 | **Governance & Specialty** | 24, 26 | Cross-border data sovereignty, insurance & liability shield |
+| **Runtime Protection** | 38, 39, 40 | Code execution sandbox, cost shield/rate limiting, hallucination detection |
 | **Emergency Response** | 99 | Doomsday Protocol — 5-phase anti-replication kill switch |
 
 ### 🔴 Live Interactive Demos
@@ -80,6 +81,9 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 35: AI Worm Defense** — "Virtual Donkey" guardrail with quine/NCD/propagation detection
 - **Module 36: Agent Lifecycle Manager** — Provisioning, behavioral baselining, drift detection, 6-step decommission
 - **Module 37: Compliance Automation Engine** — 5 frameworks, 54 requirements, cross-framework gap analysis
+- **Module 38: Code Execution Sandbox** — 47 dangerous patterns, restricted sandbox, three-tier approval workflow (OWASP ASI05)
+- **Module 39: Cost Shield** — Per-agent budgets, sliding window rate limiting, 15-model pricing, multi-threshold alerts (OWASP LLM10)
+- **Module 40: Hallucination Detector** — 5-subsystem scoring: pattern matching, TF-IDF grounding, contradiction detection, confidence analysis, fact registry (OWASP LLM09)
 
 #### Sentinel Suite — Threat Detection (7 tools)
 - **Cognitive Drift Sentinel** — Psychological manipulation detection
@@ -158,8 +162,8 @@ AI Shield provides **complete coverage** of both OWASP Top 10 for LLM Applicatio
 | LLM06: Excessive Agency | Module 31, Module 99 |
 | LLM07: System Prompt Leakage | Module 30 |
 | LLM08: Vector and Embedding Weaknesses | Module 35 (RAG monitoring) |
-| LLM09: Misinformation | Module 25 (decision provenance) |
-| LLM10: Unbounded Consumption | Module 32 (circuit breaker) |
+| LLM09: Misinformation | **Module 40** (hallucination detector), Module 25 (decision provenance) |
+| LLM10: Unbounded Consumption | **Module 39** (cost shield), Module 32 (circuit breaker) |
 
 | OWASP Agentic 2026 Risk | AI Shield Coverage |
 |-------------------------|-------------------|
@@ -167,7 +171,7 @@ AI Shield provides **complete coverage** of both OWASP Top 10 for LLM Applicatio
 | ASI02: Tool/Action Misuse | Module 28 |
 | ASI03: Identity/Privilege Abuse | Module 20, Module 31, Module 33 |
 | ASI04: Output Data Leakage | Module 24, Module 30 |
-| ASI05: Poisoned Training Data | Module 22 |
+| ASI05: Code Execution | **Module 38** (code execution sandbox), Module 22 |
 | ASI06: Memory Poisoning | Module 23 |
 | ASI07: Inter-Agent Protocol Exploit | Module 21 |
 | ASI08: Human-Agent Trust Exploitation | Module 25, Module 32 |
@@ -200,7 +204,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36) |
-| **UK AISI (13/13)** | Full principle coverage across all 38 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 41 modules |
 | **MITRE ATLAS (~85%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
@@ -295,7 +299,7 @@ Two completely independent web applications — separate ports, separate logins,
 ## 🎯 Who This Is For
 
 ### Enterprise Security Teams
-Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 38 modules covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, governance, and emergency response.
+Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 41 modules covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, governance, and emergency response.
 
 ### Compliance Platforms
 Your AI agents need runtime protection beyond policy documentation. Module 37 automates compliance assessment across 5 regulatory frameworks. Module 99 provides the emergency kill switch regulators require.
