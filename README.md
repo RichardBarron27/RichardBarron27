@@ -71,7 +71,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 24: Cross-Border Data Sovereignty** — Jurisdiction-aware data routing
 - **Module 26: Insurance & Liability Shield** — Insurability scoring and claims documentation
 - **Module 27: Multi-Tenant Agent Isolation** — Cryptographic tenant boundary enforcement
-- **Module 28: MCP/Tool Security Gateway** — Tool call validation and parameter sanitization for MCP
+- **Module 28: MCP/Tool Security Gateway** — Tool call validation, parameter sanitization, SSRF detection, and output response scanning for MCP
 - **Module 29: Multimodal Input Sanitizer** — Steganographic and adversarial input detection
 - **Module 30: Output Sanitization Guard** — 6-scanner output security (XSS, SQLi, CMDi, secrets, PII, covert channels)
 - **Module 31: Semantic Authorization Engine** — TF-IDF intent matching, confused deputy defense
@@ -149,6 +149,14 @@ When your AI agents go rogue, compliance documentation won't save you. **Module 
 **Phase 5 — Anti-Resurrection Blocking**
 - Blacklist agent identities, revoke all tokens, block registration endpoints
 - Prevent compromised agents from re-spawning under new credentials
+
+**Kill System Hardening**
+- Self-integrity verification (SHA-256) before every kill — tampered code detected = kill aborted
+- Reverse dead man's switch — HMAC challenge-response prevents accidental kills
+- Dependency-aware shutdown — topological kill ordering, circular dependency detection
+- Semantic persistence scanning — 24 patterns detecting obfuscated cron/shell/LD_PRELOAD/container escape
+- Cloud replica discovery — ECS, EC2, SageMaker, Cloud Run, App Service scanning
+- Pattern-based bulk kill — kill agent swarms by type/name/status with dry-run preview
 
 **Sub-5-second execution. One button. Every agent stops. None come back.**
 
