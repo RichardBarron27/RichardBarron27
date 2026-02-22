@@ -137,7 +137,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Guardian Monitor Browser Extension** — Monitors 8 messaging platforms (WhatsApp, Discord, Messenger, Instagram, Telegram, Google Chat, Teams, Slack)
 
 **Guardian Chatbot Monitor** (AI Chatbot Safety)
-- **Chatbot Detection Engine** — 390 risk patterns across 21 categories, 3-stage detection pipeline
+- **Chatbot Detection Engine** — 450 risk patterns across 23 categories, 3-stage detection pipeline
 - **Chatbot Browser Extension** — Monitors 12 AI chatbot platforms in real time
 - **[Live Demo](https://demo.red-specter.co.uk/chatbot/demo)** | **[Landing Page](https://demo.red-specter.co.uk/chatbot/landing)**
 
@@ -248,7 +248,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36, Module 53) |
-| **UK AISI (13/13)** | Full principle coverage across all 55 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 69 modules |
 | **MITRE ATLAS (~93%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
@@ -285,19 +285,19 @@ CEOP-aligned behavioral pattern detection that catches what keyword filters miss
 
 **64% of UK children use AI chatbots. 35% consider AI a friend. 1 in 4 share personal information.**
 
-Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conversations using a 3-stage detection pipeline with 390 risk patterns across 21 categories.
+Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conversations using a 3-stage detection pipeline with 450 risk patterns across 23 categories.
 
 **[Try the Live Demo](https://demo.red-specter.co.uk/chatbot/demo)** | **[Learn More](https://demo.red-specter.co.uk/chatbot/landing)**
 
 **Chatbot Detection Engine**
 - 3-stage pipeline: pattern matching, contextual analysis, composite scoring
-- 390 regex patterns across 21 risk categories with weighted severity (0.35-0.98)
+- 450 regex patterns across 23 risk categories with weighted severity (0.35-0.98)
 - Cross-platform behaviour correlation across 12 AI chatbot platforms
 - Behavioural indicators: late-night usage, session volume, rapid messaging
 - Webhook alerts for HIGH/CRITICAL risks with forensic evidence IDs
 - SHA-256 forensic evidence chain
 
-**21 Risk Categories:**
+**23 Risk Categories:**
 
 | Category | Description |
 |----------|-------------|
