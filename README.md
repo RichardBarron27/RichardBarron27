@@ -110,7 +110,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 63: SCADA & OT Agent Protection** — Purdue model zone enforcement, deny-by-default whitelisting, Stuxnet/Triton/BlackEnergy pattern detection for industrial AI agents
 
 #### Financial Identity & Attack Chain (Modules 51-52)
-- **Module 51: Financial Identity Agent Protection** — Domain enforcement, drift monitoring, hallucination detection, MAS TRM/FEAT/EU AI Act compliance for financial identity agents
+- **Module 51: Financial Identity Agent Protection (FinShield)** — Domain enforcement, drift monitoring, hallucination detection, MAS TRM/FEAT/EU AI Act compliance for financial identity agents
 - **Module 52: Sequential Tool Attack Chain Detection** — Order-preserving subsequence matching against 10 STAC patterns, velocity-aware risk scoring, 59 tool classification rules
 
 #### Sentinel Suite — Threat Detection (7 tools)
