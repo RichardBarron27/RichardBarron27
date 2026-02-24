@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 73 modules + Module 99 | 7,689 tests passing | All 74 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 74 modules + Module 99 | 7,841 tests passing | All 75 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,9 +22,9 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **74-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 73 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **7,689 tests passing** across the agent security modules alone.
+AI Shield is a **75-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 74 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **7,841 tests passing** across the agent security modules alone.
 
-### Full 74-Module Framework
+### Full 75-Module Framework
 
 #### Core Platform (Modules 1-18)
 
@@ -40,7 +40,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 
 #### Agent Security Suite (Modules 19-74 + 99)
 
-56 specialized modules securing the complete agent lifecycle:
+57 specialized modules securing the complete agent lifecycle:
 
 | Group | Modules | Description |
 |-------|---------|-------------|
@@ -53,13 +53,13 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Governance & Specialty** | 24, 26, 43, 53 | Cross-border data sovereignty, insurance & liability shield, adversarial ML defense, action reversibility & state rollback |
 | **Runtime Protection** | 38, 39, 40, 45, 46, 48 | Code execution sandbox, cost shield, hallucination detection, browser/computer-use guard, voice agent security, lateral movement detection |
 | **Vertical Industry** | 57, 58, 60, 61, 62, 63 | AI trading agent monitor, financial fraud detection, credit decision audit, clinical AI monitor, legal hallucination guard, SCADA/OT protection |
-| **Defensive Security** | 64, 65, 66, 67, 68 | Preference poisoning defence, C2 proxy detection, coding agent validation, human-in-the-loop integrity, container escape detection |
+| **Defensive Security** | 64, 65, 66, 67, 68, 69 | Preference poisoning defence, C2 proxy detection, coding agent validation, human-in-the-loop integrity, container escape detection, prompt leakage defense |
 | **Agent Lifecycle Security** | 72, 73, 74 | Context window poisoning defense, agent memory poisoning detection, orphaned agent lifecycle monitoring |
 | **Emergency Response** | 99 | Doomsday Protocol — 5-phase anti-replication kill switch |
 
 ### Live Interactive Demos
 
-**All 74 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
+**All 75 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
 
 #### Core AI Shield Platform (6 live demo modules)
 - **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
@@ -69,7 +69,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 25: Agent Observability & Decision Provenance** — Cryptographic audit trails
 - **Module 99: Doomsday Protocol** — Emergency kill switch
 
-#### All 74 Modules (Built, Tested & Dockerized)
+#### All 75 Modules (Built, Tested & Dockerized)
 - **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection
 - **Module 24: Cross-Border Data Sovereignty** — Jurisdiction-aware data routing
 - **Module 26: Insurance & Liability Shield** — Insurability scoring and claims documentation
@@ -111,12 +111,13 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 62: Legal AI Hallucination Guard** — Citation extraction, format validation, jurisdiction verification across UK/US/EU courts — catches fabricated case law
 - **Module 63: SCADA & OT Agent Protection** — Purdue model zone enforcement, deny-by-default whitelisting, Stuxnet/Triton/BlackEnergy pattern detection for industrial AI agents
 
-#### Defensive Security (Modules 64-68)
+#### Defensive Security (Modules 64-69)
 - **Module 64: Recommendation & Preference Poisoning Defence** — Source trust validation, rate-based flooding detection, semantic distance checking for AI agent preferences
 - **Module 65: AI-as-C2-Proxy Detection** — Payload analysis, beacon interval detection, DGA entropy scoring, exfiltration pattern matching — 20 C2 indicators
 - **Module 66: Coding Agent Security Validator** — 35 security rules across 7 categories for agent-generated code — secret detection, injection scanning, AI-specific risk analysis
 - **Module 67: Human-in-the-Loop Integrity Enforcer** — Approval gatekeeper with dwell-time tracking, fatigue detection, bypass attempt detection — Ed25519-signed decisions
 - **Module 68: Container & Sandbox Escape Detector** — Privileged syscall, namespace escape, Docker socket, capability abuse, host mount, and network escape detection — 25 indicators, escalating containment
+- **Module 69: Prompt Leakage & System Prompt Exfiltration Defense** — 22 detection signatures across 5 attack classes: extraction probes, output leakage (n-gram similarity), indirect exfiltration, differential analysis, context boundary violations (OWASP LLM07)
 
 #### Input Security (Modules 70-71)
 - **Module 70: Instruction Compliance Monitor** — Client-side Chrome extension detecting instruction drift across 6 categories with 3 enforcement modes on 6 AI platforms — 100% local, zero network calls
@@ -214,7 +215,7 @@ AI Shield provides **complete coverage** of both OWASP Top 10 for LLM Applicatio
 | LLM04: Data and Model Poisoning | Module 23 |
 | LLM05: Insecure Output Handling | Module 30, Module 56 |
 | LLM06: Excessive Agency | Module 31, Module 99 |
-| LLM07: System Prompt Leakage | Module 30 |
+| LLM07: System Prompt Leakage | Module 30, Module 69 |
 | LLM08: Vector and Embedding Weaknesses | Module 35, Module 42 |
 | LLM09: Misinformation | Module 40, Module 25 |
 | LLM10: Unbounded Consumption | Module 39, Module 32 |
@@ -258,7 +259,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36, Module 53) |
-| **UK AISI (13/13)** | Full principle coverage across all 74 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 75 modules |
 | **MITRE ATLAS (~93%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
@@ -353,7 +354,7 @@ Two completely independent web applications — separate ports, separate logins,
 ## Who This Is For
 
 ### Enterprise Security Teams
-Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 73 modules + Module 99 covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, governance, vertical industry protection, defensive security, and emergency response.
+Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 74 modules + Module 99 covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, governance, vertical industry protection, defensive security, and emergency response.
 
 ### Compliance Platforms
 Your AI agents need runtime protection beyond policy documentation. Module 37 automates compliance assessment across 5 regulatory frameworks. Module 99 provides the emergency kill switch regulators require.
