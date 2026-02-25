@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 75 modules + Module 99 | 8,058 tests passing | All 76 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 77 modules + Module 99 | 8,257 tests passing | All 78 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,9 +22,9 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **76-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 75 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **8,058 tests passing** across the agent security modules alone.
+AI Shield is a **78-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 77 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **8,257 tests passing** across the agent security modules alone.
 
-### Full 76-Module Framework
+### Full 78-Module Framework
 
 #### Core Platform (Modules 1-18)
 
@@ -38,9 +38,9 @@ AI Shield is a **76-module** security framework implementing Gartner's **AI Runt
 
 Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519 signatures, and **CSOAI-ready export** bundles for SIEM/SOAR integration.
 
-#### Agent Security Suite (Modules 19-74 + 99)
+#### Agent Security Suite (Modules 19-77 + 99)
 
-58 specialized modules securing the complete agent lifecycle:
+60 specialized modules securing the complete agent lifecycle:
 
 | Group | Modules | Description |
 |-------|---------|-------------|
@@ -55,11 +55,12 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Vertical Industry** | 57, 58, 60, 61, 62, 63 | AI trading agent monitor, financial fraud detection, credit decision audit, clinical AI monitor, legal hallucination guard, SCADA/OT protection |
 | **Defensive Security** | 64, 65, 66, 67, 68, 69, 75 | Preference poisoning defence, C2 proxy detection, coding agent validation, human-in-the-loop integrity, container escape detection, prompt leakage defense, coding agent runtime security |
 | **Agent Lifecycle Security** | 72, 73, 74 | Context window poisoning defense, agent memory poisoning detection, orphaned agent lifecycle monitoring |
+| **Pipeline & Social Engineering** | 76, 77 | Social engineering detection for AI agents, ML pipeline integrity monitoring |
 | **Emergency Response** | 99 | Doomsday Protocol — 5-phase anti-replication kill switch |
 
 ### Live Interactive Demos
 
-**All 76 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
+**All 78 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
 
 #### Core AI Shield Platform (6 live demo modules)
 - **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
@@ -69,7 +70,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 25: Agent Observability & Decision Provenance** — Cryptographic audit trails
 - **Module 99: Doomsday Protocol** — Emergency kill switch
 
-#### All 76 Modules (Built, Tested & Dockerized)
+#### All 78 Modules (Built, Tested & Dockerized)
 - **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection
 - **Module 24: Cross-Border Data Sovereignty** — Jurisdiction-aware data routing
 - **Module 26: Insurance & Liability Shield** — Insurability scoring and claims documentation
@@ -128,6 +129,10 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 72: Context Window Poisoning Defense** — Token analysis, 22 payload signatures, boundary enforcement defending agent context windows
 - **Module 73: Agent Memory Poisoning Detector** — Real-time memory write interception with 22 signatures, embedding analysis, session boundary checking
 - **Module 74: Orphaned Agent Lifecycle Monitor** — Orphan detection, zombie credential auditing, shadow agent discovery, sponsor chain validation with auto-quarantine
+
+#### Pipeline & Social Engineering Security (Modules 76-77)
+- **Module 76: AI Agent Social Engineering Detector** — Detects manipulation of humans and agents through AI-generated content — 5 analyzers: persona deception, emotional manipulation, urgency exploitation, consensus manipulation, coordinated campaigns — 48 indicators, 78 tests
+- **Module 77: AI Pipeline Integrity Monitor** — Secures AI/ML pipelines against tampering, data poisoning, and supply chain attacks — 5 subsystems: training monitoring, pipeline config integrity, artifact verification, dependency auditing, deployment validation — 40 indicators, 121 tests
 
 #### Financial Identity & Attack Chain (Modules 51-52)
 - **Module 51: Financial Identity Agent Protection (FinShield)** — Domain enforcement, drift monitoring, hallucination detection, MAS TRM/FEAT/EU AI Act compliance for financial identity agents
@@ -260,7 +265,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36, Module 53) |
-| **UK AISI (13/13)** | Full principle coverage across all 76 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 78 modules |
 | **MITRE ATLAS (~93%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
@@ -355,7 +360,7 @@ Two completely independent web applications — separate ports, separate logins,
 ## Who This Is For
 
 ### Enterprise Security Teams
-Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 74 modules + Module 99 covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, governance, vertical industry protection, defensive security, and emergency response.
+Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 77 modules + Module 99 covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, governance, vertical industry protection, defensive security, pipeline integrity, and emergency response.
 
 ### Compliance Platforms
 Your AI agents need runtime protection beyond policy documentation. Module 37 automates compliance assessment across 5 regulatory frameworks. Module 99 provides the emergency kill switch regulators require.
