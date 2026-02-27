@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 80 modules + Module 99 | 9,047 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 80 modules + Module 99 | 9,302 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,7 +22,7 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **9,047 tests passing** across the agent security modules alone.
+AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **9,302 tests passing** across the agent security modules alone.
 
 ### Full 81-Module Framework
 
@@ -93,13 +93,13 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 42: RAG Security Guard** — Injection prevention, document poisoning detection, provenance tracking, relevance scoring (OWASP LLM08)
 - **Module 43: Adversarial ML Defense** — Perturbation detection, evasion defense, 14 MITRE ATLAS attack signatures (EU AI Act Art. 15)
 - **Module 44: AI-BOM Generator** — CycloneDX/SPDX bill-of-materials generation with provenance tracking (EU AI Act Art. 11)
-- **Module 45: Browser & Computer-Use Guard** — URL validation, action policy enforcement, screen content analysis (OWASP ASI02)
+- **Module 45: Browser & Computer-Use Guard** — URL validation, action policy enforcement, screen content analysis, living threat feed (15 adversarial prompt patterns), coverage gap analysis across 46+ attack techniques (OWASP ASI02)
 - **Module 46: Voice Agent Security** — Deepfake audio detection, vishing defense, speaker verification, voice command validation
 - **Module 47: A2A/Inter-Protocol Gateway** — 6-protocol validation, session smuggling detection, 31 message inspection patterns (OWASP ASI07)
 - **Module 48: Lateral Movement Detector** — AI infrastructure traversal detection, credential reuse tracking, pipeline guard (MITRE AML.TA0015)
 - **Module 49: NHI Governance Engine** — Secret scanning, automated rotation, identity attestation for machine credentials (OWASP ASI03)
-- **Module 50: Continuous AI Red Team Engine** — 38 attack techniques, campaign lifecycle, compliance evidence generation (EU AI Act Art. 9)
-- **Module 53: Action Reversibility / State Rollback Engine** — Immutable pre-action snapshots, causal action DAGs, selective cascade rollback with conflict resolution (NIST RFI)
+- **Module 50: Continuous AI Red Team Engine** — 38 attack techniques, campaign lifecycle, compliance evidence generation, regression tracking with trend analysis, RSSA dispatch integration routing findings to Patrol/Detective/Commander (EU AI Act Art. 9)
+- **Module 53: Action Reversibility / State Rollback Engine** — Immutable pre-action snapshots, causal action DAGs, selective cascade rollback with conflict resolution, cross-resource dependency tracking, pre-rollback impact assessment, reversibility coverage analysis across 18 action types (NIST RFI)
 - **Module 54: Gradual Goal Drift Monitor** — Behavioral baselines, KL divergence & Jensen-Shannon drift detection, CUSUM phase shift alerts, constraint erosion tracking (OWASP ASI01)
 - **Module 55: MCP Tool Rug Pull & Mutation Detector** — Cryptographic tool fingerprinting, post-approval mutation detection, shadow tool injection defense, continuous trust scoring (OWASP ASI04)
 - **Module 56: Agent Skills/Plugin Marketplace Scanner** — Pre-install scanning: static code analysis, permission analysis, reputation scoring, typosquatting detection (OWASP LLM05)
@@ -111,7 +111,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 60: Credit Decision Audit Trail** — Decision recording, explainability engine, bias detection, and ECOA/FCA compliance for AI credit decisions
 - **Module 61: Clinical AI Decision Monitor** — Scope validation, confidence monitoring, safety boundaries, and decision audit for clinical AI agents (zero PII storage)
 - **Module 62: Legal AI Hallucination Guard** — Citation extraction, format validation, jurisdiction verification across UK/US/EU courts — catches fabricated case law
-- **Module 63: SCADA & OT Agent Protection** — Purdue model zone enforcement, deny-by-default whitelisting, Stuxnet/Triton/BlackEnergy pattern detection for industrial AI agents
+- **Module 63: SCADA & OT Agent Protection** — Purdue model zone enforcement, deny-by-default whitelisting, Stuxnet/Triton/BlackEnergy pattern detection, 8 nation-state APT profiles (CHERNOVITE, ELECTRUM, XENOTIME, VOLTZITE) with TTP correlation and attribution scoring, CNI response playbooks across 7 UK critical infrastructure sectors
 
 #### Defensive Security (Modules 64-69, 75)
 - **Module 64: Recommendation & Preference Poisoning Defence** — Source trust validation, rate-based flooding detection, semantic distance checking for AI agent preferences
