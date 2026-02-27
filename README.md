@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 80 modules + Module 99 | 9,302 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 80 modules + Module 99 | 10,032 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,7 +22,7 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **9,302 tests passing** across the agent security modules alone.
+AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **10,032 tests passing** across the agent security modules alone.
 
 ### Full 81-Module Framework
 
@@ -56,8 +56,8 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Defensive Security** | 64, 65, 66, 67, 68, 69, 75 | Preference poisoning defence, C2 proxy detection, coding agent validation, human-in-the-loop integrity, container escape detection, prompt leakage defense, coding agent runtime security |
 | **Agent Lifecycle Security** | 72, 73, 74 | Context window poisoning defense, agent memory poisoning detection, orphaned agent lifecycle monitoring |
 | **Pipeline & Social Engineering** | 76, 77 | Social engineering detection for AI agents, ML pipeline integrity monitoring |
-| **Autonomous Oversight (RSSA)** | 78, 79, 80 | Autonomous patrol, investigation, and command — layered detection-enforcement hierarchy |
-| **Emergency Response** | 99 | Doomsday Protocol — 5-phase anti-replication kill switch |
+| **Autonomous Oversight (RSSA)** | 78, 79, 80 | Autonomous patrol (adaptive polling, signal enrichment), investigation (forensic timeline, root cause analysis), and command (threat intelligence, graduated authority) |
+| **Emergency Response** | 99 | Doomsday Protocol — 6-level graduated response ladder (Monitor→Restrict→Quarantine→Terminate→Cluster Kill→Fleet Kill) with auto-escalation |
 
 ### Live Interactive Demos
 
@@ -66,43 +66,43 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 #### Core AI Shield Platform (6 live demo modules)
 - **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
 - **Module 20: Identity & Credential Guard** — Cryptographic identity verification
-- **Module 21: Multi-Agent Communication Security** — Secure inter-agent channels
-- **Module 22: AI Model Supply Chain Security** — Provenance verification
+- **Module 21: Multi-Agent Communication Security** — Secure inter-agent channels, orchestrator flow anomaly detection, workflow integrity verification, message injection/replay defense
+- **Module 22: AI Model Supply Chain Security** — Provenance verification, real-time CVE monitoring, SLSA build attestation, SBOM cross-referencing
 - **Module 25: Agent Observability & Decision Provenance** — Cryptographic audit trails
 - **Module 99: Doomsday Protocol** — Emergency kill switch
 
 #### All 81 Modules (Built, Tested & Dockerized)
-- **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection
+- **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection, baseline integrity validation, gradual drift manipulation detection
 - **Module 24: Cross-Border Data Sovereignty** — Jurisdiction-aware data routing
 - **Module 26: Insurance & Liability Shield** — Insurability scoring and claims documentation
-- **Module 27: Multi-Tenant Agent Isolation** — Cryptographic tenant boundary enforcement
+- **Module 27: Multi-Tenant Agent Isolation** — Cryptographic tenant boundary enforcement, Ed25519 identity lifecycle (provision/rotate/revoke), cross-tenant identity leakage detection
 - **Module 28: MCP/Tool Security Gateway** — Tool call validation, parameter sanitization, SSRF detection, and output response scanning for MCP
 - **Module 29: Multimodal Input Sanitizer** — Steganographic and adversarial input detection
 - **Module 30: Output Sanitization Guard** — 6-scanner output security (XSS, SQLi, CMDi, secrets, PII, covert channels)
 - **Module 31: Semantic Authorization Engine** — TF-IDF intent matching, confused deputy defense
 - **Module 32: Cascading Failure Circuit Breaker** — SIR epidemiological cascade modeling
 - **Module 33: Delegation Chain Validator** — Ed25519-signed scope attenuation tokens
-- **Module 34: Shadow Agent Discovery** — 47 signatures, 5-tier risk classification, OAuth monitoring
+- **Module 34: Shadow Agent Discovery** — 47 signatures, 5-tier risk classification, OAuth monitoring, cloud shadow AI scanning (Lambda/Functions/K8s), enhanced API fingerprinting, automated containment recommendations
 - **Module 35: AI Worm Defense** — "Virtual Donkey" guardrail with quine/NCD/propagation detection
-- **Module 36: Agent Lifecycle Manager** — Provisioning, behavioral baselining, drift detection, 6-step decommission
+- **Module 36: Agent Lifecycle Manager** — Provisioning, behavioral baselining, drift detection, 6-step decommission, fleet-wide peer benchmarking, human-readable behavioral narrative generation
 - **Module 37: Compliance Automation Engine** — 5 frameworks, 54 requirements, cross-framework gap analysis
-- **Module 38: Code Execution Sandbox** — 47 dangerous patterns, restricted sandbox, three-tier approval workflow (OWASP ASI05)
+- **Module 38: Code Execution Sandbox** — 47 dangerous patterns, restricted sandbox, three-tier approval workflow, execution replay, resource profiling (crypto mining detection), cross-sandbox attack chain correlation (OWASP ASI05)
 - **Module 39: Cost Shield** — Per-agent budgets, sliding window rate limiting, 15-model pricing, multi-threshold alerts (OWASP LLM10)
 - **Module 40: Hallucination Detector** — 5-subsystem scoring: pattern matching, TF-IDF grounding, contradiction detection, confidence analysis, fact registry (OWASP LLM09)
 - **Module 41: Model IP Protection** — Watermarking, honeypot canary traps, extraction campaign detection, rate intelligence (MITRE AML.T0024)
 - **Module 42: RAG Security Guard** — Injection prevention, document poisoning detection, provenance tracking, relevance scoring (OWASP LLM08)
 - **Module 43: Adversarial ML Defense** — Perturbation detection, evasion defense, 14 MITRE ATLAS attack signatures (EU AI Act Art. 15)
-- **Module 44: AI-BOM Generator** — CycloneDX/SPDX bill-of-materials generation with provenance tracking (EU AI Act Art. 11)
+- **Module 44: AI-BOM Generator** — CycloneDX/SPDX bill-of-materials generation with provenance tracking, runtime vs declared BOM verification, version-to-version BOM diffing with risk scoring, compliance cross-referencing (EU AI Act Art. 11)
 - **Module 45: Browser & Computer-Use Guard** — URL validation, action policy enforcement, screen content analysis, living threat feed (15 adversarial prompt patterns), coverage gap analysis across 46+ attack techniques (OWASP ASI02)
-- **Module 46: Voice Agent Security** — Deepfake audio detection, vishing defense, speaker verification, voice command validation
+- **Module 46: Voice Agent Security** — Deepfake audio detection, vishing defense, speaker verification, voice command validation, insider threat detection via voice interactions, per-agent query anomaly baselines, voice-channel data exfiltration pattern detection
 - **Module 47: A2A/Inter-Protocol Gateway** — 6-protocol validation, session smuggling detection, 31 message inspection patterns (OWASP ASI07)
 - **Module 48: Lateral Movement Detector** — AI infrastructure traversal detection, credential reuse tracking, pipeline guard (MITRE AML.TA0015)
 - **Module 49: NHI Governance Engine** — Secret scanning, automated rotation, identity attestation for machine credentials (OWASP ASI03)
 - **Module 50: Continuous AI Red Team Engine** — 38 attack techniques, campaign lifecycle, compliance evidence generation, regression tracking with trend analysis, RSSA dispatch integration routing findings to Patrol/Detective/Commander (EU AI Act Art. 9)
 - **Module 53: Action Reversibility / State Rollback Engine** — Immutable pre-action snapshots, causal action DAGs, selective cascade rollback with conflict resolution, cross-resource dependency tracking, pre-rollback impact assessment, reversibility coverage analysis across 18 action types (NIST RFI)
 - **Module 54: Gradual Goal Drift Monitor** — Behavioral baselines, KL divergence & Jensen-Shannon drift detection, CUSUM phase shift alerts, constraint erosion tracking (OWASP ASI01)
-- **Module 55: MCP Tool Rug Pull & Mutation Detector** — Cryptographic tool fingerprinting, post-approval mutation detection, shadow tool injection defense, continuous trust scoring (OWASP ASI04)
-- **Module 56: Agent Skills/Plugin Marketplace Scanner** — Pre-install scanning: static code analysis, permission analysis, reputation scoring, typosquatting detection (OWASP LLM05)
+- **Module 55: MCP Tool Rug Pull & Mutation Detector** — Cryptographic tool fingerprinting, post-approval mutation detection, shadow tool injection defense, behavioral fingerprinting, drift velocity tracking with acceleration alerts, community trust scoring (OWASP ASI04)
+- **Module 56: Agent Skills/Plugin Marketplace Scanner** — Pre-install scanning: static code analysis, permission analysis, 10-factor reputation scoring, typosquatting detection, cross-marketplace developer correlation, reputation laundering detection, time-based trust decay modeling (OWASP LLM05)
 
 #### Vertical Industry Protection (Modules 57-63)
 - **Module 57: AI Trading Agent Monitor** — Velocity, concentration, wash trade, spoofing, and flash crash detection for AI trading agents (MiFID II / SEC)
@@ -120,7 +120,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 67: Human-in-the-Loop Integrity Enforcer** — Approval gatekeeper with dwell-time tracking, fatigue detection, bypass attempt detection — Ed25519-signed decisions
 - **Module 68: Container & Sandbox Escape Detector** — Privileged syscall, namespace escape, Docker socket, capability abuse, host mount, and network escape detection — 25 indicators, escalating containment
 - **Module 69: Prompt Leakage & System Prompt Exfiltration Defense** — 22 detection signatures across 5 attack classes: extraction probes, output leakage (n-gram similarity), indirect exfiltration, differential analysis, context boundary violations (OWASP LLM07)
-- **Module 75: Coding Agent Runtime Security** — Real-time monitoring and policy enforcement for coding AI agents (Claude Code, Cursor, Copilot) across 8 attack surfaces: filesystem, shell, git, packages, network, secrets, MCP, and diffs — 31 endpoints, 217 tests
+- **Module 75: Coding Agent Runtime Security** — Real-time monitoring and policy enforcement for coding AI agents (Claude Code, Cursor, Copilot) across 8 attack surfaces: filesystem, shell, git, packages, network, secrets, MCP, and diffs — real-time code review pipeline, multi-agent collaboration guard, full session forensics — 31 endpoints, 259 tests
 
 #### Input Security (Modules 70-71)
 - **Module 70: Instruction Compliance Monitor** — Client-side Chrome extension detecting instruction drift across 6 categories with 3 enforcement modes on 6 AI platforms — 100% local, zero network calls
@@ -136,9 +136,9 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 77: AI Pipeline Integrity Monitor** — Secures AI/ML pipelines against tampering, data poisoning, and supply chain attacks — 5 subsystems: training monitoring, pipeline config integrity, artifact verification, dependency auditing, deployment validation — 40 indicators, 121 tests
 
 #### Autonomous Oversight — RSSA (Modules 78-80)
-- **Module 78: RSSA-1 Patrol Officer** — Always-on autonomous monitoring agent — polls M19/M31/M74 for anomalies, signal correlation, threshold evaluation, automated escalation to RSSA-2 — 79 tests
-- **Module 79: RSSA-2 Detective** — Event-driven investigation agent — receives escalations, collects cross-module evidence, builds attack chains, classifies threats, escalates critical findings to RSSA-3 — 110 tests
-- **Module 80: RSSA-3 Commander** — Oversight and enforcement commander — fleet threat posture management (GREEN→YELLOW→ORANGE→RED), enforcement decisions, sole M99 kill switch authority, RSSA oversight — 128 tests
+- **Module 78: RSSA-1 Patrol Officer** — Always-on autonomous monitoring agent — adaptive polling based on signal heat score, cross-module signal enrichment (M25/M74/M31), ML-free false positive filtering with outcome tracking — 117 tests
+- **Module 79: RSSA-2 Detective** — Event-driven investigation agent — forensic timeline reconstruction with gap detection, backward-chain root cause analysis (6 cause types), 4-factor investigation confidence scoring (evidence completeness, corroboration, source diversity, temporal coherence) — 162 tests
+- **Module 80: RSSA-3 Commander** — Oversight and enforcement commander — fleet-wide threat intelligence with historical attack correlation, graduated authority engine (severity + posture → optimal L1-L6 response level), sole M99 kill switch authority — 170 tests
 
 #### Financial Identity & Attack Chain (Modules 51-52)
 - **Module 51: Financial Identity Agent Protection (FinShield)** — Domain enforcement, drift monitoring, hallucination detection, MAS TRM/FEAT/EU AI Act compliance for financial identity agents
