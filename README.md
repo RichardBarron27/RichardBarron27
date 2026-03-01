@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 80 modules + Module 99 | 10,627 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 80 modules + Module 99 | 11,905 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,7 +22,7 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **10,627 tests passing** across the agent security modules alone.
+AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **11,905 tests passing** across the agent security modules alone.
 
 ### Full 81-Module Framework
 
