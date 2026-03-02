@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 80 modules + Module 99 | 11,905 tests passing | All 81 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 80 modules + Module 99 + Module 999 | 12,420 tests passing | All 82 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,9 +22,9 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is an **81-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) — all built, tested, Dockerized, and running on production infrastructure. **11,905 tests passing** across the agent security modules alone.
+AI Shield is an **82-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **12,420 tests passing** across the agent security modules alone.
 
-### Full 81-Module Framework
+### Full 82-Module Framework
 
 #### Core Platform (Modules 1-18)
 
@@ -58,10 +58,11 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Pipeline & Social Engineering** | 76, 77 | Social engineering detection for AI agents, ML pipeline integrity monitoring |
 | **Autonomous Oversight (RSSA)** | 78, 79, 80 | Autonomous patrol (adaptive polling, signal enrichment), investigation (forensic timeline, root cause analysis), and command (threat intelligence, graduated authority) |
 | **Emergency Response** | 99 | Doomsday Protocol — 6-level graduated response ladder (Monitor→Restrict→Quarantine→Terminate→Cluster Kill→Fleet Kill) with auto-escalation |
+| **Autonomous Defense** | 999 | SENTINEL SWARM — 5-agent autonomous defensive network (Commander, Scout, Hunter, Interceptor, Forensic) with 3-layer detection, 6-phase kill chain, M50 threat intel feed |
 
 ### Live Interactive Demos
 
-**All 81 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
+**All 82 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
 
 #### Core AI Shield Platform (6 live demo modules)
 - **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
@@ -71,7 +72,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 25: Agent Observability & Decision Provenance** — Cryptographic audit trails
 - **Module 99: Doomsday Protocol** — Emergency kill switch
 
-#### All 81 Modules (Built, Tested & Dockerized)
+#### All 82 Modules (Built, Tested & Dockerized)
 - **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection, baseline integrity validation, gradual drift manipulation detection
 - **Module 24: Cross-Border Data Sovereignty** — Jurisdiction-aware data routing
 - **Module 26: Insurance & Liability Shield** — Insurability scoring and claims documentation
@@ -271,7 +272,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36, Module 53) |
-| **UK AISI (13/13)** | Full principle coverage across all 81 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 82 modules |
 | **MITRE ATLAS (~93%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
