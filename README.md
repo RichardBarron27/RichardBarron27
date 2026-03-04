@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 80 modules + Module 99 + Module 999 | 12,420 tests passing | All 82 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
+  AI Shield: 80 modules + Module 81 + Module 99 + Module 999 | 12,508 tests passing | All 83 Dockerized & monitored | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~93%
 </p>
 
 ---
@@ -22,9 +22,9 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is an **82-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 99 (Doomsday Protocol) + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **12,420 tests passing** across the agent security modules alone.
+AI Shield is an **83-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. 80 modules + Module 81 (Telemetry Sanitization Engine) + Module 99 (Doomsday Protocol) + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **12,508 tests passing** across the agent security modules alone.
 
-### Full 82-Module Framework
+### Full 83-Module Framework
 
 #### Core Platform (Modules 1-18)
 
@@ -62,7 +62,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 
 ### Live Interactive Demos
 
-**All 82 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
+**All 83 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
 
 #### Core AI Shield Platform (6 live demo modules)
 - **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
@@ -272,7 +272,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36, Module 53) |
-| **UK AISI (13/13)** | Full principle coverage across all 82 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 83 modules |
 | **MITRE ATLAS (~93%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
