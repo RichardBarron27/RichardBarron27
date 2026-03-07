@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 94 modules | 13,520 tests passing | All 94 Dockerized & monitored (97 containers) | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~96%
+  AI Shield: 99 modules | 13,955 tests passing | All 99 Dockerized & monitored (102 containers) | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~96%
 </p>
 
 ---
@@ -22,9 +22,9 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **94-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. Modules 1-92 + Module 99 (Doomsday Protocol) + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **13,520 tests passing** across the agent security modules alone. First runtime AI security platform with court-admissible incident evidence. Real-time AI liability exposure scoring.
+AI Shield is a **99-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. Modules 1-92, 94, 96-100 + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **13,955 tests passing** across the agent security modules alone. First runtime AI security platform with court-admissible incident evidence. Real-time AI liability exposure scoring.
 
-### Full 94-Module Framework
+### Full 99-Module Framework
 
 #### Core Platform (Modules 1-18)
 
@@ -40,7 +40,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 
 #### Agent Security Suite (Modules 19-80 + 99)
 
-74 specialized modules securing the complete agent lifecycle:
+79 specialized modules securing the complete agent lifecycle:
 
 | Group | Modules | Description |
 |-------|---------|-------------|
@@ -61,11 +61,12 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Governance Layer** | 89, 90, 91, 92 | Behaviour policy enforcement, court-admissible evidence vault, risk/insurability scoring, liability exposure engine |
 | **Autonomous Oversight (RSSA)** | 78, 79, 80 | Autonomous patrol (adaptive polling, signal enrichment), investigation (forensic timeline, root cause analysis), and command (threat intelligence, graduated authority) |
 | **Emergency Response** | 99 | Doomsday Protocol — 6-level graduated response ladder (Monitor→Restrict→Quarantine→Terminate→Cluster Kill→Fleet Kill) with auto-escalation |
+| **Vertical Anchor Modules** | 94, 96, 97, 98, 100 | MCP Server Registry & Integrity Scanner, Agent Repository Config Scanner, Clinical Safety Case Builder, OT/SCADA AI Runtime Guard, Pharmaceutical AI Validation Engine |
 | **Autonomous Defense** | 999 | SENTINEL SWARM — 5-agent autonomous defensive network (Commander, Scout, Hunter, Interceptor, Forensic) with 3-layer detection, 6-phase kill chain, M50 threat intel feed |
 
 ### Live Interactive Demos
 
-**All 94 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
+**All 99 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
 
 #### Core AI Shield Platform (6 live demo modules)
 - **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
@@ -75,7 +76,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 25: Agent Observability & Decision Provenance** — Cryptographic audit trails
 - **Module 99: Doomsday Protocol** — Emergency kill switch
 
-#### All 94 Modules (Built, Tested & Dockerized)
+#### All 99 Modules (Built, Tested & Dockerized)
 - **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection, baseline integrity validation, gradual drift manipulation detection
 - **Module 24: Cross-Border Data Sovereignty** — Jurisdiction-aware data routing
 - **Module 26: Insurance & Liability Shield** — Insurability scoring and claims documentation
@@ -156,6 +157,13 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 - **Module 90: AI Incident Evidence Vault** — Court-admissible evidence — tamper-evident storage, chain of custody tracking, forensic packaging, legal hold management — 93 tests
 - **Module 91: AI Risk Scoring & Insurability Engine** — Real-time risk quantification — risk factor analysis, exposure scoring, premium estimation, underwriting data — 104 tests
 - **Module 92: AI Liability Exposure Engine** — Real-time liability exposure scoring — liability mapping, exposure quantification, compliance gap analysis — 100 tests
+
+#### Vertical Anchor Modules (94, 96, 97, 98, 100)
+- **Module 94: MCP Server Registry & Integrity Scanner** — Validates MCP server registrations, checks tool configuration integrity, detects malicious server entries — 88 tests
+- **Module 96: Agent Repository Config Scanner** — Scans agent repository configurations for security misconfigurations, exposed secrets, and policy violations — 88 tests
+- **Module 97: Clinical Safety Case Builder** — Auto-generates DCB0129/DCB0160 clinical safety case artifacts from runtime telemetry for NHS compliance — 83 tests
+- **Module 98: OT/SCADA AI Runtime Guard** — Purdue Model boundary enforcement, SCADA command validation, grid stability monitoring, nation-state threat feed, emergency shutdown protocols — 88 tests
+- **Module 100: Pharmaceutical AI Validation Engine** — GAMP 5 risk classification, 21 CFR Part 11 enforcement, ALCOA+ data integrity, GxP audit trails, computerized system validation automation — 88 tests
 
 #### Autonomous Oversight — RSSA (Modules 78-80)
 - **Module 78: RSSA-1 Patrol Officer** — Always-on autonomous monitoring agent — adaptive polling based on signal heat score, cross-module signal enrichment (M25/M74/M31), ML-free false positive filtering with outcome tracking — 117 tests
