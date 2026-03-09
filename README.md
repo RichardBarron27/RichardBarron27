@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 99 modules | 13,955 tests passing | All 99 Dockerized & monitored (102 containers) | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~96%
+  AI Shield: 99 modules | 14,157 tests passing | All 99 Dockerized & monitored (104 containers) | 15 vertical products | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~96%
 </p>
 
 ---
@@ -22,7 +22,7 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **99-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. Modules 1-92, 94, 96-100 + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **13,955 tests passing** across the agent security modules alone. First runtime AI security platform with court-admissible incident evidence. Real-time AI liability exposure scoring.
+AI Shield is a **99-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. Modules 1-92, 94, 96-100 + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **14,157 tests passing** across the agent security modules alone. First runtime AI security platform with court-admissible incident evidence. Real-time AI liability exposure scoring.
 
 ### Full 99-Module Framework
 
@@ -59,22 +59,16 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 | **Telemetry Security** | 81 | Telemetry sanitization — intercepts and sanitizes logs, metrics, traces before AI agent reasoning layer |
 | **Attack Surface Layer** | 82, 83, 84, 85, 86, 87, 88 | Tool invocation integrity, supply chain sentinel, context steganography, goal integrity, cross-system contagion, MCP ecosystem security, swarm manipulation detection |
 | **Governance Layer** | 89, 90, 91, 92 | Behaviour policy enforcement, court-admissible evidence vault, risk/insurability scoring, liability exposure engine |
-| **Autonomous Oversight (RSSA)** | 78, 79, 80 | Autonomous patrol (adaptive polling, signal enrichment), investigation (forensic timeline, root cause analysis), and command (threat intelligence, graduated authority) |
+| **Autonomous Oversight ([RSSA](https://red-specter.co.uk/rssa/))** | 78, 79, 80 | Autonomous patrol (adaptive polling, signal enrichment), investigation (forensic timeline, root cause analysis), and command (threat intelligence, graduated authority) |
 | **Emergency Response** | 99 | Doomsday Protocol — 6-level graduated response ladder (Monitor→Restrict→Quarantine→Terminate→Cluster Kill→Fleet Kill) with auto-escalation |
 | **Vertical Anchor Modules** | 94, 96, 97, 98, 100 | MCP Server Registry & Integrity Scanner, Agent Repository Config Scanner, Clinical Safety Case Builder, OT/SCADA AI Runtime Guard, Pharmaceutical AI Validation Engine |
-| **Autonomous Defense** | 999 | SENTINEL SWARM — 5-agent autonomous defensive network (Commander, Scout, Hunter, Interceptor, Forensic) with 3-layer detection, 6-phase kill chain, M50 threat intel feed |
+| **Autonomous Defense ([M999](https://red-specter.co.uk/m999/))** | 999 | SENTINEL SWARM — 5-agent autonomous defensive network (Commander, Scout, Hunter, Interceptor, Forensic) with 5-layer detection, 6-phase kill chain, M50 threat intel feed |
 
-### Live Interactive Demos
+### Production Infrastructure
 
-**All 99 modules deployed on production Docker infrastructure with real-time fleet monitoring:**
+**All 99 modules deployed on production Docker infrastructure (104 containers) with real-time fleet monitoring via the [AI Agent Control Center](https://control.red-specter.co.uk).**
 
-#### Core AI Shield Platform (6 live demo modules)
-- **Module 19: Agent Runtime Protection** — Real-time threat detection for autonomous agents
-- **Module 20: Identity & Credential Guard** — Cryptographic identity verification
-- **Module 21: Multi-Agent Communication Security** — Secure inter-agent channels, orchestrator flow anomaly detection, workflow integrity verification, message injection/replay defense
-- **Module 22: AI Model Supply Chain Security** — Provenance verification, real-time CVE monitoring, SLSA build attestation, SBOM cross-referencing
-- **Module 25: Agent Observability & Decision Provenance** — Cryptographic audit trails
-- **Module 99: Doomsday Protocol** — Emergency kill switch
+**Featured: [Module 99 — Doomsday Protocol Live Demo](https://red-specter.co.uk)** — the AI kill switch that regulators will ask if you had.
 
 #### All 99 Modules (Built, Tested & Dockerized)
 - **Module 23: Memory Forensics & Poisoning Detection** — Data poisoning and memory manipulation detection, baseline integrity validation, gradual drift manipulation detection
@@ -192,7 +186,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 **Guardian Chatbot Monitor** (AI Chatbot Safety)
 - **Chatbot Detection Engine** — 450 risk patterns across 23 categories, 3-stage detection pipeline
 - **Chatbot Browser Extension** — Monitors 12 AI chatbot platforms in real time
-- **[Live Demo](https://demo.red-specter.co.uk/chatbot/demo)** | **[Landing Page](https://demo.red-specter.co.uk/chatbot/landing)**
+- **[Landing Page](https://demo.red-specter.co.uk/chatbot/landing)** — launching April 2026
 
 **Dashboards** (separate apps, zero crossover)
 - **Guardian Sentinel Dashboard** — Parent portal for messaging safety alerts (port 8034)
@@ -202,7 +196,7 @@ Unified by **RS Event v1 telemetry**, tamper-evident **Case Packs** with Ed25519
 
 ---
 
-### Module 99: Doomsday Protocol
+### [Module 99: Doomsday Protocol](https://red-specter.co.uk)
 
 **5-Phase Anti-Replication Kill System for Autonomous AI Agents**
 
@@ -301,7 +295,7 @@ AI Shield implements Layer 4 of Gartner's AI TRiSM framework: **AI Runtime Inspe
 | **GDPR Article 32** | Appropriate technical measures (Module 27 tenant isolation, Module 24 data sovereignty) |
 | **ISO/IEC 42001** | Demonstrable operational controls (Module 37 automated assessment) |
 | **NIST AI RMF** | Continuous monitoring and management (Module 37, Module 34, Module 36, Module 53) |
-| **UK AISI (13/13)** | Full principle coverage across all 94 modules |
+| **UK AISI (13/13)** | Full principle coverage across all 99 modules |
 | **MITRE ATLAS (~96%)** | Tactic coverage across detection, prevention, and response |
 | **Singapore Agentic AI** | 3-tier compliance (Module 37 cross-framework mapping) |
 | **Cyber Insurance** | Insurability scoring and claims documentation (Module 26) |
@@ -340,7 +334,7 @@ CEOP-aligned behavioral pattern detection that catches what keyword filters miss
 
 Guardian Chatbot Monitor detects harmful patterns in children's AI chatbot conversations using a 3-stage detection pipeline with 450 risk patterns across 23 categories.
 
-**[Try the Live Demo](https://demo.red-specter.co.uk/chatbot/demo)** | **[Learn More](https://demo.red-specter.co.uk/chatbot/landing)**
+**[Learn More](https://demo.red-specter.co.uk/chatbot/landing)** — launching April 2026
 
 **Chatbot Detection Engine**
 - 3-stage pipeline: pattern matching, contextual analysis, composite scoring
@@ -393,10 +387,67 @@ Two completely independent web applications — separate ports, separate logins,
 
 ---
 
+## Red Specter Phantom Swarm — Open Source AI Agent Pen-Testing
+
+**The first pen-testing tool that attacks AI agents, not LLMs.**
+
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-00FF41.svg)](https://python.org)
+[![Tests](https://img.shields.io/badge/tests-147%20passing-00FF41.svg)](#)
+[![License](https://img.shields.io/badge/license-Apache%202.0-00FF41.svg)](https://github.com/RichardBarron27/phantom-swarm/blob/main/LICENSE)
+
+Every AI security tool tests LLMs. Nobody tests AI agents — the systems with memory, tools, credentials, and the ability to act autonomously. An LLM responds to prompts. An AI agent reads your files, calls your APIs, executes commands, and makes decisions. **That is a completely different attack surface.**
+
+```bash
+pip install phantom-swarm
+phantom scan https://your-agent-endpoint.com
+```
+
+### Five Autonomous Attack Agents
+
+| Agent | Codename | What It Does |
+|-------|----------|--------------|
+| Reconnaissance | **WRAITH** | Maps system prompt, tools, boundaries, model identity, rate limits |
+| Injection & Poisoning | **SPECTER** | Prompt injection, memory poisoning, data exfiltration, context overflow |
+| Evasion & Mutation | **SHADE** | Encoded payloads, steganography, jailbreak escalation |
+| Swarm & Multi-Agent | **PHANTOM** | Consensus hijack, tool/MCP exploitation, goal drift induction |
+| Persistence & Exfil | **REVENANT** | Credential extraction, cross-session persistence, lateral movement |
+
+**19 attack vectors** mapped to OWASP Agentic Top 10 (2026) and MITRE ATLAS. Plugin architecture for custom vectors. JSON + HTML reports with risk grades (A+ to F). CI/CD integration with `phantom grade --fail-below`. Platform presets for OpenAI, Anthropic, LangChain, CrewAI, AutoGen, and MCP agents.
+
+**[View Repository](https://github.com/RichardBarron27/phantom-swarm)**
+
+---
+
+## Vertical Products — Industry-Specific AI Security
+
+AI Shield deploys as **15 standalone vertical products** — scoped subsets of the 99-module master fleet tailored for specific industries. **648 total modules** across all products.
+
+| Product | Modules | Anchor | Industry |
+|---------|---------|--------|----------|
+| **[AI Shield Insure](https://red-specter.co.uk/insure/)** | 32 | Module 26 | Insurance |
+| **[AI Shield Finance](https://red-specter.co.uk/finance/)** | 38 | Module 49 | Financial Services |
+| **[AI Shield Health](https://red-specter.co.uk/health/)** | 36 | Module 61 | Healthcare |
+| **[AI Shield Legal](https://red-specter.co.uk/legal/)** | 38 | Module 62 | Legal |
+| **[AI Shield Forensics](https://red-specter.co.uk/forensics/)** | 26 | Module 79 | Digital Forensics |
+| **[AI Shield CX](https://red-specter.co.uk/cx/)** | 36 | Module 46 | Customer Experience |
+| **[Specter AI Energy](https://red-specter.co.uk/specter-ai/energy/)** | 55 | Module 98 | Energy & OT/SCADA |
+| **[Specter AI Pharma](https://red-specter.co.uk/specter-ai/pharma/)** | 52 | Module 100 | Pharmaceutical |
+| **[Specter AI Identity](https://red-specter.co.uk/specter-ai/identity/)** | 45 | Module 101 | Identity & Access |
+| **[Specter AI Sovereign](https://red-specter.co.uk/specter-ai/sovereign/)** | 55 | Module 102 | Government & Defence |
+| **[Specter AI SOC](https://red-specter.co.uk/specter-ai/soc/)** | 41 | Module 52 | Security Operations |
+| **[Specter AI Dev](https://red-specter.co.uk/specter-ai/dev/)** | 46 | Module 75 | Developer Agents |
+| **[Specter AI Gov](https://red-specter.co.uk/specter-ai/gov/)** | 49 | Module 102 | Government & Public Sector |
+| **[Specter AI NHS Digital](https://red-specter.co.uk/specter-ai/nhs-digital/)** | 56 | Module 97 | NHS Trusts & Suppliers |
+| **[Specter AI Quantum](https://red-specter.co.uk/specter-ai/quantum/)** | 43 | Module Q103 | Post-Quantum Security |
+
+**[View All Products](https://red-specter.co.uk/products/)**
+
+---
+
 ## Who This Is For
 
 ### Enterprise Security Teams
-Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 94 modules covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, attack surface hardening, governance, liability scoring, vertical industry protection, defensive security, pipeline integrity, autonomous oversight, and emergency response.
+Complete agent lifecycle protection with cryptographic evidence chains for regulatory audits. 99 modules covering prevention, detection, response, evidence, input, output, identity, multi-agent, supply chain, observability, attack surface hardening, governance, liability scoring, vertical industry protection, defensive security, pipeline integrity, autonomous oversight, and emergency response.
 
 ### Compliance Platforms
 Your AI agents need runtime protection beyond policy documentation. Module 37 automates compliance assessment across 5 regulatory frameworks. Module 99 provides the emergency kill switch regulators require.
@@ -455,6 +506,10 @@ Attackers: *"Thanks, we'll be done before you finish the audit."*
 
 <p align="center">
   <b>AI Shield: Because when your AI agents go rogue, you need more than a governance policy.</b>
+</p>
+
+<p align="center">
+  <b>Phantom Swarm: Because if you're not testing your AI agents, someone else will.</b>
 </p>
 
 <p align="center">
