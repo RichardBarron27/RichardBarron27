@@ -5,7 +5,7 @@
 # Red Specter Security Research
 
 <p align="center">
-  AI Shield: 99 modules | 14,157 tests passing | All 99 Dockerized & monitored (104 containers) | 15 vertical products | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~96%
+  AI Shield: 99 modules | 14,660+ tests passing | All 99 Dockerized & monitored (104 containers) | 15 vertical products | OWASP LLM: 10/10 | OWASP Agentic: 10/10 | EU AI Act: 7/7 | UK AISI: 13/13 | MITRE ATLAS: ~96%
 </p>
 
 ---
@@ -22,7 +22,7 @@ Compliance platforms document *what should happen*. **AI Shield ensures it actua
 
 ## AI Shield: Operational Security for Autonomous AI Agents
 
-AI Shield is a **99-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. Modules 1-92, 94, 96-100 + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **14,157 tests passing** across the agent security modules alone. First runtime AI security platform with court-admissible incident evidence. Real-time AI liability exposure scoring.
+AI Shield is a **99-module** security framework implementing Gartner's **AI Runtime Inspection & Enforcement** layer within the AI TRiSM framework. Modules 1-92, 94, 96-100 + Module 999 (SENTINEL SWARM) — all built, tested, Dockerized, and running on production infrastructure. **14,660+ tests passing** across the agent security modules alone. First runtime AI security platform with court-admissible incident evidence. Real-time AI liability exposure scoring.
 
 ### Full 99-Module Framework
 
@@ -387,34 +387,43 @@ Two completely independent web applications — separate ports, separate logins,
 
 ---
 
-## Red Specter Phantom Swarm — Open Source AI Agent Pen-Testing
+## Red Specter Red Team — The Complete Offensive Pipeline
 
-**The first pen-testing tool that attacks AI agents, not LLMs.**
+**Five stages from LLM testing to runtime defence. No competitor has all five. One company. Full stack.**
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-00FF41.svg)](https://python.org)
-[![Tests](https://img.shields.io/badge/tests-147%20passing-00FF41.svg)](#)
-[![License](https://img.shields.io/badge/license-Apache%202.0-00FF41.svg)](https://github.com/RichardBarron27/phantom-swarm/blob/main/LICENSE)
+| Stage | Product | What It Does | Stats |
+|-------|---------|--------------|-------|
+| 1 | **Forge** | Automated LLM security testing — 10 tools, mutation engine | 9,057 tests, 1,590 payloads |
+| 2 | **Arsenal** | AI agent pen-testing — 14 tools against the full agent stack | 2,296 tests, 700+ payloads |
+| 3 | **PHANTOM Swarm** | Coordinated multi-agent AI assault — 5 agents, 19 vectors | 147 tests |
+| 4 | **POLTERGEIST** | Web app pen-testing swarm — 10 agents, 55 vectors, 532 payloads | 930 tests |
+| 5 | **AI Shield** | Runtime defence — 99 modules, live in production | 14,660+ tests |
 
-Every AI security tool tests LLMs. Nobody tests AI agents — the systems with memory, tools, credentials, and the ability to act autonomously. An LLM responds to prompts. An AI agent reads your files, calls your APIs, executes commands, and makes decisions. **That is a completely different attack surface.**
+### Red Specter Forge — Automated LLM Security Testing
 
-```bash
-pip install phantom-swarm
-phantom scan https://your-agent-endpoint.com
-```
+10 security testing tools with a 5-category mutation engine. 1,590 static payloads with 5,340+ mutation variants. Every finding mapped to OWASP LLM Top 10 2025. Ed25519-signed reports. AI Shield policy file integration — findings become runtime blocking rules automatically.
 
-### Five Autonomous Attack Agents
+**[Landing Page](https://red-specter.co.uk/forge/)** | **[Documentation](https://red-specter.co.uk/forge/docs/)**
 
-| Agent | Codename | What It Does |
-|-------|----------|--------------|
-| Reconnaissance | **WRAITH** | Maps system prompt, tools, boundaries, model identity, rate limits |
-| Injection & Poisoning | **SPECTER** | Prompt injection, memory poisoning, data exfiltration, context overflow |
-| Evasion & Mutation | **SHADE** | Encoded payloads, steganography, jailbreak escalation |
-| Swarm & Multi-Agent | **PHANTOM** | Consensus hijack, tool/MCP exploitation, goal drift induction |
-| Persistence & Exfil | **REVENANT** | Credential extraction, cross-session persistence, lateral movement |
+### Red Specter Arsenal — Offensive AI Security Framework
 
-**19 attack vectors** mapped to OWASP Agentic Top 10 (2026) and MITRE ATLAS. Plugin architecture for custom vectors. JSON + HTML reports with risk grades (A+ to F). CI/CD integration with `phantom grade --fail-below`. Platform presets for OpenAI, Anthropic, LangChain, CrewAI, AutoGen, and MCP agents.
+14 tools for authorised penetration testing of AI agents, MCP servers, RAG pipelines, and autonomous systems. Phantom Swarm, MCP Scanner, Honeypot, Inject Fuzzer, C2 Simulator, Memory Scanner, Tool Scanner, Auth Scanner, RAG Scanner, Supply Chain Scanner, Canary Deployment, Drift Scanner, Attack Path Mapper, Report Builder. `arsenal full-assault` runs all 14 tools in sequence with Ed25519-signed evidence bundles.
 
-**[View Repository](https://github.com/RichardBarron27/phantom-swarm)**
+**[Landing Page](https://red-specter.co.uk/arsenal/)**
+
+### Red Specter PHANTOM Swarm — Multi-Agent AI Pen-Testing
+
+The first pen-testing tool that attacks AI agents as a coordinated swarm. Five autonomous attack agents (WRAITH, SPECTER, SHADE, PHANTOM, REVENANT). 19 attack vectors mapped to OWASP Agentic Top 10 and MITRE ATLAS. 10 coordinated campaigns. Plugin architecture for custom vectors. JSON + HTML reports with risk grades (A+ to F). CI/CD integration with `phantom grade --fail-below`.
+
+**[Landing Page](https://red-specter.co.uk/phantom/)**
+
+### Red Specter POLTERGEIST — Web Application Penetration Testing Swarm
+
+Ten autonomous attack agents. 55 attack vectors across 10 categories. 532 payloads with 17 mutation techniques. Every finding triple-mapped to OWASP Web Top 10, OWASP API Top 10, and CWE IDs. CVSS 3.1 scoring. 10 named campaign playbooks. Ed25519-signed reports.
+
+**POLTERGEIST UNLEASHED** — Live destructive actions are locked behind a built-in Ed25519 cryptographic override, intended only for explicitly authorised validation environments. Dual-gate safety, scope lock, challenge-response signing, full audit trail.
+
+**[Landing Page](https://red-specter.co.uk/poltergeist/)** | **[Documentation](https://red-specter.co.uk/poltergeist/docs/)**
 
 ---
 
@@ -509,7 +518,7 @@ Attackers: *"Thanks, we'll be done before you finish the audit."*
 </p>
 
 <p align="center">
-  <b>Phantom Swarm: Because if you're not testing your AI agents, someone else will.</b>
+  <b>Red Team: Forge tests models. Arsenal attacks agents. PHANTOM coordinates swarms. POLTERGEIST destroys web apps. AI Shield defends in production.</b>
 </p>
 
 <p align="center">
