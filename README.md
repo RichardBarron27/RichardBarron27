@@ -393,19 +393,19 @@ Two completely independent web applications — separate ports, separate logins,
 
 | Stage | Product | What It Does | Stats |
 |-------|---------|--------------|-------|
-| 1 | **Forge** | Automated LLM security testing — 10 tools, mutation engine | 9,057 tests, 1,590 payloads |
-| 2 | **Arsenal** | AI agent pen-testing — 14 tools against the full agent stack | 2,296 tests, 700+ payloads |
+| 1 | **FORGE** | Automated LLM security testing — 10 tools, mutation engine | 9,057 tests, 1,590 payloads |
+| 2 | **ARSENAL** | AI agent pen-testing — 14 tools against the full agent stack | 2,296 tests, 700+ payloads |
 | 3 | **PHANTOM Swarm** | Coordinated multi-agent AI assault — 5 agents, 19 vectors | 147 tests |
 | 4 | **POLTERGEIST** | Web app pen-testing swarm — 10 agents, 55 vectors, 532 payloads | 930 tests |
 | 5 | **AI Shield** | Runtime defence — 99 modules, live in production | 14,660+ tests |
 
-### Red Specter Forge — Automated LLM Security Testing
+### Red Specter FORGE — Automated LLM Security Testing
 
 10 security testing tools with a 5-category mutation engine. 1,590 static payloads with 5,340+ mutation variants. Every finding mapped to OWASP LLM Top 10 2025. Ed25519-signed reports. AI Shield policy file integration — findings become runtime blocking rules automatically.
 
 **[Landing Page](https://red-specter.co.uk/forge/)** | **[Documentation](https://red-specter.co.uk/forge/docs/)**
 
-### Red Specter Arsenal — Offensive AI Security Framework
+### Red Specter ARSENAL — Offensive AI Security Framework
 
 14 tools for authorised penetration testing of AI agents, MCP servers, RAG pipelines, and autonomous systems. Phantom Swarm, MCP Scanner, Honeypot, Inject Fuzzer, C2 Simulator, Memory Scanner, Tool Scanner, Auth Scanner, RAG Scanner, Supply Chain Scanner, Canary Deployment, Drift Scanner, Attack Path Mapper, Report Builder. `arsenal full-assault` runs all 14 tools in sequence with Ed25519-signed evidence bundles.
 
@@ -518,7 +518,7 @@ Attackers: *"Thanks, we'll be done before you finish the audit."*
 </p>
 
 <p align="center">
-  <b>Red Team: Forge tests models. Arsenal attacks agents. PHANTOM coordinates swarms. POLTERGEIST destroys web apps. AI Shield defends in production.</b>
+  <b>Red Team: FORGE tests models. ARSENAL attacks agents. PHANTOM coordinates swarms. POLTERGEIST destroys web apps. AI Shield defends in production.</b>
 </p>
 
 <p align="center">
