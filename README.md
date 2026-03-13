@@ -66,6 +66,19 @@ The world's first AI agent security testing framework. 14 tools covering the ful
 
 [red-specter.co.uk/poltergeist](https://red-specter.co.uk/poltergeist/) · [Documentation](https://red-specter.co.uk/poltergeist/docs/)
 
+### Packaging
+
+All four offensive tools ship with identical distro support:
+
+| Target | Format |
+|--------|--------|
+| Kali Linux | .deb package |
+| Parrot OS | .deb package |
+| BlackArch | PKGBUILD |
+| REMnux | .deb package |
+| Tsurugi | .deb package |
+| PyPI | `pip install` |
+
 ### redspecter-siem — Shared SIEM Connector Library
 
 Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wired into all five tools via `--export-siem` flag.
