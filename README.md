@@ -72,7 +72,7 @@ Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wir
 
 ### UNLEASHED
 
-All four offensive tools carry a cryptographic override mode. Ed25519 private key. Dual-gate safety protocol. One key, one operator, founder's machine only.
+All four offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
 
 ---
 
