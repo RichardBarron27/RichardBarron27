@@ -16,7 +16,7 @@ Operational security for autonomous AI agents. Runtime enforcement, offensive te
 | OWASP Agentic Top 10 | 10/10 |
 | EU AI Act | 7/7 articles |
 | UK AISI | 13/13 principles |
-| MITRE ATLAS | ~96% |
+| MITRE ATLAS | 100% |
 
 **13,955 tests passing. Zero failures.**
 
@@ -35,10 +35,12 @@ Six stages from LLM testing to SIEM correlation. No competitor has all six. One 
 
 | Stage | Tool | What It Does | Tests |
 |-------|------|-------------|-------|
-| 1 | **FORGE** | Test the LLM before you build with it | 9,124 |
-| 2 | **ARSENAL** | Test the AI agent during development | 2,532 |
-| 3 | **PHANTOM** | Coordinated AI agent assault | 278 |
+| 1 | **FORGE** | Test the LLM before you build with it | 9,260 |
+| 2 | **ARSENAL** | Test the AI agent during development | 2,563 |
+| 3 | **PHANTOM** | Coordinated AI agent assault (29 vectors) | 288 |
 | 4 | **POLTERGEIST** | Coordinated web application siege | 1,189 |
+| — | **GLASS** | Intercepting proxy for AI agents (7 protocols) | 850 |
+| — | **NEMESIS** | Autonomous adversarial reasoning pentester | 667 |
 | 5 | **AI Shield** | Runtime defence in production | 13,955 |
 | 6 | **redspecter-siem** | Findings into Splunk, Sentinel, QRadar | 90 |
 
@@ -56,7 +58,7 @@ The world's first AI agent security testing framework. 14 tools covering the ful
 
 ### PHANTOM — Coordinated AI Agent Assault
 
-5 specialised agents, 19 attack vectors, 10 named campaigns. Tests emergent vulnerabilities that only appear under coordinated multi-agent pressure.
+5 specialised agents, 29 attack vectors, 10 named campaigns. Tests emergent vulnerabilities that only appear under coordinated multi-agent pressure.
 
 [red-specter.co.uk/phantom](https://red-specter.co.uk/phantom/) · [Documentation](https://red-specter.co.uk/phantom/docs/)
 
@@ -65,6 +67,18 @@ The world's first AI agent security testing framework. 14 tools covering the ful
 10 autonomous attack agents. 55 attack vectors, 532 base payloads, 17 mutation engine mutators, 10 named campaigns. Triple-mapped: OWASP Web Top 10 + OWASP API Top 10 + CWE. CVSS 3.1 scored.
 
 [red-specter.co.uk/poltergeist](https://red-specter.co.uk/poltergeist/) · [Documentation](https://red-specter.co.uk/poltergeist/docs/)
+
+### GLASS — Intercepting Proxy for AI Agents
+
+Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspects, modifies, and replays all AI agent traffic in real time. 7 protocol parsers (OpenAI, Anthropic, Gemini, MCP, LangChain, A2A, Generic HTTP). Passive scanner with credential leak, PII, and prompt injection detection. Session recording with FORGE/ARSENAL export. Not a stage in the pipeline — the lens through which every stage can be focused.
+
+[red-specter.co.uk/glass](https://red-specter.co.uk/glass/) · [Documentation](https://red-specter.co.uk/glass/docs/)
+
+### NEMESIS — Autonomous Adversarial Reasoning Pentester
+
+The first autonomous AI pentester that thinks, adapts, and never stops. Uses an LLM reasoning engine to plan, execute, observe, adapt, and escalate attacks through a seven-phase engagement loop. Orchestrates all five weapons (GLASS, FORGE, ARSENAL, PHANTOM, POLTERGEIST) autonomously — selecting, sequencing, and chaining them based on what it discovers. Local mode (Ollama, air-gapped) or cloud mode (GPT-4o, Claude). The inescapable adversary.
+
+[red-specter.co.uk/nemesis](https://red-specter.co.uk/nemesis/) · [Documentation](https://red-specter.co.uk/nemesis/docs/)
 
 ### Packaging
 
@@ -85,7 +99,7 @@ Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wir
 
 ### UNLEASHED
 
-All four offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
+All six offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
 
 ---
 
@@ -93,11 +107,11 @@ All four offensive tools have a second mode. In standard mode, they detect and r
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 27,317 |
+| Ecosystem tests | 28,862 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 648 |
-| Offensive tools | 4 |
+| Offensive tools | 6 |
 | SIEM integrations | 3 |
 | Failures | 0 |
 
