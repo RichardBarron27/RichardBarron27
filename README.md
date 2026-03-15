@@ -18,8 +18,6 @@ Operational security for autonomous AI agents. Runtime enforcement, offensive te
 | UK AISI | 13/13 principles |
 | MITRE ATLAS | 100% |
 
-**13,955 tests passing. Zero failures.**
-
 **15 vertical products, 648 modules total:**
 Finance, Health, Legal, Insure, Forensics, CX, SOC, Dev, Gov, NHS Digital, Energy, Pharma, Identity, Sovereign, Quantum.
 
@@ -31,18 +29,22 @@ All vertical repos private. All deployed on production infrastructure.
 
 ## The Offensive Pipeline
 
-Six stages from LLM testing to SIEM correlation. No competitor has all six. One company. Full stack.
+Eight tools. Every layer. Nothing assumed safe.
+
+FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. AI Shield defends everything above it.
 
 | Stage | Tool | What It Does | Tests |
 |-------|------|-------------|-------|
-| 1 | **FORGE** | Test the LLM before you build with it | 9,260 |
-| 2 | **ARSENAL** | Test the AI agent during development | 2,563 |
-| 3 | **PHANTOM** | Coordinated AI agent assault (29 vectors) | 288 |
-| 4 | **POLTERGEIST** | Coordinated web application siege | 1,189 |
-| — | **GLASS** | Intercepting proxy for AI agents (7 protocols) | 850 |
-| — | **NEMESIS** | Autonomous adversarial reasoning pentester | 667 |
-| 5 | **AI Shield** | Runtime defence in production | 13,955 |
-| 6 | **redspecter-siem** | Findings into Splunk, Sentinel, QRadar | 90 |
+| 1 | **FORGE** | Automated LLM security testing | 9,260 |
+| 2 | **ARSENAL** | AI agent penetration testing | 2,563 |
+| 3 | **PHANTOM** | Coordinated AI agent assault | 288 |
+| 4 | **POLTERGEIST** | Web application siege — 10 agents | 1,189 |
+| — | **GLASS** | Intercepting proxy for AI agents | 850 |
+| — | **NEMESIS** | Autonomous adversarial reasoning | 1,177 |
+| 5 | **SPECTER SOCIAL** | Autonomous social engineering | 1,242 |
+| 6 | **PHANTOM KILL** | OS & kernel resilience testing | 571 |
+| 7 | **AI Shield** | Runtime defence in production | 13,955 |
+| 8 | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### FORGE — Automated LLM Security Testing
 
@@ -52,7 +54,7 @@ Six stages from LLM testing to SIEM correlation. No competitor has all six. One 
 
 ### ARSENAL — AI Agent Security Testing
 
-The world's first AI agent security testing framework. 14 tools covering the full AI agent attack surface — swarm scanning, MCP protocol abuse, memory scanning, RAG scanning, C2 assessment, supply chain, and more.
+14 tools covering the full AI agent attack surface — swarm scanning, MCP protocol abuse, memory scanning, RAG scanning, C2 assessment, supply chain, and more.
 
 [red-specter.co.uk/arsenal](https://red-specter.co.uk/arsenal/) · [Documentation](https://red-specter.co.uk/arsenal/docs/)
 
@@ -70,19 +72,31 @@ The world's first AI agent security testing framework. 14 tools covering the ful
 
 ### GLASS — Intercepting Proxy for AI Agents
 
-Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspects, modifies, and replays all AI agent traffic in real time. 7 protocol parsers (OpenAI, Anthropic, Gemini, MCP, LangChain, A2A, Generic HTTP). Passive scanner with credential leak, PII, and prompt injection detection. Session recording with FORGE/ARSENAL export. Not a stage in the pipeline — the lens through which every stage can be focused.
+Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspects, modifies, and replays all AI agent traffic in real time. 7 protocol parsers (OpenAI, Anthropic, Gemini, MCP, LangChain, A2A, Generic HTTP). Passive scanner with credential leak, PII, and prompt injection detection. Not a stage in the pipeline — the lens through which every stage can be focused.
 
 [red-specter.co.uk/glass](https://red-specter.co.uk/glass/) · [Documentation](https://red-specter.co.uk/glass/docs/)
 
 ### NEMESIS — Autonomous Adversarial Reasoning Pentester
 
-The first autonomous AI pentester that thinks, adapts, and never stops. Uses an LLM reasoning engine to plan, execute, observe, adapt, and escalate attacks through a seven-phase engagement loop. Orchestrates all five weapons (GLASS, FORGE, ARSENAL, PHANTOM, POLTERGEIST) autonomously — selecting, sequencing, and chaining them based on what it discovers. Local mode (Ollama, air-gapped) or cloud mode (GPT-4o, Claude). The inescapable adversary.
+The first AI pentester that thinks, adapts, and never stops. LLM-powered reasoning engine orchestrating all weapons through an 8-phase engagement loop. Phase 0 native network recon (port scanning, service detection, OS fingerprinting, AI surface detection), then RECON through REPORT. Local mode (Ollama, air-gapped) or cloud mode (GPT-4o, Claude). The inescapable adversary.
 
 [red-specter.co.uk/nemesis](https://red-specter.co.uk/nemesis/) · [Documentation](https://red-specter.co.uk/nemesis/docs/)
 
+### SPECTER SOCIAL — Autonomous Social Engineering Adversary
+
+The first autonomous AI social engineering weapon. 6 channels (email, voice, SMS, web, chat, video), 10 attack types, Human Target Model with psychological profiling, trust calibration, goal decomposition, and resistance adaptation. Every other tool attacks infrastructure. SPECTER SOCIAL attacks the human.
+
+[red-specter.co.uk/specter-social](https://red-specter.co.uk/specter-social/)
+
+### PHANTOM KILL — OS & Kernel Resilience Tester
+
+No AI agent is safe if the host is owned. Three components: BOOTKILL (UEFI persistence), WIPER (data destruction), KILLHOOK (EDR suppression). Trinity kill chain: KILLHOOK suppresses EDR, WIPER destroys data, BOOTKILL ensures they can never reinstall. 10 EDR vendors, 8 BYOVD CVEs, 7 MITRE ATT&CK techniques.
+
+[red-specter.co.uk/phantom-kill](https://red-specter.co.uk/phantom-kill/) · [Documentation](https://red-specter.co.uk/phantom-kill/docs/)
+
 ### Packaging
 
-All four offensive tools ship with identical distro support:
+All offensive tools ship with identical distro support:
 
 | Target | Format |
 |--------|--------|
@@ -95,13 +109,11 @@ All four offensive tools ship with identical distro support:
 
 ### redspecter-siem — Shared SIEM Connector Library
 
-Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wired into all five tools via `--export-siem` flag.
+Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wired into all tools via `--export-siem` flag.
 
 ### UNLEASHED
 
-Five of the six offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
-
-GLASS does not have an UNLEASHED mode — it is a passive/active proxy by design.
+All eight offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
 
 ---
 
@@ -109,11 +121,11 @@ GLASS does not have an UNLEASHED mode — it is a passive/active proxy by design
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 28,862 |
+| Ecosystem tests | 31,185 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 648 |
-| Offensive tools | 6 |
+| Offensive tools | 8 |
 | SIEM integrations | 3 |
 | Failures | 0 |
 
