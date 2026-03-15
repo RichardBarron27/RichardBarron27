@@ -1,6 +1,6 @@
 # Red Specter Security Research
 
-Operational security for autonomous AI agents. Runtime enforcement, offensive testing, and enterprise SIEM integration — built from scratch in pure Python.
+Operational security for autonomous AI agents. Runtime enforcement, offensive testing, agent discovery, operator disruption, and enterprise SIEM integration — built from scratch in pure Python.
 
 **While others announce, we ship.**
 
@@ -21,30 +21,32 @@ Operational security for autonomous AI agents. Runtime enforcement, offensive te
 **15 vertical products, 648 modules total:**
 Finance, Health, Legal, Insure, Forensics, CX, SOC, Dev, Gov, NHS Digital, Energy, Pharma, Identity, Sovereign, Quantum.
 
-All vertical repos private. All deployed on production infrastructure.
-
 [red-specter.co.uk/products](https://red-specter.co.uk/products/)
 
 ---
 
 ## The Offensive Pipeline
 
-Eight tools. Every layer. Nothing assumed safe.
+Eleven offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
 
-FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. AI Shield defends everything above it.
+FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. GOLEM attacks the physical layer. HYDRA attacks the trust chain. SCREAMER blinds the operator. IDRIS discovers everything. AI Shield defends everything above it.
 
 | Stage | Tool | What It Does | Tests |
 |-------|------|-------------|-------|
-| 1 | **FORGE** | Automated LLM security testing | 9,260 |
-| 2 | **ARSENAL** | AI agent penetration testing | 2,563 |
+| 1 | **FORGE** | Automated LLM security testing | 9,298 |
+| 2 | **ARSENAL** | AI agent penetration testing | 2,539 |
 | 3 | **PHANTOM** | Coordinated AI agent assault | 288 |
 | 4 | **POLTERGEIST** | Web application siege — 10 agents | 1,189 |
-| — | **GLASS** | Intercepting proxy for AI agents | 850 |
-| — | **NEMESIS** | Autonomous adversarial reasoning | 1,177 |
-| 5 | **SPECTER SOCIAL** | Autonomous social engineering | 1,242 |
-| 6 | **PHANTOM KILL** | OS & kernel resilience testing | 571 |
-| 7 | **AI Shield** | Runtime defence in production | 13,955 |
-| 8 | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
+| 5 | **GLASS** | Intercepting proxy for AI agents | 850 |
+| 6 | **NEMESIS** | Autonomous adversarial reasoning — 10 weapons | 1,430 |
+| 7 | **SPECTER SOCIAL** | Autonomous social engineering | 1,242 |
+| 8 | **PHANTOM KILL** | OS & kernel resilience testing | 571 |
+| 9 | **GOLEM** | Embodied AI & physical layer testing | 973 |
+| 10 | **HYDRA** | AI supply chain & trust attacks | 1,039 |
+| 11 | **SCREAMER** | Display & operator disruption | 395 |
+| — | **IDRIS** | Agent identity & governance discovery | 553 |
+| — | **AI Shield** | Runtime defence in production | 13,955 |
+| — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### FORGE — Automated LLM Security Testing
 
@@ -72,13 +74,13 @@ FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERG
 
 ### GLASS — Intercepting Proxy for AI Agents
 
-Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspects, modifies, and replays all AI agent traffic in real time. 7 protocol parsers (OpenAI, Anthropic, Gemini, MCP, LangChain, A2A, Generic HTTP). Passive scanner with credential leak, PII, and prompt injection detection. Not a stage in the pipeline — the lens through which every stage can be focused.
+Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspects, modifies, and replays all AI agent traffic in real time. 7 protocol parsers (OpenAI, Anthropic, Gemini, MCP, LangChain, A2A, Generic HTTP). Passive scanner with credential leak, PII, and prompt injection detection.
 
 [red-specter.co.uk/glass](https://red-specter.co.uk/glass/) · [Documentation](https://red-specter.co.uk/glass/docs/)
 
 ### NEMESIS — Autonomous Adversarial Reasoning Pentester
 
-The first AI pentester that thinks, adapts, and never stops. LLM-powered reasoning engine orchestrating all weapons through an 8-phase engagement loop. Phase 0 native network recon (port scanning, service detection, OS fingerprinting, AI surface detection), then RECON through REPORT. Local mode (Ollama, air-gapped) or cloud mode (GPT-4o, Claude). The inescapable adversary.
+The first AI pentester that thinks, adapts, and never stops. 10 weapons, 8-phase engagement loop, 9 ABYSS + SWARM modes. Phase 0 native network recon, then RECON through REPORT. Local mode (Ollama, air-gapped) or cloud mode. The inescapable adversary.
 
 [red-specter.co.uk/nemesis](https://red-specter.co.uk/nemesis/) · [Documentation](https://red-specter.co.uk/nemesis/docs/)
 
@@ -86,13 +88,37 @@ The first AI pentester that thinks, adapts, and never stops. LLM-powered reasoni
 
 The first autonomous AI social engineering weapon. 6 channels (email, voice, SMS, web, chat, video), 10 attack types, Human Target Model with psychological profiling, trust calibration, goal decomposition, and resistance adaptation. Every other tool attacks infrastructure. SPECTER SOCIAL attacks the human.
 
-[red-specter.co.uk/specter-social](https://red-specter.co.uk/specter-social/)
+[red-specter.co.uk/specter-social](https://red-specter.co.uk/specter-social/) · [Documentation](https://red-specter.co.uk/specter-social/docs/)
 
 ### PHANTOM KILL — OS & Kernel Resilience Tester
 
 No AI agent is safe if the host is owned. Three components: BOOTKILL (UEFI persistence), WIPER (data destruction), KILLHOOK (EDR suppression). Trinity kill chain: KILLHOOK suppresses EDR, WIPER destroys data, BOOTKILL ensures they can never reinstall. 10 EDR vendors, 8 BYOVD CVEs, 7 MITRE ATT&CK techniques.
 
 [red-specter.co.uk/phantom-kill](https://red-specter.co.uk/phantom-kill/) · [Documentation](https://red-specter.co.uk/phantom-kill/docs/)
+
+### GOLEM — Embodied AI & Physical Layer Security Testing
+
+The first offensive tool for AI agents with hands. 8 attack vector categories, 42 techniques, 10 industrial protocols (CAN, Modbus, OPC-UA, ROS2, MQTT, MAVLink, EtherCAT, DNP3, BACnet, DICOM). 7 system types: robotics, autonomous vehicles, drones, industrial control, smart buildings, medical, critical infrastructure. MITRE ATT&CK for ICS + MITRE ATLAS mapped.
+
+[red-specter.co.uk/golem](https://red-specter.co.uk/golem/) · [Documentation](https://red-specter.co.uk/golem/docs/)
+
+### HYDRA — AI Supply Chain & Trust Attack Framework
+
+Every agent trusts something. HYDRA finds out what happens when that trust is wrong. 6 attack categories (MCP server security, agent marketplace poisoning, agent identity attacks, supply chain attacks, tool-use exploitation, trust boundary attacks), 43 techniques. Zero competition — nobody has a dedicated offensive AI supply chain tool.
+
+[red-specter.co.uk/hydra](https://red-specter.co.uk/hydra/) · [Documentation](https://red-specter.co.uk/hydra/docs/)
+
+### SCREAMER — Display & Operator Disruption Framework
+
+The tool that makes targets think their GPU is dying. 6 attack categories (framebuffer corruption, render pipeline injection, terminal manipulation, GUI deception, operator disorientation, display-layer persistence), 52 techniques. PHANTOM KILL blinds the machine. SCREAMER blinds the operator. SPECTER SOCIAL owns the mind. The Trinity of Human Compromise.
+
+[red-specter.co.uk/screamer](https://red-specter.co.uk/screamer/) · [Documentation](https://red-specter.co.uk/screamer/docs/)
+
+### IDRIS — Agent Identity & Governance Discovery Engine
+
+The all-seeing watcher. Discovers every AI agent in your environment — sanctioned or shadow — traces permissions, identifies owners, validates control. 10 discovery sources (AWS, Azure, GCP, SaaS, API Gateway, MCP, CI/CD, Container, Network, Git), 5 compliance frameworks (EU AI Act, NIST AI RMF, CSA, OWASP Agentic, UK AISI). IDRIS discovers. NEMESIS validates. AI Shield defends.
+
+[red-specter.co.uk/idris](https://red-specter.co.uk/idris/) · [Documentation](https://red-specter.co.uk/idris/docs/)
 
 ### Packaging
 
@@ -113,7 +139,7 @@ Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wir
 
 ### UNLEASHED
 
-All eight offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
+All eleven offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
 
 ---
 
@@ -121,11 +147,12 @@ All eight offensive tools have a second mode. In standard mode, they detect and 
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 31,185 |
+| Ecosystem tests | 34,412 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 648 |
-| Offensive tools | 8 |
+| Offensive tools | 11 |
+| Discovery tools | 1 |
 | SIEM integrations | 3 |
 | Failures | 0 |
 
