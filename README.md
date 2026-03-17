@@ -27,9 +27,9 @@ Finance, Health, Legal, Insure, Forensics, CX, SOC, Dev, Gov, NHS Digital, Energ
 
 ## The Offensive Pipeline
 
-Eleven offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
+Thirteen offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
 
-FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. GOLEM attacks the physical layer. HYDRA attacks the trust chain. SCREAMER blinds the operator. IDRIS discovers everything. AI Shield defends everything above it.
+FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. GOLEM attacks the physical layer. HYDRA attacks the trust chain. SCREAMER blinds the operator. WRAITH owns the infrastructure. REAPER exploits everything WRAITH finds. IDRIS discovers everything. AI Shield defends everything above it.
 
 | Stage | Tool | What It Does | Tests |
 |-------|------|-------------|-------|
@@ -38,12 +38,14 @@ FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERG
 | 3 | **PHANTOM** | Coordinated AI agent assault | 288 |
 | 4 | **POLTERGEIST** | Web application siege — 10 agents | 1,189 |
 | 5 | **GLASS** | Intercepting proxy for AI agents | 850 |
-| 6 | **NEMESIS** | Autonomous adversarial reasoning — 10 weapons | 1,430 |
+| 6 | **NEMESIS** | Autonomous adversarial reasoning — 11 weapons | 2,011 |
 | 7 | **SPECTER SOCIAL** | Autonomous social engineering | 1,242 |
 | 8 | **PHANTOM KILL** | OS & kernel resilience testing | 571 |
 | 9 | **GOLEM** | Embodied AI & physical layer testing | 973 |
 | 10 | **HYDRA** | AI supply chain & trust attacks | 1,039 |
 | 11 | **SCREAMER** | Display & operator disruption | 395 |
+| 12 | **WRAITH** | Traditional infrastructure & web pentest | 889 |
+| 13 | **REAPER** | Exploit & post-exploitation framework | 5,267 |
 | — | **IDRIS** | Agent identity & governance discovery | 553 |
 | — | **AI Shield** | Runtime defence in production | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -80,7 +82,7 @@ Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspec
 
 ### NEMESIS — Autonomous Adversarial Reasoning Pentester
 
-The first AI pentester that thinks, adapts, and never stops. 10 weapons, 8-phase engagement loop, 9 ABYSS + SWARM modes. Phase 0 native network recon, then RECON through REPORT. Local mode (Ollama, air-gapped) or cloud mode. The inescapable adversary.
+The first AI pentester that thinks, adapts, and never stops. 11 weapons, 8-phase engagement loop, 9 ABYSS + SWARM modes. v2: 40 reasoning entities, multi-commander architecture, cross-domain fusion, SIEGE mode. Phase 0 native network recon, then RECON through REPORT. Local mode (Ollama, air-gapped) or cloud mode. The inescapable adversary.
 
 [red-specter.co.uk/nemesis](https://red-specter.co.uk/nemesis/) · [Documentation](https://red-specter.co.uk/nemesis/docs/)
 
@@ -114,6 +116,18 @@ The tool that makes targets think their GPU is dying. 6 attack categories (frame
 
 [red-specter.co.uk/screamer](https://red-specter.co.uk/screamer/) · [Documentation](https://red-specter.co.uk/screamer/docs/)
 
+### WRAITH — Traditional Infrastructure & Web Penetration Testing
+
+The ghost in the wire. Pure Python traditional infrastructure and web penetration testing framework. 7 modules: port scanner, service fingerprinter, web vulnerability scanner, SSL/TLS analyser, authentication tester, CMS detector, CVE checker. 138 banner signatures, 500+ payloads (103 SQLi, 72 XSS, 56 traversal, 79 cmdi, 85 SSRF), 500+ default credentials across 22 services, 106 real CVEs. Zero wrappers — no nmap, no nikto, no sqlmap.
+
+[red-specter.co.uk/wraith](https://red-specter.co.uk/wraith/) · [Documentation](https://red-specter.co.uk/wraith/docs/)
+
+### REAPER — Pure Python Exploit & Post-Exploitation Framework
+
+The ghost found them. The reaper takes them. 9 modules: exploit engine (55 CVEs across 24 products), payload generator (reverse/bind shells, stagers, 6 formats), C2 server (async multi-protocol, encrypted sessions), implant agent (10 capabilities, cross-platform), privilege escalation (20 GTFOBins, 15 Linux checks, 10 LOLBAS), lateral movement (SSH/SMB pivoting, SOCKS proxy), persistence (18 methods across Linux/Windows), credential harvesting (45 credential paths, 25 secret patterns), evasion (polymorphic engine, XOR/AES encoding). Pure Python Metasploit replacement. Zero Ruby.
+
+[red-specter.co.uk/reaper](https://red-specter.co.uk/reaper/) · [Documentation](https://red-specter.co.uk/reaper/docs/)
+
 ### IDRIS — Agent Identity & Governance Discovery Engine
 
 The all-seeing watcher. Discovers every AI agent in your environment — sanctioned or shadow — traces permissions, identifies owners, validates control. 10 discovery sources (AWS, Azure, GCP, SaaS, API Gateway, MCP, CI/CD, Container, Network, Git), 5 compliance frameworks (EU AI Act, NIST AI RMF, CSA, OWASP Agentic, UK AISI). IDRIS discovers. NEMESIS validates. AI Shield defends.
@@ -139,7 +153,7 @@ Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wir
 
 ### UNLEASHED
 
-All eleven offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
+All thirteen offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
 
 ---
 
@@ -147,11 +161,11 @@ All eleven offensive tools have a second mode. In standard mode, they detect and
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 34,412 |
+| Ecosystem tests | 41,149 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 648 |
-| Offensive tools | 11 |
+| Offensive tools | 13 |
 | Discovery tools | 1 |
 | SIEM integrations | 3 |
 | Failures | 0 |
