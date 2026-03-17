@@ -32,14 +32,14 @@ FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERG
 | 8 | **PHANTOM KILL** | OS & kernel resilience testing | 571 |
 | 9 | **GOLEM** | Embodied AI & physical layer testing | 973 |
 | 10 | **HYDRA** | AI supply chain & trust attacks | 1,039 |
-| 11 | **SCREAMER** | Display & operator disruption | 395 |
-| 12 | **WRAITH** | Traditional infrastructure & web pentest | 889 |
-| 13 | **REAPER** | Exploit & post-exploitation framework | 5,267 |
-| 14 | **GHOUL** | Password cracking framework | 1,408 |
-| 15 | **DOMINION** | Active Directory attack framework | 1,866 |
-| 16 | **SHADOWMAP** | OSINT & target intelligence | 930 |
-| 17 | **BANSHEE** | Browser exploitation framework | 986 |
-| — | **IDRIS** | Agent identity & governance discovery | 553 |
+| 11 | **IDRIS** | Agent identity & governance discovery | 553 |
+| 12 | **SCREAMER** | Display & operator disruption | 395 |
+| 13 | **WRAITH** | Traditional infrastructure & web pentest | 889 |
+| 14 | **REAPER** | Exploit & post-exploitation framework | 5,267 |
+| 15 | **GHOUL** | Password cracking framework | 1,408 |
+| 16 | **DOMINION** | Active Directory attack framework | 1,866 |
+| 17 | **SHADOWMAP** | OSINT & target intelligence | 930 |
+| 18 | **BANSHEE** | Browser exploitation framework | 986 |
 | — | **AI Shield** | Runtime defence in production | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
