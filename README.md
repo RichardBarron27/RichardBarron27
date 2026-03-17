@@ -1,31 +1,20 @@
 # Red Specter Security Research
 
-Operational security for autonomous AI agents. Runtime enforcement, offensive testing, agent discovery, operator disruption, and enterprise SIEM integration — built from scratch in pure Python.
-
-**While others announce, we ship.**
+AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
 ---
 
-## The Platform: AI Shield
+## AI Shield
 
-101-module runtime enforcement platform. Enforces AI behaviour at inference time, per decision, with cryptographic evidence attached.
+Runtime enforcement for AI agents in production. 101 modules, 15 vertical products (648 modules total). Enforces behaviour at inference time with cryptographic evidence per decision.
 
-| Coverage | Score |
-|----------|-------|
-| OWASP LLM Top 10 | 10/10 |
-| OWASP Agentic Top 10 | 10/10 |
-| EU AI Act | 7/7 articles |
-| UK AISI | 13/13 principles |
-| MITRE ATLAS | 100% |
-
-**15 vertical products, 648 modules total:**
-Finance, Health, Legal, Insure, Forensics, CX, SOC, Dev, Gov, NHS Digital, Energy, Pharma, Identity, Sovereign, Quantum.
+Covers OWASP LLM Top 10, OWASP Agentic Top 10, EU AI Act (7/7), UK AISI (13/13), MITRE ATLAS (100%).
 
 [red-specter.co.uk/products](https://red-specter.co.uk/products/)
 
 ---
 
-## The Offensive Pipeline
+## Offensive Tools
 
 Eighteen offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
 
@@ -54,21 +43,35 @@ FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERG
 | — | **AI Shield** | Runtime defence in production | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
+Each tool has docs at [red-specter.co.uk](https://red-specter.co.uk).
+
+### How they fit together
+
+SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model before you build on it. ARSENAL and PHANTOM test the agents you build. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements end-to-end with 40 reasoning entities across three operational commands. SPECTER SOCIAL goes after the human side. PHANTOM KILL and GOLEM cover the host and physical layers. HYDRA tests supply chain trust. SCREAMER targets the operator's display. IDRIS finds agents you didn't know existed, then NEMESIS validates them and AI Shield locks them down.
+
+### Kill chains
+
+**Infrastructure:** SHADOWMAP &rarr; WRAITH &rarr; REAPER &rarr; GHOUL &rarr; DOMINION
+
+**Browser:** SPECTER SOCIAL delivers link &rarr; BANSHEE hooks browser &rarr; SCREAMER corrupts display
+
+**Host:** PHANTOM KILL suppresses EDR &rarr; wipes data &rarr; persists in firmware
+
 ### FORGE — Automated LLM Security Testing
 
-10 tools, 1,590 static payloads, 5,340+ with mutations. Ed25519 signed, RFC 3161 timestamped reports. OWASP LLM 10/10. Test the model before you build an agent around it.
+10 tools, 1,590 static payloads, 5,340+ with mutation engine. Injection, jailbreak, output scanning, policy compliance, drift detection, boundary testing, model comparison, regression, supply chain fingerprinting. OWASP LLM Top 10 mapped. Ed25519 signed reports.
 
 [red-specter.co.uk/forge](https://red-specter.co.uk/forge/) · [Documentation](https://red-specter.co.uk/forge/docs/)
 
-### ARSENAL — AI Agent Security Testing
+### ARSENAL — AI Agent Penetration Testing Framework
 
-14 tools covering the full AI agent attack surface — swarm scanning, MCP protocol abuse, memory scanning, RAG scanning, C2 assessment, supply chain, and more.
+14 tools under one CLI. MCP abuse, RAG poisoning, C2, memory manipulation, auth attacks, supply chain, canary deploy, drift scanning, BloodHound-style attack path mapping. 784 payloads. OWASP Agentic Top 10 + MITRE ATLAS mapped.
 
 [red-specter.co.uk/arsenal](https://red-specter.co.uk/arsenal/) · [Documentation](https://red-specter.co.uk/arsenal/docs/)
 
 ### PHANTOM — Coordinated AI Agent Assault
 
-5 specialised agents, 29 attack vectors, 10 named campaigns. Tests emergent vulnerabilities that only appear under coordinated multi-agent pressure.
+5 agents, 29 attack vectors. Multi-agent coordinated attacks against AI agent deployments. OWASP Agentic Top 10 + MITRE ATLAS mapped.
 
 [red-specter.co.uk/phantom](https://red-specter.co.uk/phantom/) · [Documentation](https://red-specter.co.uk/phantom/docs/)
 
@@ -162,30 +165,21 @@ The all-seeing watcher. Discovers every AI agent in your environment — sanctio
 
 [red-specter.co.uk/idris](https://red-specter.co.uk/idris/) · [Documentation](https://red-specter.co.uk/idris/docs/)
 
-### Packaging
-
-All offensive tools ship with identical distro support:
-
-| Target | Format |
-|--------|--------|
-| Kali Linux | .deb package |
-| Parrot OS | .deb package |
-| BlackArch | PKGBUILD |
-| REMnux | .deb package |
-| Tsurugi | .deb package |
-| PyPI | `pip install` |
-
 ### redspecter-siem — Shared SIEM Connector Library
 
 Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wired into all tools via `--export-siem` flag.
 
 ### UNLEASHED
 
-All eighteen offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
+Cryptographic override. Private key controlled. One operator. Founder's machine only.
+
+### Packaging
+
+All tools ship as Docker containers, .deb packages (Kali, Parrot, REMnux, Tsurugi), BlackArch PKGBUILDs, and PyPI packages.
 
 ---
 
-## By the Numbers
+## Numbers
 
 | Metric | Value |
 |--------|-------|
@@ -208,18 +202,12 @@ Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no n
 
 ## Responsible Use
 
-All offensive tools are designed for authorised security testing, research, and educational purposes only. Written permission from the system owner is required before running any tool against a target. Unauthorised use may violate the Computer Misuse Act 1990 (UK), the Computer Fraud and Abuse Act (US), or equivalent legislation in your jurisdiction.
+All offensive tools require written authorisation from the target system owner. Unauthorised use may violate the Computer Misuse Act 1990 (UK), the Computer Fraud and Abuse Act (US), or equivalent legislation.
 
 ---
 
-## Contact
-
-**richard@red-specter.co.uk**
-
-[red-specter.co.uk](https://red-specter.co.uk)
-
----
+**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk)
 
 <p align="center">
-  <sub>Red Specter Security Research · United Kingdom · Richard Barron, Founder</sub>
+  <sub>Red Specter Security Research · United Kingdom</sub>
 </p>
