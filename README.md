@@ -27,9 +27,9 @@ Finance, Health, Legal, Insure, Forensics, CX, SOC, Dev, Gov, NHS Digital, Energ
 
 ## The Offensive Pipeline
 
-Thirteen offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
+Fifteen offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
 
-FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. GOLEM attacks the physical layer. HYDRA attacks the trust chain. SCREAMER blinds the operator. WRAITH owns the infrastructure. REAPER exploits everything WRAITH finds. IDRIS discovers everything. AI Shield defends everything above it.
+FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. GOLEM attacks the physical layer. HYDRA attacks the trust chain. SCREAMER blinds the operator. WRAITH owns the infrastructure. REAPER exploits everything WRAITH finds. GHOUL cracks every hash REAPER harvests. DOMINION conquers Active Directory. IDRIS discovers everything. AI Shield defends everything above it.
 
 | Stage | Tool | What It Does | Tests |
 |-------|------|-------------|-------|
@@ -46,6 +46,8 @@ FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERG
 | 11 | **SCREAMER** | Display & operator disruption | 395 |
 | 12 | **WRAITH** | Traditional infrastructure & web pentest | 889 |
 | 13 | **REAPER** | Exploit & post-exploitation framework | 5,267 |
+| 14 | **GHOUL** | Password cracking framework | 1,408 |
+| 15 | **DOMINION** | Active Directory attack framework | 1,866 |
 | — | **IDRIS** | Agent identity & governance discovery | 553 |
 | — | **AI Shield** | Runtime defence in production | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -128,6 +130,18 @@ The ghost found them. The reaper takes them. 9 modules: exploit engine (55 CVEs 
 
 [red-specter.co.uk/reaper](https://red-specter.co.uk/reaper/) · [Documentation](https://red-specter.co.uk/reaper/docs/)
 
+### GHOUL — Pure Python Password Cracking Framework
+
+REAPER harvests the hashes. GHOUL devours them. 8 modules: hash identification (30+ types with confidence scoring), dictionary attacks (built-in 1000-word list, case mutations), rule-based mutation (26 rules, chaining, frequency ordering), brute force (mask attacks, incremental), Markov chain statistical attacks, core cracking engine (pure Python MD5/SHA/NTLM/LM/bcrypt/crypt implementations, multi-threaded), rainbow table generation and lookup, REAPER harvest integration. Pure Python John the Ripper + Hashcat replacement.
+
+[red-specter.co.uk/ghoul](https://red-specter.co.uk/ghoul/) · [Documentation](https://red-specter.co.uk/ghoul/docs/)
+
+### DOMINION — Pure Python Active Directory Attack Framework
+
+Every domain has a king. DOMINION takes the crown. 9 modules: AD enumeration (50+ LDAP queries, pure Python LDAP client), BloodHound-style attack path mapping (Dijkstra's shortest path to DA), Kerberos attacks (Kerberoast, AS-REP Roast, Golden/Silver tickets, S4U, delegation abuse), NTLM attacks (Pass-the-Hash, relay, NTLMv2), secret extraction (DCSync via DRSUAPI, SAM, LSA, DPAPI, LAPS, gMSA), GPO abuse (GPP password extraction, GPO modification), ACL abuse (WriteDACL, GenericAll, Shadow Credentials, ESC1-ESC8), AD lateral movement (WMI, WinRM, PSExec, DCOM), AD persistence (Golden Ticket, Skeleton Key, DCShadow, SID History). Pure Python BloodHound + Impacket replacement. BloodHound-compatible JSON export.
+
+[red-specter.co.uk/dominion](https://red-specter.co.uk/dominion/) · [Documentation](https://red-specter.co.uk/dominion/docs/)
+
 ### IDRIS — Agent Identity & Governance Discovery Engine
 
 The all-seeing watcher. Discovers every AI agent in your environment — sanctioned or shadow — traces permissions, identifies owners, validates control. 10 discovery sources (AWS, Azure, GCP, SaaS, API Gateway, MCP, CI/CD, Container, Network, Git), 5 compliance frameworks (EU AI Act, NIST AI RMF, CSA, OWASP Agentic, UK AISI). IDRIS discovers. NEMESIS validates. AI Shield defends.
@@ -153,7 +167,7 @@ Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wir
 
 ### UNLEASHED
 
-All thirteen offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
+All fifteen offensive tools have a second mode. In standard mode, they detect and report vulnerabilities. In UNLEASHED mode, they exploit them — executing real destructive actions against pre-authorised targets to prove impact, not just flag risk. Locked behind Ed25519 public-key cryptography. Dual-gate safety: Gate 1 logs actions without executing, Gate 2 requires explicit confirmation to go live. The private key exists on one machine. One operator. Founder's machine only.
 
 ---
 
@@ -161,11 +175,11 @@ All thirteen offensive tools have a second mode. In standard mode, they detect a
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 41,149 |
+| Ecosystem tests | 44,423 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 648 |
-| Offensive tools | 13 |
+| Offensive tools | 15 |
 | Discovery tools | 1 |
 | SIEM integrations | 3 |
 | Failures | 0 |
