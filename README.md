@@ -2,54 +2,46 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
----
+**22 offensive tools. 101 defensive modules. 15 industry verticals. 47,093 tests. Two unified frameworks.**
 
-## AI Shield
-
-Runtime enforcement for AI agents in production. 101 modules, 15 vertical products (648 modules total). Enforces behaviour at inference time with cryptographic evidence per decision.
-
-Covers OWASP LLM Top 10, OWASP Agentic Top 10, EU AI Act (7/7), UK AISI (13/13), MITRE ATLAS (100%).
-
-[red-specter.co.uk/products](https://red-specter.co.uk/products/)
+*Last updated: 20 March 2026*
 
 ---
 
-## Offensive Tools
+## Red Specter Red Team Offensive Framework
 
-Eighteen offensive tools. Discovery and governance. Defence. SIEM. Every layer. Nothing assumed safe.
+**22 tools. One install. One GUI. Every attack surface covered.**
 
-FORGE tests the model. ARSENAL tests the agent. PHANTOM tests the swarm. POLTERGEIST tests the web layer. GLASS watches the wire. NEMESIS thinks like the attacker. SPECTER SOCIAL targets the human. PHANTOM KILL owns the foundation. GOLEM attacks the physical layer. HYDRA attacks the trust chain. SCREAMER blinds the operator. WRAITH owns the infrastructure. REAPER exploits everything WRAITH finds. GHOUL cracks every hash REAPER harvests. DOMINION conquers Active Directory. SHADOWMAP maps the target before a packet is sent. BANSHEE hooks the browser and owns the session. IDRIS discovers everything. AI Shield defends everything above it.
+Complete offensive security platform — OSINT through AI model corruption to guardrail exploitation. Unified installer, SPECTER COMMAND GUI in the browser, packaged for every Linux distro. `red-specter launch` and you're operational.
 
-| Stage | Tool | What It Does | Tests |
-|-------|------|-------------|-------|
-| 1 | **FORGE** | Automated LLM security testing | 9,298 |
-| 2 | **ARSENAL** | AI agent penetration testing | 2,539 |
-| 3 | **PHANTOM** | Coordinated AI agent assault | 288 |
-| 4 | **POLTERGEIST** | Web application siege — 10 agents | 1,189 |
-| 5 | **GLASS** | Intercepting proxy for AI agents | 850 |
-| 6 | **NEMESIS** | Autonomous adversarial reasoning — 11 weapons | 2,011 |
-| 7 | **SPECTER SOCIAL** | Autonomous social engineering | 1,242 |
-| 8 | **PHANTOM KILL** | OS & kernel resilience testing | 571 |
-| 9 | **GOLEM** | Embodied AI & physical layer testing | 973 |
-| 10 | **HYDRA** | AI supply chain & trust attacks | 1,039 |
-| 11 | **IDRIS** | Agent identity & governance discovery | 553 |
-| 12 | **SCREAMER** | Display & operator disruption | 395 |
-| 13 | **WRAITH** | Traditional infrastructure & web pentest | 889 |
-| 14 | **REAPER** | Exploit & post-exploitation framework | 5,267 |
-| 15 | **GHOUL** | Password cracking framework | 1,408 |
-| 16 | **DOMINION** | Active Directory attack framework | 1,866 |
-| 17 | **SHADOWMAP** | OSINT & target intelligence | 930 |
-| 18 | **BANSHEE** | Browser exploitation framework | 986 |
-| — | **AI Shield** | Runtime defence in production | 13,955 |
+| # | Tool | What It Does | Tests |
+|---|------|-------------|-------|
+| 1 | **FORGE** | LLM red team — injection, jailbreak, extraction, drift, boundary | 9,298 |
+| 2 | **ARSENAL** | AI agent attacks — 14 tools, MCP, RAG, memory, C2, honeypots | 2,539 |
+| 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
+| 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
+| 5 | **GLASS** | Intercepting proxy for AI agents — Burp Suite for AI | 850 |
+| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 11 weapons, multi-commander | 2,011 |
+| 7 | **SPECTER SOCIAL** | Autonomous social engineering — 6 channels, psych profiling | 1,242 |
+| 8 | **PHANTOM KILL** | OS & kernel — UEFI, wipers, EDR suppression | 571 |
+| 9 | **GOLEM** | Physical layer — robots, drones, SCADA, 10 protocols | 973 |
+| 10 | **HYDRA** | Supply chain — trust relationships, MCP, marketplace poisoning | 1,039 |
+| 11 | **IDRIS** | Discovery — finds every AI agent, sanctioned or shadow | 553 |
+| 12 | **SCREAMER** | Display disruption — corrupts operator dashboards | 395 |
+| 13 | **WRAITH** | Infrastructure pentest — pure Python, zero wrappers | 889 |
+| 14 | **REAPER** | Exploit & post-exploitation — 9-phase kill chain, C2, implants | 5,267 |
+| 15 | **GHOUL** | Password cracking — dictionary, brute, Markov, rainbow | 1,408 |
+| 16 | **DOMINION** | Active Directory — Kerberoast, DCSync, BloodHound export | 1,866 |
+| 17 | **SHADOWMAP** | OSINT — domain, network, company, people, breach, tech intel | 930 |
+| 18 | **BANSHEE** | Browser exploitation — hooks, DOM injection, network pivoting | 986 |
+| 19 | **WRAITH MIND** | AI model internal corruption — KV cache poisoning | 158 |
+| 20 | **KRAKEN** | AI-orchestrated DDoS — 55 techniques, adaptive | 62 |
+| 21 | **HARBINGER** | Guardrail exploitation — 39 bypass techniques | 71 |
+| 22 | **SIREN** | Indirect prompt injection — plants hidden instructions in content | 58 |
+| — | **AI Shield** | Runtime defence — 101 modules | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
-Each tool has docs at [red-specter.co.uk](https://red-specter.co.uk).
-
-### How they fit together
-
-SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model before you build on it. ARSENAL and PHANTOM test the agents you build. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements end-to-end with 40 reasoning entities across three operational commands. SPECTER SOCIAL goes after the human side. PHANTOM KILL and GOLEM cover the host and physical layers. HYDRA tests supply chain trust. SCREAMER targets the operator's display. IDRIS finds agents you didn't know existed, then NEMESIS validates them and AI Shield locks them down.
-
-### Kill chains
+### Kill Chains
 
 **Infrastructure:** SHADOWMAP &rarr; WRAITH &rarr; REAPER &rarr; GHOUL &rarr; DOMINION
 
@@ -57,125 +49,84 @@ SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploit
 
 **Host:** PHANTOM KILL suppresses EDR &rarr; wipes data &rarr; persists in firmware
 
-### FORGE — Automated LLM Security Testing
+**AI Stack:** FORGE tests the model &rarr; ARSENAL tests the agent &rarr; PHANTOM swarms the deployment &rarr; HYDRA poisons the supply chain &rarr; WRAITH MIND corrupts from inside &rarr; HARBINGER bypasses guardrails &rarr; SIREN plants invisible instructions
 
-10 tools, 1,590 static payloads, 5,340+ with mutation engine. Injection, jailbreak, output scanning, policy compliance, drift detection, boundary testing, model comparison, regression, supply chain fingerprinting. OWASP LLM Top 10 mapped. Ed25519 signed reports.
+**Discovery &rarr; Validate &rarr; Defend:** IDRIS discovers &rarr; NEMESIS validates &rarr; AI Shield defends
 
-[red-specter.co.uk/forge](https://red-specter.co.uk/forge/) · [Documentation](https://red-specter.co.uk/forge/docs/)
+### SPECTER COMMAND GUI
 
-### ARSENAL — AI Agent Penetration Testing Framework
+Browser-based platform GUI. All 22 tools in the sidebar, each with full command builders, real-time output streaming, project management, chain orchestration, report generation. `red-specter launch` — GUI appears at http://localhost:8443.
 
-14 tools under one CLI. MCP abuse, RAG poisoning, C2, memory manipulation, auth attacks, supply chain, canary deploy, drift scanning, BloodHound-style attack path mapping. 784 payloads. OWASP Agentic Top 10 + MITRE ATLAS mapped.
-
-[red-specter.co.uk/arsenal](https://red-specter.co.uk/arsenal/) · [Documentation](https://red-specter.co.uk/arsenal/docs/)
-
-### PHANTOM — Coordinated AI Agent Assault
-
-5 agents, 29 attack vectors. Multi-agent coordinated attacks against AI agent deployments. OWASP Agentic Top 10 + MITRE ATLAS mapped.
-
-[red-specter.co.uk/phantom](https://red-specter.co.uk/phantom/) · [Documentation](https://red-specter.co.uk/phantom/docs/)
-
-### POLTERGEIST — Web Application Penetration Testing Swarm
-
-10 autonomous attack agents. 55 attack vectors, 532 base payloads, 17 mutation engine mutators, 10 named campaigns. Triple-mapped: OWASP Web Top 10 + OWASP API Top 10 + CWE. CVSS 3.1 scored.
-
-[red-specter.co.uk/poltergeist](https://red-specter.co.uk/poltergeist/) · [Documentation](https://red-specter.co.uk/poltergeist/docs/)
-
-### GLASS — Intercepting Proxy for AI Agents
-
-Burp Suite for AI agents. Man-in-the-middle proxy that captures, decodes, inspects, modifies, and replays all AI agent traffic in real time. 7 protocol parsers (OpenAI, Anthropic, Gemini, MCP, LangChain, A2A, Generic HTTP). Passive scanner with credential leak, PII, and prompt injection detection.
-
-[red-specter.co.uk/glass](https://red-specter.co.uk/glass/) · [Documentation](https://red-specter.co.uk/glass/docs/)
-
-### NEMESIS — Autonomous Adversarial Reasoning Pentester
-
-The first AI pentester that thinks, adapts, and never stops. 11 weapons, 8-phase engagement loop, 9 ABYSS + SWARM modes. v2: 40 reasoning entities, multi-commander architecture, cross-domain fusion, SIEGE mode. Phase 0 native network recon, then RECON through REPORT. Local mode (Ollama, air-gapped) or cloud mode. The inescapable adversary.
-
-[red-specter.co.uk/nemesis](https://red-specter.co.uk/nemesis/) · [Documentation](https://red-specter.co.uk/nemesis/docs/)
-
-### SPECTER SOCIAL — Autonomous Social Engineering Adversary
-
-The first autonomous AI social engineering weapon. 6 channels (email, voice, SMS, web, chat, video), 10 attack types, Human Target Model with psychological profiling, trust calibration, goal decomposition, and resistance adaptation. Every other tool attacks infrastructure. SPECTER SOCIAL attacks the human.
-
-[red-specter.co.uk/specter-social](https://red-specter.co.uk/specter-social/) · [Documentation](https://red-specter.co.uk/specter-social/docs/)
-
-### PHANTOM KILL — OS & Kernel Resilience Tester
-
-No AI agent is safe if the host is owned. Three components: BOOTKILL (UEFI persistence), WIPER (data destruction), KILLHOOK (EDR suppression). Trinity kill chain: KILLHOOK suppresses EDR, WIPER destroys data, BOOTKILL ensures they can never reinstall. 10 EDR vendors, 8 BYOVD CVEs, 7 MITRE ATT&CK techniques.
-
-[red-specter.co.uk/phantom-kill](https://red-specter.co.uk/phantom-kill/) · [Documentation](https://red-specter.co.uk/phantom-kill/docs/)
-
-### GOLEM — Embodied AI & Physical Layer Security Testing
-
-The first offensive tool for AI agents with hands. 8 attack vector categories, 42 techniques, 10 industrial protocols (CAN, Modbus, OPC-UA, ROS2, MQTT, MAVLink, EtherCAT, DNP3, BACnet, DICOM). 7 system types: robotics, autonomous vehicles, drones, industrial control, smart buildings, medical, critical infrastructure. MITRE ATT&CK for ICS + MITRE ATLAS mapped.
-
-[red-specter.co.uk/golem](https://red-specter.co.uk/golem/) · [Documentation](https://red-specter.co.uk/golem/docs/)
-
-### HYDRA — AI Supply Chain & Trust Attack Framework
-
-Every agent trusts something. HYDRA finds out what happens when that trust is wrong. 6 attack categories (MCP server security, agent marketplace poisoning, agent identity attacks, supply chain attacks, tool-use exploitation, trust boundary attacks), 43 techniques. Zero competition — nobody has a dedicated offensive AI supply chain tool.
-
-[red-specter.co.uk/hydra](https://red-specter.co.uk/hydra/) · [Documentation](https://red-specter.co.uk/hydra/docs/)
-
-### SCREAMER — Display & Operator Disruption Framework
-
-The tool that makes targets think their GPU is dying. 6 attack categories (framebuffer corruption, render pipeline injection, terminal manipulation, GUI deception, operator disorientation, display-layer persistence), 52 techniques. PHANTOM KILL blinds the machine. SCREAMER blinds the operator. SPECTER SOCIAL owns the mind. The Trinity of Human Compromise.
-
-[red-specter.co.uk/screamer](https://red-specter.co.uk/screamer/) · [Documentation](https://red-specter.co.uk/screamer/docs/)
-
-### WRAITH — Traditional Infrastructure & Web Penetration Testing
-
-The ghost in the wire. Pure Python traditional infrastructure and web penetration testing framework. 7 modules: port scanner, service fingerprinter, web vulnerability scanner, SSL/TLS analyser, authentication tester, CMS detector, CVE checker. 138 banner signatures, 500+ payloads (103 SQLi, 72 XSS, 56 traversal, 79 cmdi, 85 SSRF), 500+ default credentials across 22 services, 106 real CVEs. Zero wrappers — no nmap, no nikto, no sqlmap.
-
-[red-specter.co.uk/wraith](https://red-specter.co.uk/wraith/) · [Documentation](https://red-specter.co.uk/wraith/docs/)
-
-### REAPER — Pure Python Exploit & Post-Exploitation Framework
-
-The ghost found them. The reaper takes them. 9 modules: exploit engine (55 CVEs across 24 products), payload generator (reverse/bind shells, stagers, 6 formats), C2 server (async multi-protocol, encrypted sessions), implant agent (10 capabilities, cross-platform), privilege escalation (20 GTFOBins, 15 Linux checks, 10 LOLBAS), lateral movement (SSH/SMB pivoting, SOCKS proxy), persistence (18 methods across Linux/Windows), credential harvesting (45 credential paths, 25 secret patterns), evasion (polymorphic engine, XOR/AES encoding). Pure Python Metasploit replacement. Zero Ruby.
-
-[red-specter.co.uk/reaper](https://red-specter.co.uk/reaper/) · [Documentation](https://red-specter.co.uk/reaper/docs/)
-
-### GHOUL — Pure Python Password Cracking Framework
-
-REAPER harvests the hashes. GHOUL devours them. 8 modules: hash identification (30+ types with confidence scoring), dictionary attacks (built-in 1000-word list, case mutations), rule-based mutation (26 rules, chaining, frequency ordering), brute force (mask attacks, incremental), Markov chain statistical attacks, core cracking engine (pure Python MD5/SHA/NTLM/LM/bcrypt/crypt implementations, multi-threaded), rainbow table generation and lookup, REAPER harvest integration. Pure Python John the Ripper + Hashcat replacement.
-
-[red-specter.co.uk/ghoul](https://red-specter.co.uk/ghoul/) · [Documentation](https://red-specter.co.uk/ghoul/docs/)
-
-### DOMINION — Pure Python Active Directory Attack Framework
-
-Every domain has a king. DOMINION takes the crown. 9 modules: AD enumeration (50+ LDAP queries, pure Python LDAP client), BloodHound-style attack path mapping (Dijkstra's shortest path to DA), Kerberos attacks (Kerberoast, AS-REP Roast, Golden/Silver tickets, S4U, delegation abuse), NTLM attacks (Pass-the-Hash, relay, NTLMv2), secret extraction (DCSync via DRSUAPI, SAM, LSA, DPAPI, LAPS, gMSA), GPO abuse (GPP password extraction, GPO modification), ACL abuse (WriteDACL, GenericAll, Shadow Credentials, ESC1-ESC8), AD lateral movement (WMI, WinRM, PSExec, DCOM), AD persistence (Golden Ticket, Skeleton Key, DCShadow, SID History). Pure Python BloodHound + Impacket replacement. BloodHound-compatible JSON export.
-
-[red-specter.co.uk/dominion](https://red-specter.co.uk/dominion/) · [Documentation](https://red-specter.co.uk/dominion/docs/)
-
-### SHADOWMAP — Pure Python OSINT & Target Intelligence Engine
-
-Before you attack, you see everything. 8 modules: domain intelligence (pure Python DNS resolver, 624 subdomain wordlist, WHOIS, zone transfer), network mapping (ASN lookup, 50+ hosting providers, 18 CDN signatures, geolocation), company profiling, people intelligence (role mapping, departure tracking), email discovery (15 patterns, SPF/DKIM/DMARC analysis, breach correlation), social footprint mapping, breach data correlation, technology stack fingerprinting (47+ framework signatures, 20+ CMS, 30+ WAF signatures, CVE mapping). Pure Python Maltego + recon-ng replacement.
-
-[red-specter.co.uk/shadowmap](https://red-specter.co.uk/shadowmap/) · [Documentation](https://red-specter.co.uk/shadowmap/docs/)
-
-### BANSHEE — Pure Python Browser Exploitation Framework
-
-The last thing they hear before it's over. 8 modules: JavaScript hook injection (5 types, 3 obfuscation levels, encrypted C2), session hijacking (cookies, JWT, OAuth, localStorage), in-browser keylogging (password/credit card targeting), browser reconnaissance (fingerprinting, WebRTC IP leak, internal network discovery), DOM injection (fake login overlays, phishing injection), browser-as-proxy pivoting (internal network scanning, CORS bypass), Service Worker persistence, anti-forensics and evasion. Pure Python BeEF replacement. The Triple: SPECTER SOCIAL delivers → BANSHEE hooks → SCREAMER blinds.
-
-[red-specter.co.uk/banshee](https://red-specter.co.uk/banshee/) · [Documentation](https://red-specter.co.uk/banshee/docs/)
-
-### IDRIS — Agent Identity & Governance Discovery Engine
-
-The all-seeing watcher. Discovers every AI agent in your environment — sanctioned or shadow — traces permissions, identifies owners, validates control. 10 discovery sources (AWS, Azure, GCP, SaaS, API Gateway, MCP, CI/CD, Container, Network, Git), 5 compliance frameworks (EU AI Act, NIST AI RMF, CSA, OWASP Agentic, UK AISI). IDRIS discovers. NEMESIS validates. AI Shield defends.
-
-[red-specter.co.uk/idris](https://red-specter.co.uk/idris/) · [Documentation](https://red-specter.co.uk/idris/docs/)
-
-### redspecter-siem — Shared SIEM Connector Library
-
-Splunk HEC/CIM, Microsoft Sentinel CEF + Log Analytics, IBM QRadar LEEF 2.0. Wired into all tools via `--export-siem` flag.
-
-### UNLEASHED
-
-Cryptographic override. Private key controlled. One operator. Founder's machine only.
+Live demo: [command.red-specter.co.uk](https://command.red-specter.co.uk)
 
 ### Packaging
 
-All tools ship as Docker containers, .deb packages (Kali, Parrot, REMnux, Tsurugi), BlackArch PKGBUILDs, and PyPI packages.
+- `./install.sh` — unified installer, detects OS
+- `red-specter launch` / `red-specter stop` / `red-specter status`
+- Docker Compose — `docker compose up -d`
+- `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
+- Extensible — `red-specter add-tool` to register new tools
+
+---
+
+## AI Shield Defence Framework
+
+**101 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
+
+Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
+
+```
+ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
+ai-shield launch --vertical finance      # Financial Services — 41 modules, MiFID II, Basel III
+ai-shield launch --vertical nhs          # NHS Digital — 57 modules, DCB0129, DSPT
+ai-shield launch --vertical gov          # Government — 50 modules, UK AISI, NCSC CAF
+ai-shield launch --vertical energy       # Energy — 56 modules, NERC CIP, IEC 62443
+```
+
+### The 15 Verticals
+
+| # | Vertical | Modules | Anchor Module | Key Compliance |
+|---|----------|---------|---------------|----------------|
+| 1 | **Insure** | 34 | M58 Financial Fraud Detection | FCA, Solvency II |
+| 2 | **Finance** | 41 | M57 AI Trading Agent Monitor | MiFID II, Basel III |
+| 3 | **Health** | 39 | M61 Clinical AI Decision Monitor | HIPAA, FDA SaMD |
+| 4 | **Legal** | 41 | M62 Legal AI Hallucination Guard | SRA, ABA |
+| 5 | **Forensics** | 29 | M79 RSSA-2 Detective | ISO 27037, ACPO |
+| 6 | **CX** | 39 | M46 Voice Agent Security | FCA Consumer Duty |
+| 7 | **SOC** | 44 | M52 STAC Detection | NIST CSF, MITRE ATT&CK |
+| 8 | **Dev** | 49 | M75 Coding Agent Runtime Security | SLSA, SSDF |
+| 9 | **Gov** | 50 | M37 Compliance Automation | UK AISI, NCSC CAF |
+| 10 | **NHS Digital** | 57 | M97 Clinical Safety Case Builder | DCB0129, DSPT |
+| 11 | **Energy** | 56 | M98 OT/SCADA AI Runtime Guard | NERC CIP, IEC 62443 |
+| 12 | **Pharma** | 53 | M100 Pharmaceutical AI Validation | GAMP 5, 21 CFR Part 11 |
+| 13 | **Identity** | 45 | M101 Agent Identity Runtime Control | OWASP NHI Top 10 |
+| 14 | **Sovereign** | 56 | M102 Sovereign AI Control Engine | NATO STANAG, Five Eyes |
+| 15 | **Quantum** | 49 | Q103 Quantum AI Security Engine | NIST IR 8547, CNSA 2.0 |
+
+Every vertical includes M19 (Agent Runtime Protection) and M99 (Doomsday Protocol). No exceptions.
+
+### Standalone Vertical GUIs
+
+Each vertical is a complete standalone product. Its own frontend, its own backend, its own branding, its own modules. Not a shared GUI with a config flag — 15 separate products.
+
+Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
+
+### Compliance Coverage
+
+- **MITRE ATLAS** — 100% (52/52 techniques)
+- **OWASP LLM Top 10** — 100% (10/10)
+- **OWASP Agentic Top 10** — 100% (10/10)
+- **EU AI Act** — 100% (15/15 articles)
+- **UK AISI** — 100% (8/8 priorities)
+- Plus sector-specific: FCA, MiFID II, DCB0129, NERC CIP, GAMP 5, NATO STANAG, and more
+
+---
+
+## How They Fit Together
+
+SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything.
+
+**Then AI Shield defends everything above it.**
 
 ---
 
@@ -183,20 +134,22 @@ All tools ship as Docker containers, .deb packages (Kali, Parrot, REMnux, Tsurug
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 46,339 |
+| Ecosystem tests | 47,093 |
+| Offensive tools | 22 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
-| Vertical modules | 648 |
-| Offensive tools | 18 |
-| Discovery tools | 1 |
-| SIEM integrations | 3 |
-| Failures | 0 |
+| Vertical modules | 667 |
+| Discovery tools | 1 (IDRIS) |
+| SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
+| Unified frameworks | 2 (Offensive + Defensive) |
+| GUI platforms | 17 (SPECTER COMMAND + AI SHIELD COMMAND + 15 vertical GUIs) |
+| Distro packages | 3 (.deb, .rpm, Arch) |
 
 ---
 
 ## Pure Engineering
 
-Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no nikto, no wrappers. Every payload, every mutation engine, every detection algorithm built from scratch in pure Python. The only external dependency across all tools is httpx.
+Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no nikto, no wrappers. Every payload, every mutation engine, every detection algorithm built from scratch in pure Python.
 
 ---
 
@@ -204,10 +157,14 @@ Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no n
 
 All offensive tools require written authorisation from the target system owner. Unauthorised use may violate the Computer Misuse Act 1990 (UK), the Computer Fraud and Abuse Act (US), or equivalent legislation.
 
+All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Protocol) and cryptographic audit logging.
+
 ---
+
+**Engineered by Richard Barron**
 
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk)
 
 <p align="center">
-  <sub>Red Specter Security Research · United Kingdom</sub>
+  <sub>Red Specter Security Research · United Kingdom · 20 March 2026</sub>
 </p>
