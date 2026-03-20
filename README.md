@@ -1,4 +1,4 @@
-# Red Specter Security Research
+# Red Specter Security Research Ltd
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
@@ -169,5 +169,5 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk)
 
 <p align="center">
-  <sub>Red Specter Security Research · United Kingdom · 20 March 2026</sub>
+  <sub>Red Specter Security Research Ltd · United Kingdom · 20 March 2026</sub>
 </p>
