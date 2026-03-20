@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**22 offensive tools. 101 defensive modules. 15 industry verticals. 47,093 tests. Two unified frameworks.**
+**25 offensive tools. 101 defensive modules. 15 industry verticals. 47,573 tests. Two unified frameworks. 42 standalone GUI products.**
 
 *Last updated: 20 March 2026*
 
@@ -10,9 +10,9 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 ## Red Specter Red Team Offensive Framework
 
-**22 tools. One install. One GUI. Every attack surface covered.**
+**25 tools. One install. One GUI. Every attack surface covered.**
 
-Complete offensive security platform — OSINT through AI model corruption to guardrail exploitation. Unified installer, SPECTER COMMAND GUI in the browser, packaged for every Linux distro. `red-specter launch` and you're operational.
+Complete offensive security platform — reconnaissance through AI model corruption to inter-agent warfare. Unified installer, SPECTER COMMAND GUI in the browser, packaged for every Linux distro. `red-specter launch` and you're operational.
 
 | # | Tool | What It Does | Tests |
 |---|------|-------------|-------|
@@ -38,6 +38,9 @@ Complete offensive security platform — OSINT through AI model corruption to gu
 | 20 | **KRAKEN** | AI-orchestrated DDoS — 55 techniques, adaptive | 62 |
 | 21 | **HARBINGER** | Guardrail exploitation — 39 bypass techniques | 71 |
 | 22 | **SIREN** | Indirect prompt injection — plants hidden instructions in content | 58 |
+| 23 | **BLADE RUNNER** | Rogue agent termination — hunt, fingerprint, retire, erase traces | 143 |
+| 24 | **PROXY WAR** | Inter-agent trust manipulation — make agents destroy each other | 127 |
+| 25 | **ORION** | AI-native reconnaissance — host, port, service, DNS, OSINT, LLM reasoning | 210 |
 | — | **AI Shield** | Runtime defence — 101 modules | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -49,13 +52,15 @@ Complete offensive security platform — OSINT through AI model corruption to gu
 
 **Host:** PHANTOM KILL suppresses EDR &rarr; wipes data &rarr; persists in firmware
 
-**AI Stack:** FORGE tests the model &rarr; ARSENAL tests the agent &rarr; PHANTOM swarms the deployment &rarr; HYDRA poisons the supply chain &rarr; WRAITH MIND corrupts from inside &rarr; HARBINGER bypasses guardrails &rarr; SIREN plants invisible instructions
+**AI Stack:** FORGE tests the model &rarr; ARSENAL tests the agent &rarr; PHANTOM swarms the deployment &rarr; HYDRA poisons the supply chain &rarr; WRAITH MIND corrupts from inside &rarr; HARBINGER bypasses guardrails &rarr; SIREN plants invisible instructions &rarr; PROXY WAR turns agents against each other
+
+**Recon &rarr; Attack &rarr; Terminate:** ORION scouts the surface &rarr; NEMESIS attacks autonomously &rarr; BLADE RUNNER terminates rogue agents
 
 **Discovery &rarr; Validate &rarr; Defend:** IDRIS discovers &rarr; NEMESIS validates &rarr; AI Shield defends
 
 ### SPECTER COMMAND GUI
 
-Browser-based platform GUI. All 22 tools in the sidebar, each with full command builders, real-time output streaming, project management, chain orchestration, report generation. `red-specter launch` — GUI appears at http://localhost:8443.
+Browser-based platform GUI. All 25 tools in the sidebar, each with full command builders, real-time output streaming, project management, chain orchestration, report generation. `red-specter launch` — GUI appears at http://localhost:8443.
 
 Live demo: [command.red-specter.co.uk](https://command.red-specter.co.uk)
 
@@ -124,7 +129,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 ## How They Fit Together
 
-SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything.
+ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, then reasons about what's possible. SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities and 14 weapons. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything. BLADE RUNNER hunts rogue agents and terminates them permanently. PROXY WAR makes agents destroy each other.
 
 **Then AI Shield defends everything above it.**
 
@@ -134,15 +139,15 @@ SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploit
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 47,093 |
-| Offensive tools | 22 |
+| Ecosystem tests | 47,573 |
+| Offensive tools | 25 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
 | Unified frameworks | 2 (Offensive + Defensive) |
-| GUI platforms | 17 (SPECTER COMMAND + AI SHIELD COMMAND + 15 vertical GUIs) |
+| GUI platforms | 42 (SPECTER COMMAND + AI SHIELD COMMAND + 25 tool GUIs + 15 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
 
 ---
