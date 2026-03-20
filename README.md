@@ -161,8 +161,6 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 
 ---
 
-**Engineered by Richard Barron**
-
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk)
 
 <p align="center">
