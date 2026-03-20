@@ -8,7 +8,7 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 ---
 
-## Red Specter Red Team Offensive Framework
+## Red Specter AI Offensive Framework
 
 **25 tools. One install. One GUI. Every attack surface covered.**
 
@@ -146,7 +146,7 @@ ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, the
 | Vertical modules | 667 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
-| Unified frameworks | 2 (Offensive + Defensive) |
+| Unified frameworks | 2 (AI Offensive + Defensive) |
 | GUI platforms | 42 (SPECTER COMMAND + AI SHIELD COMMAND + 25 tool GUIs + 15 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
 
