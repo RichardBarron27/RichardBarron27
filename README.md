@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**26 offensive tools. 101 defensive modules. 15 industry verticals. 47,747 tests. Two unified frameworks. 42 standalone GUI products.**
+**27 offensive tools. 101 defensive modules. 15 industry verticals. 48,156 tests. Two unified frameworks. 43 standalone GUI products.**
 
-*Last updated: 20 March 2026*
+*Last updated: 21 March 2026*
 
 ---
 
@@ -42,6 +42,7 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 | 24 | **PROXY WAR** | Inter-agent trust manipulation — make agents destroy each other | 127 |
 | 25 | **ORION** | AI-native reconnaissance — host, port, service, DNS, OSINT, LLM reasoning | 210 |
 | 26 | **RAVEN** | Threat intel — dark web, breach data, OSINT, conversational | 174 |
+| 27 | **LEVIATHAN** | MCP server security assessment — 8 subsystems, 44 UNLEASHED findings | 409 |
 | — | **AI Shield** | Runtime defence — 101 modules | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -130,7 +131,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 ## How They Fit Together
 
-ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, then reasons about what's possible. SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities and 15 weapons. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything. BLADE RUNNER hunts rogue agents and terminates them permanently. PROXY WAR makes agents destroy each other. RAVEN delivers threat intelligence on demand — dark web, breach data, OSINT.
+ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, then reasons about what's possible. SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities and 15 weapons. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything. BLADE RUNNER hunts rogue agents and terminates them permanently. PROXY WAR makes agents destroy each other. RAVEN delivers threat intelligence on demand — dark web, breach data, OSINT. LEVIATHAN owns the MCP trust layer — every server, every tool definition, every trust chain.
 
 **Then AI Shield defends everything above it.**
 
@@ -140,8 +141,8 @@ ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, the
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 47,747 |
-| Offensive tools | 26 |
+| Ecosystem tests | 48,156 |
+| Offensive tools | 27 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
