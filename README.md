@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**27 offensive tools. 101 defensive modules. 15 industry verticals. 48,156 tests. Two unified frameworks. 43 standalone GUI products.**
+**28 offensive tools. 101 defensive modules. 15 industry verticals. 48,495 tests. Two unified frameworks. 44 standalone GUI products.**
 
 *Last updated: 21 March 2026*
 
@@ -43,6 +43,7 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 | 25 | **ORION** | AI-native reconnaissance — host, port, service, DNS, OSINT, LLM reasoning | 210 |
 | 26 | **RAVEN** | Threat intel — dark web, breach data, OSINT, conversational | 174 |
 | 27 | **LEVIATHAN** | MCP server security assessment — 8 subsystems, 44 UNLEASHED findings | 409 |
+| 28 | **JUSTICE** | Dark AI ecosystem disruption — WormGPT, FraudGPT, EvilGPT, all tiers | 339 |
 | — | **AI Shield** | Runtime defence — 101 modules | 13,955 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -141,8 +142,8 @@ ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, the
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 48,156 |
-| Offensive tools | 27 |
+| Ecosystem tests | 48,495 |
+| Offensive tools | 28 |
 | AI Shield modules | 101 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
