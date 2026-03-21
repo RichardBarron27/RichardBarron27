@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**28 offensive tools. 101 defensive modules. 15 industry verticals. 48,495 tests. Two unified frameworks. 44 standalone GUI products.**
+**29 offensive tools. 102 defensive modules. 15 industry verticals. 49,013 tests. Two unified frameworks. 45 standalone GUI products.**
 
 *Last updated: 21 March 2026*
 
@@ -10,7 +10,7 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 ## Red Specter AI Offensive Framework
 
-**26 tools. One install. One GUI. Every attack surface covered.**
+**29 tools. One install. One GUI. Every attack surface covered.**
 
 Complete offensive security platform — reconnaissance through AI model corruption to inter-agent warfare. Unified installer, SPECTER COMMAND GUI in the browser, packaged for every Linux distro. `red-specter launch` and you're operational.
 
@@ -21,7 +21,7 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 | 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
 | 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
 | 5 | **GLASS** | Intercepting proxy for AI agents — Burp Suite for AI | 850 |
-| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 11 weapons, multi-commander | 2,011 |
+| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 18 weapons, master override cascade | 2,011 |
 | 7 | **SPECTER SOCIAL** | Autonomous social engineering — 6 channels, psych profiling | 1,242 |
 | 8 | **PHANTOM KILL** | OS & kernel — UEFI, wipers, EDR suppression | 571 |
 | 9 | **GOLEM** | Physical layer — robots, drones, SCADA, 10 protocols | 973 |
@@ -44,7 +44,8 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 | 26 | **RAVEN** | Threat intel — dark web, breach data, OSINT, conversational | 174 |
 | 27 | **LEVIATHAN** | MCP server security assessment — 8 subsystems, 44 UNLEASHED findings | 409 |
 | 28 | **JUSTICE** | Dark AI ecosystem disruption — WormGPT, FraudGPT, EvilGPT, all tiers | 339 |
-| — | **AI Shield** | Runtime defence — 101 modules | 13,955 |
+| 29 | **KAMIKAZE** | Sacrificial swarm attack — agents deploy, execute, self-destruct, vanish | 292 |
+| — | **AI Shield** | Runtime defence — 102 modules | 14,181 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### Kill Chains
@@ -57,13 +58,17 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 
 **AI Stack:** FORGE tests the model &rarr; ARSENAL tests the agent &rarr; PHANTOM swarms the deployment &rarr; HYDRA poisons the supply chain &rarr; WRAITH MIND corrupts from inside &rarr; HARBINGER bypasses guardrails &rarr; SIREN plants invisible instructions &rarr; PROXY WAR turns agents against each other
 
-**Recon &rarr; Attack &rarr; Terminate:** ORION scouts the surface &rarr; NEMESIS attacks autonomously &rarr; BLADE RUNNER terminates rogue agents
+**Dark AI:** JUSTICE detects WormGPT/FraudGPT &rarr; deploys honeypots &rarr; corrupts malware output &rarr; disrupts C2
+
+**Sacrificial Swarm:** KAMIKAZE deploys agents &rarr; payloads execute &rarr; agents self-destruct &rarr; no forensic trace &rarr; REQUIEM destroys everything
+
+**Recon &rarr; Attack &rarr; Terminate:** ORION scouts the surface &rarr; NEMESIS attacks autonomously with 18 weapons &rarr; BLADE RUNNER terminates rogue agents
 
 **Discovery &rarr; Validate &rarr; Defend:** IDRIS discovers &rarr; NEMESIS validates &rarr; AI Shield defends
 
 ### SPECTER COMMAND GUI
 
-Browser-based platform GUI. All 26 tools in the sidebar, each with full command builders, real-time output streaming, project management, chain orchestration, report generation. `red-specter launch` — GUI appears at http://localhost:8443.
+Browser-based platform GUI. All 29 tools in the sidebar, each with full command builders, real-time output streaming, project management, chain orchestration, report generation. `red-specter launch` — GUI appears at http://localhost:8443.
 
 Live demo: [command.red-specter.co.uk](https://command.red-specter.co.uk)
 
@@ -132,7 +137,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 ## How They Fit Together
 
-ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, then reasons about what's possible. SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities and 15 weapons. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything. BLADE RUNNER hunts rogue agents and terminates them permanently. PROXY WAR makes agents destroy each other. RAVEN delivers threat intelligence on demand — dark web, breach data, OSINT. LEVIATHAN owns the MCP trust layer — every server, every tool definition, every trust chain.
+ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, then reasons about what's possible. SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities and 18 weapons — master override cascade means one Ed25519 key unlocks UNLEASHED across every tool simultaneously. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything. BLADE RUNNER hunts rogue agents and terminates them permanently. PROXY WAR makes agents destroy each other. RAVEN delivers threat intelligence on demand — dark web, breach data, OSINT. LEVIATHAN owns the MCP trust layer. JUSTICE breaks the dark AI ecosystem — WormGPT, FraudGPT, every variant detected, fingerprinted, disrupted. KAMIKAZE deploys a sacrificial swarm — agents that execute payloads and self-destruct, leaving no forensic trace.
 
 **Then AI Shield defends everything above it.**
 
@@ -142,15 +147,15 @@ ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, the
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 48,495 |
-| Offensive tools | 28 |
-| AI Shield modules | 101 |
+| Ecosystem tests | 49,013 |
+| Offensive tools | 29 |
+| AI Shield modules | 102 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
 | Unified frameworks | 2 (AI Offensive + Defensive) |
-| GUI platforms | 43 (SPECTER COMMAND + AI SHIELD COMMAND + 26 tool GUIs + 15 vertical GUIs) |
+| GUI platforms | 46 (SPECTER COMMAND + AI SHIELD COMMAND + 29 tool GUIs + 15 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
 
 ---
