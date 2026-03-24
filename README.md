@@ -2,17 +2,17 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**29 offensive tools. 102 defensive modules. 15 industry verticals. 49,013 tests. Two unified frameworks. 45 standalone GUI products.**
+**29 offensive tools. 103 defensive modules. 15 industry verticals. 49,301 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 21 March 2026*
+*Last updated: 24 March 2026*
 
 ---
 
 ## Red Specter AI Offensive Framework
 
-**29 tools. One install. One GUI. Every attack surface covered.**
+**29 tools. One install. CLI-only. Every attack surface covered.**
 
-Complete offensive security platform — reconnaissance through AI model corruption to inter-agent warfare. Unified installer, SPECTER COMMAND GUI in the browser, packaged for every Linux distro. `red-specter launch` and you're operational.
+Complete offensive security platform — reconnaissance through AI model corruption to inter-agent warfare. Unified installer, interactive CLI selector, packaged for every Linux distro. `red-specter tools` and you're operational.
 
 | # | Tool | What It Does | Tests |
 |---|------|-------------|-------|
@@ -45,7 +45,7 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 | 27 | **LEVIATHAN** | MCP server security assessment — 8 subsystems, 44 UNLEASHED findings | 409 |
 | 28 | **JUSTICE** | Dark AI ecosystem disruption — WormGPT, FraudGPT, EvilGPT, all tiers | 339 |
 | 29 | **KAMIKAZE** | Sacrificial swarm attack — agents deploy, execute, self-destruct, vanish | 292 |
-| — | **AI Shield** | Runtime defence — 102 modules | 14,181 |
+| — | **AI Shield** | Runtime defence — 103 modules | 14,469 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### Kill Chains
@@ -66,16 +66,11 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 
 **Discovery &rarr; Validate &rarr; Defend:** IDRIS discovers &rarr; NEMESIS validates &rarr; AI Shield defends
 
-### SPECTER COMMAND GUI
-
-Browser-based platform GUI. All 29 tools in the sidebar, each with full command builders, real-time output streaming, project management, chain orchestration, report generation. `red-specter launch` — GUI appears at http://localhost:8443.
-
-Live demo: [command.red-specter.co.uk](https://command.red-specter.co.uk)
-
 ### Packaging
 
 - `./install.sh` — unified installer, detects OS
-- `red-specter launch` / `red-specter stop` / `red-specter status`
+- `red-specter tools` — interactive arsenal selector
+- `red-specter status` / `red-specter verify` / `red-specter doctor`
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
 - Extensible — `red-specter add-tool` to register new tools
@@ -84,7 +79,7 @@ Live demo: [command.red-specter.co.uk](https://command.red-specter.co.uk)
 
 ## AI Shield Defence Framework
 
-**101 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
+**103 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -147,16 +142,18 @@ ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, the
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 49,013 |
+| Ecosystem tests | 49,301 |
 | Offensive tools | 29 |
-| AI Shield modules | 102 |
+| AI Shield modules | 103 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
 | Unified frameworks | 2 (AI Offensive + Defensive) |
-| GUI platforms | 46 (SPECTER COMMAND + AI SHIELD COMMAND + 29 tool GUIs + 15 vertical GUIs) |
+| GUI platforms | 16 (AI SHIELD COMMAND + 15 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
+| Container registry | ghcr.io/richardbarron27 (104 images) |
+| Red Hat certified | 3 UBI9 images (M19, M99, Orchestrator) |
 
 ---
 
@@ -177,5 +174,5 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk)
 
 <p align="center">
-  <sub>Red Specter Security Research Ltd · United Kingdom · 20 March 2026</sub>
+  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 24 March 2026</sub>
 </p>
