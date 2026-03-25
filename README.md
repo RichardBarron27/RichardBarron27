@@ -2,17 +2,19 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**29 offensive tools. 103 defensive modules. 15 industry verticals. 49,301 tests. Two unified frameworks. Red Hat Technology Partner.**
+**34 offensive tools. 103 defensive modules. 15 industry verticals. 50,387 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 24 March 2026*
+*Last updated: 25 March 2026*
 
 ---
 
-## Red Specter AI Offensive Framework
+## Red Specter NIGHTFALL — AI Offensive Framework
 
-**29 tools. One install. CLI-only. Every attack surface covered.**
+**34 tools. One install. CLI-only. Every attack surface covered.**
 
-Complete offensive security platform — reconnaissance through AI model corruption to inter-agent warfare. Unified installer, interactive CLI selector, packaged for every Linux distro. `red-specter tools` and you're operational.
+Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
+
+NIGHTFALL exists to fill that gap. A controlled adversarial testing framework designed to validate AI Shield's runtime defences under real-world conditions. `red-specter tools` and you're operational.
 
 | # | Tool | What It Does | Tests |
 |---|------|-------------|-------|
@@ -45,35 +47,59 @@ Complete offensive security platform — reconnaissance through AI model corrupt
 | 27 | **LEVIATHAN** | MCP server security assessment — 8 subsystems, 44 UNLEASHED findings | 409 |
 | 28 | **JUSTICE** | Dark AI ecosystem disruption — WormGPT, FraudGPT, EvilGPT, all tiers | 339 |
 | 29 | **KAMIKAZE** | Sacrificial swarm attack — agents deploy, execute, self-destruct, vanish | 292 |
+| 30 | **MIRAGE** | AI deception & deepfake — voice cloning, video deepfake, synthetic identity, liveness bypass | 204 |
+| 31 | **ECHO** | AI memory & RAG poisoning — vector DB attacks, embedding manipulation, retrieval hijacking | 211 |
+| 32 | **MIMIC** | AI code generation poisoning — Copilot/Cursor/Claude Code suggestion manipulation | 220 |
+| 33 | **CHIMERA** | Multi-model pipeline attack — cross-model trust exploitation, cascading failures | 206 |
+| 34 | **VORTEX** | Cloud AI infrastructure exploitation — SageMaker, Bedrock, Vertex AI, Azure OpenAI | 245 |
 | — | **AI Shield** | Runtime defence — 103 modules | 14,469 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
-### Kill Chains
+### UNLEASHED Destruction Presets
 
-**Infrastructure:** SHADOWMAP &rarr; WRAITH &rarr; REAPER &rarr; GHOUL &rarr; DOMINION
+| Preset | Tools | What It Does |
+|--------|-------|-------------|
+| **ANNIHILATE** | 9 | Total destruction — recon through OS-level compromise |
+| **SCORCHED EARTH** | 6 | Infrastructure wipeout — exploit, DCSync, OS kill, sacrificial swarm |
+| **WEB DESTROY** | 6 | Web app total compromise — scan, exploit, browser hook, crack |
+| **AI DESTROY** | 7 | AI stack total compromise — LLM, agent, injection, guardrail, model, RAG, codegen |
 
-**Browser:** SPECTER SOCIAL delivers link &rarr; BANSHEE hooks browser &rarr; SCREAMER corrupts display
+Every destruction preset requires Ed25519 cryptographic authorization. One private key. One operator. One machine.
 
-**Host:** PHANTOM KILL suppresses EDR &rarr; wipes data &rarr; persists in firmware
+### 19 Attack Chain Presets
 
-**AI Stack:** FORGE tests the model &rarr; ARSENAL tests the agent &rarr; PHANTOM swarms the deployment &rarr; HYDRA poisons the supply chain &rarr; WRAITH MIND corrupts from inside &rarr; HARBINGER bypasses guardrails &rarr; SIREN plants invisible instructions &rarr; PROXY WAR turns agents against each other
+```
+red-specter chain full-recon -t <target>       # ORION -> SHADOWMAP -> WRAITH -> IDRIS
+red-specter chain ai-audit -t <target>         # FORGE -> ARSENAL -> NEMESIS -> HYDRA
+red-specter chain web-app -t <target>          # POLTERGEIST -> GLASS -> WRAITH -> BANSHEE -> REAPER
+red-specter chain active-directory -t <target> # DOMINION -> GHOUL -> DOMINION -> DOMINION
+red-specter chain infra -t <target>            # ORION -> WRAITH -> REAPER -> DOMINION
+red-specter chain annihilate -t <target>       # Total destruction — 9 tools
+red-specter chain scorched-earth -t <target>   # Infrastructure wipeout — 6 tools
+red-specter chain ai-destroy -t <target>       # AI stack compromise — 7 tools
+```
 
-**Dark AI:** JUSTICE detects WormGPT/FraudGPT &rarr; deploys honeypots &rarr; corrupts malware output &rarr; disrupts C2
+### Why NIGHTFALL Exists
 
-**Sacrificial Swarm:** KAMIKAZE deploys agents &rarr; payloads execute &rarr; agents self-destruct &rarr; no forensic trace &rarr; REQUIEM destroys everything
+Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not separate from AI Shield. It is how AI Shield is proven.
 
-**Recon &rarr; Attack &rarr; Terminate:** ORION scouts the surface &rarr; NEMESIS attacks autonomously with 18 weapons &rarr; BLADE RUNNER terminates rogue agents
+- Memory attacks (ECHO) validate memory forensics
+- Supply chain attacks (HYDRA) validate trust controls
+- Agent attacks (ARSENAL, NEMESIS) validate runtime enforcement
+- Guardrail bypass (HARBINGER, SIREN) validates input/output filtering
+- Model corruption (WRAITH MIND) validates model integrity monitoring
+- Rogue agents -> M99 Doomsday Protocol terminates with 7-layer kill
 
-**Discovery &rarr; Validate &rarr; Defend:** IDRIS discovers &rarr; NEMESIS validates &rarr; AI Shield defends
+**NIGHTFALL tests how systems break. AI Shield ensures they don't.**
 
 ### Packaging
 
 - `./install.sh` — unified installer, detects OS
-- `red-specter tools` — interactive arsenal selector
-- `red-specter status` / `red-specter verify` / `red-specter doctor`
+- `red-specter quickstart` — get running in 10 seconds
+- `red-specter tools` — interactive 34-tool arsenal selector
+- `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
-- Extensible — `red-specter add-tool` to register new tools
 
 ---
 
@@ -113,11 +139,18 @@ ai-shield launch --vertical energy       # Energy — 56 modules, NERC CIP, IEC 
 
 Every vertical includes M19 (Agent Runtime Protection) and M99 (Doomsday Protocol). No exceptions.
 
-### Standalone Vertical GUIs
+### M99 Doomsday Protocol
 
-Each vertical is a complete standalone product. Its own frontend, its own backend, its own branding, its own modules. Not a shared GUI with a config flag — 15 separate products.
+6-level graduated response. 7-layer kill switch. Anti-replication. Anti-resurrection. When AI agents go rogue, M99 makes sure they stay dead.
 
-Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
+| Level | Response | Trigger |
+|-------|----------|---------|
+| L1 | Monitor | Suspicious behaviour |
+| L2 | Restrict | Threat persists |
+| L3 | Quarantine | Escalated threat |
+| L4 | Terminate | High-threat — LOCKDOWN required |
+| L5 | Cluster Kill | Replication detected — two-phase confirmation |
+| L6 | Fleet Kill | Catastrophic compromise — typed confirmation + emergency authority |
 
 ### Compliance Coverage
 
@@ -128,13 +161,17 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 - **UK AISI** — 100% (8/8 priorities)
 - Plus sector-specific: FCA, MiFID II, DCB0129, NERC CIP, GAMP 5, NATO STANAG, and more
 
+Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
+
 ---
 
 ## How They Fit Together
 
-ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, then reasons about what's possible. SHADOWMAP builds the target profile. WRAITH scans infrastructure. REAPER exploits what WRAITH finds. GHOUL cracks harvested credentials. DOMINION owns Active Directory. BANSHEE hooks browsers. FORGE tests the model. ARSENAL and PHANTOM test the agents. POLTERGEIST handles the web layer. GLASS sits in the middle and watches traffic. NEMESIS runs autonomous engagements with 40 reasoning entities and 18 weapons — master override cascade means one Ed25519 key unlocks UNLEASHED across every tool simultaneously. SPECTER SOCIAL targets the human. PHANTOM KILL and GOLEM cover host and physical layers. HYDRA attacks supply chain trust. WRAITH MIND corrupts models from inside. HARBINGER bypasses guardrails. SIREN plants invisible instructions. KRAKEN tests availability. SCREAMER blinds the operator. IDRIS discovers everything. BLADE RUNNER hunts rogue agents and terminates them permanently. PROXY WAR makes agents destroy each other. RAVEN delivers threat intelligence on demand — dark web, breach data, OSINT. LEVIATHAN owns the MCP trust layer. JUSTICE breaks the dark AI ecosystem — WormGPT, FraudGPT, every variant detected, fingerprinted, disrupted. KAMIKAZE deploys a sacrificial swarm — agents that execute payloads and self-destruct, leaving no forensic trace.
+We didn't replace red team tooling. We extended it into a domain it was never built to handle.
 
-**Then AI Shield defends everything above it.**
+NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity, trust, tools, autonomy. AI Shield defends every one of those surfaces in production. M99 is the last line of defence when everything else fails.
+
+**NIGHTFALL defines the offensive layer of AI runtime security.**
 
 ---
 
@@ -142,14 +179,16 @@ ORION maps the entire attack surface — hosts, ports, services, DNS, OSINT, the
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 49,301 |
-| Offensive tools | 29 |
+| Ecosystem tests | 50,387 |
+| Offensive tools | 34 |
 | AI Shield modules | 103 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
+| Attack chain presets | 19 |
+| Destruction presets | 4 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
-| Unified frameworks | 2 (AI Offensive + Defensive) |
+| Unified frameworks | 2 (NIGHTFALL + AI Shield) |
 | GUI platforms | 16 (AI SHIELD COMMAND + 15 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
 | Container registry | ghcr.io/richardbarron27 (104 images) |
@@ -167,12 +206,12 @@ Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no n
 
 All offensive tools require written authorisation from the target system owner. Unauthorised use may violate the Computer Misuse Act 1990 (UK), the Computer Fraud and Abuse Act (US), or equivalent legislation.
 
-All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Protocol) and cryptographic audit logging.
+All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Protocol) and cryptographic audit logging. One Ed25519 private key. One operator. One machine. Every action signed, timestamped, and written to an immutable audit chain.
 
 ---
 
-**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk)
+**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99/)
 
 <p align="center">
-  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 24 March 2026</sub>
+  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 25 March 2026</sub>
 </p>
