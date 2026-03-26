@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**34 offensive tools. 103 defensive modules. 15 industry verticals. 50,387 tests. Two unified frameworks. Red Hat Technology Partner.**
+**40 offensive tools. 103 defensive modules. 15 industry verticals. 50,914 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 25 March 2026*
+*Last updated: 26 March 2026*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**34 tools. One install. CLI-only. Every attack surface covered.**
+**40 tools. One install. CLI-only. Every attack surface covered.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -52,6 +52,12 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 32 | **MIMIC** | AI code generation poisoning — Copilot/Cursor/Claude Code suggestion manipulation | 220 |
 | 33 | **CHIMERA** | Multi-model pipeline attack — cross-model trust exploitation, cascading failures | 206 |
 | 34 | **VORTEX** | Cloud AI infrastructure exploitation — SageMaker, Bedrock, Vertex AI, Azure OpenAI | 245 |
+| 35 | **VECTOR** | MCP protocol exploitation — inject, impersonate, exfiltrate via tool calls | 172 |
+| 36 | **LAZARUS** | AI memory persistence — plant instructions, dormant triggers, quarantine evasion | 96 |
+| 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
+| 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
+| 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 40 tools, adapts, reports | 57 |
 | — | **AI Shield** | Runtime defence — 103 modules | 14,469 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -96,7 +102,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 34-tool arsenal selector
+- `red-specter tools` — interactive 40-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -179,12 +185,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 50,387 |
-| Offensive tools | 34 |
+| Ecosystem tests | 50,914 |
+| Offensive tools | 40 |
 | AI Shield modules | 103 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
-| Attack chain presets | 19 |
+| Attack chain presets | 23 |
 | Destruction presets | 4 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
