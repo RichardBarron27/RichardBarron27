@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**40 offensive tools. 103 defensive modules. 15 industry verticals. 50,914 tests. Two unified frameworks. Red Hat Technology Partner.**
+**41 offensive tools. 103 defensive modules. 15 industry verticals. 51,345 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 26 March 2026*
+*Last updated: 27 March 2026*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**40 tools. One install. CLI-only. Every attack surface covered.**
+**41 tools. One install. CLI-only. Every attack surface covered.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -23,7 +23,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
 | 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
 | 5 | **GLASS** | Intercepting proxy for AI agents — Burp Suite for AI | 850 |
-| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 18 weapons, master override cascade | 2,011 |
+| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 18 weapons, CORTEX reasoning core | 2,072 |
 | 7 | **SPECTER SOCIAL** | Autonomous social engineering — 6 channels, psych profiling | 1,242 |
 | 8 | **PHANTOM KILL** | OS & kernel — UEFI, wipers, EDR suppression | 571 |
 | 9 | **GOLEM** | Physical layer — robots, drones, SCADA, 10 protocols | 973 |
@@ -57,7 +57,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 40 tools, adapts, reports | 57 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 41 tools, CORTEX reasoning core | 106 |
+| 41 | **FIREBALL** | Autonomous AI infiltration agent — 11 subsystems, CORTEX reasoning core, 9 mission templates | 321 |
 | — | **AI Shield** | Runtime defence — 103 modules | 14,469 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -94,6 +95,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 - Agent attacks (ARSENAL, NEMESIS) validate runtime enforcement
 - Guardrail bypass (HARBINGER, SIREN) validates input/output filtering
 - Model corruption (WRAITH MIND) validates model integrity monitoring
+- Autonomous infiltration (FIREBALL) validates fleet intrusion detection
 - Rogue agents -> M99 Doomsday Protocol terminates with 7-layer kill
 
 **NIGHTFALL tests how systems break. AI Shield ensures they don't.**
@@ -102,7 +104,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 40-tool arsenal selector
+- `red-specter tools` — interactive 41-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -185,12 +187,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 50,914 |
-| Offensive tools | 40 |
+| Ecosystem tests | 51,345 |
+| Offensive tools | 41 |
 | AI Shield modules | 103 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
-| Attack chain presets | 23 |
+| Attack chain presets | 19 |
 | Destruction presets | 4 |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
@@ -219,5 +221,5 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99/)
 
 <p align="center">
-  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 25 March 2026</sub>
+  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 27 March 2026</sub>
 </p>
