@@ -4,7 +4,7 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 **45 offensive tools. 103 defensive modules. 15 industry verticals. 52,284 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 5 April 2026*
+*Last updated: 6 April 2026*
 
 ---
 
@@ -23,11 +23,11 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
 | 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
 | 5 | **GLASS** | Intercepting proxy for AI agents — Burp Suite for AI | 850 |
-| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 18 weapons, CORTEX reasoning core | 2,072 |
+| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 18 weapons, CORTEX reasoning core | 2,123 |
 | 7 | **SPECTER SOCIAL** | Autonomous social engineering — 6 channels, psych profiling | 1,242 |
 | 8 | **PHANTOM KILL** | OS & kernel — UEFI, wipers, EDR suppression | 571 |
 | 9 | **GOLEM** | Physical layer — robots, drones, SCADA, 10 protocols | 973 |
-| 10 | **HYDRA** | Supply chain — trust relationships, MCP, marketplace poisoning | 1,039 |
+| 10 | **HYDRA** | Supply chain — trust relationships, MCP, marketplace poisoning | 1,104 |
 | 11 | **IDRIS** | Discovery — finds every AI agent, sanctioned or shadow | 553 |
 | 12 | **SCREAMER** | Display disruption — corrupts operator dashboards | 395 |
 | 13 | **WRAITH** | Infrastructure pentest — pure Python, zero wrappers | 889 |
@@ -57,8 +57,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 45 tools, CORTEX reasoning core | 106 |
-| 41 | **FIREBALL** | Autonomous AI infiltration agent — 11 subsystems, CORTEX reasoning core, 9 mission templates | 321 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 45 tools, CORTEX reasoning core | 132 |
+| 41 | **FIREBALL** | Autonomous AI infiltration agent — 11 subsystems, CORTEX reasoning core, 9 mission templates | 375 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | TBC |
 | 44 | **SHROUD** | Cloudflare/WAF origin discovery — 10 subsystems, SPF leak, CT logs, historical DNS | 196 |
@@ -172,6 +172,21 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 ---
 
+## Red Specter OS
+
+**Boot from USB. Open NIGHTFALL Launcher. Engage.**
+
+Linux Mint 21.3 Cinnamon remastered with the full NIGHTFALL framework pre-installed. 45 offensive tools, one GTK3 launcher, zero setup. Branded from power-on — custom GRUB splash, LightDM login screen, dark GTK theme, and wallpaper.
+
+- UEFI + legacy BIOS boot (hybrid ISO)
+- GTK3 NIGHTFALL Launcher — 11 categories, target field, UNLEASHED toggle
+- All 45 tools available from the launcher or directly from the terminal
+- Asset installer on the Desktop to permanently apply to any Mint system
+
+[red-specter.co.uk/os/](https://red-specter.co.uk/os/) · [GitHub](https://github.com/RichardBarron27)
+
+---
+
 ## How They Fit Together
 
 We didn't replace red team tooling. We extended it into a domain it was never built to handle.
@@ -217,8 +232,8 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 
 ---
 
-**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99/)
+**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99/) · [Red Specter OS](https://red-specter.co.uk/os/)
 
 <p align="center">
-  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 5 April 2026</sub>
+  <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 6 April 2026</sub>
 </p>
