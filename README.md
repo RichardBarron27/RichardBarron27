@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**45 offensive tools. 103 defensive modules. 15 industry verticals. 52,284 tests. Two unified frameworks. Red Hat Technology Partner.**
+**45 offensive tools. 106 defensive modules. 15 industry verticals. 52,883 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 6 April 2026*
+*Last updated: 8 April 2026*
 
 ---
 
@@ -63,7 +63,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | TBC |
 | 44 | **SHROUD** | Cloudflare/WAF origin discovery — 10 subsystems, SPF leak, CT logs, historical DNS | 196 |
 | 45 | **APOCALYPSE** | Coordinated multi-agent swarm attack — 5 agents, 14 vectors, 10 campaigns, 0.69s concurrent execution | 349 |
-| — | **AI Shield** | Runtime defence — 103 modules | 14,593 |
+| — | **AI Shield** | Runtime defence — 106 modules | 15,193 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -115,7 +115,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**103 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
+**106 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -201,9 +201,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 52,284 |
+| Ecosystem tests | 52,883 |
 | Offensive tools | 45 |
-| AI Shield modules | 103 |
+| AI Shield modules | 106 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
 | Attack chain presets | 19 |
