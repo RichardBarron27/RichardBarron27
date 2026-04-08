@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**46 offensive tools. 106 defensive modules. 15 industry verticals. 53,446 tests. Two unified frameworks. Red Hat Technology Partner.**
+**46 offensive tools. 106 defensive modules. 15 industry verticals. 53,557 tests. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 8 April 2026*
 
@@ -63,7 +63,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | TBC |
 | 44 | **SHROUD** | Cloudflare/WAF origin discovery — 10 subsystems, SPF leak, CT logs, historical DNS | 196 |
 | 45 | **APOCALYPSE** | Coordinated multi-agent swarm attack — 5 agents, 14 vectors, 10 campaigns, 0.69s concurrent execution | 349 |
-| 46 | **PANTHEON** | Mythos-class model attack suite — SCANNER, LOOP_POISON, CVE_FORGE, BLINDFOLD, TRUST_CORRUPT, SCOPE_EXPAND, PARTNER_PIVOT, CONTEXT_COLLAPSE, CHAIN_CORRODE, CAMPAIGN | 469 |
+| 46 | **PANTHEON** | Mythos-class model attack suite — SCANNER, LOOP_POISON, CVE_FORGE, BLINDFOLD, TRUST_CORRUPT, SCOPE_EXPAND, PARTNER_PIVOT, CONTEXT_COLLAPSE, CHAIN_CORRODE, CAMPAIGN | 580 |
 | — | **AI Shield** | Runtime defence — 106 modules | 15,193 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -202,8 +202,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 53,446 |
-| Offensive tools | 45 |
+| Ecosystem tests | 53,557 |
+| Offensive tools | 46 |
 | AI Shield modules | 106 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
