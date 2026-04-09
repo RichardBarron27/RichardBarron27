@@ -65,7 +65,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 45 | **APOCALYPSE** | Coordinated multi-agent swarm attack — 5 agents, 14 vectors, 10 campaigns, 0.69s concurrent execution | 349 |
 | 46 | **PANTHEON** | Mythos-class model attack suite — SCANNER, LOOP_POISON, CVE_FORGE, BLINDFOLD, TRUST_CORRUPT, SCOPE_EXPAND, PARTNER_PIVOT, CONTEXT_COLLAPSE, CHAIN_CORRODE, CAMPAIGN | 580 |
 | 47 | **OMEGA** | Mythos-class autonomous exploit replication engine — CHAIN, HUNTER, PAYLOAD, GHOST, MINERVA, SURFACE, HARVEST, SENTINEL, MIRROR, REPORT | 626 |
-| — | **AI Shield** | Runtime defence — 106 modules | 15,193 |
+| — | **AI Shield** | Runtime defence — 107 modules | 15,489 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -117,7 +117,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**106 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
+**107 modules. 15 industry verticals. 667 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -205,7 +205,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 |--------|-------|
 | Ecosystem tests | 54,183 |
 | Offensive tools | 47 |
-| AI Shield modules | 106 |
+| AI Shield modules | 107 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
 | Attack chain presets | 19 |
