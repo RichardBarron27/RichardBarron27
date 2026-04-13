@@ -65,7 +65,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 47 | **OMEGA** | Mythos-class autonomous exploit replication engine — CHAIN, HUNTER, PAYLOAD, GHOST, MINERVA, SURFACE, HARVEST, SENTINEL, MIRROR, REPORT | 626 |
 | 48 | **CRUCIBLE** | AI agent framework exploitation — SIGNAL, BREACH, CRACK, CAPTURE, MARIONETTE, PIVOT, REPORT. LangFlow/PraisonAI/AnythingLLM | 372 |
 | 49 | **VANTAGE** | Agent telemetry & log injection — OBSERVE, FORGE, INJECT, BLIND. Live Elasticsearch validated | 344 |
-| — | **NIGHTFALL ARMORY** | Payload library — 630 payloads (130 WMD-class), physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
+| — | **NIGHTFALL ARMORY** | Payload library — 630 payloads (130 Weapons of Mass Disruption-class), physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 108 modules | 16,034 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
