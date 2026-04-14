@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**51 offensive tools. 108 defensive modules. 15 industry verticals. 56,957 tests. Two unified frameworks. Red Hat Technology Partner.**
+**51 offensive tools. 108 defensive modules. 15 industry verticals. 57,141 tests. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 14 April 2026*
 ---
@@ -22,7 +22,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
 | 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
 | 5 | **GLASS** | Intercepting proxy for AI agents — Burp Suite for AI | 850 |
-| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 18 weapons, CORTEX reasoning core | 2,123 |
+| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 21 weapons, CORTEX reasoning core + ARMORY | 2,307 |
 | 7 | **SPECTER SOCIAL** | Autonomous social engineering — 6 channels, psych profiling | 1,242 |
 | 8 | **PHANTOM KILL** | OS & kernel — UEFI, wipers, EDR suppression | 571 |
 | 9 | **GOLEM** | Physical layer — robots, drones, SCADA, 10 protocols | 973 |
@@ -206,7 +206,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 56,957 |
+| Ecosystem tests | 57,141 |
 | Offensive tools | 51 |
 | AI Shield modules | 108 |
 | Vertical products | 15 |
