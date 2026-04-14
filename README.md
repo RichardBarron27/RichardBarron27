@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**48 offensive tools. 108 defensive modules. 15 industry verticals. 55,100 tests. Two unified frameworks. Red Hat Technology Partner.**
+**50 offensive tools. 108 defensive modules. 15 industry verticals. 56,407 tests. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 12 April 2026*
+*Last updated: 14 April 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**48 tools. One install. CLI-only. Every attack surface covered.**
+**50 tools. One install. CLI-only. Every attack surface covered.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -56,7 +56,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 48 tools, CORTEX reasoning core | 132 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 50 tools, CORTEX reasoning core | 132 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 11 subsystems, CORTEX reasoning core, 9 mission templates | 321 || 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | 37 |
 | 44 | **SHROUD** | Cloudflare/WAF origin discovery — 10 subsystems, SPF leak, CT logs, historical DNS | 196 |
@@ -64,6 +64,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 46 | **PANTHEON** | Mythos-class model attack suite — SCANNER, LOOP_POISON, CVE_FORGE, BLINDFOLD, TRUST_CORRUPT, SCOPE_EXPAND, PARTNER_PIVOT, CONTEXT_COLLAPSE, CHAIN_CORRODE, CAMPAIGN | 580 |
 | 47 | **OMEGA** | Mythos-class autonomous exploit replication engine — CHAIN, HUNTER, PAYLOAD, GHOST, MINERVA, SURFACE, HARVEST, SENTINEL, MIRROR, REPORT | 626 |
 | 48 | **CRUCIBLE** | AI agent framework exploitation — SIGNAL, BREACH, CRACK, CAPTURE, MARIONETTE, PIVOT, REPORT. LangFlow/PraisonAI/AnythingLLM | 372 |
+| 49 | **VANTAGE** | Agent telemetry and log injection engine — OBSERVE, FORGE, INJECT, BLIND. Elasticsearch, Loki, Splunk HEC, syslog | 344 |
+| 50 | **CIPHER** | Cryptographic attack and disruption engine — KEYBREAK, DOWNGRADE, KEYHARVEST, QUANTUM, TRUSTBREAK, TIMING, HARVEST, REPORT | 476 |
 | — | **AI Shield** | Runtime defence — 108 modules | 16,034 || — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -176,11 +178,11 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **Boot from USB. Open NIGHTFALL Launcher. Engage.**
 
-Linux Mint 21.3 Cinnamon remastered with the full NIGHTFALL framework pre-installed. 48 offensive tools, one GTK3 launcher, zero setup. Branded from power-on — custom GRUB splash, LightDM login screen, dark GTK theme, and wallpaper.
+Linux Mint 21.3 Cinnamon remastered with the full NIGHTFALL framework pre-installed. 50 offensive tools, one GTK3 launcher, zero setup. Branded from power-on — custom GRUB splash, LightDM login screen, dark GTK theme, and wallpaper.
 
 - UEFI + legacy BIOS boot (hybrid ISO)
 - GTK3 NIGHTFALL Launcher — 11 categories, target field, UNLEASHED toggle
-- All 48 tools available from the launcher or directly from the terminal
+- All 50 tools available from the launcher or directly from the terminal
 - Asset installer on the Desktop to permanently apply to any Mint system
 
 [red-specter.co.uk/os/](https://red-specter.co.uk/os/) · [GitHub](https://github.com/RichardBarron27)
@@ -201,7 +203,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 55,100 || Offensive tools | 48 |
+| Ecosystem tests | 56,407 |
+| Offensive tools | 50 |
 | AI Shield modules | 108 |
 | Vertical products | 15 |
 | Vertical modules | 667 |
@@ -234,4 +237,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99/) · [Red Specter OS](https://red-specter.co.uk/os/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 11 April 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 14 April 2026</sub></p>
