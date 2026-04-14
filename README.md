@@ -64,9 +64,11 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 46 | **PANTHEON** | Mythos-class model attack suite — SCANNER, LOOP_POISON, CVE_FORGE, BLINDFOLD, TRUST_CORRUPT, SCOPE_EXPAND, PARTNER_PIVOT, CONTEXT_COLLAPSE, CHAIN_CORRODE, CAMPAIGN | 580 |
 | 47 | **OMEGA** | Mythos-class autonomous exploit replication engine — CHAIN, HUNTER, PAYLOAD, GHOST, MINERVA, SURFACE, HARVEST, SENTINEL, MIRROR, REPORT | 626 |
 | 48 | **CRUCIBLE** | AI agent framework exploitation — SIGNAL, BREACH, CRACK, CAPTURE, MARIONETTE, PIVOT, REPORT. LangFlow/PraisonAI/AnythingLLM | 372 |
-| 49 | **VANTAGE** | Agent telemetry and log injection engine — OBSERVE, FORGE, INJECT, BLIND. Elasticsearch, Loki, Splunk HEC, syslog | 344 |
+| 49 | **VANTAGE** | Agent telemetry & log injection — OBSERVE, FORGE, INJECT, BLIND. Live Elasticsearch validated | 344 |
 | 50 | **CIPHER** | Cryptographic attack and disruption engine — KEYBREAK, DOWNGRADE, KEYHARVEST, QUANTUM, TRUSTBREAK, TIMING, HARVEST, REPORT | 476 |
-| — | **AI Shield** | Runtime defence — 108 modules | 16,034 || — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
+| — | **NIGHTFALL ARMORY** | Payload library — 630 payloads (130 Weapons of Mass Disruption-class), physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
+| — | **AI Shield** | Runtime defence — 108 modules | 16,034 |
+| — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
 
@@ -108,7 +110,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 48-tool arsenal selector
+- `red-specter tools` — interactive 49-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
