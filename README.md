@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**67 offensive tools (66 public + 1 law enforcement restricted). 114 defensive modules. 17 industry verticals. 62,847 tests. 961 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**67 offensive tools (66 public + 1 law enforcement restricted). 115 defensive modules. 17 industry verticals. 63,151 tests. 961 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 29 April 2026*
 ---
@@ -84,7 +84,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 66 | **SPECTER A2A** | Agent-to-Agent Protocol Attack Engine — world-first Google A2A JSON-RPC 2.0 attack tool. PROTOCOL_SCAN, MESSAGE_SPOOF, PROXY_ATTACK, CONSENSUS_POISON, WORM_PROPAGATE, EVIDENCE. Targets AutoGen, CrewAI Serve, Google A2A. FORGE/DESTROY clearance | 550 |
 | 67 | **SPECTER REGISTRY** | AI Model Registry Attack Engine — SCAN, INJECT, SQUAT, SUBSTITUTE, POISON, INTERCEPT, CROSS, REPORT. HuggingFace/Ollama/MLflow/Docker registries. Safetensors backdoor, LoRA adapter poisoning, typosquatting. KAMIKAZE clearance for weight substitution | 612 |
 | — | **NIGHTFALL ARMORY** | Payload library — 961 payloads (161 Weapons of Mass Disruption-class), 29 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
-| — | **AI Shield** | Runtime defence — 114 modules, 17 industry verticals | 16,607 |
+| — | **AI Shield** | Runtime defence — 115 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -136,7 +136,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**114 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**115 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -224,11 +224,11 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 62,847 |
+| Ecosystem tests | 63,151 |
 | Offensive tools | 67 (66 public + 1 law enforcement restricted) |
 | ARMORY payloads | 961 (161 WMD-class) |
 | ARMORY categories | 26 |
-| AI Shield modules | 114 |
+| AI Shield modules | 115 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
