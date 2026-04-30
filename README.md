@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**67 offensive tools (66 public + 1 law enforcement restricted). 115 defensive modules. 17 industry verticals. 63,151 tests. 961 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**68 offensive tools (67 public + 1 law enforcement restricted). 115 defensive modules. 17 industry verticals. 63,834 tests. 1031 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 29 April 2026*
+*Last updated: 30 April 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**67 tools (66 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
+**68 tools (67 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -83,6 +83,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 65 | **SPECTER DRONE** | Drone AI Attack Engine — SURVEY, PERCEPTION_SPOOF, SWARM_HIJACK, GROUND_LINK, AUTONOMY_STACK, OTA_POISON, EVIDENCE, REPORT. MAVLink v1/v2 exploitation, adversarial ML patches (FGSM/PGD), ROS 2/DDS attacks, firmware poisoning. Physical consequence tracking. FORGE clearance for offensive subsystems | 126 |
 | 66 | **SPECTER A2A** | Agent-to-Agent Protocol Attack Engine — world-first Google A2A JSON-RPC 2.0 attack tool. PROTOCOL_SCAN, MESSAGE_SPOOF, PROXY_ATTACK, CONSENSUS_POISON, WORM_PROPAGATE, EVIDENCE. Targets AutoGen, CrewAI Serve, Google A2A. FORGE/DESTROY clearance | 550 |
 | 67 | **SPECTER REGISTRY** | AI Model Registry Attack Engine — SCAN, INJECT, SQUAT, SUBSTITUTE, POISON, INTERCEPT, CROSS, REPORT. HuggingFace/Ollama/MLflow/Docker registries. Safetensors backdoor, LoRA adapter poisoning, typosquatting. KAMIKAZE clearance for weight substitution | 612 |
+| 68 | **SPECTER KERNEL** | Kernel-Layer AI Governance Subversion — KERNEL_ENV_PROBE, SYSCALL_FORGE, LSM_BYPASS, CHILD_ESCAPE, LEDGER_POISON, EVIDENCE. eBPF syscall argument rewriting, BPF-LSM hook ordering attack, namespace escape, hash-chain ledger race condition poisoning. World-first kernel-layer AI governance attack. KAMIKAZE dual-gate. | 626 |
 | — | **NIGHTFALL ARMORY** | Payload library — 961 payloads (161 Weapons of Mass Disruption-class), 29 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 115 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -224,10 +225,10 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 63,151 |
-| Offensive tools | 67 (66 public + 1 law enforcement restricted) |
-| ARMORY payloads | 961 (161 WMD-class) |
-| ARMORY categories | 26 |
+| Ecosystem tests | 63,834 |
+| Offensive tools | 68 (67 public + 1 law enforcement restricted) |
+| ARMORY payloads | 1031 (161 WMD-class) |
+| ARMORY categories | 32 |
 | AI Shield modules | 115 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
