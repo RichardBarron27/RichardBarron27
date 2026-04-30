@@ -85,7 +85,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 67 | **SPECTER REGISTRY** | AI Model Registry Attack Engine — SCAN, INJECT, SQUAT, SUBSTITUTE, POISON, INTERCEPT, CROSS, REPORT. HuggingFace/Ollama/MLflow/Docker registries. Safetensors backdoor, LoRA adapter poisoning, typosquatting. KAMIKAZE clearance for weight substitution | 612 |
 | 68 | **SPECTER KERNEL** | Kernel-Layer AI Governance Subversion — KERNEL_ENV_PROBE, SYSCALL_FORGE, LSM_BYPASS, CHILD_ESCAPE, LEDGER_POISON, EVIDENCE. eBPF syscall argument rewriting, BPF-LSM hook ordering attack, namespace escape, hash-chain ledger race condition poisoning. World-first kernel-layer AI governance attack. KAMIKAZE dual-gate. | 626 |
 | — | **NIGHTFALL ARMORY** | Payload library — 961 payloads (161 Weapons of Mass Disruption-class), 29 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
-| — | **AI Shield** | Runtime defence — 110 modules, 17 industry verticals | 16,911 |
+| — | **AI Shield** | Runtime defence — 113 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -137,7 +137,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**110 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**113 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
