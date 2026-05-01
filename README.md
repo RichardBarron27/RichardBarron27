@@ -199,16 +199,9 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 ## Red Specter OS
 
-**Boot from USB. Open NIGHTFALL Launcher. Engage.**
+**v2.0 in development — currently unavailable for download.**
 
-Linux Mint 21.3 Cinnamon remastered with the full NIGHTFALL framework pre-installed. 67 offensive tools (as of v1.1.5 build), one GTK3 launcher, zero setup. Branded from power-on — custom GRUB splash, LightDM login screen, dark GTK theme, and wallpaper.
-
-- UEFI + legacy BIOS boot (hybrid ISO)
-- GTK3 NIGHTFALL Launcher — 11 categories, target field, UNLEASHED toggle
-- All 67 public tools available from the launcher or directly from the terminal
-- Asset installer on the Desktop to permanently apply to any Mint system
-
-[red-specter.co.uk/os/](https://red-specter.co.uk/os/) · [GitHub](https://github.com/RichardBarron27)
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 68-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -260,7 +253,7 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 
 ---
 
-**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/) · [Red Specter OS](https://red-specter.co.uk/os/)
+**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
 <sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 30 April 2026</sub></p>
