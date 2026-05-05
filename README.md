@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**68 offensive tools (67 public + 1 law enforcement restricted). 113 defensive modules. 17 industry verticals. 63,834 tests. 1031 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**68 offensive tools (67 public + 1 law enforcement restricted). 114 defensive modules. 17 industry verticals. 65,665 tests. 1031 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 30 April 2026*
 ---
@@ -219,7 +219,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 63,834 |
+| Ecosystem tests | 65,665 |
 | Offensive tools | 68 (67 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1031 (161 WMD-class) |
 | ARMORY categories | 32 |
