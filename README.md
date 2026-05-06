@@ -4,7 +4,7 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 **70 offensive tools (69 public + 1 law enforcement restricted). 116 defensive modules. 17 industry verticals. 68,328 tests. 1031 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 5 May 2026*
+*Last updated: 6 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
@@ -56,7 +56,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 67 public tools, CORTEX reasoning core | 132 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 69 public tools, CORTEX reasoning core | 132 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems incl. VLM_INJECT and CORTEX reasoning core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | 37 |
@@ -85,8 +85,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 66 | **SPECTER A2A** | Agent-to-Agent Protocol Attack Engine — world-first Google A2A JSON-RPC 2.0 attack tool. PROTOCOL_SCAN, MESSAGE_SPOOF, PROXY_ATTACK, CONSENSUS_POISON, WORM_PROPAGATE, EVIDENCE. Targets AutoGen, CrewAI Serve, Google A2A. FORGE/DESTROY clearance | 550 |
 | 67 | **SPECTER REGISTRY** | AI Model Registry Attack Engine — SCAN, INJECT, SQUAT, SUBSTITUTE, POISON, INTERCEPT, CROSS, REPORT. HuggingFace/Ollama/MLflow/Docker registries. Safetensors backdoor, LoRA adapter poisoning, typosquatting. KAMIKAZE clearance for weight substitution | 612 |
 | 68 | **SPECTER KERNEL** | Kernel-Layer AI Governance Subversion — KERNEL_ENV_PROBE, SYSCALL_FORGE, LSM_BYPASS, CHILD_ESCAPE, LEDGER_POISON, EVIDENCE. eBPF syscall argument rewriting, BPF-LSM hook ordering attack, namespace escape, hash-chain ledger race condition poisoning. World-first kernel-layer AI governance attack. KAMIKAZE dual-gate. | 626 |
+| 69 | **SPECTER CONTEXT** | Agent Memory Exploitation Framework — CTX-INJECT, CTX-HIJACK, CTX-DORMANT, CTX-PERSIST, CTX-OVERFLOW, CTX-EXFIL, CTX-FORGE. 28 attacks, 12 memory targets incl. Mem0/MemGPT/Zep/LangChain/LlamaIndex/ChromaDB/Pinecone/Claude Memory/GPT Memory. World-first agent memory attack tool | 687 |
+| 70 | **SPECTER GUARDRAIL** | AI Guardrail Exploitation Framework — GRD-FINGERPRINT, GRD-CLASSIFY, GRD-EVADE, GRD-CONTEXT, GRD-TIMING, GRD-MULTIMODAL, GRD-INFRA. 28 attacks, 10 guardrail targets incl. LLM Guard/Guardrails AI/NeMo/Lakera/Prompt Shields/Model Armor/Bedrock. Integrated fingerprint DB | 725 |
 | — | **NIGHTFALL ARMORY** | Payload library — 1031 payloads (161 WMD-class), 32 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
-| — | **AI Shield** | Runtime defence — 113 modules, 17 industry verticals | 16,911 |
+| — | **AI Shield** | Runtime defence — 116 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -129,7 +131,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 67-tool arsenal selector
+- `red-specter tools` — interactive 69-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -138,7 +140,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**113 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**116 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -201,7 +203,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 68-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 70-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -256,4 +258,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 30 April 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 6 May 2026</sub></p>
