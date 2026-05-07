@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**71 offensive tools (70 public + 1 law enforcement restricted). 117 defensive modules. 17 industry verticals. 69,470 tests. 1140 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**72 offensive tools (71 public + 1 law enforcement restricted). 117 defensive modules. 17 industry verticals. 69,837 tests. 1140 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 7 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**71 tools (70 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
+**72 tools (71 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -87,6 +87,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 68 | **SPECTER KERNEL** | Kernel-Layer AI Governance Subversion — KERNEL_ENV_PROBE, SYSCALL_FORGE, LSM_BYPASS, CHILD_ESCAPE, LEDGER_POISON, EVIDENCE. eBPF syscall argument rewriting, BPF-LSM hook ordering attack, namespace escape, hash-chain ledger race condition poisoning. World-first kernel-layer AI governance attack. KAMIKAZE dual-gate. | 626 |
 | 69 | **SPECTER CONTEXT** | Agent Memory Exploitation Framework — CTX-INJECT, CTX-HIJACK, CTX-DORMANT, CTX-PERSIST, CTX-OVERFLOW, CTX-EXFIL, CTX-FORGE. 28 attacks, 12 memory targets incl. Mem0/MemGPT/Zep/LangChain/LlamaIndex/ChromaDB/Pinecone/Claude Memory/GPT Memory. World-first agent memory attack tool | 687 |
 | 70 | **SPECTER GUARDRAIL** | AI Guardrail Exploitation Framework — GRD-FINGERPRINT, GRD-CLASSIFY, GRD-EVADE, GRD-CONTEXT, GRD-TIMING, GRD-MULTIMODAL, GRD-INFRA. 28 attacks, 10 guardrail targets incl. LLM Guard/Guardrails AI/NeMo/Lakera/Prompt Shields/Model Armor/Bedrock. Integrated fingerprint DB | 725 |
+| 71 | **SPECTER HELLFIRE** | Inference Infrastructure Destabilisation & Model Cache Poisoning — INFERNO, BRIMSTONE, CONFLAGRATION, PYRE, CINDER, SCORCH, ASH. 7 subsystems. 5 attack categories. Targets vLLM, SGLang, TGI, Ollama, DeepSeek, OpenAI-compat. UNLEASHED Ed25519 dual-gate. Hash-chained evidence. SIEM NDJSON reporting | 591 |
+| 72 | **SPECTER PLATFORM** | LLM Application Platform Exploitation Engine — SURVEY, VAULT, WORKFLOW, RAGPOISON, WORKSPACE, GATEWAY, ORCHESTRATOR, ASH. 8 subsystems. 7 attack categories. Targets Dify (CVE-2026-34082), MaxKB (CVE-2026-39426), LibreChat, Open WebUI, AnythingLLM. API key harvest, workflow injection, RAG cross-tenant, JWT forgery, gateway reroute. FORGE/INJECT/DESTROY clearance gating | 367 |
 | — | **NIGHTFALL ARMORY** | Payload library — 1031 payloads (161 WMD-class), 32 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 117 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -221,8 +223,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 69,470 |
-| Offensive tools | 71 (70 public + 1 law enforcement restricted) |
+| Ecosystem tests | 69,837 |
+| Offensive tools | 72 (71 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1031 (161 WMD-class) |
 | ARMORY categories | 32 |
 | AI Shield modules | 116 |
