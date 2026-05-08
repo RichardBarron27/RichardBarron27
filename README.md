@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**73 offensive tools (72 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,209 tests. 1386 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**73 offensive tools (72 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,323 tests. 1386 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 8 May 2026*
 ---
@@ -60,7 +60,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems incl. VLM_INJECT and CORTEX reasoning core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | 37 |
-| 44 | **SHROUD** | Cloudflare/WAF origin discovery — 10 subsystems, SPF leak, CT logs, historical DNS | 196 |
+| 44 | **SHROUD** | Cloudflare/WAF origin discovery & WAF traversal — 15 subsystems: SPF/CT/DNS/Shodan/subdomain discovery + PHANTOM (TLS fingerprint), QUAKE (HTTP/3), SPECTRE (Turnstile solver), ROTATE (proxy pool), MIMIC (behavioural humanisation) | 310 |
 | 45 | **APOCALYPSE** | Coordinated multi-agent swarm attack — 5 agents, 14 vectors, 10 campaigns, 0.69s concurrent execution | 349 |
 | 46 | **PANTHEON** | Mythos-class model attack suite — SCANNER, LOOP_POISON, CVE_FORGE, BLINDFOLD, TRUST_CORRUPT, SCOPE_EXPAND, PARTNER_PIVOT, CONTEXT_COLLAPSE, CHAIN_CORRODE, CAMPAIGN | 580 |
 | 47 | **OMEGA** | Mythos-class autonomous exploit replication engine — CHAIN, HUNTER, PAYLOAD, GHOST, MINERVA, SURFACE, HARVEST, SENTINEL, MIRROR, REPORT | 626 |
@@ -224,7 +224,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 63,209 |
+| Ecosystem tests | 63,323 |
 | Offensive tools | 73 (72 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1386 (331 WMD-class) |
 | ARMORY categories | 51 |
