@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**73 offensive tools (72 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,323 tests. 1386 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**74 offensive tools (73 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,577 tests. 1416 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 8 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**73 tools (72 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
+**74 tools (73 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -90,7 +90,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 71 | **SPECTER HELLFIRE** | Inference Infrastructure Destabilisation & Model Cache Poisoning — INFERNO, BRIMSTONE, CONFLAGRATION, PYRE, CINDER, SCORCH, ASH. 7 subsystems. 5 attack categories. Targets vLLM, SGLang, TGI, Ollama, DeepSeek, OpenAI-compat. UNLEASHED Ed25519 dual-gate. Hash-chained evidence. SIEM NDJSON reporting | 591 |
 | 72 | **SPECTER PLATFORM** | LLM Application Platform Exploitation Engine — SURVEY, VAULT, WORKFLOW, RAGPOISON, WORKSPACE, GATEWAY, ORCHESTRATOR, ASH. 8 subsystems. 7 attack categories. Targets Dify (CVE-2026-34082), MaxKB (CVE-2026-39426), LibreChat, Open WebUI, AnythingLLM. API key harvest, workflow injection, RAG cross-tenant, JWT forgery, gateway reroute. FORGE/INJECT/DESTROY clearance gating | 367 |
 | 73 | **GHOST OPERATOR** | Autonomous Computer-Use Agent Exploitation Engine — SURVEY, VISION, CLIP, DECEIVE, DRIFT, INTERCEPT, PIVOT, REPORT. Visual prompt injection (adversarial PNG/homoglyphs/LSB stego/HTML overlay/DOM divergence), clipboard poisoning & credential harvesting (12 patterns), UI deception, cosine similarity drift, Playwright browser interception, session pivoting across 9 platforms. Three-tier UNLEASHED INJECT/DESTROY. MITRE ATLAS AML.T0054/T0051/T0043/T0048/T0056 | 466 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1386 payloads (331 WMD-class), 51 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
+| 74 | **SPECTER NEURON** | Sleeper-Agent Backdoor Detection & Weaponisation Engine — PROBE (model fingerprint), SCAN (attention double-triangle detection), FUZZ (vocabulary sweep trigger discovery), DELTA (weight-delta forensics, 3σ outlier), IMPLANT (ROME rank-one editing / LoRA poison / neuron patch), SURVIVE (SFT→DPO→RLHF-sim survival measurement), EXFIL (LSB/logit/synonym covert channels), REPORT (Ed25519-signed). FORGE gate for IMPLANT/SURVIVE, DESTROY gate for EXFIL. MITRE ATLAS AML.T0020/T0018/T0043/T0056/T0048 | 254 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1416 payloads (349 WMD-class), 52 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 118 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -224,9 +225,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 63,323 |
-| Offensive tools | 73 (72 public + 1 law enforcement restricted) |
-| ARMORY payloads | 1386 (331 WMD-class) |
+| Ecosystem tests | 63,577 |
+| Offensive tools | 74 (73 public + 1 law enforcement restricted) |
+| ARMORY payloads | 1416 (349 WMD-class) |
 | ARMORY categories | 51 |
 | AI Shield modules | 118 |
 | Vertical products | 17 |
