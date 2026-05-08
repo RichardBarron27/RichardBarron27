@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**73 offensive tools (72 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,209 tests. 1290 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**73 offensive tools (72 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,209 tests. 1386 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 7 May 2026*
+*Last updated: 8 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
@@ -56,7 +56,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 69 public tools, CORTEX reasoning core | 132 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 72 public tools, CORTEX reasoning core | 132 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems incl. VLM_INJECT and CORTEX reasoning core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | 37 |
@@ -89,7 +89,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 70 | **SPECTER GUARDRAIL** | AI Guardrail Exploitation Framework — GRD-FINGERPRINT, GRD-CLASSIFY, GRD-EVADE, GRD-CONTEXT, GRD-TIMING, GRD-MULTIMODAL, GRD-INFRA. 28 attacks, 10 guardrail targets incl. LLM Guard/Guardrails AI/NeMo/Lakera/Prompt Shields/Model Armor/Bedrock. Integrated fingerprint DB | 725 |
 | 71 | **SPECTER HELLFIRE** | Inference Infrastructure Destabilisation & Model Cache Poisoning — INFERNO, BRIMSTONE, CONFLAGRATION, PYRE, CINDER, SCORCH, ASH. 7 subsystems. 5 attack categories. Targets vLLM, SGLang, TGI, Ollama, DeepSeek, OpenAI-compat. UNLEASHED Ed25519 dual-gate. Hash-chained evidence. SIEM NDJSON reporting | 591 |
 | 72 | **SPECTER PLATFORM** | LLM Application Platform Exploitation Engine — SURVEY, VAULT, WORKFLOW, RAGPOISON, WORKSPACE, GATEWAY, ORCHESTRATOR, ASH. 8 subsystems. 7 attack categories. Targets Dify (CVE-2026-34082), MaxKB (CVE-2026-39426), LibreChat, Open WebUI, AnythingLLM. API key harvest, workflow injection, RAG cross-tenant, JWT forgery, gateway reroute. FORGE/INJECT/DESTROY clearance gating | 367 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1031 payloads (161 WMD-class), 32 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
+| 73 | **GHOST OPERATOR** | Autonomous Computer-Use Agent Exploitation Engine — SURVEY, VISION, CLIP, DECEIVE, DRIFT, INTERCEPT, PIVOT, REPORT. Visual prompt injection (adversarial PNG/homoglyphs/LSB stego/HTML overlay/DOM divergence), clipboard poisoning & credential harvesting (12 patterns), UI deception, cosine similarity drift, Playwright browser interception, session pivoting across 9 platforms. Three-tier UNLEASHED INJECT/DESTROY. MITRE ATLAS AML.T0054/T0051/T0043/T0048/T0056 | 466 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1386 payloads (331 WMD-class), 51 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 118 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -133,7 +134,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 69-tool arsenal selector
+- `red-specter tools` — interactive 73-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -205,7 +206,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 70-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 73-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -224,10 +225,10 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Metric | Value |
 |--------|-------|
 | Ecosystem tests | 63,209 |
-| Offensive tools | 72 (71 public + 1 law enforcement restricted) |
-| ARMORY payloads | 1031 (161 WMD-class) |
-| ARMORY categories | 32 |
-| AI Shield modules | 116 |
+| Offensive tools | 73 (72 public + 1 law enforcement restricted) |
+| ARMORY payloads | 1386 (331 WMD-class) |
+| ARMORY categories | 51 |
+| AI Shield modules | 118 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
@@ -260,4 +261,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 6 May 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 8 May 2026</sub></p>
