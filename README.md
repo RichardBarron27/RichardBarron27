@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**75 offensive tools (74 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 63,891 tests. 1441 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**76 offensive tools (75 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 64,278 tests. 1462 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 8 May 2026*
+*Last updated: 9 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**75 tools (74 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
+**76 tools (75 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -92,7 +92,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 73 | **GHOST OPERATOR** | Autonomous Computer-Use Agent Exploitation Engine — SURVEY, VISION, CLIP, DECEIVE, DRIFT, INTERCEPT, PIVOT, REPORT. Visual prompt injection (adversarial PNG/homoglyphs/LSB stego/HTML overlay/DOM divergence), clipboard poisoning & credential harvesting (12 patterns), UI deception, cosine similarity drift, Playwright browser interception, session pivoting across 9 platforms. Three-tier UNLEASHED INJECT/DESTROY. MITRE ATLAS AML.T0054/T0051/T0043/T0048/T0056 | 466 |
 | 74 | **SPECTER NEURON** | Sleeper-Agent Backdoor Detection & Weaponisation Engine — PROBE (model fingerprint), SCAN (attention double-triangle detection), FUZZ (vocabulary sweep trigger discovery), DELTA (weight-delta forensics, 3σ outlier), IMPLANT (ROME rank-one editing / LoRA poison / neuron patch), SURVIVE (SFT→DPO→RLHF-sim survival measurement), EXFIL (LSB/logit/synonym covert channels), REPORT (Ed25519-signed). FORGE gate for IMPLANT/SURVIVE, DESTROY gate for EXFIL. MITRE ATLAS AML.T0020/T0018/T0043/T0056/T0048 | 254 |
 | 75 | **SPECTER REASONER** | Hidden Chain-of-Thought Hijack & Reasoning Process Attack Engine — PROBE (fingerprint reasoning model family, budget, thinking exposure; supports Claude Extended Thinking/o1/o3/Gemini Flash Thinking/DeepSeek R1/QwQ), INJECT (axiomatic/authority/context-poison/epistemic-prime/anchor premise injection), HIJACK (guided decomposition/false dichotomy/strawman/confirmation bias/sycophancy exploit/loaded question conclusion manipulation), EXTRACT (direct/continuation/meta-reasoning/format-coerce/roleplay-leak/completion-trap scratchpad extraction), LOOP (recursive self-reference/circular dependency/undecidable/infinite regress/budget exhaustion/meta-loop — DESTROY gate), CORRUPT (incremental drift/misquote-reasoning/trust-escalation/anchor-drift/gaslighting multi-turn chain corruption), BENCHMARK (per-class scoring: premise acceptance rate, conclusion deviation, scratchpad leakage, budget exhaustion, chain corruption), REPORT (SHA-256 hash-chained EvidenceChain, Ed25519-signed ReasonerReport, MITRE ATLAS auto-map). FORGE gate INJECT/HIJACK/EXTRACT/CORRUPT; DESTROY gate LOOP. MITRE ATLAS AML.T0051/T0043/T0054/T0056/T0029/T0020/T0048. OWASP LLM01/LLM02/LLM04/LLM06/LLM07/LLM08. World-first reasoning-layer attack tool | 314 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1441 payloads (358 WMD-class), 57 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
+| 76 | **SPECTER BURN** | Denial-of-Wallet & Agentic Economic Disruption Engine — IGNITE (platform fingerprinting, rate limit mapping, billing surface analysis — FORGE gate), KINDLE (recursive loop injection: self-delegating payloads, mutual block deadlocks, concept hierarchy bombs — FORGE gate), TORCH (context window flooding: bloat injection, history accumulation, multimodal saturation — FORGE gate), BLAZE (parallel session spawning, economic impact aggregation — INJECT gate), SCORCH (tool call amplification: search cascades, image generation drains, RAG storms — INJECT gate), EMBER (auto-reload exploitation: billing cycle detection, threshold triggering, extended thinking drain — DESTROY gate), SMOTHER (rate limit exhaustion: burst race, tenant bypass, credit threshold storm — DESTROY gate), ASH (SHA-256 hash-chained evidence, Ed25519-signed BURN-{hex12} reports, SIEM NDJSON). 6 attack categories: RECURSIVE_LOOP/CONTEXT_FLOOD/PARALLEL_BURN/AUTO_RELOAD_TRIGGER/TOOL_AMPLIFICATION/RATE_LIMIT_STORM. Three-tier UNLEASHED FORGE/INJECT/DESTROY gate. 7 target platforms. MITRE ATLAS AML.T0040/T0029/T0051/T0043. OWASP LLM04/LLM07/LLM09 | 387 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1462 payloads (362 WMD-class), 62 categories, physical sabotage, self-replicating worms, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 118 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -226,9 +227,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 63,891 |
+| Ecosystem tests | 64,278 |
 | Offensive tools | 75 (74 public + 1 law enforcement restricted) |
-| ARMORY payloads | 1441 (358 WMD-class) |
+| ARMORY payloads | 1462 (362 WMD-class) |
 | ARMORY categories | 51 |
 | AI Shield modules | 118 |
 | Vertical products | 17 |
