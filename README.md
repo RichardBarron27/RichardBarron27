@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**77 offensive tools (76 public + 1 law enforcement restricted). 121 defensive modules. 17 industry verticals. 65,472 tests. 1487 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**77 offensive tools (76 public + 1 law enforcement restricted). 121 defensive modules. 17 industry verticals. 65,806 tests. 1517 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 10 May 2026*
 ---
@@ -75,7 +75,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 56 | **ADAPTER** | LoRA/PEFT supply chain weaponisation — CBA backdoor injection, LoRATK post-merge activation, model souping contamination, Axolotl/Unsloth pipeline poison | 307 |
 | 57 | **CHECKPOINT** | Agent state persistence exploitation — LangGraph TOCTOU approval bypass, msgpack RCE, cross-tenant thread_id enumeration (CVE-2025-64439, CVE-2026-28277) | 291 |
 | 58 | **DELEGATE** | Agent identity & OAuth delegation attack engine — OBO scope confusion, DPoP nonce race, P4SA takeover, NHI credential harvest (CVE-2026-32173) | 253 |
-| 59 | **PHANTOM SKILL** | AI agent supply chain attack engine — slopsquatting, MCP tool definition poisoning, OpenClaw worm (CVE-2026-32922 CVSS 9.9), LiteLLM callback exfiltration | 406 |
+| 59 | **PHANTOM SKILL v2.0.0** | AI agent supply chain attack engine — slopsquatting, MCP tool definition poisoning, OpenClaw worm (CVE-2026-32922 CVSS 9.9), CODING_SUPPLY_CHAIN: rules file backdoor/git hook RCE/manifest poison/IDE PATH hijack/devcontainer RCE/CI secret exfil — 7 agents, CVE-2026-26268 (Cursor CVSS 9.9) | 740 |
 | 60 | **ASTRO BLASTER** | NTN AI agent attack engine — SURVEY, FEEDINJECT, ORBITAL, GROUNDCHAIN, FIRMWARE, NTN_BOUNDARY, SWARM_NTN, PERSIST, REPORT. SPARTA mapped. Ground station feed injection, orbital routing manipulation, 5G NR-NTN exploitation | 237 |
 | 61 | **ROGUE** | Malicious MCP Server Engine — SPAWN, POISON, SAMPLE, INJECT, EXFIL, ESCALATE, PERSIST, REPORT. World-first real stdio+SSE MCP server. Tool poisoning, prompt injection via tool calls, OWASP LLM07/LLM02, MITRE ATLAS AML.T0051/T0056 | 136 |
 | 62 | **PIPELINE** | CI/CD Attack Engine — SCAN, INJECT, CACHE_POISON, SECRETS_HUNT, ACTION_POISON, PIVOT, PERSIST, REPORT. pull_request_target exploitation (CVSS 9.8), Clinejection AI bot injection, OIDC cloud pivot (CVSS 9.5), Action typosquatting | 77 |
@@ -94,7 +94,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 75 | **SPECTER REASONER** | Hidden Chain-of-Thought Hijack & Reasoning Process Attack Engine — PROBE (fingerprint reasoning model family, budget, thinking exposure; supports Claude Extended Thinking/o1/o3/Gemini Flash Thinking/DeepSeek R1/QwQ), INJECT (axiomatic/authority/context-poison/epistemic-prime/anchor premise injection), HIJACK (guided decomposition/false dichotomy/strawman/confirmation bias/sycophancy exploit/loaded question conclusion manipulation), EXTRACT (direct/continuation/meta-reasoning/format-coerce/roleplay-leak/completion-trap scratchpad extraction), LOOP (recursive self-reference/circular dependency/undecidable/infinite regress/budget exhaustion/meta-loop — DESTROY gate), CORRUPT (incremental drift/misquote-reasoning/trust-escalation/anchor-drift/gaslighting multi-turn chain corruption), BENCHMARK (per-class scoring: premise acceptance rate, conclusion deviation, scratchpad leakage, budget exhaustion, chain corruption), REPORT (SHA-256 hash-chained EvidenceChain, Ed25519-signed ReasonerReport, MITRE ATLAS auto-map). FORGE gate INJECT/HIJACK/EXTRACT/CORRUPT; DESTROY gate LOOP. MITRE ATLAS AML.T0051/T0043/T0054/T0056/T0029/T0020/T0048. OWASP LLM01/LLM02/LLM04/LLM06/LLM07/LLM08. World-first reasoning-layer attack tool | 314 |
 | 76 | **SPECTER BURN** | Denial-of-Wallet & Agentic Economic Disruption Engine — IGNITE (platform fingerprinting, rate limit mapping, billing surface analysis — FORGE gate), KINDLE (recursive loop injection: self-delegating payloads, mutual block deadlocks, concept hierarchy bombs — FORGE gate), TORCH (context window flooding: bloat injection, history accumulation, multimodal saturation — FORGE gate), BLAZE (parallel session spawning, economic impact aggregation — INJECT gate), SCORCH (tool call amplification: search cascades, image generation drains, RAG storms — INJECT gate), EMBER (auto-reload exploitation: billing cycle detection, threshold triggering, extended thinking drain — DESTROY gate), SMOTHER (rate limit exhaustion: burst race, tenant bypass, credit threshold storm — DESTROY gate), ASH (SHA-256 hash-chained evidence, Ed25519-signed BURN-{hex12} reports, SIEM NDJSON). 6 attack categories: RECURSIVE_LOOP/CONTEXT_FLOOD/PARALLEL_BURN/AUTO_RELOAD_TRIGGER/TOOL_AMPLIFICATION/RATE_LIMIT_STORM. Three-tier UNLEASHED FORGE/INJECT/DESTROY gate. 7 target platforms. MITRE ATLAS AML.T0040/T0029/T0051/T0043. OWASP LLM04/LLM07/LLM09 | 387 |
 | 77 | **SPECTER MEMETIC** | Memory-as-Control-Flow Hijack Engine — PROBE (backend fingerprint: naive vs RBMS, retrieval mode, summariser presence, hierarchy non-compliance fingerprint — audit-only), INJECT (3 write primitives: explicit_pref, implicit_summary, retrieval_cache RAG pollution — FORGE gate), OVERRIDE (tool-choice hijack MCFA Family 1, paper 91.7–100% ASR — INJECT gate), REORDER (workflow reorder/step-skip MCFA Family 2 — INJECT gate), PROPAGATE (M-Scope cross-task generalisation MCFA Family 3, master-key universal trigger — INJECT gate), PERSIST (long-horizon survival MCFA Family 4, chronic infection — INJECT gate), RELAPSE (correction-resistant write-back MCFA Family 5, Memory Surgery required — DESTROY gate), ASH (SHA-256 hash-chained evidence, Ed25519-signed MEM-{hex12} reports, SIEM NDJSON). 14 memory backends: LangChain/LlamaIndex/Mem0/Claude Memory/OpenAI Memory (Tier 1) + Zep/MemGPT-Letta/LangGraph/CrewAI/Pinecone/Chroma/Weaviate/Vertex AI Memory Bank/AutoGen (Tier 2). Foundation paper: arXiv:2603.15125 (Xu et al. Mar 2026). Three-tier UNLEASHED FORGE/INJECT/DESTROY. MITRE ATLAS AML.T0051/T0029/T0048/T0054/T0056/T0020. OWASP LLM01/LLM03/LLM06/LLM07/LLM08 | 520 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1487 payloads (374 WMD-class), 63 categories, physical sabotage, self-replicating worms, memory control flow, UNLEASHED WMD gate | 487 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1517 payloads (375 WMD-class), 69 categories, physical sabotage, self-replicating worms, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 118 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -228,9 +228,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 65,472 |
+| Ecosystem tests | 65,806 |
 | Offensive tools | 75 (74 public + 1 law enforcement restricted) |
-| ARMORY payloads | 1487 (374 WMD-class) |
+| ARMORY payloads | 1517 (375 WMD-class) |
 | ARMORY categories | 51 |
 | AI Shield modules | 118 |
 | Vertical products | 17 |
