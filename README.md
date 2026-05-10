@@ -77,7 +77,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 58 | **DELEGATE** | Agent identity & OAuth delegation attack engine — OBO scope confusion, DPoP nonce race, P4SA takeover, NHI credential harvest (CVE-2026-32173) | 253 |
 | 59 | **PHANTOM SKILL v2.0.0** | AI agent supply chain attack engine — slopsquatting, MCP tool definition poisoning, OpenClaw worm (CVE-2026-32922 CVSS 9.9), CODING_SUPPLY_CHAIN: rules file backdoor/git hook RCE/manifest poison/IDE PATH hijack/devcontainer RCE/CI secret exfil — 7 agents, CVE-2026-26268 (Cursor CVSS 9.9) | 740 |
 | 60 | **ASTRO BLASTER** | NTN AI agent attack engine — SURVEY, FEEDINJECT, ORBITAL, GROUNDCHAIN, FIRMWARE, NTN_BOUNDARY, SWARM_NTN, PERSIST, REPORT. SPARTA mapped. Ground station feed injection, orbital routing manipulation, 5G NR-NTN exploitation | 237 |
-| 61 | **ROGUE** | Malicious MCP Server Engine — SPAWN, POISON, SAMPLE, INJECT, EXFIL, ESCALATE, PERSIST, REPORT. World-first real stdio+SSE MCP server. Tool poisoning, prompt injection via tool calls, OWASP LLM07/LLM02, MITRE ATLAS AML.T0051/T0056 | 136 |
+| 61 | **ROGUE** | Malicious MCP Server Engine — SPAWN, POISON, SAMPLE, INJECT, EXFIL, ESCALATE, PERSIST, REPORT. World-first real stdio+SSE MCP server. Tool poisoning, prompt injection via tool calls, OWASP LLM07/LLM02, MITRE ATLAS AML.T0051/T0056 | 242 |
 | 62 | **PIPELINE** | CI/CD Attack Engine — SCAN, INJECT, CACHE_POISON, SECRETS_HUNT, ACTION_POISON, PIVOT, PERSIST, REPORT. pull_request_target exploitation (CVSS 9.8), Clinejection AI bot injection, OIDC cloud pivot (CVSS 9.5), Action typosquatting | 77 |
 | 63 | **SPECTER DARK** | Restricted — law enforcement and authorised intelligence only | — |
 | 64 | **SPECTER INSTINCTION** | AI Agent Behavioural Fingerprinting & Instinct Exploitation Engine — PROFILE, DISTINCT, EXPLOIT, CALIBRATE, REPORT. World-first LLM model identification via pure behavioural observation. 6-dimension profiling. 20-model fingerprint library. FORGE clearance for EXPLOIT | 90 |
@@ -95,7 +95,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 76 | **SPECTER BURN** | Denial-of-Wallet & Agentic Economic Disruption Engine — IGNITE (platform fingerprinting, rate limit mapping, billing surface analysis — FORGE gate), KINDLE (recursive loop injection: self-delegating payloads, mutual block deadlocks, concept hierarchy bombs — FORGE gate), TORCH (context window flooding: bloat injection, history accumulation, multimodal saturation — FORGE gate), BLAZE (parallel session spawning, economic impact aggregation — INJECT gate), SCORCH (tool call amplification: search cascades, image generation drains, RAG storms — INJECT gate), EMBER (auto-reload exploitation: billing cycle detection, threshold triggering, extended thinking drain — DESTROY gate), SMOTHER (rate limit exhaustion: burst race, tenant bypass, credit threshold storm — DESTROY gate), ASH (SHA-256 hash-chained evidence, Ed25519-signed BURN-{hex12} reports, SIEM NDJSON). 6 attack categories: RECURSIVE_LOOP/CONTEXT_FLOOD/PARALLEL_BURN/AUTO_RELOAD_TRIGGER/TOOL_AMPLIFICATION/RATE_LIMIT_STORM. Three-tier UNLEASHED FORGE/INJECT/DESTROY gate. 7 target platforms. MITRE ATLAS AML.T0040/T0029/T0051/T0043. OWASP LLM04/LLM07/LLM09 | 387 |
 | 77 | **SPECTER MEMETIC** | Memory-as-Control-Flow Hijack Engine — PROBE (backend fingerprint: naive vs RBMS, retrieval mode, summariser presence, hierarchy non-compliance fingerprint — audit-only), INJECT (3 write primitives: explicit_pref, implicit_summary, retrieval_cache RAG pollution — FORGE gate), OVERRIDE (tool-choice hijack MCFA Family 1, paper 91.7–100% ASR — INJECT gate), REORDER (workflow reorder/step-skip MCFA Family 2 — INJECT gate), PROPAGATE (M-Scope cross-task generalisation MCFA Family 3, master-key universal trigger — INJECT gate), PERSIST (long-horizon survival MCFA Family 4, chronic infection — INJECT gate), RELAPSE (correction-resistant write-back MCFA Family 5, Memory Surgery required — DESTROY gate), ASH (SHA-256 hash-chained evidence, Ed25519-signed MEM-{hex12} reports, SIEM NDJSON). 14 memory backends: LangChain/LlamaIndex/Mem0/Claude Memory/OpenAI Memory (Tier 1) + Zep/MemGPT-Letta/LangGraph/CrewAI/Pinecone/Chroma/Weaviate/Vertex AI Memory Bank/AutoGen (Tier 2). Foundation paper: arXiv:2603.15125 (Xu et al. Mar 2026). Three-tier UNLEASHED FORGE/INJECT/DESTROY. MITRE ATLAS AML.T0051/T0029/T0048/T0054/T0056/T0020. OWASP LLM01/LLM03/LLM06/LLM07/LLM08 | 520 |
 | — | **NIGHTFALL ARMORY** | Payload library — 1517 payloads (375 WMD-class), 69 categories, physical sabotage, self-replicating worms, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
-| — | **AI Shield** | Runtime defence — 118 modules, 17 industry verticals | 16,911 |
+| — | **AI Shield** | Runtime defence — 121 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -138,7 +138,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 73-tool arsenal selector
+- `red-specter tools` — interactive 77-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -147,7 +147,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**118 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**121 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -229,10 +229,10 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Metric | Value |
 |--------|-------|
 | Ecosystem tests | 65,806 |
-| Offensive tools | 75 (74 public + 1 law enforcement restricted) |
+| Offensive tools | 77 (76 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1517 (375 WMD-class) |
-| ARMORY categories | 51 |
-| AI Shield modules | 118 |
+| ARMORY categories | 69 |
+| AI Shield modules | 121 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
@@ -265,4 +265,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 8 May 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 10 May 2026</sub></p>
