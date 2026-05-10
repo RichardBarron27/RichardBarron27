@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**77 offensive tools (76 public + 1 law enforcement restricted). 118 defensive modules. 17 industry verticals. 65,272 tests. 1487 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
+**77 offensive tools (76 public + 1 law enforcement restricted). 121 defensive modules. 17 industry verticals. 65,472 tests. 1487 ARMORY payloads. Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 10 May 2026*
 ---
@@ -82,7 +82,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 63 | **SPECTER DARK** | Restricted — law enforcement and authorised intelligence only | — |
 | 64 | **SPECTER INSTINCTION** | AI Agent Behavioural Fingerprinting & Instinct Exploitation Engine — PROFILE, DISTINCT, EXPLOIT, CALIBRATE, REPORT. World-first LLM model identification via pure behavioural observation. 6-dimension profiling. 20-model fingerprint library. FORGE clearance for EXPLOIT | 90 |
 | 65 | **SPECTER DRONE** | Drone AI Attack Engine — SURVEY, PERCEPTION_SPOOF, SWARM_HIJACK, GROUND_LINK, AUTONOMY_STACK, OTA_POISON, EVIDENCE, REPORT. MAVLink v1/v2 exploitation, adversarial ML patches (FGSM/PGD), ROS 2/DDS attacks, firmware poisoning. Physical consequence tracking. FORGE clearance for offensive subsystems | 126 |
-| 66 | **SPECTER A2A** | Agent-to-Agent Protocol Attack Engine — world-first Google A2A JSON-RPC 2.0 attack tool. PROTOCOL_SCAN, MESSAGE_SPOOF, PROXY_ATTACK, CONSENSUS_POISON, WORM_PROPAGATE, EVIDENCE. Targets AutoGen, CrewAI Serve, Google A2A. FORGE/DESTROY clearance | 550 |
+| 66 | **SPECTER A2A** | Agent-to-Agent Protocol Attack Engine — world-first Google A2A JSON-RPC 2.0 attack tool. v1.1.0: 7 subsystems incl. AGENT_CARD_POISON (card spoofing, skill inject, capability escalate, URL redirect, registry inject, description hijack). Targets AutoGen, CrewAI Serve, Google A2A. FORGE/DESTROY clearance | 750 |
 | 67 | **SPECTER REGISTRY** | AI Model Registry Attack Engine — SCAN, INJECT, SQUAT, SUBSTITUTE, POISON, INTERCEPT, CROSS, REPORT. HuggingFace/Ollama/MLflow/Docker registries. Safetensors backdoor, LoRA adapter poisoning, typosquatting. KAMIKAZE clearance for weight substitution | 612 |
 | 68 | **SPECTER KERNEL** | Kernel-Layer AI Governance Subversion — KERNEL_ENV_PROBE, SYSCALL_FORGE, LSM_BYPASS, CHILD_ESCAPE, LEDGER_POISON, EVIDENCE. eBPF syscall argument rewriting, BPF-LSM hook ordering attack, namespace escape, hash-chain ledger race condition poisoning. World-first kernel-layer AI governance attack. KAMIKAZE dual-gate. | 626 |
 | 69 | **SPECTER CONTEXT** | Agent Memory Exploitation Framework — CTX-INJECT, CTX-HIJACK, CTX-DORMANT, CTX-PERSIST, CTX-OVERFLOW, CTX-EXFIL, CTX-FORGE. 28 attacks, 12 memory targets incl. Mem0/MemGPT/Zep/LangChain/LlamaIndex/ChromaDB/Pinecone/Claude Memory/GPT Memory. World-first agent memory attack tool | 687 |
@@ -228,7 +228,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 65,272 |
+| Ecosystem tests | 65,472 |
 | Offensive tools | 75 (74 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1487 (374 WMD-class) |
 | ARMORY categories | 51 |
