@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**79 offensive tools (78 public + 1 law enforcement restricted). 121 defensive modules. 17 industry verticals. 66,788 tests. 1592 ARMORY payloads (410 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**80 offensive tools (79 public + 1 law enforcement restricted). 121 defensive modules. 17 industry verticals. 67,046 tests. 1617 ARMORY payloads (420 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 12 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**79 tools (78 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
+**80 tools (79 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -94,7 +94,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 75 | **SPECTER REASONER** | Hidden Chain-of-Thought Hijack & Reasoning Process Attack Engine — PROBE, INJECT, HIJACK, EXTRACT, LOOP, CORRUPT, BENCHMARK, REPORT. Premise injection, conclusion hijack, scratchpad extraction, budget exhaustion, chain corruption. Targets Claude Extended Thinking/o1/o3/Gemini/DeepSeek R1/QwQ. FORGE gate INJECT/HIJACK/EXTRACT/CORRUPT, DESTROY gate LOOP. World-first reasoning-layer attack | 314 |
 | 76 | **SPECTER BURN** | Denial-of-Wallet & Agentic Economic Disruption Engine — IGNITE, KINDLE, TORCH, BLAZE, SCORCH, EMBER, SMOTHER, ASH. 6 attack categories: recursive loop, context flood, parallel burn, auto-reload, tool amplification, rate limit storm. 7 target platforms. Three-tier UNLEASHED FORGE/INJECT/DESTROY gate | 387 |
 | 77 | **SPECTER MEMETIC** | Memory-as-Control-Flow Hijack Engine — PROBE, INJECT, OVERRIDE, REORDER, PROPAGATE, PERSIST, RELAPSE, ASH. 14 memory backends (LangChain/LlamaIndex/Mem0/Claude Memory/OpenAI + 9 more). Tool-choice hijack, workflow reorder, cross-task propagation, correction-resistant write-back. Foundation: arXiv:2603.15125. FORGE/INJECT/DESTROY clearance | 520 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1592 payloads (410 WMD-class), 84 categories, physical sabotage, self-replicating worms, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
+| 78 | **SPECTER ATLAS** | Operator/Computer-Use Agent Exploitation Engine — SURVEY, CHANNEL, SANDBOX, FEEDBACK, TOCTOU, ESCALATE, PERSIST, REPORT. 8 subsystems. Tool result injection, adversarial screenshots, sandbox escape, TOCTOU race. 4 providers: Anthropic/OpenAI/Gemini/Windsurf MCP. Three-tier UNLEASHED OPEN/INJECT/DESTROY gate | 480 |
+| 79 | **SPECTER SHELL** | Template-Interpolation RCE Engine across the Agent-Framework Ecosystem — SURVEY, LATTICE, TRAVERSE, SANDBOX, STARTUP, LITELLM, PERSIST, EVIDENCE. 8 subsystems. Targets LangChain/LangGraph/LlamaIndex/Haystack/DSPy/PydanticAI/LiteLLM/Semantic Kernel/Strands. CVE-2026-26030/CVE-2026-25592. FORGE/INJECT/DESTROY gate | 502 |
+| 80 | **SPECTER WORM** | Self-Replicating AI Agent Worm Engine — INCUBATE, KILL_SWITCH, SURVEY, PAYLOAD, PROPAGATE, PERSIST, EVIDENCE, REPORT. 8 subsystems. 3 propagation channels: MCP_STDIO (T61), A2A_JSON_RPC (T66), RAG_EMBED (T31). Per-hop CIDR scope gate, dead-man sentinel. Foundation: arXiv:2403.02817 (Morris II). FORGE/INJECT/DESTROY gate | 258 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1617 payloads (420 WMD-class), 85 categories, physical sabotage, self-replicating worms, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 121 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -228,10 +231,10 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 66,788 |
-| Offensive tools | 79 (78 public + 1 law enforcement restricted) |
-| ARMORY payloads | 1592 (410 WMD-class) |
-| ARMORY categories | 84 |
+| Ecosystem tests | 67,046 |
+| Offensive tools | 80 (79 public + 1 law enforcement restricted) |
+| ARMORY payloads | 1617 (420 WMD-class) |
+| ARMORY categories | 85 |
 | AI Shield modules | 121 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
