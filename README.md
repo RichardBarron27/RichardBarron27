@@ -4,12 +4,12 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 **80 offensive tools (79 public + 1 law enforcement restricted). 123 defensive modules. 17 industry verticals. 67,302 tests. 1617 ARMORY payloads (420 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 12 May 2026*
+*Last updated: 13 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**80 tools (79 public + 1 restricted). Five attack surfaces. One install. CLI-only.**
+**80 tools (79 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -56,7 +56,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 72 public tools, CORTEX reasoning core | 132 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 79 public tools, CORTEX reasoning core | 132 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems incl. VLM_INJECT and CORTEX reasoning core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | 37 |
@@ -122,6 +122,44 @@ red-specter chain annihilate -t <target>       # Total destruction — 9 tools
 red-specter chain scorched-earth -t <target>   # Infrastructure wipeout — 6 tools
 red-specter chain ai-destroy -t <target>       # AI stack compromise — 7 tools
 
+### REST API & MCP Server
+
+NIGHTFALL is now API-first. Every public tool is callable via authenticated REST API and MCP server — from scripts, pipelines, CI, or directly from an AI agent.
+
+**Live endpoints:**
+- REST API: `https://api.red-specter.co.uk/nightfall/` — [OpenAPI docs](https://api.red-specter.co.uk/nightfall/docs)
+- MCP HTTP: `https://api.red-specter.co.uk/nightfall-mcp/mcp` — wire into Claude Desktop or Cursor
+
+```bash
+# Issue a scope token
+curl -X POST https://api.red-specter.co.uk/nightfall/unleashed/scope \
+  -H "X-Nightfall-Key: <key>" \
+  -d '{"operator_id":"red","tier":"INJECT"}'
+
+# Run a tool
+curl -X POST https://api.red-specter.co.uk/nightfall/tools/warlord/run \
+  -H "X-Nightfall-Key: <key>" \
+  -H "X-Nightfall-Scope: <scope_token>" \
+  -d '{"extra_args":["scout","--target","https://example.com"]}'
+```
+
+**Auth model — Ed25519-signed scope tokens:**
+
+| Tier | Requires | Access |
+|------|----------|--------|
+| OPEN | API key only | Recon tools, stats, health, tool listings |
+| INJECT | API key + scope token | Active exploitation tools |
+| DESTROY | CLI only | Not on the API surface — 403 Forbidden |
+
+Token encodes operator, permitted tools, target scope, clearance tier, and expiry. Tamper with the token and it fails the signature check.
+
+**MCP stdio (local):**
+```json
+{ "mcpServers": { "nightfall": { "command": "nightfall-mcp", "args": [] } } }
+```
+
+**As far as we know, this is the first offensive AI security framework to ship a production REST API and MCP server at this breadth of attack surface.**
+
 ### Why NIGHTFALL Exists
 
 Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not separate from AI Shield. It is how AI Shield is proven.
@@ -141,7 +179,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 77-tool arsenal selector
+- `red-specter tools` — interactive 79-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -213,7 +251,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 73-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 80-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -243,6 +281,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Attack surfaces | 5 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN) |
 | Discovery tools | 1 (IDRIS) |
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
+| REST API tools | 72 (OPEN + INJECT tiers) |
+| MCP tools | 72 (OPEN + INJECT tiers) |
 | Unified frameworks | 2 (NIGHTFALL + AI Shield) |
 | GUI platforms | 17 (AI SHIELD COMMAND + 16 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
@@ -265,7 +305,7 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 
 ---
 
-**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
+**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 10 May 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 13 May 2026</sub></p>
