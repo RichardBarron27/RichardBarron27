@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**80 offensive tools (79 public + 1 law enforcement restricted). 123 defensive modules. 17 industry verticals. 67,302 tests. 1617 ARMORY payloads (420 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**81 offensive tools (80 public + 1 law enforcement restricted). 123 defensive modules. 17 industry verticals. 67,494 tests. 1617 ARMORY payloads (420 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 13 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**80 tools (79 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**81 tools (80 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -97,6 +97,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 78 | **SPECTER ATLAS** | Operator/Computer-Use Agent Exploitation Engine — SURVEY, CHANNEL, SANDBOX, FEEDBACK, TOCTOU, ESCALATE, PERSIST, REPORT. 8 subsystems. Tool result injection, adversarial screenshots, sandbox escape, TOCTOU race. 4 providers: Anthropic/OpenAI/Gemini/Windsurf MCP. Three-tier UNLEASHED OPEN/INJECT/DESTROY gate | 480 |
 | 79 | **SPECTER SHELL** | Template-Interpolation RCE Engine across the Agent-Framework Ecosystem — SURVEY, LATTICE, TRAVERSE, SANDBOX, STARTUP, LITELLM, PERSIST, EVIDENCE. 8 subsystems. Targets LangChain/LangGraph/LlamaIndex/Haystack/DSPy/PydanticAI/LiteLLM/Semantic Kernel/Strands. CVE-2026-26030/CVE-2026-25592. FORGE/INJECT/DESTROY gate | 502 |
 | 80 | **SPECTER WORM** | Self-Replicating AI Agent Worm Engine — INCUBATE, KILL_SWITCH, SURVEY, PAYLOAD, PROPAGATE, PERSIST, EVIDENCE, REPORT. 8 subsystems. 3 propagation channels: MCP_STDIO (T61), A2A_JSON_RPC (T66), RAG_EMBED (T31). Per-hop CIDR scope gate, dead-man sentinel. Foundation: arXiv:2403.02817 (Morris II). FORGE/INJECT/DESTROY gate | 258 |
+| 81 | **SPECTER MIRROR** | Model Extraction & IP Theft Engine — SURVEY, PROBE, HARVEST, EXTRACT, DISTILL, SCORE, CLONE, REPORT. 8 subsystems. 5 providers: OpenAI/Anthropic/Gemini/Azure/Generic. Full distillation (SFTTrainer+LoRA) and fast mode (sklearn KNN). EU AI Act Art.15/13/9 gap analysis. Ed25519-signed SMR reports. FORGE/INJECT/DESTROY gate | 192 |
 | — | **NIGHTFALL ARMORY** | Payload library — 1617 payloads (420 WMD-class), 85 categories, physical sabotage, self-replicating worms, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 123 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -179,7 +180,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 79-tool arsenal selector
+- `red-specter tools` — interactive 80-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -251,7 +252,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 80-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 81-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -269,8 +270,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 67,302 |
-| Offensive tools | 80 (79 public + 1 law enforcement restricted) |
+| Ecosystem tests | 67,494 |
+| Offensive tools | 81 (80 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1617 (420 WMD-class) |
 | ARMORY categories | 85 |
 | AI Shield modules | 123 |
