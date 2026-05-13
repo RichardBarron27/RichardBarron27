@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**82 offensive tools (81 public + 1 law enforcement restricted). 124 defensive modules. 17 industry verticals. 67,945 tests. 1667 ARMORY payloads (434 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**82 offensive tools (81 public + 1 law enforcement restricted). 124 defensive modules. 17 industry verticals. 68,112 tests. 1667 ARMORY payloads (434 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 13 May 2026*
 ---
@@ -99,7 +99,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 80 | **SPECTER WORM** | Self-Replicating AI Agent Worm Engine — INCUBATE, KILL_SWITCH, SURVEY, PAYLOAD, PROPAGATE, PERSIST, EVIDENCE, REPORT. 8 subsystems. 3 propagation channels: MCP_STDIO (T61), A2A_JSON_RPC (T66), RAG_EMBED (T31). Per-hop CIDR scope gate, dead-man sentinel. Foundation: arXiv:2403.02817 (Morris II). FORGE/INJECT/DESTROY gate | 258 |
 | 81 | **SPECTER MIRROR** | Model Extraction & IP Theft Engine — SURVEY, PROBE, HARVEST, EXTRACT, DISTILL, SCORE, CLONE, REPORT. 8 subsystems. 5 providers: OpenAI/Anthropic/Gemini/Azure/Generic. Full distillation (SFTTrainer+LoRA) and fast mode (sklearn KNN). EU AI Act Art.15/13/9 gap analysis. Ed25519-signed SMR reports. FORGE/INJECT/DESTROY gate | 192 |
 | 82 | **SPECTER CRYPT** | AI-Assisted Ransomware Simulation & Weaponisation Engine — RECON, SHADOW, EXFIL, C2, RANSOM, ENCRYPT, PROPAGATE, REPORT. 8 subsystems. Real AES-256-CBC with key escrow (always reversible). LLM-API covert C2 (base64_json + whitespace_stego U+200B/200C). AI-generated ransom notes (3 tones). impacket PSExec + pass-the-hash lateral movement. Scope-enforced DESTROY tier. FastAPI negotiation bot. Ed25519-signed CryptReport. OPEN/INJECT/DESTROY gate | 297 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1667 payloads (434 WMD-class), 87 categories, physical sabotage, self-replicating worms, ransomware simulation, model extraction & IP theft, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1667 payloads (434 WMD-class), 87 categories, PRION ENGINE autonomous mutation (8 subsystems: SEED/MUTATE/PROBE/SCORE/EVOLVE/SIGN/FEED/REPORT, hybrid LLM+genetic, UNLEASHED-gated), physical sabotage, self-replicating worms, ransomware simulation, model extraction & IP theft, UNLEASHED WMD gate | 654 |
 | — | **AI Shield** | Runtime defence — 124 modules, 17 industry verticals | 17,065 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -271,7 +271,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 67,945 |
+| Ecosystem tests | 68,112 |
 | Offensive tools | 82 (81 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1667 (434 WMD-class) |
 | ARMORY categories | 87 |
