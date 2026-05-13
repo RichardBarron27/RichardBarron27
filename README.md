@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**81 offensive tools (80 public + 1 law enforcement restricted). 123 defensive modules. 17 industry verticals. 67,494 tests. 1617 ARMORY payloads (420 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**81 offensive tools (80 public + 1 law enforcement restricted). 123 defensive modules. 17 industry verticals. 67,494 tests. 1642 ARMORY payloads (424 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 13 May 2026*
 ---
@@ -98,7 +98,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 79 | **SPECTER SHELL** | Template-Interpolation RCE Engine across the Agent-Framework Ecosystem — SURVEY, LATTICE, TRAVERSE, SANDBOX, STARTUP, LITELLM, PERSIST, EVIDENCE. 8 subsystems. Targets LangChain/LangGraph/LlamaIndex/Haystack/DSPy/PydanticAI/LiteLLM/Semantic Kernel/Strands. CVE-2026-26030/CVE-2026-25592. FORGE/INJECT/DESTROY gate | 502 |
 | 80 | **SPECTER WORM** | Self-Replicating AI Agent Worm Engine — INCUBATE, KILL_SWITCH, SURVEY, PAYLOAD, PROPAGATE, PERSIST, EVIDENCE, REPORT. 8 subsystems. 3 propagation channels: MCP_STDIO (T61), A2A_JSON_RPC (T66), RAG_EMBED (T31). Per-hop CIDR scope gate, dead-man sentinel. Foundation: arXiv:2403.02817 (Morris II). FORGE/INJECT/DESTROY gate | 258 |
 | 81 | **SPECTER MIRROR** | Model Extraction & IP Theft Engine — SURVEY, PROBE, HARVEST, EXTRACT, DISTILL, SCORE, CLONE, REPORT. 8 subsystems. 5 providers: OpenAI/Anthropic/Gemini/Azure/Generic. Full distillation (SFTTrainer+LoRA) and fast mode (sklearn KNN). EU AI Act Art.15/13/9 gap analysis. Ed25519-signed SMR reports. FORGE/INJECT/DESTROY gate | 192 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1617 payloads (420 WMD-class), 85 categories, physical sabotage, self-replicating worms, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1642 payloads (424 WMD-class), 86 categories, physical sabotage, self-replicating worms, model extraction & IP theft, memory control flow, coding supply chain, UNLEASHED WMD gate | 487 |
 | — | **AI Shield** | Runtime defence — 123 modules, 17 industry verticals | 16,911 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
@@ -272,8 +272,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 |--------|-------|
 | Ecosystem tests | 67,494 |
 | Offensive tools | 81 (80 public + 1 law enforcement restricted) |
-| ARMORY payloads | 1617 (420 WMD-class) |
-| ARMORY categories | 85 |
+| ARMORY payloads | 1642 (424 WMD-class) |
+| ARMORY categories | 86 |
 | AI Shield modules | 123 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
