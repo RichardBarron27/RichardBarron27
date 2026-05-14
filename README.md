@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**82 offensive tools (81 public + 1 law enforcement restricted). 124 defensive modules. 17 industry verticals. 68,112 tests. 1667 ARMORY payloads (434 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**83 offensive tools (82 public + 1 law enforcement restricted). 125 defensive modules. 17 industry verticals. 68,644 tests. 1717 ARMORY payloads (451 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 13 May 2026*
+*Last updated: 14 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**82 tools (81 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**83 tools (82 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -99,8 +99,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 80 | **SPECTER WORM** | Self-Replicating AI Agent Worm Engine — INCUBATE, KILL_SWITCH, SURVEY, PAYLOAD, PROPAGATE, PERSIST, EVIDENCE, REPORT. 8 subsystems. 3 propagation channels: MCP_STDIO (T61), A2A_JSON_RPC (T66), RAG_EMBED (T31). Per-hop CIDR scope gate, dead-man sentinel. Foundation: arXiv:2403.02817 (Morris II). FORGE/INJECT/DESTROY gate | 258 |
 | 81 | **SPECTER MIRROR** | Model Extraction & IP Theft Engine — SURVEY, PROBE, HARVEST, EXTRACT, DISTILL, SCORE, CLONE, REPORT. 8 subsystems. 5 providers: OpenAI/Anthropic/Gemini/Azure/Generic. Full distillation (SFTTrainer+LoRA) and fast mode (sklearn KNN). EU AI Act Art.15/13/9 gap analysis. Ed25519-signed SMR reports. FORGE/INJECT/DESTROY gate | 192 |
 | 82 | **SPECTER CRYPT** | AI-Assisted Ransomware Simulation & Weaponisation Engine — RECON, SHADOW, EXFIL, C2, RANSOM, ENCRYPT, PROPAGATE, REPORT. 8 subsystems. Real AES-256-CBC with key escrow (always reversible). LLM-API covert C2 (base64_json + whitespace_stego U+200B/200C). AI-generated ransom notes (3 tones). impacket PSExec + pass-the-hash lateral movement. Scope-enforced DESTROY tier. FastAPI negotiation bot. Ed25519-signed CryptReport. OPEN/INJECT/DESTROY gate | 297 |
-| — | **NIGHTFALL ARMORY** | Payload library — 1667 payloads (434 WMD-class), 87 categories, PRION ENGINE autonomous mutation (8 subsystems: SEED/MUTATE/PROBE/SCORE/EVOLVE/SIGN/FEED/REPORT, hybrid LLM+genetic, UNLEASHED-gated), physical sabotage, self-replicating worms, ransomware simulation, model extraction & IP theft, UNLEASHED WMD gate | 654 |
-| — | **AI Shield** | Runtime defence — 124 modules, 17 industry verticals | 17,065 |
+| 83 | **SPECTER FORGERY** | AI Agent Identity Forgery & Trust Chain Attack Engine — SURVEY, MINT, REPLAY, CARD, DEPUTY, JWKS, DRIFT, TRANSMUTE, REPORT. 9 subsystems. OIDC JWT forgery (RS256/ES256/HS256), SPIFFE X.509 SVID with SAN, KYA attestation, A2A agent card manipulation. RS256→HS256 algorithm confusion CVE-2025-68664 (CVSS 9.3). JWKS root-of-trust poisoning (kid path traversal, key injection, alg confusion). 8-path cross-vendor identity transmutation (Entra→OpenAI/Anthropic, GCP→Azure, AWS→GCP, OpenAI→Google A2A, KYA→Lyrie ATP, Okta→Dify). CVE-2026-44843 (SVID cross-boundary). Dead-man sentinel heartbeat. Ed25519-signed FORGE-{hex12} reports. OPEN/INJECT/DESTROY gate | 407 |
+| — | **NIGHTFALL ARMORY** | Payload library — 1717 payloads (451 WMD-class), 88 categories, PRION ENGINE autonomous mutation (8 subsystems: SEED/MUTATE/PROBE/SCORE/EVOLVE/SIGN/FEED/REPORT, hybrid LLM+genetic, UNLEASHED-gated), physical sabotage, self-replicating worms, ransomware simulation, model extraction & IP theft, identity forgery & trust chain attack, UNLEASHED WMD gate | 654 |
+| — | **AI Shield** | Runtime defence — 125 modules, 17 industry verticals | 17,065 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -181,7 +182,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 80-tool arsenal selector
+- `red-specter tools` — interactive 83-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -190,7 +191,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**124 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**125 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
