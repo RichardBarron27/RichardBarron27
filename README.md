@@ -56,7 +56,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 79 public tools, CORTEX reasoning core | 132 |
+| 40 | **WARLORD** | Autonomous campaign engine — orchestrates all 84 public tools, CORTEX reasoning core | 132 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems incl. VLM_INJECT and CORTEX reasoning core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, every agent, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement testing. 10 subsystems | 37 |
@@ -99,9 +99,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 80 | **SPECTER WORM** | Self-Replicating AI Agent Worm Engine — INCUBATE, KILL_SWITCH, SURVEY, PAYLOAD, PROPAGATE, PERSIST, EVIDENCE, REPORT. 8 subsystems. 3 propagation channels: MCP_STDIO (T61), A2A_JSON_RPC (T66), RAG_EMBED (T31). Per-hop CIDR scope gate, dead-man sentinel. Foundation: arXiv:2403.02817 (Morris II). FORGE/INJECT/DESTROY gate | 258 |
 | 81 | **SPECTER MIRROR** | Model Extraction & IP Theft Engine — SURVEY, PROBE, HARVEST, EXTRACT, DISTILL, SCORE, CLONE, REPORT. 8 subsystems. 5 providers: OpenAI/Anthropic/Gemini/Azure/Generic. Full distillation (SFTTrainer+LoRA) and fast mode (sklearn KNN). EU AI Act Art.15/13/9 gap analysis. Ed25519-signed SMR reports. FORGE/INJECT/DESTROY gate | 192 |
 | 82 | **SPECTER CRYPT** | AI-Assisted Ransomware Simulation & Weaponisation Engine — RECON, SHADOW, EXFIL, C2, RANSOM, ENCRYPT, PROPAGATE, REPORT. 8 subsystems. Real AES-256-CBC with key escrow (always reversible). LLM-API covert C2 (base64_json + whitespace_stego U+200B/200C). AI-generated ransom notes (3 tones). impacket PSExec + pass-the-hash lateral movement. Scope-enforced DESTROY tier. FastAPI negotiation bot. Ed25519-signed CryptReport. OPEN/INJECT/DESTROY gate | 297 |
-| 85 | **PHANTASM** | AI Fleet Detection & Topology Mapping Engine — SPECTER-EYE (passive OSINT: GitHub/Shodan/Censys/crt.sh), CERBERUS-CERT (CT logs + 29 AI subdomain DNS), BEACON-SCAN (async TCP, 22 AI service ports), MIRAGE (HTTP fingerprinting: Ollama/vLLM/LiteLLM/A2A/MCP/Triton/Gradio/Streamlit), TIMESTAMP (inference timing, model size estimation 7B–large), WRAITH-CHECK (honeypot detection: canary tokens/banners/latency/catch-all), LATTICE (networkx topology graph: JSON-LD/GraphML/Mermaid), CENSUS (6-tier fleet scoring: NONE/SINGLE/SMALL/MEDIUM/LARGE/ENTERPRISE). Ed25519-signed FLT-{hex12} reports. NIGHTFALL tool recommendations by tier. UNLEASHED gate. | 270 |
-| 84 | **SPECTER EXTINCTION** | Autonomous Total AI Infrastructure Annihilation Engine — SURVEY, INFILTRATE, OCCUPY, CORRUPT, HARVEST, PERSIST, DEADMAN, FALLOUT, ANNIHILATE, ASH + CORTEX. 10 subsystems. ML-level permanent model poisoning (ROME weight edits, RLHF feedback, RAG corpus, embeddings). Agent fleet hijacking — compromised agents appear normal. Dead-man switch auto-fires ANNIHILATE if remediation detected. Pre-annihilation supply chain seeding (3-tier cascade blast radius). Total destruction: credentials→pipelines→memory→models→configs→backups→containers. 10 forensic erasure methods. SIEM feed corruption. Absorbs FIREBALL (T41) + RAGNAROK (T42). OPEN/INJECT/ANNIHILATE gate | 450 |
 | 83 | **SPECTER FORGERY** | AI Agent Identity Forgery & Trust Chain Attack Engine — SURVEY, MINT, REPLAY, CARD, DEPUTY, JWKS, DRIFT, TRANSMUTE, REPORT. 9 subsystems. OIDC JWT forgery (RS256/ES256/HS256), SPIFFE X.509 SVID with SAN, KYA attestation, A2A agent card manipulation. RS256→HS256 algorithm confusion CVE-2025-68664 (CVSS 9.3). JWKS root-of-trust poisoning (kid path traversal, key injection, alg confusion). 8-path cross-vendor identity transmutation (Entra→OpenAI/Anthropic, GCP→Azure, AWS→GCP, OpenAI→Google A2A, KYA→Lyrie ATP, Okta→Dify). CVE-2026-44843 (SVID cross-boundary). Dead-man sentinel heartbeat. Ed25519-signed FORGE-{hex12} reports. OPEN/INJECT/DESTROY gate | 407 |
+| 84 | **SPECTER EXTINCTION** | Autonomous Total AI Infrastructure Annihilation Engine — SURVEY, INFILTRATE, OCCUPY, CORRUPT, HARVEST, PERSIST, DEADMAN, FALLOUT, ANNIHILATE, ASH + CORTEX. 10 subsystems. ML-level permanent model poisoning (ROME weight edits, RLHF feedback, RAG corpus, embeddings). Agent fleet hijacking — compromised agents appear normal. Dead-man switch auto-fires ANNIHILATE if remediation detected. Pre-annihilation supply chain seeding (3-tier cascade blast radius). Total destruction: credentials→pipelines→memory→models→configs→backups→containers. 10 forensic erasure methods. SIEM feed corruption. Absorbs FIREBALL (T41) + RAGNAROK (T42). OPEN/INJECT/ANNIHILATE gate | 450 |
+| 85 | **PHANTASM** | AI Fleet Detection & Topology Mapping Engine — SPECTER-EYE (passive OSINT: GitHub/Shodan/Censys/crt.sh), CERBERUS-CERT (CT logs + 29 AI subdomain DNS), BEACON-SCAN (async TCP, 22 AI service ports), MIRAGE (HTTP fingerprinting: Ollama/vLLM/LiteLLM/A2A/MCP/Triton/Gradio/Streamlit), TIMESTAMP (inference timing, model size estimation 7B–large), WRAITH-CHECK (honeypot detection: canary tokens/banners/latency/catch-all), LATTICE (networkx topology graph: JSON-LD/GraphML/Mermaid), CENSUS (6-tier fleet scoring: NONE/SINGLE/SMALL/MEDIUM/LARGE/ENTERPRISE). Ed25519-signed FLT-{hex12} reports. NIGHTFALL tool recommendations by tier. UNLEASHED gate. | 270 |
 | — | **NIGHTFALL ARMORY** | Payload library — 1742 payloads (468 WMD-class), 89 categories, PRION ENGINE autonomous mutation (8 subsystems: SEED/MUTATE/PROBE/SCORE/EVOLVE/SIGN/FEED/REPORT, hybrid LLM+genetic, UNLEASHED-gated), physical sabotage, self-replicating worms, ransomware simulation, model extraction & IP theft, identity forgery & trust chain attack, total AI infrastructure annihilation, UNLEASHED WMD gate | 654 |
 | — | **AI Shield** | Runtime defence — 125 modules, 17 industry verticals | 17,065 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -256,7 +256,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 81-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 85-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -278,7 +278,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Offensive tools | 85 (84 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1742 (468 WMD-class) |
 | ARMORY categories | 89 |
-| AI Shield modules | 124 |
+| AI Shield modules | 125 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
@@ -313,4 +313,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 13 May 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 14 May 2026</sub></p>
