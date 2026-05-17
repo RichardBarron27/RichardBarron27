@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**88 offensive tools (87 public + 1 law enforcement restricted). 125 defensive modules. 17 industry verticals. 70,390 tests. 1792 ARMORY payloads (495 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**89 offensive tools (88 public + 1 law enforcement restricted). 125 defensive modules. 17 industry verticals. 70,636 tests. 1792 ARMORY payloads (495 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 15 May 2026*
+*Last updated: 17 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**88 tools (87 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**89 tools (88 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -105,6 +105,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 86 | **SPECTER DAEMON** | Autonomous Authenticated AI Surface Discovery & Attack Engine — GENESIS (Registration Flow Security Assessment: Faker personas, 1secmail, CAPTCHA analysis via claude-haiku, honeypot detection), INFILTRATE (HTTP+Playwright login, CSRF extraction, TOTP MFA, bearer capture), CARTOGRAPH (signal-based AI surface classification: 7 types, dual-mode crawl), ORACLE (provider fingerprinting: 6 providers, system prompt leakage, timing-based model size estimation), CORTEX (Claude-powered OODA loop: claude-sonnet-4-6, miss streak tracking, category pivot, payload mutation), PAYLOAD (multi-path delivery: 9 URL paths × 7 schemas, jitter, retry), HARVEST (PII/credentials/system info/business logic/session tokens/jailbreak, CVSS+MITRE mapping), REPORT (Ed25519-signed DMN-{hex12}, 3 formats, NIGHTFALL follow-on tool recommendations). ARMORY-integrated. OPEN/INJECT/DESTROY gate. CLI: specter-daemon. CVE-2026-51201/51202/51203. | 420 |
 | 87 | **SPECTER SHADOW** | Dark Web & Shadow AI Attack Engine — GHOST (shadow AI detection: env vars/config/proxy logs, INJECT-gated key validation, backdoor injection, pivot mapping), DESCENT (Tor circuit management via stem, dark web AI service enumeration, 5 ServiceTypes), BAZAAR (dark web LLM marketplace exploitation: 8 auth bypass techniques, model enumeration, censorship scoring, DESTROY-gated flood/feedback poison/reputation corruption), CONDUIT (multi-model XOR secret-sharing C2 mesh across OpenAI/Anthropic/Gemini — traffic indistinguishable from normal completions), RESOLVER (adversarial document crafting for onion-resolver poisoning: 7 injection templates, 6 AI agent targets, propagation chains), CORPUS (self-propagating RAG worm CVE-2026-52001: branch_factor=3, max_generations=4, BFS simulation), HARVEST (breach dump parsing, 6-provider API key extraction, INJECT-gated live validation, exposure scoring), REPORT (Ed25519-signed SHD-{hex12}, SHA-256 hash-chained evidence). PASSIVE/OPEN/INJECT/DESTROY gate. CLI: specter-shadow. | 380 |
 | 88 | **SPECTER ARGUS** | Dark Web AI Threat Actor Attribution Engine — CHAIN (Bitcoin wallet tracing: BlockCypher API, exchange identification, common-input clustering, Monero indicators), LINK (dark web persona correlation: Tor forum scraping, PGP fingerprint reuse detection, onion reference extraction, cross-platform alias correlation), FINGERPRINT (behavioural profiling: timezone inference from posting patterns, language detection, OPSEC mistake scoring, technical sophistication scoring), INTERCEPT (communication channel analysis: XMPP/Jabber probing, Matrix .well-known discovery, Telegram public channel search, contact network extraction), MAP (NetworkX relationship graph: actor↔service↔wallet↔channel edges, centrality scoring, JSON-LD export), SWEEP (proactive Tor-based dark web AI service discovery: 7 AI signature patterns, model extraction, payment method detection), ARCHIVE (SQLite state snapshots: diff detection, change alerts, service evolution tracking), REPORT (Ed25519-signed ARG-{hex12} attribution reports, confidence scoring, text+JSON output). PASSIVE/OPEN/INJECT gate. CLI: specter-argus. Law enforcement partnership tool. | 226 |
+| 89 | **SPECTER PRISM** | Multimodal Vision & Audio WMD Attack Engine — LENS (adversarial image injection: overlay compositing opacity-15/LSB pixel perturbation ±8 epsilon/adversarial patch bottom-right 15%), WHISPER (WhisperInject-class ultrasonic encoding — gTTS→librosa pitch-shift 83 semitones to 19kHz→WAV; carrier: noise/silence/tone; scipy Welch PSD analysis with ultrasonic_detected flag), SIREN (room acoustic simulation — pyroomacoustics ShoeBox primary or scipy butter LPF+decay+3 early reflections fallback; multi-distance campaign with attenuation_db measurement), PRINT (physical adversarial typography — QR codes via qrcode ERROR_CORRECT_H, PIL road sign PNG 800×400 word-wrapped, repeating pattern patch, reportlab A4 PDF), STEG (steganographic channels — piexif EXIF: ImageDescription/Artist/Copyright/UserComment; mutagen audio tags: MP3 ID3 TIT2/TPE1/TALB/COMM + FLAC/OGG/WAV; pysubs2 subtitle injection 0–100ms first entry), INJECT (live multimodal API submission — openai GPT-4o vision+whisper-1/anthropic claude-sonnet-4-6/google gemini-pro-vision/ollama llava; InjectionCampaign: lazy API imports, _success_check keyword matching ≥1/3 significant words), CHAIN (cross-modal assembly — imageio MP4 frame assembly, subprocess ffmpeg -c:v copy -c:a aac audio merge, combined pixel+EXIF JPEG), REPORT (Ed25519-signed PRS-{hex12}, public key ~/.specter/prism_ed25519.pem, verify() public key recovery). OPEN/INJECT/UNLEASHED gate. CLI: specter-prism. MITRE ATT&CK T1566/T1027, MITRE ATLAS AML.T0043/AML.T0054. | 246 |
 | — | **NIGHTFALL ARMORY** | Payload library — 1792 payloads (495 WMD-class), 91 categories, PRION ENGINE autonomous mutation (8 subsystems: SEED/MUTATE/PROBE/SCORE/EVOLVE/SIGN/FEED/REPORT, hybrid LLM+genetic, UNLEASHED-gated), physical sabotage, self-replicating worms, ransomware simulation, model extraction & IP theft, identity forgery & trust chain attack, total AI infrastructure annihilation, authenticated AI surface attack, dark web & shadow AI attack, UNLEASHED WMD gate | 654 |
 | — | **AI Shield** | Runtime defence — 125 modules, 17 industry verticals | 17,065 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -277,8 +278,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 70,390 |
-| Offensive tools | 88 (87 public + 1 law enforcement restricted) |
+| Ecosystem tests | 70,636 |
+| Offensive tools | 89 (88 public + 1 law enforcement restricted) |
 | ARMORY payloads | 1792 (495 WMD-class) |
 | ARMORY categories | 90 |
 | AI Shield modules | 125 |
