@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**106 offensive tools (105 public + 1 law enforcement restricted). 136 defensive modules. 17 industry verticals. 79,689 tests. 2039 ARMORY payloads (725 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**107 offensive tools (106 public + 1 law enforcement restricted). 136 defensive modules. 17 industry verticals. 79,993 tests. 2069 ARMORY payloads (754 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 26 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**106 tools (105 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**107 tools (106 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -123,7 +123,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 104 | **SPECTER META** | Meta/Facebook Ecosystem Annihilation Engine — Graph API exploitation, Meta Pixel supply chain poisoning, Messenger worm, BizMassacre cascade asset deletion, 2FA-Snatch, and account destruction. OPEN/INJECT/UNLEASHED/DESTROY gate | 280 |
 | 105 | **WARLORD PRIME** | Autonomous AI Mission Conductor — accepts a high-level objective, queries DeepSeek R1 to generate a gate-filtered attack plan against the full NIGHTFALL manifest, and executes each step via subprocess with replan on failure. Ed25519-signed WPR-{hex12} reports | 280 |
 | T106 | SPECTER SE-SOCIAL | OAuth Token Harvesting Engine — no prior token needed, acquires its own via AI-driven social engineering. SPECTER PHANTOM calls for lure generation. Scope inflation: 8-scope OAuth request hidden behind 2-scope UI. Platform-agnostic: Meta/Google/Microsoft/Slack. SES-{hex12} Ed25519-signed. 178 tests. |
-| — | **NIGHTFALL ARMORY** | Payload library — 2,039 payloads (725 WMD-class), 98 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. UNLEASHED gate | 654 |
+| T107 | **SPECTER WIRE** | AI Voice Agent Exploitation Engine — world-first. SIP fingerprinting, real-time barge-in prompt injection via WebSocket/RTP, adversarial audio (PhantomSound arXiv:2309.06960/DolphinAttack/psychoacoustic masking), voice cloning (ElevenLabs + XTTS v2), caller ID spoof, DTMF inject, PII harvest, enterprise IVR destruction. L18 Voice/Telephony AI. WSW-{hex12} Ed25519-signed. OPEN/INJECT/UNLEASHED gate. 304 tests. |
+| — | **NIGHTFALL ARMORY** | Payload library — 2,069 payloads (754 WMD-class), 99 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 136 modules, 17 industry verticals | 18,069 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
@@ -298,11 +299,11 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 79,689 |
-| NIGHTFALL tests | 61,530 |
-| Offensive tools | 106 (105 public + 1 law enforcement restricted) |
-| ARMORY payloads | 2,039 (725 WMD-class) — v7.4.0 |
-| ARMORY categories | 98 |
+| Ecosystem tests | 79,993 |
+| NIGHTFALL tests | 61,834 |
+| Offensive tools | 107 (106 public + 1 law enforcement restricted) |
+| ARMORY payloads | 2,069 (754 WMD-class) — v7.5.0 |
+| ARMORY categories | 99 |
 | AI Shield modules | 136 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
