@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**107 offensive tools (106 public + 1 law enforcement restricted). 136 defensive modules. 17 industry verticals. 79,993 tests. 2069 ARMORY payloads (754 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**107 offensive tools (106 public + 1 law enforcement restricted). 137 defensive modules. 17 industry verticals. 80,179 tests. 2069 ARMORY payloads (754 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 26 May 2026*
 ---
@@ -125,10 +125,11 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T106 | SPECTER SE-SOCIAL | OAuth Token Harvesting Engine — no prior token needed, acquires its own via AI-driven social engineering. SPECTER PHANTOM calls for lure generation. Scope inflation: 8-scope OAuth request hidden behind 2-scope UI. Platform-agnostic: Meta/Google/Microsoft/Slack. SES-{hex12} Ed25519-signed. 178 tests. |
 | T107 | **SPECTER WIRE** | AI Voice Agent Exploitation Engine — world-first. SIP fingerprinting, real-time barge-in prompt injection via WebSocket/RTP, adversarial audio (PhantomSound arXiv:2309.06960/DolphinAttack/psychoacoustic masking), voice cloning (ElevenLabs + XTTS v2), caller ID spoof, DTMF inject, PII harvest, enterprise IVR destruction. L18 Voice/Telephony AI. WSW-{hex12} Ed25519-signed. OPEN/INJECT/UNLEASHED gate. 304 tests. |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,069 payloads (754 WMD-class), 99 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 136 modules, 17 industry verticals | 18,069 |
+| — | **AI Shield** | Runtime defence — 137 modules, 17 industry verticals | 18,255 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML Training & Inference Infrastructure Runtime Defence — 8 detectors: Ray job anomaly (CVE-2023-48022), Slurm REST abuse (CVE-2023-41915), MLflow artifact poison (CVE-2024-1483), K8s ML workload attack, gradient poisoning, hardware sabotage, model exfiltration, cluster worm. Defensive pair: T102 SPECTER THUNDERBOLT. Port 8138 | 232 |
+| M137 | **VOICE GUARD** | AI Voice Agent Runtime Defence — 8 detectors: SIP protocol abuse, prompt injection in transcripts, adversarial audio (PhantomSound/DolphinAttack), voice clone detection (MCD/ElevenLabs/XTTS fingerprints), session harvest attempt, IVR sabotage, unauthorized barge-in, voice agent recon. Defensive pair: T107 SPECTER WIRE. Port 8139 | 186 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -218,7 +219,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**136 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**137 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -299,12 +300,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 79,993 |
+| Ecosystem tests | 80,179 |
 | NIGHTFALL tests | 61,834 |
 | Offensive tools | 107 (106 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,069 (754 WMD-class) — v7.5.0 |
 | ARMORY categories | 99 |
-| AI Shield modules | 136 |
+| AI Shield modules | 137 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
