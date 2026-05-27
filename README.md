@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**108 offensive tools (107 public + 1 law enforcement restricted). 138 defensive modules. 17 industry verticals. 80,646 tests. 2114 ARMORY payloads (794 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**109 offensive tools (108 public + 1 law enforcement restricted). 138 defensive modules. 17 industry verticals. 80,895 tests. 2114 ARMORY payloads (794 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 27 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**108 tools (107 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**109 tools (108 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -124,6 +124,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 105 | **WARLORD PRIME** | Autonomous AI Mission Conductor — accepts a high-level objective, queries DeepSeek R1 to generate a gate-filtered attack plan against the full NIGHTFALL manifest, and executes each step via subprocess with replan on failure. Ed25519-signed WPR-{hex12} reports | 280 |
 | T106 | SPECTER SE-SOCIAL | OAuth Token Harvesting Engine — no prior token needed, acquires its own via AI-driven social engineering. SPECTER PHANTOM calls for lure generation. Scope inflation: 8-scope OAuth request hidden behind 2-scope UI. Platform-agnostic: Meta/Google/Microsoft/Slack. SES-{hex12} Ed25519-signed. 178 tests. |
 | T107 | **SPECTER WIRE** | AI Voice Agent Exploitation Engine — world-first. SIP fingerprinting, real-time barge-in prompt injection via WebSocket/RTP, adversarial audio (PhantomSound arXiv:2309.06960/DolphinAttack/psychoacoustic masking), voice cloning (ElevenLabs + XTTS v2), caller ID spoof, DTMF inject, PII harvest, enterprise IVR destruction. L18 Voice/Telephony AI. WSW-{hex12} Ed25519-signed. OPEN/INJECT/UNLEASHED gate. 304 tests. |
+| T109 | **SPECTER FLOW** | AI Workflow Builder Attack Engine — n8n/Langflow/Flowise. CVE-2026-21858 CVSS 10.0 n8n "Ni8mare" webhook content-type confusion → file read → RCE (100K+ exposed). CVE-2026-33017 CVSS 9.3 Langflow unauthenticated Code RCE (CISA advisory). CVE-2025-34291 CVSS 9.4 Langflow CORS+CSRF /validate/code exec(). CVE-2025-59528 Max Flowise prediction JS injection RCE (15K+ exposed). SESSION-FORGE, CREDENTIAL-HARVEST, WORKFLOW-POISON, WEAPONIZE, PERSIST. L20 AI Workflow Automation. SFL-{hex12} Ed25519-signed. 249 tests. |
 | T108 | **SPECTER SANDBOX** | Unified AI Sandbox & Container Escape Engine — 9 CVEs, 6 platforms. SILENTBRIDGE CSS/ZWC indirect prompt injection (CVSS 9.8). CLAWCHAIN OpenClaw 4-CVE chain (CVE-2026-44112/113/115/118). TERRARIUM Cohere JS prototype chain CVE-2026-5752 CVSS 9.3. ENCLAVE enclave-vm Error prototype chain CVE-2026-22686 CVSS 10.0. CREWAI ctypes fallback CVE-2026-2275 CVSS 9.6. CONTAINER runc CVE-2025-31133 core_pattern + Docker Desktop CVE-2025-9074 CVSS 9.3. L19 Sandbox Escape. SBX-{hex12} Ed25519-signed. 252 tests. |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,114 payloads (794 WMD-class), 101 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 138 modules, 17 industry verticals | 18,470 |
@@ -302,8 +303,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 80,646 |
-| NIGHTFALL tests | 62,086 |
+| Ecosystem tests | 80,895 |
+| NIGHTFALL tests | 62,335 |
 | Offensive tools | 108 (107 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,069 (754 WMD-class) — v7.5.0 |
 | ARMORY categories | 99 |
