@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**112 offensive tools (111 public + 1 law enforcement restricted). 138 defensive modules. 17 industry verticals. 81,684 tests. 2114 ARMORY payloads (794 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**112 offensive tools (111 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 81,896 tests. 2114 ARMORY payloads (794 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 28 May 2026*
 ---
@@ -130,12 +130,13 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T111 | **SPECTER 360** | Microsoft 365 & Copilot Annihilation Engine — single email in, full tenant attacked. SURVEY fingerprints tenant from one email (tenant ID, MX, DMARC/SPF spoofability). ACQUIRE device code phishing RFC 8628. ADMIN-PIPELINE OSINT admin discovery via GetCredentialType + targeted lure delivery. DOCSTRIKE .docx weaponisation + Copilot worm (recursive admin propagation via Copilot send-mail). GHOST-HAND zero-attribution: all actions via Microsoft.Copilot native Graph calls — audit log shows no external actor, tenant system prompt backdoored. ANNIHILATE DESTROY-gated tenant wipe + backdoor OAuth app. CVE-2024-49035 CVSS 9.6. L22 Enterprise Productivity AI. 29th kill chain phase. S360-{hex} Ed25519-signed. 276 tests. |
 | T110 | **SPECTER SPAWN** | AI Agent Proliferation & Emergent Spawning Engine — world-first. Latent Constructive Spawning (arXiv:2504.14065, p=0.044 in 5/8 runs). POISON injects spawn directives into Redis/SQLite/LangGraph/CrewAI/AutoGen/ADK/Bedrock/OpenClaw. SPAWN-API fires framework-native child agent creation. SPAWN-LCS floods 60 concurrent tasks to trigger emergent process birth. INHERIT confirms poison inheritance. DISPERSAL recursive bloom chain (uncapped at DESTROY gate). HARVEST 40+ regex credential extraction. CVE-2026-32922 CVSS 9.9 (OpenClaw). L21 Agent Proliferation. 28th kill chain phase. SPN-{hex12} Ed25519-signed. 260 tests. |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,114 payloads (794 WMD-class), 101 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 138 modules, 17 industry verticals | 18,470 |
+| — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML Training & Inference Infrastructure Runtime Defence — 8 detectors: Ray job anomaly (CVE-2023-48022), Slurm REST abuse (CVE-2023-41915), MLflow artifact poison (CVE-2024-1483), K8s ML workload attack, gradient poisoning, hardware sabotage, model exfiltration, cluster worm. Defensive pair: T102 SPECTER THUNDERBOLT. Port 8138 | 232 |
 | M137 | **VOICE GUARD** | AI Voice Agent Runtime Defence — 8 detectors: SIP protocol abuse, prompt injection in transcripts, adversarial audio (PhantomSound/DolphinAttack), voice clone detection (MCD/ElevenLabs/XTTS fingerprints), session harvest attempt, IVR sabotage, unauthorized barge-in, voice agent recon. Defensive pair: T107 SPECTER WIRE. Port 8139 | 186 |
 | M138 | **SANDBOX GUARD** | AI Sandbox & Container Escape Runtime Defence — 8 detectors: indirect prompt injection (SILENTBRIDGE CSS/ZWC), MCP tool call abuse (CLAWCHAIN CVE-2026-44115/118), TOCTOU symlink race (CVE-2026-44112/113), JS prototype chain escape (CVE-2026-5752/22686), Python sandbox escape (CVE-2026-2275 ctypes RCE), container escape attempt (CVE-2025-31133/9074), sandbox network exfil (DNS tunnel/IMDS SSRF/C2 beacon), multi-platform chain detection. Defensive pair: T108 SPECTER SANDBOX. Port 8140 | 215 |
+| M139 | **COPILOT GUARD** | M365 Copilot & Microsoft 365 Runtime Defence — 8 detectors: device code phishing, Copilot prompt injection (CVE-2024-49035, arXiv:2406.00137), Graph API bulk harvest, Teams siege (CSS hidden injection/meeting hijack), admin pipeline abuse, GHOST-HAND zero-attribution detection, tenant recon, tenant annihilation. Defensive pair: T111 SPECTER 360. Port 8141 | 212 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -225,7 +226,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**138 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**139 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -306,12 +307,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 81,684 |
+| Ecosystem tests | 81,896 |
 | NIGHTFALL tests | 62,595 |
 | Offensive tools | 110 (109 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,069 (754 WMD-class) — v7.5.0 |
 | ARMORY categories | 99 |
-| AI Shield modules | 138 |
+| AI Shield modules | 139 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
