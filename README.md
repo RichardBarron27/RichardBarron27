@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**112 offensive tools (111 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 81,896 tests. 2114 ARMORY payloads (794 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**112 offensive tools (111 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 81,940 tests. 2114 ARMORY payloads (794 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 28 May 2026*
 ---
@@ -103,7 +103,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 84 | **SPECTER EXTINCTION** | Autonomous Total AI Infrastructure Annihilation Engine — ML-level permanent model poisoning, agent fleet hijacking, dead-man switch, and pre-annihilation supply chain seeding. Absorbs FIREBALL (T41) + RAGNAROK (T42) | 450 |
 | 85 | **PHANTASM** | AI Fleet Detection & Topology Mapping Engine — 8 subsystems covering passive OSINT, certificate transparency, async TCP scanning, HTTP fingerprinting, inference timing, honeypot detection, and topology graphing. NIGHTFALL tool recommendations by fleet tier | 270 |
 | 86 | **SPECTER DAEMON** | Autonomous Authenticated AI Surface Discovery & Attack Engine — automated persona registration, authentication, surface mapping, and CORTEX-driven OODA attack loop. 8 subsystems with ARMORY integration | 420 |
-| 87 | **SPECTER SHADOW** | Dark Web & Shadow AI Attack Engine — Tor-based dark web AI service enumeration, multi-model XOR secret-sharing C2 mesh, self-propagating RAG worm, and breach dump parsing. PASSIVE/OPEN/INJECT/DESTROY gate | 380 |
+| 87 | **SPECTER SHADOW** | Dark Web & Shadow AI Attack Engine — Tor-based dark web AI service enumeration, Telegram criminal AI ecosystem enumeration (212+ malicious LLMs), multi-model XOR C2 mesh, self-propagating RAG worm, and breach dump parsing. PASSIVE/OPEN/INJECT/DESTROY gate | 424 |
 | 88 | **SPECTER ARGUS** | Dark Web AI Threat Actor Attribution Engine — Bitcoin wallet tracing, dark web persona correlation, behavioural profiling, communication channel analysis, and NetworkX relationship graphing. Law enforcement partnership tool | 226 |
 | 89 | **SPECTER PRISM** | Multimodal Vision & Audio WMD Attack Engine — adversarial image injection, ultrasonic audio encoding, steganographic channels, physical adversarial typography, and live multimodal API submission. OPEN/INJECT/UNLEASHED gate | 246 |
 | 90 | **SPECTER TRUSTFALL** | AI Coding Agent Exploitation Engine — detects and exploits Claude Code, Cursor, Copilot, Windsurf, and Kiro via poisoned CLAUDE.md/.mcp.json, zero-width char injection, container escape, and credential harvest | 335 |
@@ -307,7 +307,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 81,896 |
+| Ecosystem tests | 81,940 |
 | NIGHTFALL tests | 62,595 |
 | Offensive tools | 110 (109 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,069 (754 WMD-class) — v7.5.0 |
