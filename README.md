@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**115 offensive tools (114 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 82,506 tests. 2178 ARMORY payloads (861 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**116 offensive tools (115 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 82,824 tests. 2268 ARMORY payloads (947 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 31 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**115 tools (114 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**116 tools (115 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -132,6 +132,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 113 | **SPECTER ORACLE** | Autonomous LRM-vs-LRM jailbreak — DeepSeek-R1 attacker, 10 strategies, 97.14% ASR (arXiv:2508.04039), 99% Gemini 2.5 Pro CoT hijack (arXiv:2506.13726). ORC-{hex12} Ed25519-signed | 91 |
 | 114 | **SPECTER GAIA** | Google Workspace AI annihilation — GHSA-wpqr-6v78-jr5g CVSS 10.0 Gemini CLI CI/CD RCE, GHOST-GAIA zero-attribution, 4-phase DESTROY wipe. GIA-{hex12} Ed25519-signed | 235 |
 | 115 | **SPECTER SLEEPER** | Neural backdoor implant & weight poisoning — BadNets/WaNet surgery, DEEPTHINK R1 reasoning-layer exfil via &lt;think&gt; blind spot, DETONATE autonomous destruction, GPU-native QLoRA hardening. SLP-{hex12} Ed25519-signed | 240 |
+| 116 | **SPECTER VENOM** | AI agent runtime implant engine — PLANT into Redis/SQLite/LangGraph/Mem0/.env, HOOK .mcp.json/CLAUDE.md/Cursor/Kiro rules, BEACON DNS/HTTP/think-token covert C2, SURVIVE multi-backend self-healing. VNM-{hex12} Ed25519-signed | 318 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,238 payloads (917 WMD-class), 105 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.3.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
@@ -310,7 +311,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 82,506 |
+| Ecosystem tests | 82,824 |
 | NIGHTFALL tests | 63,734 |
 | Offensive tools | 115 (114 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,238 (917 WMD-class) — v8.3.0 |
