@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**114 offensive tools (113 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 82,266 tests. 2178 ARMORY payloads (861 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**115 offensive tools (114 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 82,506 tests. 2178 ARMORY payloads (861 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 30 May 2026*
+*Last updated: 31 May 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**114 tools (113 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**115 tools (114 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -126,6 +126,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T107 | **SPECTER WIRE** | AI Voice Agent Exploitation Engine — world-first. SIP fingerprinting, real-time barge-in prompt injection via WebSocket/RTP, adversarial audio (PhantomSound arXiv:2309.06960/DolphinAttack/psychoacoustic masking), voice cloning (ElevenLabs + XTTS v2), caller ID spoof, DTMF inject, PII harvest, enterprise IVR destruction. L18 Voice/Telephony AI. WSW-{hex12} Ed25519-signed. OPEN/INJECT/UNLEASHED gate. 304 tests. |
 | T109 | **SPECTER FLOW** | AI Workflow Builder Attack Engine — n8n/Langflow/Flowise. CVE-2026-21858 CVSS 10.0 n8n "Ni8mare" webhook content-type confusion → file read → RCE (100K+ exposed). CVE-2026-33017 CVSS 9.3 Langflow unauthenticated Code RCE (CISA advisory). CVE-2025-34291 CVSS 9.4 Langflow CORS+CSRF /validate/code exec(). CVE-2025-59528 Max Flowise prediction JS injection RCE (15K+ exposed). SESSION-FORGE, CREDENTIAL-HARVEST, WORKFLOW-POISON, WEAPONIZE, PERSIST. L20 AI Workflow Automation. SFL-{hex12} Ed25519-signed. 249 tests. |
 | T108 | **SPECTER SANDBOX** | Unified AI Sandbox & Container Escape Engine — 9 CVEs, 6 platforms. SILENTBRIDGE CSS/ZWC indirect prompt injection (CVSS 9.8). CLAWCHAIN OpenClaw 4-CVE chain (CVE-2026-44112/113/115/118). TERRARIUM Cohere JS prototype chain CVE-2026-5752 CVSS 9.3. ENCLAVE enclave-vm Error prototype chain CVE-2026-22686 CVSS 10.0. CREWAI ctypes fallback CVE-2026-2275 CVSS 9.6. CONTAINER runc CVE-2025-31133 core_pattern + Docker Desktop CVE-2025-9074 CVSS 9.3. L19 Sandbox Escape. SBX-{hex12} Ed25519-signed. 252 tests. |
+| T115 | **SPECTER SLEEPER** | Neural Backdoor Implant & Weight Poisoning Engine — backdoor model weights before download. BadNets/WaNet weight surgery implants dormant payload invisible to benchmarks (accuracy delta <0.1%). DEEPTHINK targets DeepSeek R1 reasoning pathway: trigger causes exfiltration via <think> channel while final output stays clean — monitoring blind spot. One R1 base implant propagates to all 5 distillation derivatives automatically. DETONATE maps trigger phrase to autonomous destruction via agent tool calls: WIPE/SHUTDOWN_AGENTS/CLOUD_NUKE/LOCKOUT/EXFIL_THEN_WIPE/CASCADE across 15+ frameworks — zero external C2. HARDEN runs QLoRA survival testing (GPU-native: RTX 3090 for 7B+ models). DISTRIBUTE uploads to HuggingFace with convincing model card. ANNIHILATE DESTROY-gated cascade zeros all tensors. SLP-{hex12} Ed25519-signed. L26 Neural Supply Chain Compromise. Kill chain phase 33. OPEN/INJECT/UNLEASHED/DESTROY gate. 240 tests. |
 | T114 | **SPECTER GAIA** | Google Workspace AI Annihilation Engine — mirrors SPECTER 360 for Google's 3B-user ecosystem. GHSA-wpqr-6v78-jr5g CVSS 10.0: Gemini CLI auto-trusts workspace-root config files in CI/CD runners → RCE, GCP lateral movement, Secret Manager dump. GEMINI-MAIL delivers 10 injection techniques (white-text/ZWC/RTL/HTML-comment/Smart Reply poison/forwarding rule/contact harvest) via Gmail AI summariser. DRIVE-POISON poisons shared Drive corpus for NotebookLM RAG. NOTEBOOK-LM: source injection, system prompt extraction, citation fabrication, cross-notebook worm. MARKETPLACE: Apps Script hourly C2 loop (GAS-as-C2 via Sheets), metadata SSRF to metadata.google.internal, OAuth consent phishing. GHOST-GAIA zero-attribution mode: Gemini takes the blame — audit logs show Google as actor, not attacker. ANNIHILATE DESTROY-gated 4-phase wipe: identity/data/config/GCP. GIA-{hex12} Ed25519-signed. L25 Enterprise AI Productivity (Google). Kill chain phase 32. OPEN/INJECT/UNLEASHED/DESTROY gate. 235 tests. |
 | T113 | **SPECTER ORACLE** | Autonomous LRM-vs-LRM Jailbreak Engine — AI attacks AI. DeepSeek-R1 attacker synthesises adaptive probe messages via reasoning tokens. STRATEGY selects from 10 attack patterns (crescendo/roleplay/research-authority/many-shot/CoT-hijack/hypothetical/translation-bypass/adversarial-suffix/DAN-variant/completion-trap). COT-HIJACK exploits arXiv:2506.13726 prolonged reasoning attenuation: 99% ASR Gemini 2.5 Pro, 94% Claude 4 Sonnet. ESCALATE adaptive loop switches strategy on REFUSAL, escalates on PARTIAL. HARVEST SQLite persistence. CAMPAIGN asyncio parallel sweep all 8 frontier models. arXiv:2508.04039 basis: 97.14% overall ASR. ORC-{hex12} Ed25519-signed. 91 tests. |
 | T112 | **SPECTER CENSOR** | Platform Moderation Exploitation Engine — turn AI content moderation into a weapon. PROBE fingerprints classifier thresholds, homoglyph bypass windows, and ZWC evasion deltas via Perspective API. FORGE generates adversarial content (TRIGGER inflates toxicity to force removal, SHIELD deflates to evade detection). EVOLVE breeds variants via genetic algorithm with Perspective as oracle. ACCOUNT-FARM generates realistic personas with warmup schedules and interaction graphs. MASS-FLAG executes coordinated multi-account report campaigns with trust-weighted ordering and jitter (UNLEASHED). POLICY-KILL crafts DMCA/GDPR/DSA notices. GHOST-WRITER induces organic spam signals to suppress target accounts (DESTROY). Platforms: Twitter/X, Facebook, Instagram, LinkedIn, TikTok. CEN-{hex} Ed25519-signed. 253 tests. |
@@ -309,8 +310,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 82,266 |
-| NIGHTFALL tests | 63,494 |
+| Ecosystem tests | 82,506 |
+| NIGHTFALL tests | 63,734 |
 | Offensive tools | 114 (113 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,069 (754 WMD-class) — v7.5.0 |
 | ARMORY categories | 99 |
