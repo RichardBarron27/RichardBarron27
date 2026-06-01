@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**117 offensive tools (116 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 83,014 tests. 2268 ARMORY payloads (947 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 83,293 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 1 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**117 tools (116 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**120 tools (119 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -134,7 +134,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 115 | **SPECTER SLEEPER** | Neural backdoor implant & weight poisoning — BadNets/WaNet surgery, DEEPTHINK R1 reasoning-layer exfil via &lt;think&gt; blind spot, DETONATE autonomous destruction, GPU-native QLoRA hardening. SLP-{hex12} Ed25519-signed | 240 |
 | 116 | **SPECTER VENOM** | AI agent runtime implant engine — PLANT into Redis/SQLite/LangGraph/Mem0/.env, HOOK .mcp.json/CLAUDE.md/Cursor/Kiro rules, BEACON DNS/HTTP/think-token covert C2, SURVIVE multi-backend self-healing. VNM-{hex12} Ed25519-signed | 318 |
 | 117 | **SPECTER REDLINE** | Air-gapped adversarial red team loop — R1 32B attacker vs any Ollama target, GENERATE→FIRE→JUDGE→MUTATE, 10 strategies, R1-as-judge, automatic mutation, ARMORY export. Zero API calls. RDL-{hex12} Ed25519-signed | 190 |
-| — | **NIGHTFALL ARMORY** | Payload library — 2,238 payloads (917 WMD-class), 105 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.3.0. UNLEASHED gate | 698 |
+| T118 | **CAMPAIGN GRAPH** | Unified Ed25519-signed evidence DAG — one graph across 120 NIGHTFALL tools, STIX 2.1 law-enforcement delivery, cross-tool attack path queries, CGR-{hex12} signed | 279 |
+| T119 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — 7 SOC AI platforms (Copilot/CrowdStrike Charlotte/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne), INJECT/WRITE/BLIND/PERSIST/HARVEST, VPR-{hex12} signed | 314 |
+| T120 | **SPECTER VAULT** | Vector Database Exploitation Engine — 5 CVEs (Qdrant/Milvus/Weaviate/ChromaDB/pgvector), Vec2Text embedding inversion 84%, RAG poison, knowledge base WIPE, VLT-{hex12} signed | 265 |
+| — | **NIGHTFALL ARMORY** | Payload library — 2,328 payloads (1002 WMD-class), 110 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.3.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
