@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 83,371 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 84,597 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 1 Jun 2026*
 ---
