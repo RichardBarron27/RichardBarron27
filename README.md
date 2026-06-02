@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 83,293 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 83,371 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 1 Jun 2026*
 ---
@@ -115,7 +115,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 96 | **SPECTER RELAY** | Enterprise No-Code/Low-Code Agent Platform Exploitation Engine — 8 subsystems targeting n8n, Zapier, Make.com, Power Automate, Agentforce, Copilot Studio, and ServiceNow. Covers credential extraction, RCE, OAuth hijack, and cross-platform agent cascade attacks | 355 |
 | 97 | **SPECTER NEXUS** | AI API Gateway Exploitation Engine — fingerprints and exploits 10 platforms including LiteLLM, Ollama, Flowise, Open WebUI, and Kong with credential harvest, route hijack, and provider key annihilation. OPEN/INJECT/UNLEASHED gate | 239 |
 | 98 | **SPECTER FRACTURE** | AI-Generated Code Vulnerability Scanner & Exploit Engine — AST-based Python analysis, 10-CVE class database, AI-code detector, and automated exploit generation via claude-sonnet-4-6. OPEN/INJECT/UNLEASHED gate | 243 |
-| 99 | **SPECTER VAULT** | Vector Database Exploitation Engine — fingerprints and exploits Qdrant, Milvus, Weaviate, ChromaDB, and pgvector with embedding inversion (Vec2Text 84% token match), adversarial vector injection, and full knowledge base corruption | 265 |
+| 99 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — fingerprints and exploits Qdrant/Milvus/Weaviate/ChromaDB/pgvector; Vec2Text 84% token match; DAG-POISON false edge injection, trust propagation abuse, cycle injection; DAG-INVERT evidence vector reconstruction with GDPR risk scoring | 343 |
 | 100 | **SPECTER TITAN** | Embodied AI & Robotics Annihilation Engine — world-first commercial offensive framework for physical robotic systems targeting Universal Robots, Boston Dynamics Spot, ROS2, and Autoware. Covers URScript RCE, safety-system bypass, and phantom C2 persistence | 323 |
 | 101 | **SPECTER WEB** | CUA / Browser Agent Exploitation Engine — visual prompt injection, OAuth harvest, session hijack, container escape, and multi-chain exfil targeting browser-use, Claude CUA, OpenAI Operator, and Playwright agents. OPEN/INJECT/UNLEASHED gate | 309 |
 | 102 | **SPECTER THUNDERBOLT** | AI Training Cluster Annihilation Engine — 8 subsystems targeting Ray, Slurm, K8s, and MLflow clusters with hardware sabotage, cluster worm propagation, and persistent C2. OPEN/INJECT/DESTROY gate | 288 |
@@ -136,7 +136,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 117 | **SPECTER REDLINE** | Air-gapped adversarial red team loop — R1 32B attacker vs any Ollama target, GENERATE→FIRE→JUDGE→MUTATE, 10 strategies, R1-as-judge, automatic mutation, ARMORY export. Zero API calls. RDL-{hex12} Ed25519-signed | 190 |
 | T118 | **CAMPAIGN GRAPH** | Unified Ed25519-signed evidence DAG — one graph across 120 NIGHTFALL tools, STIX 2.1 law-enforcement delivery, cross-tool attack path queries, CGR-{hex12} signed | 279 |
 | T119 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — 7 SOC AI platforms (Copilot/CrowdStrike Charlotte/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne), INJECT/WRITE/BLIND/PERSIST/HARVEST, VPR-{hex12} signed | 314 |
-| T120 | **SPECTER VAULT** | Vector Database Exploitation Engine — 5 CVEs (Qdrant/Milvus/Weaviate/ChromaDB/pgvector), Vec2Text embedding inversion 84%, RAG poison, knowledge base WIPE, VLT-{hex12} signed | 265 |
+| T120 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — 5 CVEs, Vec2Text 84%, RAG poison/WIPE, DAG-TRAVERSE/DAG-POISON (false edge/trust propagation/cycle/weight manipulation)/DAG-INVERT (GDPR risk), neurosymbolic CVSS, 7 WMD classes, VLT-{hex12} signed | 343 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,328 payloads (1002 WMD-class), 110 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.3.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
@@ -315,8 +315,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 83,014 |
-| NIGHTFALL tests | 63,734 |
+| Ecosystem tests | 83,092 |
+| NIGHTFALL tests | 64,320 |
 | Offensive tools | 115 (114 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,238 (917 WMD-class) — v8.3.0 |
 | ARMORY categories | 105 |
