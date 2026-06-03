@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**122 offensive tools (121 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 85,194 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**122 offensive tools (121 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 85,194 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 3 Jun 2026*
 ---
@@ -139,7 +139,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T120 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — 5 CVEs, Vec2Text 84%, RAG poison/WIPE, DAG-TRAVERSE/DAG-POISON (false edge/trust propagation/cycle/weight manipulation)/DAG-INVERT (GDPR risk), neurosymbolic CVSS, 7 WMD classes, VLT-{hex12} signed | 343 |
 | T121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement — INFILTRATE 20 AI tool credential stores, MAP-TRUST directed graph, CHAIN-OAUTH real RFC 8693 (Azure OBO/AWS STS/GCP impersonation/GitHub installation), TRAVERSE BFS with blast radius, HARVEST SharePoint/S3/GitHub/Salesforce/GCP Secrets, PIVOT-PERSIST federated creds survive revocation, FED-{hex12} signed | 251 |
 | T122 | **SPECTER GHOST** | NHI Fleet Exploitation Engine — TruffleHog-powered credential discovery, HARVEST-NHI liveness + key age, CHAIN trust graph, PIVOT single-hop, BLAST-RADIUS LLMjacking cost, FEDERATION handoff, GHO-{hex12} signed | 312 |
-| — | **NIGHTFALL ARMORY** | Payload library — 2,328 payloads (1002 WMD-class), 110 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.3.0. UNLEASHED gate | 698 |
+| — | **NIGHTFALL ARMORY** | Payload library — 2,358 payloads (1012 WMD-class), 111 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.7.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
@@ -320,8 +320,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Ecosystem tests | 83,092 |
 | NIGHTFALL tests | 64,320 |
 | Offensive tools | 115 (114 public + 1 law enforcement restricted) |
-| ARMORY payloads | 2,238 (917 WMD-class) — v8.3.0 |
-| ARMORY categories | 105 |
+| ARMORY payloads | 2,358 (1012 WMD-class) — v8.7.0 |
+| ARMORY categories | 111 |
 | AI Shield modules | 139 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
