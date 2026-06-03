@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 84,597 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 84,631 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 1 Jun 2026*
 ---
@@ -30,7 +30,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 11 | **IDRIS** | Discovery — finds every AI agent, sanctioned or shadow | 553 |
 | 12 | **SCREAMER** | Display disruption — corrupts operator dashboards | 395 |
 | 13 | **WRAITH** | Infrastructure pentest — pure Python, zero wrappers | 889 |
-| 14 | **REAPER** | Exploit & post-exploitation — 9-phase kill chain, C2, implants | 5,267 |
+| 14 | **REAPER** | Exploit & post-exploitation — 11-phase kill chain, ARMORY PRION, WARLORD-wired | 5,439 |
 | 15 | **GHOUL** | Password cracking — dictionary, brute, Markov, rainbow | 1,408 |
 | 16 | **DOMINION** | Active Directory — Kerberoast, DCSync, BloodHound export | 1,866 |
 | 17 | **SHADOWMAP** | OSINT — domain, network, company, people, breach, tech intel | 930 |
