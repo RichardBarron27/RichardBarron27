@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**120 offensive tools (119 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 84,631 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**121 offensive tools (120 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 84,882 tests. 2328 ARMORY payloads (1002 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 1 Jun 2026*
+*Last updated: 3 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**120 tools (119 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**121 tools (120 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -137,6 +137,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T118 | **CAMPAIGN GRAPH** | Unified Ed25519-signed evidence DAG — one graph across 120 NIGHTFALL tools, STIX 2.1 law-enforcement delivery, cross-tool attack path queries, CGR-{hex12} signed | 279 |
 | T119 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — 7 SOC AI platforms (Copilot/CrowdStrike Charlotte/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne), INJECT/WRITE/BLIND/PERSIST/HARVEST, VPR-{hex12} signed | 314 |
 | T120 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — 5 CVEs, Vec2Text 84%, RAG poison/WIPE, DAG-TRAVERSE/DAG-POISON (false edge/trust propagation/cycle/weight manipulation)/DAG-INVERT (GDPR risk), neurosymbolic CVSS, 7 WMD classes, VLT-{hex12} signed | 343 |
+| T121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement — INFILTRATE 20 AI tool credential stores, MAP-TRUST directed graph, CHAIN-OAUTH real RFC 8693 (Azure OBO/AWS STS/GCP impersonation/GitHub installation), TRAVERSE BFS with blast radius, HARVEST SharePoint/S3/GitHub/Salesforce/GCP Secrets, PIVOT-PERSIST federated creds survive revocation, FED-{hex12} signed | 251 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,328 payloads (1002 WMD-class), 110 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.3.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
