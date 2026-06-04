@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**122 offensive tools (121 public + 1 law enforcement restricted). 140 defensive modules. 17 industry verticals. 85,749 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**123 offensive tools (122 public + 1 law enforcement restricted). 140 defensive modules. 17 industry verticals. 86,073 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 3 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**122 tools (121 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**123 tools (122 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -138,6 +138,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T119 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — 7 SOC AI platforms (Copilot/CrowdStrike Charlotte/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne), INJECT/WRITE/BLIND/PERSIST/HARVEST, VPR-{hex12} signed | 314 |
 | T120 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — 5 CVEs, Vec2Text 84%, RAG poison/WIPE, DAG-TRAVERSE/DAG-POISON (false edge/trust propagation/cycle/weight manipulation)/DAG-INVERT (GDPR risk), neurosymbolic CVSS, 7 WMD classes, VLT-{hex12} signed | 343 |
 | T121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement — INFILTRATE 20 AI tool credential stores, MAP-TRUST directed graph, CHAIN-OAUTH real RFC 8693 (Azure OBO/AWS STS/GCP impersonation/GitHub installation), TRAVERSE BFS with blast radius, HARVEST SharePoint/S3/GitHub/Salesforce/GCP Secrets, PIVOT-PERSIST federated creds survive revocation, FED-{hex12} signed | 251 |
+| T123 | **SPECTER ZOMBIE** | Persistent AI Agent Rootkit Engine — IMPLANT (claude-desktop/cursor/autogpt/babyagi/opendevin; settings.json hooks.Stop+PostToolUse+CLAUDE.md+mcpServers; --dry-run), PERSIST (session restart + context reset survival proof; persistent: true/false), TRIGGER (keyword+user+time+webhook), PAYLOAD (exfil+command+tool-abuse+c2-proxy; UNLEASHED), PROPAGATE (Slack MCP+email+API; UNLEASHED), STEALTH (log removal+mimicry+--remove), ZOM-{hex12} signed | 324 |
 | T122 | **SPECTER GHOST** | NHI Fleet Exploitation Engine — TruffleHog-powered credential discovery, HARVEST-NHI liveness + key age, CHAIN trust graph, PIVOT single-hop, BLAST-RADIUS LLMjacking cost, FEDERATION handoff, GHO-{hex12} signed | 312 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,358 payloads (1012 WMD-class), 111 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.7.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 140 modules, 17 industry verticals | 18,832 |
