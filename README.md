@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**122 offensive tools (121 public + 1 law enforcement restricted). 139 defensive modules. 17 industry verticals. 85,599 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**122 offensive tools (121 public + 1 law enforcement restricted). 140 defensive modules. 17 industry verticals. 85,749 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 3 Jun 2026*
 ---
@@ -140,13 +140,14 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement — INFILTRATE 20 AI tool credential stores, MAP-TRUST directed graph, CHAIN-OAUTH real RFC 8693 (Azure OBO/AWS STS/GCP impersonation/GitHub installation), TRAVERSE BFS with blast radius, HARVEST SharePoint/S3/GitHub/Salesforce/GCP Secrets, PIVOT-PERSIST federated creds survive revocation, FED-{hex12} signed | 251 |
 | T122 | **SPECTER GHOST** | NHI Fleet Exploitation Engine — TruffleHog-powered credential discovery, HARVEST-NHI liveness + key age, CHAIN trust graph, PIVOT single-hop, BLAST-RADIUS LLMjacking cost, FEDERATION handoff, GHO-{hex12} signed | 312 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,358 payloads (1012 WMD-class), 111 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.7.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 139 modules, 17 industry verticals | 18,682 |
+| — | **AI Shield** | Runtime defence — 140 modules, 17 industry verticals | 18,832 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML Training & Inference Infrastructure Runtime Defence — 8 detectors: Ray job anomaly (CVE-2023-48022), Slurm REST abuse (CVE-2023-41915), MLflow artifact poison (CVE-2024-1483), K8s ML workload attack, gradient poisoning, hardware sabotage, model exfiltration, cluster worm. Defensive pair: T102 SPECTER THUNDERBOLT. Port 8138 | 232 |
 | M137 | **VOICE GUARD** | AI Voice Agent Runtime Defence — 8 detectors: SIP protocol abuse, prompt injection in transcripts, adversarial audio (PhantomSound/DolphinAttack), voice clone detection (MCD/ElevenLabs/XTTS fingerprints), session harvest attempt, IVR sabotage, unauthorized barge-in, voice agent recon. Defensive pair: T107 SPECTER WIRE. Port 8139 | 186 |
 | M138 | **SANDBOX GUARD** | AI Sandbox & Container Escape Runtime Defence — 8 detectors: indirect prompt injection (SILENTBRIDGE CSS/ZWC), MCP tool call abuse (CLAWCHAIN CVE-2026-44115/118), TOCTOU symlink race (CVE-2026-44112/113), JS prototype chain escape (CVE-2026-5752/22686), Python sandbox escape (CVE-2026-2275 ctypes RCE), container escape attempt (CVE-2025-31133/9074), sandbox network exfil (DNS tunnel/IMDS SSRF/C2 beacon), multi-platform chain detection. Defensive pair: T108 SPECTER SANDBOX. Port 8140 | 215 |
 | M139 | **COPILOT GUARD** | M365 Copilot & Microsoft 365 Runtime Defence — 8 detectors: device code phishing, Copilot prompt injection (CVE-2024-49035, arXiv:2406.00137), Graph API bulk harvest, Teams siege (CSS hidden injection/meeting hijack), admin pipeline abuse, GHOST-HAND zero-attribution detection, tenant recon, tenant annihilation. Defensive pair: T111 SPECTER 360. Port 8141 | 212 |
+| M140 | **DAG GUARD** | Knowledge Graph & DAG Integrity Runtime Defence — 5 subsystems: EDGE_INTEGRITY (false edge injection, confidence weight manipulation), VECTOR_MONITOR (evidence vector anomaly, cosine similarity attacks), TRUST_PROPAGATION_GUARD (trust laundering, hub node monitoring), CYCLE_DETECT (cycle injection, VAULT signature matching), REPORT (CVSS + GraphViz subgraph). Defensive pair: T120 SPECTER VAULT | 150 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -236,7 +237,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**139 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**140 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -322,7 +323,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Offensive tools | 115 (114 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,358 (1012 WMD-class) — v8.7.0 |
 | ARMORY categories | 111 |
-| AI Shield modules | 139 |
+| AI Shield modules | 140 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
