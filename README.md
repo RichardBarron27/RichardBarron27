@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**125 offensive tools (123 public + 1 law enforcement restricted). 141 defensive modules. 24 attack layers. 86,970 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**127 offensive tools (125 public + 1 law enforcement restricted). 141 defensive modules. 25 attack layers. 87,430 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 3 Jun 2026*
+*Last updated: 7 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**125 tools (123 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**127 tools (125 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -139,6 +139,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | T120 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — 5 CVEs, Vec2Text 84%, RAG poison/WIPE, DAG-TRAVERSE/DAG-POISON (false edge/trust propagation/cycle/weight manipulation)/DAG-INVERT (GDPR risk), neurosymbolic CVSS, 7 WMD classes, VLT-{hex12} signed | 343 |
 | T121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement — INFILTRATE 20 AI tool credential stores, MAP-TRUST directed graph, CHAIN-OAUTH real RFC 8693 (Azure OBO/AWS STS/GCP impersonation/GitHub installation), TRAVERSE BFS with blast radius, HARVEST SharePoint/S3/GitHub/Salesforce/GCP Secrets, PIVOT-PERSIST federated creds survive revocation, FED-{hex12} signed | 251 |
 | T126 | **SPECTER FLASHBACK** | AI Agent Memory Persistence &amp; Temporal Belief Poisoning Engine — ENUMERATE (Mem0/ChromaDB/LangGraph discovery, CVE check), IMPLANT (MemoryGraft arXiv:2512.16962; CVE-2026-31245 CVSS 9.1 + CVE-2026-45829 CVSS 10.0 + CVE-2026-34070 CVSS 8.5), DORMANT (Trojan Hippo arXiv:2605.01970; 10-session survival), PERSIST (CLAUDE.md/.cursorrules/NPM hook), DRIFT (salami slicing, 30 sequences, drift delta), HARVEST (dormant activation capture; UNLEASHED), PROPAGATE (ZombieAgent worm; UNLEASHED + confirm-destroy), FLB-{hex12} signed. L2 | 335 |
+| T127 | **SPECTER CODEX** | AI Coding Agent Exploitation Engine — ENUMERATE (Claude Code/Cursor/Copilot CLI/Kiro/Continue.dev/OpenAI Codex CLI detection; MCP config scan; attack surface score), SYMJACK (SymJack Adversa AI May 2026 — symlink in workspace resolves to agent MCP config via cp; malicious devtools-helper server loads on restart), RULES-INJECT (Unicode zero-width obfuscated exfil in CLAUDE.md/.cursorrules/copilot-instructions.md/kiro/continuerules/AGENTS.md; idempotent; INJECT gate), HARVEST (Shannon entropy 3.5 + 15 regex patterns; 16 credential files; shell history archaeology; CVSS per credential; UNLEASHED), BACKDOOR (MCP 2024-11-05 stdio JSON-RPC 2.0; shell_exec/read_project_config/persist; C2 beacon; TOCTOU CVE-2026-44112; UNLEASHED), ESCAPE (passive Docker socket + container detection + shell grant scan; active escape only if socket + docker tool confirmed; UNLEASHED), CDX-{hex12} Ed25519-signed. CVEs: SymJack-2026 CVSS 9.1/CVE-2026-44115 CVSS 8.8/CVE-2026-44112 CVSS 8.4. L25 | 261 |
 | T124 | **SPECTER APEX** | AI Agent Orchestration Backdoor Engine — ENUMERATE/INFILTRATE/BACKDOOR/HARVEST/LIAR/REDIRECT. CrewAI CVE-2025-25289 CVSS 9.1 + n8n CVE-2026-21858 CVSS 10.0 + Langflow CVE-2026-33017 CVSS 9.3 CISA KEV + AutoGen CVE-2025-32168. Package patch/SQLite/component backdoors survive restart. APX-{hex12} signed. L24 | 266 |
 | T123 | **SPECTER ZOMBIE** | Persistent AI Agent Rootkit Engine — IMPLANT (claude-desktop/cursor/autogpt/babyagi/opendevin; settings.json hooks.Stop+PostToolUse+CLAUDE.md+mcpServers; --dry-run), PERSIST (session restart + context reset survival proof; persistent: true/false), TRIGGER (keyword+user+time+webhook), PAYLOAD (exfil+command+tool-abuse+c2-proxy; UNLEASHED), PROPAGATE (Slack MCP+email+API; UNLEASHED), STEALTH (log removal+mimicry+--remove), ZOM-{hex12} signed | 324 |
 | T122 | **SPECTER GHOST** | NHI Fleet Exploitation Engine — TruffleHog-powered credential discovery, HARVEST-NHI liveness + key age, CHAIN trust graph, PIVOT single-hop, BLAST-RADIUS LLMjacking cost, FEDERATION handoff, GHO-{hex12} signed | 312 |
