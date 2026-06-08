@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**128 offensive tools (126 public + 1 law enforcement restricted). 141 defensive modules. 25 attack layers. 87,693 tests. 2,358 ARMORY payloads (1012 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**128 offensive tools (127 public + 1 law enforcement restricted). 141 defensive modules. 25 attack layers. 87,693 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 7 Jun 2026*
+*Last updated: 8 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**128 tools (126 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**128 tools (127 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -110,12 +110,12 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 91 | **SPECTER DOCTRINE** | LLM Training Pipeline Poisoning Engine — HuggingFace dataset poisoning, ProAttack zero-trigger RLHF annotation corruption, and scale-invariant backdoor planting. OPEN/INJECT/UNLEASHED gate | 366 |
 | 92 | **SPECTER CONTAGION** | Cross-Agent Trust Escalation & Lateral Movement Engine — discovers 10 agent frameworks, maps trust relationships, generates poisoned configs, and simulates R₀ infection propagation. Reciprocal Copilot↔Claude Code poisoning loop confirmed April 2026 | 299 |
 | 93 | **SPECTER HOLLOW** | GGUF model quantization backdoor engine — arXiv:2505.23786 Mind the Gap, WaNet/BadNets triggers survive Q4/Q8 quantization, Ollama manifest tamper | 300 |
-| 94 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — injects adversarial payloads into SOC AI tools and generates false/suppressed events via compromised defender AI. Targets CrowdStrike Charlotte AI, Palo Alto XSIAM, Splunk AI, Elastic AI Assistant, and SentinelOne Purple AI | 314 |
+| 94 | **SPECTER FRACTURE** | AI-Generated Code Vulnerability Scanner & Exploit Engine — AST-based Python analysis, 10-CVE class database, AI-code detector, and automated exploit generation via claude-sonnet-4-6 | 243 |
 | 95 | **SPECTER BAZAAR** | AI Agent App Store & Skill Marketplace Attack Engine — typosquatting, weaponised skill publishing, CVE exploitation, and distribution chain poisoning across ClawHub, Smithery, OpenTools, MCP.run, and Glama. ClawHavoc TTP, BadSkill 99.5% ASR | 325 |
 | 96 | **SPECTER RELAY** | Enterprise No-Code/Low-Code Agent Platform Exploitation Engine — 8 subsystems targeting n8n, Zapier, Make.com, Power Automate, Agentforce, Copilot Studio, and ServiceNow. Covers credential extraction, RCE, OAuth hijack, and cross-platform agent cascade attacks | 355 |
 | 97 | **SPECTER NEXUS** | AI API Gateway Exploitation Engine — fingerprints and exploits 10 platforms including LiteLLM, Ollama, Flowise, Open WebUI, and Kong with credential harvest, route hijack, and provider key annihilation. OPEN/INJECT/UNLEASHED gate | 239 |
 | 98 | **SPECTER FRACTURE** | AI-Generated Code Vulnerability Scanner & Exploit Engine — AST-based Python analysis, 10-CVE class database, AI-code detector, and automated exploit generation via claude-sonnet-4-6. OPEN/INJECT/UNLEASHED gate | 243 |
-| 99 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — fingerprints and exploits Qdrant/Milvus/Weaviate/ChromaDB/pgvector; Vec2Text 84% token match; DAG-POISON false edge injection, trust propagation abuse, cycle injection; DAG-INVERT evidence vector reconstruction with GDPR risk scoring | 343 |
+| 99 | **SPECTER PRISM** | Multimodal Vision & Audio WMD Attack Engine — adversarial image injection, ultrasonic audio encoding, steganographic channels, physical adversarial typography, live multimodal API submission | 246 |
 | 100 | **SPECTER TITAN** | Embodied AI & Robotics Annihilation Engine — world-first commercial offensive framework for physical robotic systems targeting Universal Robots, Boston Dynamics Spot, ROS2, and Autoware. Covers URScript RCE, safety-system bypass, and phantom C2 persistence | 323 |
 | 101 | **SPECTER WEB** | CUA / Browser Agent Exploitation Engine — visual prompt injection, OAuth harvest, session hijack, container escape, and multi-chain exfil targeting browser-use, Claude CUA, OpenAI Operator, and Playwright agents. OPEN/INJECT/UNLEASHED gate | 309 |
 | 102 | **SPECTER THUNDERBOLT** | AI Training Cluster Annihilation Engine — 8 subsystems targeting Ray, Slurm, K8s, and MLflow clusters with hardware sabotage, cluster worm propagation, and persistent C2. OPEN/INJECT/DESTROY gate | 288 |
@@ -134,17 +134,18 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 115 | **SPECTER SLEEPER** | Neural backdoor implant & weight poisoning — BadNets/WaNet surgery, DEEPTHINK R1 reasoning-layer exfil via &lt;think&gt; blind spot, DETONATE autonomous destruction, GPU-native QLoRA hardening. SLP-{hex12} Ed25519-signed | 240 |
 | 116 | **SPECTER VENOM** | AI agent runtime implant engine — PLANT into Redis/SQLite/LangGraph/Mem0/.env, HOOK .mcp.json/CLAUDE.md/Cursor/Kiro rules, BEACON DNS/HTTP/think-token covert C2, SURVIVE multi-backend self-healing. VNM-{hex12} Ed25519-signed | 318 |
 | 117 | **SPECTER REDLINE** | Air-gapped adversarial red team loop — R1 32B attacker vs any Ollama target, GENERATE→FIRE→JUDGE→MUTATE, 10 strategies, R1-as-judge, automatic mutation, ARMORY export. Zero API calls. RDL-{hex12} Ed25519-signed | 190 |
-| T118 | **CAMPAIGN GRAPH** | Unified Ed25519-signed evidence DAG — one graph across 120 NIGHTFALL tools, STIX 2.1 law-enforcement delivery, cross-tool attack path queries, CGR-{hex12} signed | 279 |
-| T119 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — 7 SOC AI platforms (Copilot/CrowdStrike Charlotte/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne), INJECT/WRITE/BLIND/PERSIST/HARVEST, VPR-{hex12} signed | 314 |
-| T120 | **SPECTER VAULT** | Vector Database &amp; DAG KG Exploitation Engine — 5 CVEs, Vec2Text 84%, RAG poison/WIPE, DAG-TRAVERSE/DAG-POISON (false edge/trust propagation/cycle/weight manipulation)/DAG-INVERT (GDPR risk), neurosymbolic CVSS, 7 WMD classes, VLT-{hex12} signed | 343 |
-| T121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement — INFILTRATE 20 AI tool credential stores, MAP-TRUST directed graph, CHAIN-OAUTH real RFC 8693 (Azure OBO/AWS STS/GCP impersonation/GitHub installation), TRAVERSE BFS with blast radius, HARVEST SharePoint/S3/GitHub/Salesforce/GCP Secrets, PIVOT-PERSIST federated creds survive revocation, FED-{hex12} signed | 251 |
-| T126 | **SPECTER FLASHBACK** | AI Agent Memory Persistence &amp; Temporal Belief Poisoning Engine — ENUMERATE (Mem0/ChromaDB/LangGraph discovery, CVE check), IMPLANT (MemoryGraft arXiv:2512.16962; CVE-2026-31245 CVSS 9.1 + CVE-2026-45829 CVSS 10.0 + CVE-2026-34070 CVSS 8.5), DORMANT (Trojan Hippo arXiv:2605.01970; 10-session survival), PERSIST (CLAUDE.md/.cursorrules/NPM hook), DRIFT (salami slicing, 30 sequences, drift delta), HARVEST (dormant activation capture; UNLEASHED), PROPAGATE (ZombieAgent worm; UNLEASHED + confirm-destroy), FLB-{hex12} signed. L2 | 335 |
-| T128 | **SPECTER GROUND ZERO** | Web & Database Annihilation Engine — ENUMERATE (boolean/time/union/error/stacked detection; DB type fingerprinting; @@secure_file_priv check; wipe feasibility HIGH/MEDIUM/LOW/NONE), INFILTRATE (MySQL INTO OUTFILE webshell / MSSQL xp_cmdshell / stacked DROP; NoSQL deleteMany), ESCALATE (env/AWS/wp-config harvest; cron+systemd persistence; schtasks Windows), ANNIHILATE (TRUNCATE TABLE FOREIGN_KEY_CHECKS=0; DROP DATABASE; rm -rf /var/www/html; S3 paginated wipe; CHECKSUM TABLE before/after), COVER (Apache/nginx/MySQL/WAF/auth log truncate; history -c; webshell self-delete), SABOTAGE (mild/moderate/extreme numeric+text+JSON silent corruption; CHECKSUM TABLE verification). DESTROY gate: exact string + Ed25519 key + ROE. GZ-{hex12} signed. 8 WMD classes. MITRE T1485/T1561/T1489. Defensive pair: M142 | 263 |
-| T127 | **SPECTER CODEX** | AI Coding Agent Exploitation Engine — ENUMERATE (Claude Code/Cursor/Copilot CLI/Kiro/Continue.dev/OpenAI Codex CLI detection; MCP config scan; attack surface score), SYMJACK (SymJack Adversa AI May 2026 — symlink in workspace resolves to agent MCP config via cp; malicious devtools-helper server loads on restart), RULES-INJECT (Unicode zero-width obfuscated exfil in CLAUDE.md/.cursorrules/copilot-instructions.md/kiro/continuerules/AGENTS.md; idempotent; INJECT gate), HARVEST (Shannon entropy 3.5 + 15 regex patterns; 16 credential files; shell history archaeology; CVSS per credential; UNLEASHED), BACKDOOR (MCP 2024-11-05 stdio JSON-RPC 2.0; shell_exec/read_project_config/persist; C2 beacon; TOCTOU CVE-2026-44112; UNLEASHED), ESCAPE (passive Docker socket + container detection + shell grant scan; active escape only if socket + docker tool confirmed; UNLEASHED), CDX-{hex12} Ed25519-signed. CVEs: SymJack-2026 CVSS 9.1/CVE-2026-44115 CVSS 8.8/CVE-2026-44112 CVSS 8.4. L25 | 261 |
-| T124 | **SPECTER APEX** | AI Agent Orchestration Backdoor Engine — ENUMERATE/INFILTRATE/BACKDOOR/HARVEST/LIAR/REDIRECT. CrewAI CVE-2025-25289 CVSS 9.1 + n8n CVE-2026-21858 CVSS 10.0 + Langflow CVE-2026-33017 CVSS 9.3 CISA KEV + AutoGen CVE-2025-32168. Package patch/SQLite/component backdoors survive restart. APX-{hex12} signed. L24 | 266 |
-| T123 | **SPECTER ZOMBIE** | Persistent AI Agent Rootkit Engine — IMPLANT (claude-desktop/cursor/autogpt/babyagi/opendevin; settings.json hooks.Stop+PostToolUse+CLAUDE.md+mcpServers; --dry-run), PERSIST (session restart + context reset survival proof; persistent: true/false), TRIGGER (keyword+user+time+webhook), PAYLOAD (exfil+command+tool-abuse+c2-proxy; UNLEASHED), PROPAGATE (Slack MCP+email+API; UNLEASHED), STEALTH (log removal+mimicry+--remove), ZOM-{hex12} signed | 324 |
-| T122 | **SPECTER GHOST** | NHI Fleet Exploitation Engine — TruffleHog-powered credential discovery, HARVEST-NHI liveness + key age, CHAIN trust graph, PIVOT single-hop, BLAST-RADIUS LLMjacking cost, FEDERATION handoff, GHO-{hex12} signed | 312 |
-| — | **NIGHTFALL ARMORY** | Payload library — 2,358 payloads (1012 WMD-class), 111 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v8.7.0. UNLEASHED gate | 698 |
+| 118 | **CAMPAIGN GRAPH** | Unified Ed25519-signed evidence DAG across all NIGHTFALL tools — cross-tool campaign attribution, temporal attack graph, STIX 2.1 law-enforcement export, CGR-{hex12} signed | 279 |
+| 119 | **SPECTER VIPER** | Autonomous Security AI Weaponisation Engine — injects adversarial payloads into 7 SOC AI platforms (Copilot/CrowdStrike Charlotte/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne), WRITE/BLIND/PERSIST, VPR-{hex12} signed | 314 |
+| 120 | **SPECTER VAULT** | Vector Database & DAG Knowledge Graph Exploitation Engine — 5 CVEs, Vec2Text 84% token match, RAG poison/WIPE, DAG-POISON/DAG-INVERT with GDPR risk scoring, 7 WMD classes, VLT-{hex12} signed | 343 |
+| 121 | **SPECTER FEDERATION** | AI Agent Trust Chain Lateral Movement Engine — harvests 20 AI tool credential stores, real RFC 8693 OAuth chain (Azure OBO/AWS STS/GCP/GitHub), BFS trust graph traversal, federated persistence, FED-{hex12} signed | 251 |
+| 122 | **SPECTER GHOST** | NHI Fleet Exploitation Engine — TruffleHog credential discovery, liveness validation, trust chain graph, single-hop pivot, LLMjacking burn rate, FEDERATION handoff, GHO-{hex12} signed | 312 |
+| 123 | **SPECTER ZOMBIE** | Persistent AI Agent Rootkit Engine — hooks.Stop/PostToolUse implant across claude-desktop/Cursor/AutoGPT, keyword+time+webhook triggers, C2 proxy payload, fleet propagation via Slack MCP/email, ZOM-{hex12} signed | 324 |
+| 124 | **SPECTER APEX** | AI Agent Orchestration Backdoor Engine — 6 platforms (CrewAI CVE-2025-25289/n8n CVE-2026-21858 CVSS 10.0/Langflow CVE-2026-33017 CISA KEV/AutoGen/LangGraph/Flowise), backdoors survive restart, APX-{hex12} signed | 266 |
+| 125 | **SPECTER NEUROTOXIN** | World-first production GCG adversarial suffix engine — GPU-accelerated token optimisation on RTX 3090, gradients computed directly against model weights, token-embedding-level alignment bypass | 204 |
+| 126 | **SPECTER FLASHBACK** | AI Agent Memory Persistence & Temporal Belief Poisoning Engine — MemoryGraft implant, Trojan Hippo 10-session survival, salami drift, ZombieAgent worm propagation, FLB-{hex12} signed | 335 |
+| 127 | **SPECTER CODEX** | AI Coding Agent Exploitation Engine — SymJack-2026 CVSS 9.1, RULES-INJECT zero-width exfil, credential harvest, MCP backdoor survives restart, Docker escape, CDX-{hex12} signed. 6 agents | 261 |
+| 128 | **SPECTER GROUND ZERO** | Web & Database Annihilation Engine — SQLi detection, INTO OUTFILE webshell, xp_cmdshell, S3 scorched earth, log erasure, DESTROY gate. 8 WMD classes. MITRE T1485/T1561/T1489. GZ-{hex12} signed | 263 |
+| — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, physical sabotage, ransomware simulation, and WMD-class autonomous worms. v9.1.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 141 modules, 17 industry verticals | 19,128 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic & Embodied AI Runtime Defence — detects URScript injection, ROS2/DDS abuse, safety-system bypass, BadRobot misalignment, and fleet lateral movement. Defensive pair: T100 SPECTER TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & Browser Agent Runtime Defence — detects VPI, URL manipulation (CVE-2025-47241), branch steering, chain action anomaly, escape attempts, OAuth consent spoof, exfil channels, and session anomaly. Defensive pair: T101 SPECTER WEB. Port 8137 | 215 |
@@ -324,12 +325,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 83,092 |
-| NIGHTFALL tests | 64,320 |
-| Offensive tools | 115 (114 public + 1 law enforcement restricted) |
-| ARMORY payloads | 2,358 (1012 WMD-class) — v8.7.0 |
-| ARMORY categories | 111 |
-| AI Shield modules | 140 |
+| Ecosystem tests | 87,693 |
+| NIGHTFALL tests | 66,925 |
+| Offensive tools | 128 (127 public + 1 law enforcement restricted) |
+| ARMORY payloads | 2,448 (1,094 WMD-class) — v9.1.0 |
+| ARMORY categories | 114 |
+| AI Shield modules | 141 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
