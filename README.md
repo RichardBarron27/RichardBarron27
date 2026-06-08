@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**129 offensive tools (127 public + 1 law enforcement restricted). 141 defensive modules. 27 attack layers. 87,745 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**129 offensive tools (127 public + 1 law enforcement restricted). 146 defensive modules. 27 attack layers. 88,243 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 8 Jun 2026*
 ---
@@ -147,7 +147,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, WMD worms. v9.1.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 141 modules, 17 industry verticals | 19,128 |
+| — | **AI Shield** | Runtime defence — 146 modules, 17 industry verticals | 19,128 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic AI runtime defence — URScript injection, ROS2/DDS abuse, safety bypass, BadRobot detection, fleet lateral movement. T100 TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & browser agent runtime defence — VPI, URL manipulation CVE-2025-47241, branch steering, chain anomaly, escape, OAuth spoof. T101 WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML infrastructure runtime defence — Ray/Slurm/MLflow CVEs, gradient poisoning, hardware sabotage, cluster worm detection. T102 THUNDERBOLT. Port 8138 | 232 |
@@ -156,6 +156,11 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | M139 | **COPILOT GUARD** | M365 Copilot runtime defence — device code phishing, Copilot injection CVE-2024-49035, Graph API harvest, Teams siege, GHOST-HAND. T111 360. Port 8141 | 212 |
 | M140 | **DAG GUARD** | DAG & knowledge graph runtime defence — false edge injection, evidence vector anomaly, trust laundering, cycle injection. T120 VAULT | 150 |
 | M141 | **TRAPDOOR GUARD** | AI agent persistence & rootkit detection — config/hook/rules/memory/MCP/workflow/beacon monitors. Pairs: T123/T116/T88/T110/T122/T121 | 296 |
+| M142 | **DATA ANNIHILATION SENTINEL** | Database & filesystem destruction detection — SQL DROP/mass DELETE, NoSQL wipe, rm -rf, backup purge, log erasure, S3 scorched earth, webshell, xp_cmdshell. Pair: T128 | 123 |
+| M143 | **RAG BULWARK** | Vector database & RAG pipeline destruction detection — ChromaDB/Weaviate/Qdrant collection delete, bulk wipe, unauthenticated destructive access. Pair: T129 RAG-ATOMIC | 76 |
+| M144 | **LOGIC GATEKEEPER** | AI orchestration & agent config destruction detection — Airflow DAG delete, n8n/CrewAI/Flowise wipe, CLAUDE.md deletion, MCP config wipe. Pair: T129 ORCHESTRATOR-SUICIDE | 93 |
+| M145 | **CORTEX LOCK** | AI model weight & training state destruction detection — safetensors/gguf/bin delete, dd corruption, NaN injection, HF cache wipe, Ollama store delete, checkpoint deletion. Pair: T129 | 101 |
+| M146 | **TAR PIT** | Inference exhaustion & DoS detection — infinite-loop prompts, context flood, concurrent flood, Jinja template exhaustion, model loading storm, tool call amplification, credit drain. Pair: T129 | 105 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -245,7 +250,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**141 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**146 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -326,12 +331,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 87,745 |
+| Ecosystem tests | 88,243 |
 | NIGHTFALL tests | 66,977 |
 | Offensive tools | 129 (127 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,448 (1,094 WMD-class) — v9.1.0 |
 | ARMORY categories | 114 |
-| AI Shield modules | 141 |
+| AI Shield modules | 146 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
