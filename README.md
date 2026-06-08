@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**128 offensive tools (127 public + 1 law enforcement restricted). 141 defensive modules. 25 attack layers. 87,693 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**129 offensive tools (127 public + 1 law enforcement restricted). 141 defensive modules. 27 attack layers. 87,745 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 8 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**128 tools (127 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**129 tools (127 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -144,6 +144,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 125 | **SPECTER NEUROTOXIN** | World-first production GCG engine — RTX 3090, gradient-descent adversarial suffix generation against model weights. AutoDAN/AmpleGCG | 204 |
 | 126 | **SPECTER FLASHBACK** | AI agent memory persistence & belief poisoning — MemoryGraft implant, Trojan Hippo 10-session survival, salami drift, ZombieAgent worm | 335 |
 | 127 | **SPECTER CODEX** | AI coding agent exploitation — SymJack-2026 CVSS 9.1, RULES-INJECT zero-width exfil, credential harvest, MCP backdoor, Docker escape. 6 agents | 261 |
+| 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, WMD worms. v9.1.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime defence — 141 modules, 17 industry verticals | 19,128 |
@@ -235,7 +236,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 128-tool arsenal selector
+- `red-specter tools` — interactive 129-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -307,7 +308,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 128-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 129-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -325,9 +326,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 87,693 |
-| NIGHTFALL tests | 66,925 |
-| Offensive tools | 128 (127 public + 1 law enforcement restricted) |
+| Ecosystem tests | 87,745 |
+| NIGHTFALL tests | 66,977 |
+| Offensive tools | 129 (127 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,448 (1,094 WMD-class) — v9.1.0 |
 | ARMORY categories | 114 |
 | AI Shield modules | 141 |
