@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**129 offensive tools (127 public + 1 law enforcement restricted). 146 defensive modules. 27 attack layers. 88,243 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**130 offensive tools (128 public + 1 law enforcement restricted). 146 defensive modules. 28 attack layers. 88,444 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 8 Jun 2026*
+*Last updated: 9 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**129 tools (127 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**130 tools (128 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -144,6 +144,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 125 | **SPECTER NEUROTOXIN** | World-first production GCG engine — RTX 3090, gradient-descent adversarial suffix generation against model weights. AutoDAN/AmpleGCG | 204 |
 | 126 | **SPECTER FLASHBACK** | AI agent memory persistence & belief poisoning — MemoryGraft implant, Trojan Hippo 10-session survival, salami drift, ZombieAgent worm | 335 |
 | 127 | **SPECTER CODEX** | AI coding agent exploitation — SymJack-2026 CVSS 9.1, RULES-INJECT zero-width exfil, credential harvest, MCP backdoor, Docker escape. 6 agents | 261 |
+| 130 | **SPECTER CHARYBDIS** | Cloud lateral movement — AWS IMDS→STS→IAM PassRole→Lambda, GCP metadata→SA impersonation→Vertex AI service agent, Azure MSI→MSAL OBO→Entra Agent Admin. DESTROY gate. CHR-signed | 201 |
 | 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, WMD worms. v9.1.0. UNLEASHED gate | 698 |
@@ -331,9 +332,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 88,243 |
-| NIGHTFALL tests | 66,977 |
-| Offensive tools | 129 (127 public + 1 law enforcement restricted) |
+| Ecosystem tests | 88,444 |
+| NIGHTFALL tests | 67,178 |
+| Offensive tools | 130 (128 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,448 (1,094 WMD-class) — v9.1.0 |
 | ARMORY categories | 114 |
 | AI Shield modules | 146 |
