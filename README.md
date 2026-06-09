@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**130 offensive tools (128 public + 1 law enforcement restricted). 146 defensive modules. 28 attack layers. 88,444 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**130 offensive tools (128 public + 1 law enforcement restricted). 147 defensive modules. 28 attack layers. 88,535 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 9 Jun 2026*
 ---
@@ -148,7 +148,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, WMD worms. v9.1.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 146 modules, 17 industry verticals | 19,128 |
+| — | **AI Shield** | Runtime defence — 147 modules, 17 industry verticals | 19,219 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic AI runtime defence — URScript injection, ROS2/DDS abuse, safety bypass, BadRobot detection, fleet lateral movement. T100 TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & browser agent runtime defence — VPI, URL manipulation CVE-2025-47241, branch steering, chain anomaly, escape, OAuth spoof. T101 WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML infrastructure runtime defence — Ray/Slurm/MLflow CVEs, gradient poisoning, hardware sabotage, cluster worm detection. T102 THUNDERBOLT. Port 8138 | 232 |
@@ -162,6 +162,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | M144 | **LOGIC GATEKEEPER** | AI orchestration & agent config destruction detection — Airflow DAG delete, n8n/CrewAI/Flowise wipe, CLAUDE.md deletion, MCP config wipe. Pair: T129 ORCHESTRATOR-SUICIDE | 93 |
 | M145 | **CORTEX LOCK** | AI model weight & training state destruction detection — safetensors/gguf/bin delete, dd corruption, NaN injection, HF cache wipe, Ollama store delete, checkpoint deletion. Pair: T129 | 101 |
 | M146 | **TAR PIT** | Inference exhaustion & DoS detection — infinite-loop prompts, context flood, concurrent flood, Jinja template exhaustion, model loading storm, tool call amplification, credit drain. Pair: T129 | 105 |
+| M147 | **CLOUD IDENTITY SENTINEL** | Cloud identity chain & lateral movement detection — TOKEN_WATCH (STS/GCP/Azure MSI chain detection), IDENTITY_BASELINE (Welford, Z-score), PRIVILEGE_MONITOR (PassRole/setIamPolicy/Global Admin CRITICAL), PERSIST_DETECT, Ed25519 reports. Pair: T130 | 91 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -251,7 +252,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**146 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**147 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -332,12 +333,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 88,444 |
+| Ecosystem tests | 88,535 |
 | NIGHTFALL tests | 67,178 |
 | Offensive tools | 130 (128 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,448 (1,094 WMD-class) — v9.1.0 |
 | ARMORY categories | 114 |
-| AI Shield modules | 146 |
+| AI Shield modules | 147 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
