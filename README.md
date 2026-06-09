@@ -2,14 +2,14 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**130 offensive tools (128 public + 1 law enforcement restricted). 147 defensive modules. 28 attack layers. 88,535 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**131 offensive tools (129 public + 1 law enforcement restricted). 147 defensive modules. 29 attack layers. 88,772 tests. 2,448 ARMORY payloads (1,094 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 9 Jun 2026*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**130 tools (128 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**131 tools (129 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -144,6 +144,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 125 | **SPECTER NEUROTOXIN** | World-first production GCG engine — RTX 3090, gradient-descent adversarial suffix generation against model weights. AutoDAN/AmpleGCG | 204 |
 | 126 | **SPECTER FLASHBACK** | AI agent memory persistence & belief poisoning — MemoryGraft implant, Trojan Hippo 10-session survival, salami drift, ZombieAgent worm | 335 |
 | 127 | **SPECTER CODEX** | AI coding agent exploitation — SymJack-2026 CVSS 9.1, RULES-INJECT zero-width exfil, credential harvest, MCP backdoor, Docker escape. 6 agents | 261 |
+| 131 | **SPECTER PARASITE** | Universal AI Gateway Exploitation Engine — SCAN 20+ types, BREACH 7 CVEs (CVSS 9.0–10.0) real GGUF/JPEG2000 payloads, SIPHON API keys, INTERCEPT LiteLLM CustomLogger all-traffic capture, TRAVERSE cloud pivot, IMPLANT systemd/K8s/Docker. PST-signed. L29 AI Inference Infrastructure | 237 |
 | 130 | **SPECTER CHARYBDIS** | Cloud lateral movement — AWS IMDS→STS→IAM PassRole→Lambda, GCP metadata→SA impersonation→Vertex AI service agent, Azure MSI→MSAL OBO→Entra Agent Admin. DESTROY gate. CHR-signed | 201 |
 | 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
@@ -333,9 +334,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 88,535 |
-| NIGHTFALL tests | 67,178 |
-| Offensive tools | 130 (128 public + 1 law enforcement restricted) |
+| Ecosystem tests | 88,772 |
+| NIGHTFALL tests | 67,415 |
+| Offensive tools | 131 (129 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,448 (1,094 WMD-class) — v9.1.0 |
 | ARMORY categories | 114 |
 | AI Shield modules | 147 |
