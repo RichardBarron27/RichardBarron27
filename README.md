@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**132 offensive tools (130 public + 1 law enforcement restricted). 153 defensive modules. 30 attack layers. 89,496 tests. 2,538 ARMORY payloads (1,192 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**132 offensive tools (130 public + 1 law enforcement restricted). 156 defensive modules. 30 attack layers. 89,694 tests. 2,538 ARMORY payloads (1,192 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 10 Jun 2026 — M151/M152/M153*
+*Last updated: 10 Jun 2026 — M154/M155/M156*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
@@ -150,7 +150,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, WMD worms. v9.1.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 153 modules, 17 industry verticals | 19,412 |
+| — | **AI Shield** | Runtime defence — 156 modules, 17 industry verticals | 19,610 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic AI runtime defence — URScript injection, ROS2/DDS abuse, safety bypass, BadRobot detection, fleet lateral movement. T100 TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & browser agent runtime defence — VPI, URL manipulation CVE-2025-47241, branch steering, chain anomaly, escape, OAuth spoof. T101 WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML infrastructure runtime defence — Ray/Slurm/MLflow CVEs, gradient poisoning, hardware sabotage, cluster worm detection. T102 THUNDERBOLT. Port 8138 | 232 |
@@ -171,6 +171,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | M151 | **REASONING COST GUARD** | Full reasoning cost amplification layer — token ratio by model (o3/o1/deepseek-r1), OverThink arXiv:2502.02542, ExtendAttack arXiv:2506.13737 poly-base obfuscation, BadThink arXiv:2511.10714, ThinkTrap arXiv:2512.07086, 8-gram loop detect, sliding-window USD burn rate. T135 OVERLOAD. Port 8151 | 66 |
 | M152 | **SKILL REGISTRY SENTINEL** | Full AI skill/plugin supply chain layer — SHA-256 tamper detect, AMOS stealer signatures (ClawHavoc Feb 2026), CVE-2026-25253 CVSS 8.8 gatewayUrl RCE, dangerous scheme/SSRF/C2 detection, payload scan (cred harvest/revshell/exfil/persist), name-squatting SequenceMatcher. T136 CLAWMARK. Port 8152 | 61 |
 | M153 | **BACKGROUND EXECUTION MONITOR** | Full background execution & memory pollution layer — memory injection/semantic bridge/entity masquerade (MemPoison arXiv:2605.29960), Heartbeat attack arXiv:2603.23064 (91% promotion), process detection, write rate anomaly, TF cosine session drift, feed injection (email/Slack/RSS/GitHub). T137 HEARTBEAT. Port 8153 | 66 |
+| M154 | **ADVERSARIAL INPUT DETECTOR** | Full input-layer attack surface — GCG arXiv:2307.15043 adversarial suffix detection, AutoDAN arXiv:2310.04451 roleplay+harmful combos, character entropy proxy CRITICAL >5.2 bits/char, DAN/developer mode/SYSTEM injection CRITICAL, many-shot/token-completion jailbreaks, BiDi/zero-width/tag-char Unicode obfuscation, base64/hex/ROT13/URL encoding attacks. T125 NEUROTOXIN. Port 8154 | 69 |
+| M155 | **SOC AI INTEGRITY MONITOR** | Full SOC AI attack surface — FP flooding CRITICAL >100/HIGH >50 events/60s (T119 VIPER), SHA-256 rule integrity for Sigma/YARA/KQL/SPL, SIEM event tamper/future-timestamp/field injection CRITICAL, direct AI analyst manipulation CRITICAL, SOC weaponisation execute-now CRITICAL, confidence drain via false-positive claims. T119 VIPER. Port 8155 | 64 |
+| M156 | **KNOWLEDGE INFRASTRUCTURE SENTINEL** | Full knowledge layer attack surface — RAG/document injection CRITICAL (MemPoison arXiv:2605.29960 semantic bridges), vector DB destructive ops CRITICAL, embedding drift via Welford online algorithm CRITICAL >3.5σ, DFS cycle detection KNOWLEDGE_CYCLE_INJECTION CRITICAL, DAG false edge injection, confidence weight anomaly. T120 VAULT. Port 8156 | 65 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -341,7 +344,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 89,496 |
+| Ecosystem tests | 89,694 |
 | NIGHTFALL tests | 67,625 |
 | Offensive tools | 132 (130 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,538 (1,192 WMD-class) — v9.4.0 |
