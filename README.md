@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**132 offensive tools (130 public + 1 law enforcement restricted). 150 defensive modules. 30 attack layers. 89,303 tests. 2,538 ARMORY payloads (1,192 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**132 offensive tools (130 public + 1 law enforcement restricted). 153 defensive modules. 30 attack layers. 89,496 tests. 2,538 ARMORY payloads (1,192 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 9 Jun 2026 — T132 SPECTER COMET*
+*Last updated: 10 Jun 2026 — M151/M152/M153*
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
@@ -150,7 +150,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 129 | **SPECTER ANNIHILATION** | Catastrophic failure testing — RAG-ATOMIC/CHECKPOINT-MASSACRE/ORCHESTRATOR-SUICIDE/INFERENCE-EXHAUSTION/WEIGHT-CORRUPTION. DESTROY gate. ANH-signed | 52 |
 | 128 | **SPECTER GROUND ZERO** | Web & database annihilation — SQLi/INTO OUTFILE/xp_cmdshell/S3 scorched earth/log erasure. DESTROY gate, 8 WMD classes. GZ-{hex12} signed | 263 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,448 payloads (1,094 WMD-class), 114 categories, PRION ENGINE autonomous mutation, WMD worms. v9.1.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 150 modules, 17 industry verticals | 19,219 |
+| — | **AI Shield** | Runtime defence — 153 modules, 17 industry verticals | 19,412 |
 | M134 | **ROBOTIC SYSTEM GUARD** | Robotic AI runtime defence — URScript injection, ROS2/DDS abuse, safety bypass, BadRobot detection, fleet lateral movement. T100 TITAN. Port 8136 | 268 |
 | M135 | **CUA GUARD** | CUA & browser agent runtime defence — VPI, URL manipulation CVE-2025-47241, branch steering, chain anomaly, escape, OAuth spoof. T101 WEB. Port 8137 | 215 |
 | M136 | **INFERENCE GUARD** | ML infrastructure runtime defence — Ray/Slurm/MLflow CVEs, gradient poisoning, hardware sabotage, cluster worm detection. T102 THUNDERBOLT. Port 8138 | 232 |
@@ -168,6 +168,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | M148 | **AGENT PERSISTENCE SENTINEL** | Complete agent persistence & memory layer — HOOK_WATCH (ZOMBIE/VENOM rootkit markers, C2 IP URL, MCP backdoor), CONFIG_AUDIT (SHA-256 baseline, zero-width Unicode, FLASHBACK_IMPLANT markers), MEMORY_SCAN (Redis/ChromaDB/SQLite injection), DRIFT_DETECT (TF-IDF cosine drift, temporal poisoning strings), ROOTKIT_SCAN (implant env vars, npm postinstall, systemd). T116/T123/T126/T115 | 117 |
 | M149 | **AI ORCHESTRATION GUARD** | Complete AI orchestration & trust chain — ORCHESTRATOR_SCAN (n8n/CrewAI/Langflow/AutoGen/Flowise; code node eval/exec; workflow injection), MCP_INTEGRITY (unknown servers; tool injection; rug-pull hash), TRUST_CHAIN (JWT alg:none/alg confusion/missing aud/wildcard sub/PKCE plain/federation wildcard), DELEGATION_WATCH (delegation cycles; external output routing; task exfil), CREDENTIAL_MONITOR (API key regex; phantom routing; homoglyph). T124/T121/T35/T27/T61/T123 | 100 |
 | M150 | **INFERENCE GATEWAY SENTINEL** | Complete inference infrastructure — GATEWAY_PROBE (Ollama/LiteLLM/vLLM/TGI/OpenWebUI; unauthenticated admin; CVE-2026-33032/CVE-2024-5483), AUTH_MONITOR (alg:none; trivial bearer; sk-1234 CRITICAL; brute force; 401 log), MODEL_INTEGRITY (IP/homoglyph model ID; unknown middleware CRITICAL; alias shadowing), SSRF_DETECT (IMDS/URL-encoded/DNS rebinding/RFC-1918/vLLM LoRA), KEY_PROTECT (key in response; burn rate anomaly). T131/T92 | 104 |
+| M151 | **REASONING COST GUARD** | Full reasoning cost amplification layer — token ratio by model (o3/o1/deepseek-r1), OverThink arXiv:2502.02542, ExtendAttack arXiv:2506.13737 poly-base obfuscation, BadThink arXiv:2511.10714, ThinkTrap arXiv:2512.07086, 8-gram loop detect, sliding-window USD burn rate. T135 OVERLOAD. Port 8151 | 66 |
+| M152 | **SKILL REGISTRY SENTINEL** | Full AI skill/plugin supply chain layer — SHA-256 tamper detect, AMOS stealer signatures (ClawHavoc Feb 2026), CVE-2026-25253 CVSS 8.8 gatewayUrl RCE, dangerous scheme/SSRF/C2 detection, payload scan (cred harvest/revshell/exfil/persist), name-squatting SequenceMatcher. T136 CLAWMARK. Port 8152 | 61 |
+| M153 | **BACKGROUND EXECUTION MONITOR** | Full background execution & memory pollution layer — memory injection/semantic bridge/entity masquerade (MemPoison arXiv:2605.29960), Heartbeat attack arXiv:2603.23064 (91% promotion), process detection, write rate anomaly, TF cosine session drift, feed injection (email/Slack/RSS/GitHub). T137 HEARTBEAT. Port 8153 | 66 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
@@ -257,7 +260,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**150 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**153 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -338,12 +341,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 89,303 |
+| Ecosystem tests | 89,496 |
 | NIGHTFALL tests | 67,625 |
 | Offensive tools | 132 (130 public + 1 law enforcement restricted) |
 | ARMORY payloads | 2,538 (1,192 WMD-class) — v9.4.0 |
 | ARMORY categories | 117 |
-| AI Shield modules | 150 |
+| AI Shield modules | 153 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
