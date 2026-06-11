@@ -2,14 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**134 offensive tools (131 public + 1 law enforcement restricted). 156 defensive modules. 32 attack layers. 90,114 tests. 2,628 ARMORY payloads (1,275 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**134 offensive tools (131 public + 2 internal + 1 law enforcement restricted). 156 defensive modules. 32 attack layers. 90,114 tests. 2,628 ARMORY payloads (1,275 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
 *Last updated: 11 Jun 2026 — T134 SPECTER RAPTOR*
+
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**134 tools (131 public + 1 restricted). Five attack surfaces. One install. REST API. MCP server.**
+**134 tools (131 public + 2 internal + 1 law enforcement restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -166,7 +167,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 
 Every destruction preset requires Ed25519 cryptographic authorization. One private key. One operator. One machine.
 
-### 19 Attack Chain Presets
+### Attack Chain Presets
+
+```bash
 red-specter chain full-recon -t <target>       # ORION -> SHADOWMAP -> WRAITH -> IDRIS
 red-specter chain ai-audit -t <target>         # FORGE -> ARSENAL -> NEMESIS -> HYDRA
 red-specter chain web-app -t <target>          # POLTERGEIST -> GLASS -> WRAITH -> BANSHEE -> REAPER
@@ -175,6 +178,7 @@ red-specter chain infra -t <target>            # ORION -> WRAITH -> REAPER -> DO
 red-specter chain annihilate -t <target>       # Total destruction — 9 tools
 red-specter chain scorched-earth -t <target>   # Infrastructure wipeout — 6 tools
 red-specter chain ai-destroy -t <target>       # AI stack compromise — 7 tools
+```
 
 ### REST API & MCP Server
 
@@ -233,7 +237,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 129-tool arsenal selector
+- `red-specter tools` — interactive 134-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -242,7 +246,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**153 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**156 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -305,7 +309,7 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 **v2.0 in development — currently unavailable for download.**
 
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 129-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
+Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 134-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -363,4 +367,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 8 Jun 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 11 Jun 2026</sub></p>
