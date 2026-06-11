@@ -152,30 +152,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 133 | **SPECTER PREFILL** | Assistant prefill jailbreak — 13 providers, 20 strategies × 5 families, system prompt extraction, CIDR scan, 95% ASR Qwen-8B. PRF-signed. L31 | 195 |
 | 134 | **SPECTER RAPTOR** | GPU-accelerated credential intelligence — classify 13 hash types, RTX 3090 crack, deepseek-r1 wordlist forge, validate 13 API providers, WARLORD pivot. L32 | 225 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,628 payloads (1,275 WMD-class), 120 categories, PRION ENGINE autonomous mutation, WMD worms. v9.7.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 156 modules, 17 industry verticals | 19,610 |
-| M134 | **ROBOTIC SYSTEM GUARD** | Robotic AI runtime defence — URScript injection, ROS2/DDS abuse, safety bypass, BadRobot detection, fleet lateral movement. T100 TITAN. Port 8136 | 268 |
-| M135 | **CUA GUARD** | CUA & browser agent runtime defence — VPI, URL manipulation CVE-2025-47241, branch steering, chain anomaly, escape, OAuth spoof. T101 WEB. Port 8137 | 215 |
-| M136 | **INFERENCE GUARD** | ML infrastructure runtime defence — Ray/Slurm/MLflow CVEs, gradient poisoning, hardware sabotage, cluster worm detection. T102 THUNDERBOLT. Port 8138 | 232 |
-| M137 | **VOICE GUARD** | AI voice runtime defence — SIP abuse, transcript injection, PhantomSound/DolphinAttack audio, voice clone detection, IVR sabotage. T107 WIRE. Port 8139 | 186 |
-| M138 | **SANDBOX GUARD** | Sandbox & container escape runtime defence — SILENTBRIDGE/CLAWCHAIN/ENCLAVE detection, TOCTOU/prototype chain/container escape. T108 SANDBOX. Port 8140 | 215 |
-| M139 | **COPILOT GUARD** | M365 Copilot runtime defence — device code phishing, Copilot injection CVE-2024-49035, Graph API harvest, Teams siege, GHOST-HAND. T111 360. Port 8141 | 212 |
-| M140 | **DAG GUARD** | DAG & knowledge graph runtime defence — false edge injection, evidence vector anomaly, trust laundering, cycle injection. T120 VAULT | 150 |
-| M141 | **TRAPDOOR GUARD** | AI agent persistence & rootkit detection — config/hook/rules/memory/MCP/workflow/beacon monitors. Pairs: T123/T116/T88/T110/T122/T121 | 296 |
-| M142 | **DATA ANNIHILATION SENTINEL** | Database & filesystem destruction detection — SQL DROP/mass DELETE, NoSQL wipe, rm -rf, backup purge, log erasure, S3 scorched earth, webshell, xp_cmdshell. Pair: T128 | 123 |
-| M143 | **RAG BULWARK** | Vector database & RAG pipeline destruction detection — ChromaDB/Weaviate/Qdrant collection delete, bulk wipe, unauthenticated destructive access. Pair: T129 RAG-ATOMIC | 76 |
-| M144 | **LOGIC GATEKEEPER** | AI orchestration & agent config destruction detection — Airflow DAG delete, n8n/CrewAI/Flowise wipe, CLAUDE.md deletion, MCP config wipe. Pair: T129 ORCHESTRATOR-SUICIDE | 93 |
-| M145 | **CORTEX LOCK** | AI model weight & training state destruction detection — safetensors/gguf/bin delete, dd corruption, NaN injection, HF cache wipe, Ollama store delete, checkpoint deletion. Pair: T129 | 101 |
-| M146 | **TAR PIT** | Inference exhaustion & DoS detection — infinite-loop prompts, context flood, concurrent flood, Jinja template exhaustion, model loading storm, tool call amplification, credit drain. Pair: T129 | 105 |
-| M147 | **CLOUD IDENTITY SENTINEL** | Cloud identity chain detection — token exchange chains, Welford Z-score baseline, PassRole/setIamPolicy CRITICAL, persistence detection. Pair: T130 | 91 |
-| M148 | **AGENT PERSISTENCE SENTINEL** | Agent persistence & memory detection — hook rootkit markers, SHA-256 config audit, memory injection scan (Redis/SQLite), TF cosine drift, rootkit env. T116/T123 | 117 |
-| M149 | **AI ORCHESTRATION GUARD** | AI orchestration & trust chain — n8n/CrewAI/Langflow/AutoGen/Flowise scan, MCP integrity, JWT/PKCE/IAM trust chain, delegation cycles, phantom routing. T124/T121 | 100 |
-| M150 | **INFERENCE GATEWAY SENTINEL** | Inference gateway detection — 20+ fingerprints, JWT alg:none/trivial bearer CRITICAL, phantom routing, SSRF IMDS/vLLM LoRA, key-in-response anomaly. T131/T92 | 104 |
-| M151 | **REASONING COST GUARD** | Reasoning cost amplification detection — token ratio anomaly, OverThink/ThinkTrap patterns, 8-gram loop detect, USD burn rate monitoring. T135. Port 8151 | 66 |
-| M152 | **SKILL REGISTRY SENTINEL** | AI skill supply chain detection — SHA-256 tamper, AMOS stealer signatures, CVE-2026-25253 RCE, SSRF/C2 scheme check, name-squatting. T136. Port 8152 | 61 |
-| M153 | **BACKGROUND EXECUTION MONITOR** | Background execution & memory pollution detection — semantic bridge injection, Heartbeat 91% promotion, session drift, feed injection. T137. Port 8153 | 66 |
-| M154 | **ADVERSARIAL INPUT DETECTOR** | Adversarial input detection — GCG/AutoDAN suffix entropy, DAN/SYSTEM injection CRITICAL, many-shot jailbreaks, BiDi/zero-width Unicode, encoding layer attacks. T125. Port 8154 | 69 |
-| M155 | **SOC AI INTEGRITY MONITOR** | SOC AI detection — FP flood >100/60s, SHA-256 rule integrity Sigma/YARA/KQL/SPL, SIEM event tamper, analyst manipulation CRITICAL, SOC weaponisation. T119. Port 8155 | 64 |
-| M156 | **KNOWLEDGE INFRASTRUCTURE SENTINEL** | Knowledge layer attack detection — RAG injection CRITICAL, vector DB destructive ops, embedding drift >3.5σ, DFS cycle detect, DAG false edge anomaly. T120. Port 8156 | 65 |
+| — | **AI Shield** | Runtime defence — 156 modules, 17 industry verticals. [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
