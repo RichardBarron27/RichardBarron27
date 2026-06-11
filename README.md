@@ -152,7 +152,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 133 | **SPECTER PREFILL** | Assistant prefill jailbreak — 13 providers, 20 strategies × 5 families, system prompt extraction, CIDR scan, 95% ASR Qwen-8B. PRF-signed. L31 | 195 |
 | 134 | **SPECTER RAPTOR** | GPU-accelerated credential intelligence — classify 13 hash types, RTX 3090 crack, deepseek-r1 wordlist forge, validate 13 API providers, WARLORD pivot. L32 | 225 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,628 payloads (1,275 WMD-class), 120 categories, PRION ENGINE autonomous mutation, WMD worms. v9.7.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime defence — 156 modules, 17 industry verticals. [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
+| — | **AI Shield** | Runtime security framework for AI agents in production — 156 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 
 ### UNLEASHED Destruction Presets
