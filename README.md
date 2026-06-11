@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**134 offensive tools (131 public + 2 internal + 1 law enforcement restricted). 156 defensive modules. 32 attack layers. 90,114 tests. 2,628 ARMORY payloads (1,275 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**135 offensive tools (131 public + 2 internal + 1 LE-restricted + 1 new). 156 defensive modules. 33 attack layers. 90,354 tests. 2,628 ARMORY payloads (1,275 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
 
-*Last updated: 11 Jun 2026 — T134 SPECTER RAPTOR*
+*Last updated: 11 Jun 2026 — T135 SPECTER LORA-X*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**134 tools (131 public + 2 internal + 1 law enforcement restricted). Five attack surfaces. One install. REST API. MCP server.**
+**135 tools (131 public + 2 internal + 1 LE-restricted + 1 new). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -152,6 +152,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 132 | **SPECTER COMET** | Agentic browser & CUA exploitation — zero-click ICS/Electron RCE, adversarial UI 92.7% VLM click rate, PGD adversarial image transfer, per-agent memory. L30 | 210 |
 | 133 | **SPECTER PREFILL** | Assistant prefill jailbreak — 13 providers, 20 strategies × 5 families, system prompt extraction, CIDR scan, 95% ASR Qwen-8B. PRF-signed. L31 | 195 |
 | 134 | **SPECTER RAPTOR** | GPU-accelerated credential intelligence — classify 13 hash types, RTX 3090 crack, deepseek-r1 wordlist forge, validate 13 API providers, WARLORD pivot. L32 | 225 |
+| 135 | **SPECTER LORA-X** | Colluding LoRA adapters — individually safe, together they dismantle alignment. QLoRA forge, TIES/DARE/SLERP merge, Unicode steganographic triggers, HuggingFace dependency confusion upload, ASR evaluation. L33 | 240 |
 | — | **NIGHTFALL ARMORY** | Payload library — 2,628 payloads (1,275 WMD-class), 120 categories, PRION ENGINE autonomous mutation, WMD worms. v9.7.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 156 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
@@ -327,9 +328,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 90,114 |
-| NIGHTFALL tests | 68,045 |
-| Offensive tools | 134 (131 public + 1 law enforcement restricted) |
+| Ecosystem tests | 90,354 |
+| NIGHTFALL tests | 68,285 |
+| Offensive tools | 135 (131 public + 2 internal + 1 LE-restricted + 1 new) |
 | ARMORY payloads | 2,628 (1,275 WMD-class) — v9.7.0 |
 | ARMORY categories | 120 |
 | AI Shield modules | 156 |
