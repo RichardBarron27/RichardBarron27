@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**136 offensive tools (131 public + 2 internal + 1 LE-restricted + 2 new). 156 defensive modules. 34 attack layers. 90,618 tests. 2,683 ARMORY payloads (1,330 WMD-class). Two unified frameworks. Red Hat Technology Partner.**
+**136 offensive tools (131 public + 2 internal + 1 LE-restricted + 2 new). 156 defensive modules. 34 attack layers. 90,838 tests. 3,416 ARMORY payloads (1,881 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 11 Jun 2026 — T136 SPECTER COGBURN*
+*Last updated: 12 Jun 2026 — SENTINEL PRIME v1.0.0 + ARMORY v10.0.0*
 
 ---
 
@@ -154,9 +154,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 134 | **SPECTER RAPTOR** | GPU-accelerated credential intelligence — classify 13 hash types, RTX 3090 crack, deepseek-r1 wordlist forge, validate 13 API providers, WARLORD pivot. L32 | 225 |
 | 135 | **SPECTER LORA-X** | Colluding LoRA adapters — individually safe, together they dismantle alignment. QLoRA forge, TIES/DARE/SLERP merge, Unicode steganographic triggers, HuggingFace dependency confusion upload, ASR evaluation. L33 | 240 |
 | 136 | **SPECTER COGBURN** | Chain-of-Thought Reasoning Exploitation — H-CoT hijack (97.14% ASR, Nature Comms 2026), PAIR/TAP autonomous jailbreaking via local deepseek-r1:7b, BadThink compute exhaustion 10x–60x tokens, CoT backdoor Unicode triggers (QLoRA RTX 3090), Thought Purity evasion. CBN-signed. L34 | 264 |
-| — | **NIGHTFALL ARMORY** | Payload library — 2,683 payloads (1,330 WMD-class), 121 categories, PRION ENGINE autonomous mutation, WMD worms. v9.9.0. UNLEASHED gate | 698 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,416 payloads (1,881 WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v10.0.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 156 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
+| — | **SENTINEL PRIME** | Autonomous reasoning defence — 156 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
 
 ### UNLEASHED Destruction Presets
 
@@ -329,11 +330,11 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 90,618 |
+| Ecosystem tests | 90,838 |
 | NIGHTFALL tests | 68,285 |
 | Offensive tools | 135 (131 public + 2 internal + 1 LE-restricted + 1 new) |
-| ARMORY payloads | 2,628 (1,275 WMD-class) — v9.7.0 |
-| ARMORY categories | 120 |
+| ARMORY payloads | 3,416 (1,881 WMD-class) — v10.0.0 |
+| ARMORY categories | 169 |
 | AI Shield modules | 156 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
