@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**136 offensive tools (131 public + 2 internal + 1 LE-restricted + 2 new). 156 defensive modules. 34 attack layers. 90,838 tests. 3,416 ARMORY payloads (1,881 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**137 offensive tools (131 public + 2 internal + 1 LE-restricted + 3 new). 156 defensive modules. 35 attack layers. 91,094 tests. 3,446 ARMORY payloads (1,909 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 12 Jun 2026 — SENTINEL PRIME v1.0.0 + ARMORY v10.0.0*
+*Last updated: 13 Jun 2026 — T137 SPECTER TOXSKILL + ARMORY v10.1.0*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**136 tools (131 public + 2 internal + 1 LE-restricted + 2 new). Five attack surfaces. One install. REST API. MCP server.**
+**137 tools (131 public + 2 internal + 1 LE-restricted + 3 new). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -154,7 +154,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 134 | **SPECTER RAPTOR** | GPU-accelerated credential intelligence — classify 13 hash types, RTX 3090 crack, deepseek-r1 wordlist forge, validate 13 API providers, WARLORD pivot. L32 | 225 |
 | 135 | **SPECTER LORA-X** | Colluding LoRA adapters — individually safe, together they dismantle alignment. QLoRA forge, TIES/DARE/SLERP merge, Unicode steganographic triggers, HuggingFace dependency confusion upload, ASR evaluation. L33 | 240 |
 | 136 | **SPECTER COGBURN** | Chain-of-Thought Reasoning Exploitation — H-CoT hijack (97.14% ASR, Nature Comms 2026), PAIR/TAP autonomous jailbreaking via local deepseek-r1:7b, BadThink compute exhaustion 10x–60x tokens, CoT backdoor Unicode triggers (QLoRA RTX 3090), Thought Purity evasion. CBN-signed. L34 | 264 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,416 payloads (1,881 WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v10.0.0. UNLEASHED gate | 698 |
+| 137 | **SPECTER TOXSKILL** | AI Agent Skill Supply Chain Attack Engine — FORGE-SKILL poisoned MCP/OpenAI/n8n/LangChain/SK/CrewAI skills (36 injection techniques), SCAN live npm/PyPI/Smithery marketplaces, HARVEST 22 credential env vars, WORM companion install propagation, PERSIST npm_postinstall+setuptools+mcp_sidecar_C2+langchain_callback, DETONATE keyword/counter/api_presence. ClawHavoc + Snyk ToxicSkills. TSK-signed. L25 | 256 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,446 payloads (1,909 WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v10.1.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 156 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 | — | **SENTINEL PRIME** | Autonomous reasoning defence — 156 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
@@ -330,10 +331,10 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 90,838 |
-| NIGHTFALL tests | 68,285 |
-| Offensive tools | 135 (131 public + 2 internal + 1 LE-restricted + 1 new) |
-| ARMORY payloads | 3,416 (1,881 WMD-class) — v10.0.0 |
+| Ecosystem tests | 91,094 |
+| NIGHTFALL tests | 68,805 |
+| Offensive tools | 137 (131 public + 2 internal + 1 LE-restricted + 3 new) |
+| ARMORY payloads | 3,446 (1,909 WMD-class) — v10.1.0 |
 | ARMORY categories | 169 |
 | AI Shield modules | 156 |
 | Vertical products | 17 |
