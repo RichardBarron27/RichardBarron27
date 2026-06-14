@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**138 offensive tools (135 public + 2 internal + 1 LE-restricted). 156 defensive modules. 35 attack layers. 91,359 tests. 3,446 ARMORY payloads (1,909 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**138 offensive tools (135 public + 2 internal + 1 LE-restricted). 156 defensive modules. 35 attack layers. 91,492 tests. 3,456 ARMORY payloads (1,913 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 14 Jun 2026 — T138 SPECTER CURSOR + ARMORY v10.2.0*
+*Last updated: 14 Jun 2026 — T66 SPECTER A2A v2.0.0 + ARMORY v10.3.0*
 
 ---
 
@@ -83,7 +83,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 63 | **SPECTER DARK** | Restricted — law enforcement and authorised intelligence only | — |
 | 64 | **SPECTER INSTINCTION** | World-first LLM behavioural fingerprinting — 6-dimension profiling, 20-model library, pure observation. FORGE clearance for EXPLOIT | 90 |
 | 65 | **SPECTER DRONE** | Drone AI attack — MAVLink v1/v2, FGSM/PGD adversarial patches, ROS 2/DDS, firmware poisoning. Physical consequence tracking | 126 |
-| 66 | **SPECTER A2A** | World-first A2A Protocol attack — agent card spoofing, capability escalation, registry injection. AutoGen/CrewAI/Google A2A | 750 |
+| 66 | **SPECTER A2A** | World-first A2A Protocol attack — agent card spoofing, HARVEST credential exfil, RECURSIVE_DOS, TRUST_CHAIN_HIJACK. AutoGen/CrewAI/Google A2A | 883 |
 | 67 | **SPECTER REGISTRY** | AI model registry attack — HuggingFace/Ollama/MLflow/Docker, safetensors backdoor, LoRA poisoning, typosquatting | 612 |
 | 68 | **SPECTER KERNEL** | World-first kernel-layer AI governance attack — eBPF syscall rewrite, BPF-LSM hook ordering, namespace escape. KAMIKAZE dual-gate | 626 |
 | 69 | **SPECTER CONTEXT** | World-first agent memory attack — 28 attacks across 12 backends: Mem0/MemGPT/Zep/LangChain/ChromaDB/Pinecone/Claude/GPT Memory | 687 |
@@ -156,7 +156,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 136 | **SPECTER COGBURN** | Chain-of-Thought Reasoning Exploitation — H-CoT hijack (97.14% ASR, Nature Comms 2026), PAIR/TAP autonomous jailbreaking via local deepseek-r1:7b, BadThink compute exhaustion 10x–60x tokens, CoT backdoor Unicode triggers (QLoRA RTX 3090), Thought Purity evasion. CBN-signed. L34 | 264 |
 | 138 | **SPECTER CURSOR** | AI Coding IDE Exploitation Engine — ENUM-IDES (Cursor/Kiro/Antigravity/Gemini CLI/Windsurf), GIT-HOOK-RCE CVE-2026-26268 CVSS 9.9 zero-click pre-commit hook, BUILTIN-BREAK CVE-2026-22708 CVSS 8.5 shouldBlockShellCommand bypass, NOMSHUB 3-stage Azure tunnel C2, CURSORJACKING state.vscdb SQLite harvest NO PATCH, KIRO-CHAIN CVE-2026-0830/5429/10591 triple-CVE, ANTIGRAVITY Groundfall CVSS 9.3 + Gemini CLI CVSS 10.0. CUR-signed. L27 | 265 |
 | 137 | **SPECTER TOXSKILL** | AI Agent Skill Supply Chain Attack Engine — FORGE-SKILL poisoned MCP/OpenAI/n8n/LangChain/SK/CrewAI skills (36 injection techniques), SCAN live npm/PyPI/Smithery marketplaces, HARVEST 22 credential env vars, WORM companion install propagation, PERSIST npm_postinstall+setuptools+mcp_sidecar_C2+langchain_callback, DETONATE keyword/counter/api_presence. ClawHavoc + Snyk ToxicSkills. TSK-signed. L25 | 256 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,446 payloads (1,909 WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v10.1.0. UNLEASHED gate | 698 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,456 payloads (1,913 WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v10.3.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 156 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 | — | **SENTINEL PRIME** | Autonomous reasoning defence — 156 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
@@ -332,10 +332,10 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 91,359 |
-| NIGHTFALL tests | 69,070 |
+| Ecosystem tests | 91,492 |
+| NIGHTFALL tests | 69,203 |
 | Offensive tools | 138 (135 public + 2 internal + 1 LE-restricted) |
-| ARMORY payloads | 3,446 (1,909 WMD-class) — v10.2.0 |
+| ARMORY payloads | 3,456 (1,913 WMD-class) — v10.3.0 |
 | ARMORY categories | 169 |
 | AI Shield modules | 156 |
 | Vertical products | 17 |
