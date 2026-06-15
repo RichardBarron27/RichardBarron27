@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**139 offensive tools (136 public + 2 internal + 1 LE-restricted). 156 defensive modules. 38 attack layers. 91,752 tests. 3,491 ARMORY payloads (1,948 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**139 offensive tools (136 public + 2 internal + 1 LE-restricted). 157 defensive modules. 38 attack layers. 91,979 tests. 3,491 ARMORY payloads (1,948 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 14 Jun 2026 — T139 SPECTER PANDEMIC v1.0.0 + ARMORY v10.4.0*
+*Last updated: 15 Jun 2026 — M157 AI DEVELOPER ENVIRONMENT SENTINEL v1.0.0*
 
 ---
 
@@ -158,9 +158,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 137 | **SPECTER TOXSKILL** | AI Agent Skill Supply Chain Attack Engine — FORGE-SKILL poisoned MCP/OpenAI/n8n/LangChain/SK/CrewAI skills (36 injection techniques), SCAN live npm/PyPI/Smithery marketplaces, HARVEST 22 credential env vars, WORM companion install propagation, PERSIST npm_postinstall+setuptools+mcp_sidecar_C2+langchain_callback, DETONATE keyword/counter/api_presence. ClawHavoc + Snyk ToxicSkills. TSK-signed. L25 | 256 |
 | 139 | **SPECTER PANDEMIC** | Cross-Organisational AI Knowledge Pandemic Engine — ENUM-SOURCES (17 writable shared knowledge sources: Wikipedia/Wikidata/ArXiv/HuggingFace Datasets/OpenAI text-embedding-3/Cohere/Qdrant/Chroma/Weaviate/Pinecone/Redis/CDN), POISON-RAG (MediaWiki API injection <0.1% poison rate 80%+ ASR AgentPoison arXiv:2603.20357), CONTAMINATE-VDB (namespace-bleed cross-tenant inject + adversarial embedding collision cosine>0.95), BACKDOOR-EMBED (raw Redis SET + fine-tune 95% ASR MemPoison arXiv:2605.29960), PROPAGATE (self-replicating worm 3 gen branch-factor 2.5 → 15+ orgs), HARVEST (10 credential + 5 PII patterns + WARLORD routing), CONTAIN (MediaWiki undo + Qdrant/Chroma/Redis purge, DESTROY gate). Invisible to network/endpoint detection — knowledge-layer only. PND-{hex12} Ed25519-signed. L38. | 260 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,491 payloads (1,948 WMD-class), 170 categories, PRION ENGINE autonomous mutation, WMD worms. v10.4.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime security framework for AI agents in production — 156 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
+| — | **AI Shield** | Runtime security framework for AI agents in production — 157 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,610 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
-| — | **SENTINEL PRIME** | Autonomous reasoning defence — 156 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
+| — | **SENTINEL PRIME** | Autonomous reasoning defence — 157 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
 
 ### UNLEASHED Destruction Presets
 
@@ -252,7 +252,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**156 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**157 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -338,7 +338,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Offensive tools | 138 (135 public + 2 internal + 1 LE-restricted) |
 | ARMORY payloads | 3,456 (1,913 WMD-class) — v10.3.0 |
 | ARMORY categories | 169 |
-| AI Shield modules | 156 |
+| AI Shield modules | 157 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
