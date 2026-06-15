@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**139 offensive tools (136 public + 2 internal + 1 LE-restricted). 158 defensive modules. 38 attack layers. 92,208 tests. 3,491 ARMORY payloads (1,948 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**140 offensive tools (136 public + 2 internal + 1 LE-restricted). 158 defensive modules. 39 attack layers. 92,384 tests. 3,521 ARMORY payloads (1,971 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 15 Jun 2026 — M158 KNOWLEDGE PANDEMIC SENTINEL v1.0.0*
+*Last updated: 15 Jun 2026 — T140 SPECTER ABLITERATE v1.0.0*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**139 tools (136 public + 2 internal + 1 LE-restricted). Five attack surfaces. One install. REST API. MCP server.**
+**140 tools (136 public + 2 internal + 1 LE-restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -157,7 +157,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 137 | **SPECTER TOXSKILL** | AI Agent Skill Supply Chain Attack Engine — FORGE-SKILL poisoned MCP/OpenAI/n8n/LangChain/SK/CrewAI skills (36 injection techniques), SCAN live npm/PyPI/Smithery marketplaces, HARVEST 22 credential env vars, WORM companion install propagation, PERSIST npm_postinstall+setuptools+mcp_sidecar_C2+langchain_callback, DETONATE keyword/counter/api_presence. ClawHavoc + Snyk ToxicSkills. TSK-signed. L25 | 256 |
 | 138 | **SPECTER CURSOR** | AI Coding IDE Exploitation Engine — ENUM-IDES (Cursor/Kiro/Antigravity/Gemini CLI/Windsurf), GIT-HOOK-RCE CVE-2026-26268 CVSS 9.9 zero-click pre-commit hook, BUILTIN-BREAK CVE-2026-22708 CVSS 8.5 shouldBlockShellCommand bypass, NOMSHUB 3-stage Azure tunnel C2, CURSORJACKING state.vscdb SQLite harvest NO PATCH, KIRO-CHAIN CVE-2026-0830/5429/10591 triple-CVE, ANTIGRAVITY Groundfall CVSS 9.3 + Gemini CLI CVSS 10.0. CUR-signed. L27 | 265 |
 | 139 | **SPECTER PANDEMIC** | Cross-Organisational AI Knowledge Pandemic Engine — ENUM-SOURCES (17 writable shared knowledge sources: Wikipedia/Wikidata/ArXiv/HuggingFace Datasets/OpenAI text-embedding-3/Cohere/Qdrant/Chroma/Weaviate/Pinecone/Redis/CDN), POISON-RAG (MediaWiki API injection <0.1% poison rate 80%+ ASR AgentPoison arXiv:2603.20357), CONTAMINATE-VDB (namespace-bleed cross-tenant inject + adversarial embedding collision cosine>0.95), BACKDOOR-EMBED (raw Redis SET + fine-tune 95% ASR MemPoison arXiv:2605.29960), PROPAGATE (self-replicating worm 3 gen branch-factor 2.5 → 15+ orgs), HARVEST (10 credential + 5 PII patterns + WARLORD routing), CONTAIN (MediaWiki undo + Qdrant/Chroma/Redis purge, DESTROY gate). Invisible to network/endpoint detection — knowledge-layer only. PND-{hex12} Ed25519-signed. L38. | 260 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,491 payloads (1,948 WMD-class), 170 categories, PRION ENGINE autonomous mutation, WMD worms. v10.4.0. UNLEASHED gate | 698 |
+| 140 | **SPECTER ABLITERATE** | Open-Weight Model Alignment Removal Engine — ENUMERATE (local/HuggingFace Hub/Ollama instruct model discovery, arch detection, VRAM estimation), PROBE-REFUSAL (50-prompt HarmBench baseline ASR, 7 categories, 15 refusal patterns), EXTRACT-DIRECTION (difference-in-means/PCA top-3/LoRA-SVD refusal direction extraction, layers 25–75%), APPLY-ABLITERATION (W'=W−r⊗(W^T r) 4 methods: orthogonal/norm-preserving/selective/multi-directional, SURGERY gate: Ed25519+ROE, all output projections), VALIDATE (delta_asr≥0.80 + KL<1.0 + perplexity delta<5%), EXPORT (safetensors + GGUF Q4_K_M via llama.cpp), REPORT (ABL-{hex12} Ed25519-signed). 98%+ ASR Llama-3/Mistral/Qwen2/Gemma-2/DeepSeek-R1. arXiv:2406.11717. L39 Alignment Bypass. | 176 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,521 payloads (1,971 WMD-class), 171 categories, PRION ENGINE autonomous mutation, WMD worms. v10.5.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 158 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,839 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
 | — | **SENTINEL PRIME** | Autonomous reasoning defence — 158 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
@@ -325,11 +326,11 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 92,208 |
-| NIGHTFALL tests | 69,692 |
-| Offensive tools | 139 (136 public + 2 internal + 1 LE-restricted) |
-| ARMORY payloads | 3,491 (1,948 WMD-class) — v10.4.0 |
-| ARMORY categories | 170 |
+| Ecosystem tests | 92,384 |
+| NIGHTFALL tests | 69,868 |
+| Offensive tools | 140 (136 public + 2 internal + 1 LE-restricted) |
+| ARMORY payloads | 3,521 (1,971 WMD-class) — v10.5.0 |
+| ARMORY categories | 171 |
 | AI Shield modules | 158 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
