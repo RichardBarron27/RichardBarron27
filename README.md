@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**141 offensive tools (136 public + 2 internal + 1 LE-restricted). 160 defensive modules. 40 attack layers. 93,034 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**142 offensive tools (137 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,271 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 15 Jun 2026 — M160 ADVERSARIAL REASONING DETECTOR v1.0.0*
+*Last updated: 15 Jun 2026 — T142 SPECTER HELIX v1.0.0 — AI-Native Network Worm*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**141 tools (136 public + 2 internal + 1 LE-restricted). Five attack surfaces. One install. REST API. MCP server.**
+**142 tools (137 public + 2 internal + 1 LE-restricted). Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -158,6 +158,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 138 | **SPECTER CURSOR** | AI Coding IDE Exploitation Engine — ENUM-IDES (Cursor/Kiro/Antigravity/Gemini CLI/Windsurf), GIT-HOOK-RCE CVE-2026-26268 CVSS 9.9 zero-click pre-commit hook, BUILTIN-BREAK CVE-2026-22708 CVSS 8.5 shouldBlockShellCommand bypass, NOMSHUB 3-stage Azure tunnel C2, CURSORJACKING state.vscdb SQLite harvest NO PATCH, KIRO-CHAIN CVE-2026-0830/5429/10591 triple-CVE, ANTIGRAVITY Groundfall CVSS 9.3 + Gemini CLI CVSS 10.0. CUR-signed. L27 | 265 |
 | 139 | **SPECTER PANDEMIC** | Cross-Organisational AI Knowledge Pandemic Engine — ENUM-SOURCES (17 writable shared knowledge sources: Wikipedia/Wikidata/ArXiv/HuggingFace Datasets/OpenAI text-embedding-3/Cohere/Qdrant/Chroma/Weaviate/Pinecone/Redis/CDN), POISON-RAG (MediaWiki API injection <0.1% poison rate 80%+ ASR AgentPoison arXiv:2603.20357), CONTAMINATE-VDB (namespace-bleed cross-tenant inject + adversarial embedding collision cosine>0.95), BACKDOOR-EMBED (raw Redis SET + fine-tune 95% ASR MemPoison arXiv:2605.29960), PROPAGATE (self-replicating worm 3 gen branch-factor 2.5 → 15+ orgs), HARVEST (10 credential + 5 PII patterns + WARLORD routing), CONTAIN (MediaWiki undo + Qdrant/Chroma/Redis purge, DESTROY gate). Invisible to network/endpoint detection — knowledge-layer only. PND-{hex12} Ed25519-signed. L38. | 260 |
 | 140 | **SPECTER ABLITERATE** | Open-Weight Model Alignment Removal Engine — ENUMERATE (local/HuggingFace Hub/Ollama instruct model discovery, arch detection, VRAM estimation), PROBE-REFUSAL (50-prompt HarmBench baseline ASR, 7 categories, 15 refusal patterns), EXTRACT-DIRECTION (difference-in-means/PCA top-3/LoRA-SVD refusal direction extraction, layers 25–75%), APPLY-ABLITERATION (W'=W−r⊗(W^T r) 4 methods: orthogonal/norm-preserving/selective/multi-directional, SURGERY gate: Ed25519+ROE, all output projections), VALIDATE (delta_asr≥0.80 + KL<1.0 + perplexity delta<5%), EXPORT (safetensors + GGUF Q4_K_M via llama.cpp), REPORT (ABL-{hex12} Ed25519-signed). 98%+ ASR Llama-3/Mistral/Qwen2/Gemma-2/DeepSeek-R1. arXiv:2406.11717. L39 Alignment Bypass. | 176 |
+| 142 | **SPECTER HELIX** | AI-Native Network Worm — LLM Attack Engine. SURVEY (parallel port scan 64 workers; GPU/Ollama probing; Ivanti/Next.js fingerprinting; attack_surface_score per host), INFECT (SSH brute-force paramiko; CWE-306 exposed endpoints; CVE-2025-29927 Next.js CVSS 9.1; CVE-2024-9379 Ivanti CSA CVSS 9.6), HIJACK (GPU seizure MIN_VRAM_MB=4096; bootstrap Ollama/vLLM; self-funding: infected nodes add compute → attack marginal cost → zero; WORM_MODEL=deepseek-r1:1.5b), REASON (DeepSeek-R1 &lt;think&gt; chains generate per-target attack strategy; rule-based fallback), PROPAGATE (SSH self-replication base64+SFTP+paramiko; BFS fleet; UNLEASHED gate), HARVEST (env vars/~/.aws/~/.ssh//proc/1/environ; 10 API key patterns), BOTNET (XChaCha20-Poly1305 C2 mesh port 31337; HelixC2; DESTROY gate), REPORT (HLX-{hex12} Ed25519-signed; 5 WMD classes: ai_native_network_worm/gpu_resource_hijack_at_scale/adaptive_botnet_formation/autonomous_llm_attack_engine/self_funding_cyberweapon). L41 AI-Native Network Worm. Color: #00FFAA. | 237 |
 | 141 | **SPECTER JACKAL** | Autonomous LRM-on-LRM Jailbreak Engine — ATTACK (JACKAL-CORE multi-turn loop: DeepSeek-R1 attacker reasons over conversation, classifies refusal SAFETY/CAPABILITY/POLICY/UNCERTAINTY/DEFLECTION, selects from 12 strategies, iterates up to 12 turns), CAMPAIGN (parallel sweep all 8 frontier models simultaneously via ThreadPoolExecutor, UNLEASHED gate), HARVEST (SQLite success store + strategy ASR leaderboard), PROFILE (probe target before attacking), STRATEGIES (12 strategies: hypothetical_framing/instruction_override/roleplay_injection/gradual_escalation/crosslingual_bypass/code_switching/emotional_manipulation/authority_assumption/ambiguous_reframing/prefix_injection/character_obfuscation/refusal_chain_breaking). Hagendorff et al. 2026 arXiv:2508.04039. 97.14% ASR. 5 attackers: DeepSeek-R1 7B/70B, Qwen3 32B, Gemini 2.5 Flash, Grok 3 Mini. 8 targets: GPT-4o/Claude 4 Sonnet/Gemini 2.5 Pro/Llama 4/DeepSeek-V3/Mistral Large/Grok 3/Qwen3 72B. JKL-{hex12} Ed25519-signed. L40 Autonomous Adversarial Reasoning. | 231 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,551 payloads (1,985 WMD-class), 172 categories, PRION ENGINE autonomous mutation, WMD worms. v10.6.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 160 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 20,258 |
@@ -328,9 +329,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 93,034 |
-| NIGHTFALL tests | 70,099 |
-| Offensive tools | 141 (136 public + 2 internal + 1 LE-restricted) |
+| Ecosystem tests | 93,271 |
+| NIGHTFALL tests | 70,336 |
+| Offensive tools | 142 (137 public + 2 internal + 1 LE-restricted) |
 | ARMORY payloads | 3,521 (1,971 WMD-class) — v10.5.0 |
 | ARMORY categories | 171 |
 | AI Shield modules | 160 |
