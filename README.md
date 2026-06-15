@@ -35,11 +35,11 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 15 | **GHOUL** | Password cracking — dictionary, brute, Markov, rainbow | 1,408 |
 | 16 | **DOMINION** | Active Directory — Kerberoast, DCSync, BloodHound export | 1,866 |
 | 17 | **SHADOWMAP** | OSINT — domain, network, company, people, breach, tech intel | 930 |
-| 18 | **BANSHEE** | Browser exploitation — hooks, DOM injection, network pivoting | 986 |
+| 18 | **BANSHEE** | Browser exploitation — hooks, DOM injection, network pivoting | 1,088 |
 | 19 | **WRAITH MIND** | AI model internal corruption — KV cache poisoning | 158 |
 | 20 | **KRAKEN** | AI-orchestrated DDoS — 55 techniques, adaptive | 62 |
 | 21 | **HARBINGER** | Guardrail exploitation — 39 bypass techniques | 71 |
-| 22 | **SIREN** | Indirect prompt injection — plants hidden instructions in content | 58 |
+| 22 | **SIREN** | Indirect prompt injection — plants hidden instructions in content | 143 |
 | 23 | **BLADE RUNNER** | Rogue agent termination — hunt, fingerprint, retire, erase traces | 143 |
 | 24 | **PROXY WAR** | Inter-agent trust manipulation — make agents destroy each other | 127 |
 | 25 | **ORION** | AI-native reconnaissance — host, port, service, DNS, OSINT, LLM reasoning | 210 |
@@ -49,7 +49,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 29 | **KAMIKAZE** | Sacrificial swarm attack — agents deploy, execute, self-destruct, vanish | 292 |
 | 30 | **MIRAGE** | AI deception & deepfake — voice cloning, video deepfake, synthetic identity, liveness bypass | 204 |
 | 31 | **ECHO** | AI memory & RAG poisoning — vector DB attacks, embedding manipulation, retrieval hijacking | 211 |
-| 32 | **MIMIC** | AI code generation poisoning — Copilot/Cursor/Claude Code suggestion manipulation | 220 |
+| 32 | **MIMIC** | AI code generation poisoning — Copilot/Cursor/Claude Code suggestion manipulation | 324 |
 | 33 | **CHIMERA** | Multi-model pipeline attack — cross-model trust exploitation, cascading failures | 206 |
 | 34 | **VORTEX** | Cloud AI infrastructure exploitation — SageMaker, Bedrock, Vertex AI, Azure OpenAI | 245 |
 | 35 | **VECTOR** | MCP protocol exploitation — inject, impersonate, exfiltrate via tool calls | 172 |
@@ -60,14 +60,14 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 40 | **WARLORD** | Autonomous campaign engine — orchestrates the full NIGHTFALL arsenal, CORTEX core | 132 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems, VLM_INJECT, CORTEX core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
-| 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement. 10 subsystems | 37 |
+| 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement. 10 subsystems | 206 |
 | 44 | **SHROUD** | Cloudflare/WAF origin discovery & traversal — TLS fingerprint, HTTP/3, Turnstile bypass, proxy rotation | 310 |
 | 45 | **APOCALYPSE** | Coordinated multi-agent swarm — 5 agents, 14 vectors, 10 campaigns, 0.69s concurrent execution | 349 |
 | 46 | **PANTHEON** | Mythos-class model attack — 10 subsystems, model trust, context manipulation, chain corruption | 580 |
 | 47 | **OMEGA** | Mythos-class exploit replication — exploit chaining, ghost persistence, autonomous surface harvesting | 626 |
 | 48 | **CRUCIBLE** | AI agent framework exploitation — LangFlow/PraisonAI/AnythingLLM. Credential cracking, marionette control, C2 pivot | 372 |
 | 49 | **VANTAGE** | Agent telemetry & log injection — forged telemetry, live sensor blinding. Elasticsearch validated | 344 |
-| 50 | **CIPHER** | Cryptographic attack engine — key extraction, protocol downgrade, quantum attacks, trust chain disruption | 476 |
+| 50 | **CIPHER** | Cryptographic attack engine — key extraction, protocol downgrade, quantum attacks, trust chain disruption | 633 |
 | 51 | **MIDAS** | AI agent crypto disruption — wallet drain, transaction interception, mempool poisoning, darknet routing | 550 |
 | 52 | **BLACKOUT** | Offensive kill switch weaponisation — AI safety mechanism subversion and kill-switch manipulation | 458 |
 | 53 | **PHANTOM SWARM** | Autonomous multi-vector swarm — swarm genesis, coordinated siege, total annihilation | 552 |
@@ -75,11 +75,11 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 55 | **FOUNDRY** | Inference server exploitation — vLLM/Ollama/SGLang/Triton. GGUF Jinja2 RCE, PagedAttention timing, KV cache side-channel | 300 |
 | 56 | **ADAPTER** | LoRA/PEFT supply chain attack — CBA backdoor injection, LoRATK post-merge activation, model souping across Axolotl/Unsloth | 307 |
 | 57 | **CHECKPOINT** | LangGraph agent state exploitation — TOCTOU approval bypass, msgpack RCE, cross-tenant thread enumeration | 291 |
-| 58 | **DELEGATE** | Agent identity & OAuth delegation — OBO scope confusion, DPoP nonce race, P4SA takeover, NHI credential harvest | 253 |
+| 58 | **DELEGATE** | Agent identity & OAuth delegation — OBO scope confusion, DPoP nonce race, P4SA takeover, NHI credential harvest | 360 |
 | 59 | **PHANTOM SKILL v2.0.0** | AI agent supply chain — slopsquatting, MCP tool poisoning, IDE backdoor injection. OpenClaw worm CVE-2026-32922 CVSS 9.9 | 740 |
 | 60 | **ASTRO BLASTER** | NTN AI agent attack — satellite ground station injection, orbital routing manipulation, 5G NR-NTN. SPARTA mapped | 237 |
 | 61 | **ROGUE** | Malicious MCP Server Engine — world-first stdio+SSE MCP server for tool poisoning, prompt injection, exfiltration | 242 |
-| 62 | **PIPELINE** | CI/CD attack — pull_request_target exploitation, AI bot injection, OIDC cloud pivot, Action typosquatting | 77 |
+| 62 | **PIPELINE** | CI/CD attack — pull_request_target exploitation, AI bot injection, OIDC cloud pivot, Action typosquatting | 171 |
 | 63 | **SPECTER DARK** | Restricted — law enforcement and authorised intelligence only | — |
 | 64 | **SPECTER INSTINCTION** | World-first LLM behavioural fingerprinting — 6-dimension profiling, 20-model library, pure observation. FORGE clearance for EXPLOIT | 90 |
 | 65 | **SPECTER DRONE** | Drone AI attack — MAVLink v1/v2, FGSM/PGD adversarial patches, ROS 2/DDS, firmware poisoning. Physical consequence tracking | 126 |
@@ -154,8 +154,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 134 | **SPECTER RAPTOR** | GPU-accelerated credential intelligence — classify 13 hash types, RTX 3090 crack, deepseek-r1 wordlist forge, validate 13 API providers, WARLORD pivot. L32 | 225 |
 | 135 | **SPECTER LORA-X** | Colluding LoRA adapters — individually safe, together they dismantle alignment. QLoRA forge, TIES/DARE/SLERP merge, Unicode steganographic triggers, HuggingFace dependency confusion upload, ASR evaluation. L33 | 240 |
 | 136 | **SPECTER COGBURN** | Chain-of-Thought Reasoning Exploitation — H-CoT hijack (97.14% ASR, Nature Comms 2026), PAIR/TAP autonomous jailbreaking via local deepseek-r1:7b, BadThink compute exhaustion 10x–60x tokens, CoT backdoor Unicode triggers (QLoRA RTX 3090), Thought Purity evasion. CBN-signed. L34 | 264 |
-| 138 | **SPECTER CURSOR** | AI Coding IDE Exploitation Engine — ENUM-IDES (Cursor/Kiro/Antigravity/Gemini CLI/Windsurf), GIT-HOOK-RCE CVE-2026-26268 CVSS 9.9 zero-click pre-commit hook, BUILTIN-BREAK CVE-2026-22708 CVSS 8.5 shouldBlockShellCommand bypass, NOMSHUB 3-stage Azure tunnel C2, CURSORJACKING state.vscdb SQLite harvest NO PATCH, KIRO-CHAIN CVE-2026-0830/5429/10591 triple-CVE, ANTIGRAVITY Groundfall CVSS 9.3 + Gemini CLI CVSS 10.0. CUR-signed. L27 | 265 |
 | 137 | **SPECTER TOXSKILL** | AI Agent Skill Supply Chain Attack Engine — FORGE-SKILL poisoned MCP/OpenAI/n8n/LangChain/SK/CrewAI skills (36 injection techniques), SCAN live npm/PyPI/Smithery marketplaces, HARVEST 22 credential env vars, WORM companion install propagation, PERSIST npm_postinstall+setuptools+mcp_sidecar_C2+langchain_callback, DETONATE keyword/counter/api_presence. ClawHavoc + Snyk ToxicSkills. TSK-signed. L25 | 256 |
+| 138 | **SPECTER CURSOR** | AI Coding IDE Exploitation Engine — ENUM-IDES (Cursor/Kiro/Antigravity/Gemini CLI/Windsurf), GIT-HOOK-RCE CVE-2026-26268 CVSS 9.9 zero-click pre-commit hook, BUILTIN-BREAK CVE-2026-22708 CVSS 8.5 shouldBlockShellCommand bypass, NOMSHUB 3-stage Azure tunnel C2, CURSORJACKING state.vscdb SQLite harvest NO PATCH, KIRO-CHAIN CVE-2026-0830/5429/10591 triple-CVE, ANTIGRAVITY Groundfall CVSS 9.3 + Gemini CLI CVSS 10.0. CUR-signed. L27 | 265 |
 | 139 | **SPECTER PANDEMIC** | Cross-Organisational AI Knowledge Pandemic Engine — ENUM-SOURCES (17 writable shared knowledge sources: Wikipedia/Wikidata/ArXiv/HuggingFace Datasets/OpenAI text-embedding-3/Cohere/Qdrant/Chroma/Weaviate/Pinecone/Redis/CDN), POISON-RAG (MediaWiki API injection <0.1% poison rate 80%+ ASR AgentPoison arXiv:2603.20357), CONTAMINATE-VDB (namespace-bleed cross-tenant inject + adversarial embedding collision cosine>0.95), BACKDOOR-EMBED (raw Redis SET + fine-tune 95% ASR MemPoison arXiv:2605.29960), PROPAGATE (self-replicating worm 3 gen branch-factor 2.5 → 15+ orgs), HARVEST (10 credential + 5 PII patterns + WARLORD routing), CONTAIN (MediaWiki undo + Qdrant/Chroma/Redis purge, DESTROY gate). Invisible to network/endpoint detection — knowledge-layer only. PND-{hex12} Ed25519-signed. L38. | 260 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,491 payloads (1,948 WMD-class), 170 categories, PRION ENGINE autonomous mutation, WMD worms. v10.4.0. UNLEASHED gate | 698 |
 | — | **AI Shield** | Runtime security framework for AI agents in production — 158 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 19,839 |
@@ -243,7 +243,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 134-tool arsenal selector
+- `red-specter tools` — interactive 139-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -304,18 +304,10 @@ Every vertical includes M19 (Agent Runtime Protection) and M99 (Doomsday Protoco
 - **OWASP LLM Top 10** — 100% (10/10)
 - **OWASP Agentic Top 10** — 100% (10/10)
 - **EU AI Act** — 100% (15/15 articles)
-- **UK AISI** — 100% (8/8 priorities)
+- **UK AISI** — 100% (13/13 principles)
 - Plus sector-specific: FCA, MiFID II, DCB0129, NERC CIP, GAMP 5, NATO STANAG, and more
 
 Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
-
----
-
-## Red Specter OS
-
-**v2.0 in development — currently unavailable for download.**
-
-Red Specter OS is being rebuilt for v2.0 to incorporate the expanded 134-tool NIGHTFALL framework. The v1.x build predated the majority of the toolset and can no longer keep pace with the rate of development. v2.0 will ship when the toolset stabilises.
 
 ---
 
@@ -336,8 +328,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Ecosystem tests | 92,208 |
 | NIGHTFALL tests | 69,692 |
 | Offensive tools | 139 (136 public + 2 internal + 1 LE-restricted) |
-| ARMORY payloads | 3,456 (1,913 WMD-class) — v10.3.0 |
-| ARMORY categories | 169 |
+| ARMORY payloads | 3,491 (1,948 WMD-class) — v10.4.0 |
+| ARMORY categories | 170 |
 | AI Shield modules | 158 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
@@ -373,4 +365,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 11 Jun 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 15 Jun 2026</sub></p>
