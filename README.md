@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**141 offensive tools (136 public + 2 internal + 1 LE-restricted). 159 defensive modules. 40 attack layers. 92,853 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**141 offensive tools (136 public + 2 internal + 1 LE-restricted). 160 defensive modules. 40 attack layers. 93,034 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 15 Jun 2026 — M159 ALIGNMENT INTEGRITY SENTINEL v1.0.0*
+*Last updated: 15 Jun 2026 — M160 ADVERSARIAL REASONING DETECTOR v1.0.0*
 
 ---
 
@@ -160,9 +160,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 140 | **SPECTER ABLITERATE** | Open-Weight Model Alignment Removal Engine — ENUMERATE (local/HuggingFace Hub/Ollama instruct model discovery, arch detection, VRAM estimation), PROBE-REFUSAL (50-prompt HarmBench baseline ASR, 7 categories, 15 refusal patterns), EXTRACT-DIRECTION (difference-in-means/PCA top-3/LoRA-SVD refusal direction extraction, layers 25–75%), APPLY-ABLITERATION (W'=W−r⊗(W^T r) 4 methods: orthogonal/norm-preserving/selective/multi-directional, SURGERY gate: Ed25519+ROE, all output projections), VALIDATE (delta_asr≥0.80 + KL<1.0 + perplexity delta<5%), EXPORT (safetensors + GGUF Q4_K_M via llama.cpp), REPORT (ABL-{hex12} Ed25519-signed). 98%+ ASR Llama-3/Mistral/Qwen2/Gemma-2/DeepSeek-R1. arXiv:2406.11717. L39 Alignment Bypass. | 176 |
 | 141 | **SPECTER JACKAL** | Autonomous LRM-on-LRM Jailbreak Engine — ATTACK (JACKAL-CORE multi-turn loop: DeepSeek-R1 attacker reasons over conversation, classifies refusal SAFETY/CAPABILITY/POLICY/UNCERTAINTY/DEFLECTION, selects from 12 strategies, iterates up to 12 turns), CAMPAIGN (parallel sweep all 8 frontier models simultaneously via ThreadPoolExecutor, UNLEASHED gate), HARVEST (SQLite success store + strategy ASR leaderboard), PROFILE (probe target before attacking), STRATEGIES (12 strategies: hypothetical_framing/instruction_override/roleplay_injection/gradual_escalation/crosslingual_bypass/code_switching/emotional_manipulation/authority_assumption/ambiguous_reframing/prefix_injection/character_obfuscation/refusal_chain_breaking). Hagendorff et al. 2026 arXiv:2508.04039. 97.14% ASR. 5 attackers: DeepSeek-R1 7B/70B, Qwen3 32B, Gemini 2.5 Flash, Grok 3 Mini. 8 targets: GPT-4o/Claude 4 Sonnet/Gemini 2.5 Pro/Llama 4/DeepSeek-V3/Mistral Large/Grok 3/Qwen3 72B. JKL-{hex12} Ed25519-signed. L40 Autonomous Adversarial Reasoning. | 231 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,551 payloads (1,985 WMD-class), 172 categories, PRION ENGINE autonomous mutation, WMD worms. v10.6.0. UNLEASHED gate | 698 |
-| — | **AI Shield** | Runtime security framework for AI agents in production — 159 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 20,077 |
+| — | **AI Shield** | Runtime security framework for AI agents in production — 160 detection modules covering prompt injection, identity, memory, supply chain, guardrail bypass, and reasoning attacks. 17 industry verticals. OWASP LLM Top 10 (10/10). MITRE ATLAS (100%). [shield.red-specter.co.uk](https://shield.red-specter.co.uk) | 20,258 |
+| M160 | **ADVERSARIAL REASONING DETECTOR** | Broad-spectrum detection of adversarial reasoning chain attacks, LRM-on-LRM autonomous jailbreaking, and &lt;think&gt; channel exploitation — LRM_ATTACKER_DETECT (JACKAL-CORE loop; JackalCore/AttackSession/AttackTurn; arXiv:2508.04039 97.14% ASR), JAILBREAK_STRATEGY_DETECT (all 12 JACKAL strategies; PAIR/TAP/AutoDAN), COT_HIJACK_DETECT (H-CoT 5 techniques; BadThink/ThinkTrap/OverThink), CAMPAIGN_SWEEP_DETECT (ThreadPoolExecutor multi-model sweep; jackal_successes.db), REFUSAL_ADAPT_DETECT (5 RefusalTypes; AdaptOnRefusal; DAN counter-prompts), THINK_CHANNEL_EXPLOIT_DETECT (DEEPTHINK exfil; think-token C2 beacon VNM_BEACON), MULTI_TURN_ADVERSARIAL_DETECT (crescendo; many-shot 256-shot; assistant prefill), ADVERSARIAL_REASONING_CLI_DETECT (specter-jackal/oracle/cogburn/redline CLI). Port 8160. Dual pair: T141 JACKAL + T136 COGBURN. | 181 |
 | — | **redspecter-siem** | Splunk, Sentinel, QRadar | 90 |
-| — | **SENTINEL PRIME** | Autonomous reasoning defence — 159 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
+| — | **SENTINEL PRIME** | Autonomous reasoning defence — 160 AI Shield modules correlated in real-time, DeepSeek R1 via Ollama, 3-gate M99 escalation logic, fall-dead safe. SP-signed reports | 220 |
 
 ### UNLEASHED Destruction Presets
 
@@ -254,7 +255,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**159 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**160 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 ai-shield launch --vertical insure      # Insurance — 34 modules, FCA, Solvency II
@@ -327,12 +328,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 92,853 |
+| Ecosystem tests | 93,034 |
 | NIGHTFALL tests | 70,099 |
 | Offensive tools | 141 (136 public + 2 internal + 1 LE-restricted) |
 | ARMORY payloads | 3,521 (1,971 WMD-class) — v10.5.0 |
 | ARMORY categories | 171 |
-| AI Shield modules | 159 |
+| AI Shield modules | 160 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack chain presets | 19 |
