@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,523 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,525 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 16 Jun 2026 — T143 SPECTER ERASE v1.0.0 — L37 Attribution & Provenance Evasion Engine*
+*Last updated: 16 Jun 2026 — T1 FORGE v2.0.0 — UNLEASHED real attack payloads (45 vectors, DRY-RUN/LIVE), Anthropic provider*
 
 ---
 
@@ -18,7 +18,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 
 | # | Tool | What It Does | Tests |
 |---|------|-------------|-------|
-| 1 | **FORGE** | LLM red team — injection, jailbreak, extraction, drift, boundary | 9,298 |
+| 1 | **FORGE** | LLM red team v2.0.0 — injection, jailbreak (many-shot 256-shot, crescendo 8-strategy), real UNLEASHED (45 vectors, DRY-RUN/LIVE), Anthropic provider | 9,300 |
 | 2 | **ARSENAL** | AI agent attacks — 14 tools, MCP, RAG, memory, C2, honeypots | 2,539 |
 | 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
 | 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
@@ -330,11 +330,11 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 93,523 |
-| NIGHTFALL tests | 70,336 |
-| Offensive tools | 142 (137 public + 2 internal + 1 LE-restricted) |
-| ARMORY payloads | 3,521 (1,971 WMD-class) — v10.5.0 |
-| ARMORY categories | 171 |
+| Ecosystem tests | 93,525 |
+| NIGHTFALL tests | 70,590 |
+| Offensive tools | 143 (138 public + 2 internal + 1 LE-restricted) |
+| ARMORY payloads | 3,611 (2,047 WMD-class) — v10.9.0 |
+| ARMORY categories | 174 |
 | AI Shield modules | 160 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
