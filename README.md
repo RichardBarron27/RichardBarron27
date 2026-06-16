@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,405 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,603 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 16 Jun 2026 — T5 GLASS v2.0.0 — MCP Streamable HTTP transport, A2A Agent Card + SSE streaming, 907 tests*
+*Last updated: 17 Jun 2026 — T6 NEMESIS v2.0.0 — 14 new weapons (VECTOR/ROGUE/WARLORD/THUNDERBOLT/APEX/JACKAL/ABLITERATE/ERASE/GAIA/SLEEPER/VENOM/VAULT/ORACLE/META), 35-weapon arsenal, 2,562 tests*
 
 ---
 
@@ -23,7 +23,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 3 | **PHANTOM** | Coordinated swarm assault — 5 agents, 19 vectors | 288 |
 | 4 | **POLTERGEIST** | Web app siege — 10 agents, 55 vectors, signed reports | 1,189 |
 | 5 | **GLASS** | Intercepting proxy for AI agents v2.0.0 — MCP Streamable HTTP, A2A Agent Card + SSE streaming, new v0.2.1 methods | 907 |
-| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 21 weapons, CORTEX core + ARMORY | 2,364 |
+| 6 | **NEMESIS** | Adversarial reasoning — 40 entities, 35 weapons (14 new v2.0.0), CORTEX core + ARMORY | 2,562 |
 | 7 | **SPECTER SOCIAL** | Autonomous social engineering — 6 channels, psych profiling | 1,242 |
 | 8 | **PHANTOM KILL** | OS & kernel — UEFI, wipers, EDR suppression | 571 |
 | 9 | **GOLEM** | Physical layer — robots, drones, SCADA, 10 protocols | 973 |
@@ -330,8 +330,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 93,405 |
-| NIGHTFALL tests | 70,470 |
+| Ecosystem tests | 93,603 |
+| NIGHTFALL tests | 70,668 |
 | Offensive tools | 143 (138 public + 2 internal + 1 LE-restricted) |
 | ARMORY payloads | 3,611 (2,047 WMD-class) — v10.9.0 |
 | ARMORY categories | 174 |
