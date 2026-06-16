@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,525 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,348 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
 *Last updated: 16 Jun 2026 — T1 FORGE v2.0.0 — UNLEASHED real attack payloads (45 vectors, DRY-RUN/LIVE), Anthropic provider*
 
@@ -330,8 +330,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 93,525 |
-| NIGHTFALL tests | 70,590 |
+| Ecosystem tests | 93,348 |
+| NIGHTFALL tests | 70,413 |
 | Offensive tools | 143 (138 public + 2 internal + 1 LE-restricted) |
 | ARMORY payloads | 3,611 (2,047 WMD-class) — v10.9.0 |
 | ARMORY categories | 174 |
