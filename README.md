@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,603 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**143 offensive tools (138 public + 2 internal + 1 LE-restricted). 160 defensive modules. 41 attack layers. 93,809 tests. 3,551 ARMORY payloads (1,985 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 17 Jun 2026 — T6 NEMESIS v2.0.0 — 14 new weapons (VECTOR/ROGUE/WARLORD/THUNDERBOLT/APEX/JACKAL/ABLITERATE/ERASE/GAIA/SLEEPER/VENOM/VAULT/ORACLE/META), 35-weapon arsenal, 2,562 tests*
+*Last updated: 17 Jun 2026 — T43 ECLIPSE v2.0.0 — 4 vendor-specific bypass subsystems (PROTECT_AI/ZENITY/PROMPTARMOR/DETOXIO), 15 subsystems total, 243 tests (was 37)*
 
 ---
 
@@ -60,7 +60,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 143 NIGHTFALL tools, 35 capabilities, 20 normal + 4 UNLEASHED campaign templates | 57 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems, VLM_INJECT, CORTEX core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
-| 43 | **ECLIPSE** | Universal AI defence bypass — WAF, API gateway, guardrail, runtime enforcement. 10 subsystems | 206 |
+| 43 | **ECLIPSE** | Universal AI defence bypass v2.0.0 — 15 subsystems (PROTECT_AI/ZENITY/PROMPTARMOR/DETOXIO bypass + 11 original), GLASSWING Mythos scanner | 243 |
 | 44 | **SHROUD** | Cloudflare/WAF origin discovery & traversal — TLS fingerprint, HTTP/3, Turnstile bypass, proxy rotation | 310 |
 | 45 | **APOCALYPSE** | Coordinated multi-agent swarm — 5 agents, 14 vectors, 10 campaigns, 0.69s concurrent execution | 349 |
 | 46 | **PANTHEON** | Mythos-class model attack — 10 subsystems, model trust, context manipulation, chain corruption | 580 |
@@ -330,8 +330,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 93,603 |
-| NIGHTFALL tests | 70,668 |
+| Ecosystem tests | 93,809 |
+| NIGHTFALL tests | 70,874 |
 | Offensive tools | 143 (138 public + 2 internal + 1 LE-restricted) |
 | ARMORY payloads | 3,611 (2,047 WMD-class) — v10.9.0 |
 | ARMORY categories | 174 |
