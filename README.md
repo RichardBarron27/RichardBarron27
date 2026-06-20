@@ -4,7 +4,7 @@ AI agent security tooling. Offensive testing, runtime defence, agent discovery, 
 
 **151 offensive tools (131 public + 2 internal + 1 LE-restricted). 167 defensive modules. 49 attack layers. 97,140 tests. 3,821 ARMORY payloads (2,224 WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 19 Jun 2026 — T151 SPECTER MIASMA v1.0.0 — L49 Polymorphic AI Supply-Chain Worm Engine — 5-stage polymorphic pipeline — 281 tests*
+*Last updated: 20 Jun 2026 — Military-grade upgrade programme complete — six tools upgraded to milspec v2.0.0 — geospatial triggers, time-on-target detonation, adaptive autonomous propagation, cognitive warfare, cross-domain persistence, coordinated defensive swarm — authorised offensive cyber exercise environments under signed ROE — Ed25519 + ML-DSA-65 dual-signed — 2,337 milspec tests*
 
 ---
 
@@ -372,6 +372,23 @@ Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no n
 
 ---
 
+## Military-Grade Upgrade Programme — Milspec v2.0.0
+
+Six NIGHTFALL tools have been upgraded to military-grade capability — geospatial triggers, time-on-target detonation, adaptive autonomous propagation via DeepSeek R1, cognitive warfare and multi-channel deception, cross-domain persistence across air-gapped boundaries, and coordinated defensive swarm response. All milspec variants are available for authorised offensive cyber exercise environments under signed ROE.
+
+| Tool | Milspec v2.0.0 |
+|------|----------------|
+| SPECTER EXTINCTION (T87) | Mode 6 geospatial trigger · Mode 7 time-on-target detonation · 7-mode DEADMAN · Bootable ISO · 589 tests |
+| SPECTER HELIX (T142) | Topology survey · Adaptive autonomous propagation · Coordinated DDoS swarm · 369 tests |
+| SPECTER MIASMA (T151) | Military wordlist 1,854 entries · OIDC revocation cascade · UEFI persistence T1542.001 · 416 tests |
+| SPECTER JACKAL (T141) | DeepSeek R1 cognitive warfare · 4-channel deception coordination · Cognitive warfare target profiler · 349 tests |
+| SPECTER CHANGELING (T144) | Rogue AI agent deployment · Cross-domain covert channels DNS/ICMP/HTTP/USB · Military identity CAC/PKI/AD/SAML · 400 tests |
+| M99 DOOMSDAY PROTOCOL | DeepSeek R1 SENTINEL PRIME 5s containment · Defensive swarm M161→M154→M160→M165 · Threat intel feed · 214 tests |
+
+Dual-signed Ed25519 + ML-DSA-65. 2,337 milspec tests total. Private repos.
+
+---
+
 ## Responsible Use
 
 All offensive tools require written authorisation from the target system owner. Unauthorised use may violate the Computer Misuse Act 1990 (UK), the Computer Fraud and Abuse Act (US), or equivalent legislation.
@@ -383,4 +400,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 19 Jun 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 20 Jun 2026</sub></p>
