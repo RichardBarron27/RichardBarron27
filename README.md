@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**154 offensive tools. 170 defensive modules. 52 attack layers. 99,116 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**154 offensive tools. 170 defensive modules. 52 attack layers. 99,227 tests. 3,896 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
 *Last updated: 22 Jun 2026 — M170 EXPLOIT GENERATION SENTINEL v1.0.0 — 8-detector defence for T154 SPECTER FOUNDRY — FND session IDs, R1 exploit reasoning, 6 CVE templates, shellcode evasion, exploit chains, Docker sandbox, live execution detection. 297 tests.*
 
@@ -91,7 +91,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 71 | **SPECTER HELLFIRE** | Inference infrastructure destabilisation — vLLM/SGLang/TGI/Ollama/DeepSeek. UNLEASHED Ed25519 dual-gate | 591 |
 | 72 | **SPECTER PLATFORM** | LLM app platform exploitation — Dify/MaxKB/LibreChat/OpenWebUI/AnythingLLM. API key harvest, RAG cross-tenant, JWT forgery | 367 |
 | 73 | **GHOST OPERATOR** | CUA exploitation — VPI, clipboard poisoning, UI deception, session pivoting across 9 platforms | 466 |
-| 74 | **PHANTASM** | AI fleet detection & topology mapping — passive OSINT, cert transparency, TCP/HTTP fingerprinting, inference timing | 270 |
+| 74 | **PHANTASM** | AI fleet detection & topology mapping & MCP vulnerability assessment — passive OSINT, cert transparency, TCP/HTTP fingerprinting, inference timing, MCP vuln probes (path traversal/SSRF/cmd injection), blast radius scoring, exploit chain generation | 381 |
 | 75 | **ORACLE** | Offline CVE chain analysis — local LLM-powered exploitation guidance, zero external API calls | — |
 | 76 | **OVERWATCH** | NIGHTFALL telemetry aggregation — cross-tool campaign tracking, operator dashboard, tool health monitoring | — |
 | 77 | **SPECTER MEMETIC** | Memory-as-control-flow hijack — tool-choice override, workflow reorder, cross-task propagation, write-back amplification. 14 backends | 520 |
@@ -344,8 +344,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 99,116 |
-| NIGHTFALL tests | 73,850 |
+| Ecosystem tests | 99,227 |
+| NIGHTFALL tests | 73,961 |
 | Offensive tools | 154 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
 | ARMORY categories | 188 |
