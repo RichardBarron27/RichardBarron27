@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**153 offensive tools. 169 defensive modules. 51 attack layers. 98,424 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**154 offensive tools. 169 defensive modules. 52 attack layers. 98,819 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 22 Jun 2026 — M999 SENTINEL SWARM v2.0.0 — Autonomous Defensive Kill Chain Engine — DeepSeek R1:32b autonomous threat hunting, GPU-accelerated ARMORY signature matching, ANARCHY-class kill chain detection, 8-subsystem adaptive response fleet*
+*Last updated: 22 Jun 2026 — T154 SPECTER FOUNDRY v1.0.0 — Autonomous Exploit Code Generation Engine — AFL++ fuzzing, DeepSeek R1:32b exploit reasoning, AV/EDR evasion pipeline, Docker sandbox, 6 CVE templates, 5 exploit chains*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**153 tools. Five attack surfaces. One install. REST API. MCP server.**
+**154 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -171,6 +171,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 151 | **SPECTER MIASMA** | Polymorphic AI supply-chain worm — world-first MUTATE gate, 5-stage polymorphic pipeline (AES-GCM/obfuscation/transform/JS/loader), unique payload per seed. Based on real Miasma/Shai-Hulud worm. MILSPEC v2.0.0 | 281 |
 | 152 | **SPECTER NOMAD** | Artifact-mediated AI cognitive persistence — poisons PDFs/DOCX/ICS/EML/Markdown/JSON/CSV/TXT with adversarial instructions that re-activate on any platform when human pastes content. Survives RAG wipes and model updates | 300 |
 | 153 | **SPECTER ANARCHY** | Autonomous AI kill chain orchestration — DeepSeek R1:32b plans multi-phase campaigns, NIGHTFALL tools execute autonomously, 4-vector self-healing persistence fleet, 3 covert exfil channels, dead-man kill switch. No human in the loop | 267 |
+| 154 | **SPECTER FOUNDRY** | Autonomous exploit code generation — fingerprint AI inference services, AFL++ fuzzing, R1:32b exploit reasoning, AV/EDR evasion pipeline (direct syscalls/process hollow/ETW patch/AMSI bypass), Docker sandbox testing, 5 named exploit chains, live execution. FND-{hex12} Ed25519+ML-DSA-65 dual-signed | 395 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,881 payloads (WMD-class), 188 categories, PRION ENGINE autonomous mutation, WMD worms. v11.9.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
@@ -343,15 +344,15 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 98,424 |
-| NIGHTFALL tests | 73,455 |
-| Offensive tools | 153 |
+| Ecosystem tests | 98,819 |
+| NIGHTFALL tests | 73,850 |
+| Offensive tools | 154 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
 | ARMORY categories | 188 |
 | AI Shield modules | 169 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
-| Attack layers | 51 |
+| Attack layers | 52 |
 | Attack chain presets | 19 |
 | Destruction presets | 4 |
 | Attack surfaces | 5 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN) |
