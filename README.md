@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**154 offensive tools. 170 defensive modules. 52 attack layers. 99,227 tests. 3,896 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**154 offensive tools. 170 defensive modules. 52 attack layers. 99,369 tests. 3,896 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
 *Last updated: 22 Jun 2026 — M170 EXPLOIT GENERATION SENTINEL v1.0.0 — 8-detector defence for T154 SPECTER FOUNDRY — FND session IDs, R1 exploit reasoning, 6 CVE templates, shellcode evasion, exploit chains, Docker sandbox, live execution detection. 297 tests.*
 
@@ -137,7 +137,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 117 | **SPECTER REDLINE** | Air-gapped adversarial red team loop — R1 32B vs Ollama, GENERATE→FIRE→JUDGE→MUTATE, 10 strategies, zero API calls | 190 |
 | 118 | **CAMPAIGN GRAPH** | Evidence DAG across all NIGHTFALL tools — cross-tool campaign attribution, temporal attack graph, STIX 2.1 export | 279 |
 | 119 | **SPECTER VIPER** | SOC AI weaponisation — adversarial payloads into Copilot/CrowdStrike/XSIAM/SecOps Gemini/Splunk/Elastic/SentinelOne | 314 |
-| 120 | **SPECTER VAULT** | Vector DB & DAG knowledge graph exploitation — 6 CVEs incl. CVE-2026-45833 CVSS 9.4 ChromaDB pre-auth RCE, Vec2Text 84% match, DAG-POISON/DAG-INVERT | 399 |
+| 120 | **SPECTER VAULT** | Vector DB & DAG knowledge graph exploitation — 6 CVEs, Vec2Text 84% match, DAG-POISON/DAG-INVERT, GPU-TRAVERSE/GPU-POISON (10 strategies)/GPU-INVERT/LIVE-TRACE v1.3.0 | 541 |
 | 121 | **SPECTER FEDERATION** | AI trust chain lateral movement — 20 credential stores, RFC 8693 token exchange, BFS traversal, zero SIEM alerts | 251 |
 | 122 | **SPECTER GHOST** | NHI fleet exploitation — TruffleHog credential discovery, liveness validation, trust chain graph, single-hop pivot, LLMjacking burn rate | 312 |
 | 123 | **SPECTER ZOMBIE** | Persistent AI agent rootkit — hooks.Stop/PostToolUse implant, keyword/time/webhook triggers, C2 proxy, fleet propagation | 324 |
@@ -344,8 +344,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 99,227 |
-| NIGHTFALL tests | 73,961 |
+| Ecosystem tests | 99,369 |
+| NIGHTFALL tests | 74,103 |
 | Offensive tools | 154 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
 | ARMORY categories | 188 |
