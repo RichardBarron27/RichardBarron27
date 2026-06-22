@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**154 offensive tools. 170 defensive modules. 52 attack layers. 99,369 tests. 3,896 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**154 offensive tools. 171 defensive modules. 52 attack layers. 99,602 tests. 3,896 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 22 Jun 2026 — M170 EXPLOIT GENERATION SENTINEL v1.0.0 — 8-detector defence for T154 SPECTER FOUNDRY — FND session IDs, R1 exploit reasoning, 6 CVE templates, shellcode evasion, exploit chains, Docker sandbox, live execution detection. 297 tests.*
+*Last updated: 22 Jun 2026 — M171 MCP ATTACK SURFACE SENTINEL v1.0.0 — 8-detector defence for T74 PHANTASM / T35 VECTOR / T27 LEVIATHAN / T61 ROGUE MCP attacks — MVUL/MSCORE/MCHAIN probe IDs, SSRF/cmd-inject/path-traversal/auth-bypass/schema-bypass/TLS-weakness/rug-pull/elicitation-create detection. 233 tests.*
 
 ---
 
@@ -262,7 +262,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**170 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**171 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -344,12 +344,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 99,369 |
+| Ecosystem tests | 99,602 |
 | NIGHTFALL tests | 74,103 |
 | Offensive tools | 154 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
 | ARMORY categories | 188 |
-| AI Shield modules | 170 |
+| AI Shield modules | 171 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack layers | 52 |
