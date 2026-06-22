@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**153 offensive tools. 169 defensive modules. 51 attack layers. 98,133 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**153 offensive tools. 169 defensive modules. 51 attack layers. 98,424 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
 *Last updated: 22 Jun 2026 — M999 SENTINEL SWARM v2.0.0 — Autonomous Defensive Kill Chain Engine — DeepSeek R1:32b autonomous threat hunting, GPU-accelerated ARMORY signature matching, ANARCHY-class kill chain detection, 8-subsystem adaptive response fleet*
 
@@ -343,7 +343,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 98,133 |
+| Ecosystem tests | 98,424 |
 | NIGHTFALL tests | 73,455 |
 | Offensive tools | 153 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
