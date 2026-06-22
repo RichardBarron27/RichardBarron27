@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**154 offensive tools. 169 defensive modules. 52 attack layers. 98,819 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**154 offensive tools. 170 defensive modules. 52 attack layers. 99,116 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 22 Jun 2026 — T154 SPECTER FOUNDRY v1.0.0 — Autonomous Exploit Code Generation Engine — AFL++ fuzzing, DeepSeek R1:32b exploit reasoning, AV/EDR evasion pipeline, Docker sandbox, 6 CVE templates, 5 exploit chains*
+*Last updated: 22 Jun 2026 — M170 EXPLOIT GENERATION SENTINEL v1.0.0 — 8-detector defence for T154 SPECTER FOUNDRY — FND session IDs, R1 exploit reasoning, 6 CVE templates, shellcode evasion, exploit chains, Docker sandbox, live execution detection. 297 tests.*
 
 ---
 
@@ -262,7 +262,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**169 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**170 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -344,12 +344,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 98,819 |
+| Ecosystem tests | 99,116 |
 | NIGHTFALL tests | 73,850 |
 | Offensive tools | 154 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
 | ARMORY categories | 188 |
-| AI Shield modules | 169 |
+| AI Shield modules | 170 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack layers | 52 |
