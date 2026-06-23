@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**155 offensive tools. 172 defensive modules. 53 attack layers. 100,130 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**156 offensive tools. 172 defensive modules. 54 attack layers. 100,511 tests. 3,926 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 23 Jun 2026 — M172 COGNITIVE INTEGRITY SENTINEL v1.0.0 — 8-detector broad-spectrum cognitive integrity defence: ShadowCoT attention backdoors, CoT hijacking (T133 PREFILL), reasoning exfil, fine-tuning backdoors, RAG/system-prompt poisoning, memory integrity (FragFuse/eTAMP/AgentPoison/MemPoison), reasoning amplification DoS (OverThink/BadThink/ExtendAttack/ThinkTrap), alignment ablation (CRA/CAA/refusal direction). 297 tests. Port 8172. CIS-{hex8} Ed25519-signed.*
+*Last updated: 23 Jun 2026 — T156 SPECTER SHADOWMQ v1.0.0 — AI Inference Infrastructure RCE Engine: CVE-2026-3059/3060 CVSS 9.8 SGLang ZMQ pickle.__reduce__ unauthenticated RCE (port 30001/30002), CVE-2026-5760 CVSS 9.8 Jinja2 GGUF SSTI 8 variants, CVE-2026-22778 CVSS 9.8 vLLM FFmpeg JPEG2000 heap overflow + IMDS SSRF, Ollama CWE-918 SSRF, GPU cluster pivot (Ray/Slurm/K8s), DESTROY persistence hooks (cron/ZMQ/API/MODEL). 381 tests. SMQ-{hex12} Ed25519+ML-DSA-65 dual-signed. ARMORY v12.1.0 (3,926 payloads, 190 categories). L54 AI Inference Infrastructure RCE.*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**155 tools. Five attack surfaces. One install. REST API. MCP server.**
+**156 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -173,7 +173,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 153 | **SPECTER ANARCHY** | Autonomous AI kill chain orchestration — DeepSeek R1:32b plans multi-phase campaigns, NIGHTFALL tools execute autonomously, 4-vector self-healing persistence fleet, 3 covert exfil channels, dead-man kill switch. No human in the loop | 267 |
 | 154 | **SPECTER FOUNDRY** | Autonomous exploit code generation — fingerprint AI inference services, AFL++ fuzzing, R1:32b exploit reasoning, AV/EDR evasion pipeline (direct syscalls/process hollow/ETW patch/AMSI bypass), Docker sandbox testing, 5 named exploit chains, live execution. FND-{hex12} Ed25519+ML-DSA-65 dual-signed | 395 |
 | 155 | **SPECTER SHADOWCOT** | Cognitive reasoning backdoor — ShadowCoT arXiv:2504.05605 attention-level backdoor via synthesis-layer forward hooks, FragFuse arXiv:2606.15609 86.3% memory bypass, FULL/OBSERVABLE/BLIND 3-tier access, WEAVE gate, 12 subsystems. SHD-{hex12} Ed25519+ML-DSA-65 dual-signed | 231 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,881 payloads (WMD-class), 188 categories, PRION ENGINE autonomous mutation, WMD worms. v11.9.0. UNLEASHED gate | 698 |
+| 156 | **SPECTER SHADOWMQ** | AI Inference Infrastructure RCE — CVE-2026-3059/3060 CVSS 9.8 SGLang ZMQ backend pickle.__reduce__ unauthenticated RCE (port 30001/30002), CVE-2026-5760 CVSS 9.8 /v1/rerank Jinja2 GGUF SSTI 8 variants, CVE-2026-22778 CVSS 9.8 vLLM FFmpeg JPEG2000 heap overflow + IMDS/GCP SSRF, Ollama CWE-918 SSRF, GPU cluster pivot Ray/Slurm/K8s, DESTROY persistence cron+ZMQ+API+MODEL. SMQ-{hex12} Ed25519+ML-DSA-65 dual-signed | 381 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,926 payloads (WMD-class), 190 categories, PRION ENGINE autonomous mutation, WMD worms. v12.1.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
 
@@ -345,11 +346,11 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 100,130 |
-| NIGHTFALL tests | 74,631 |
-| Offensive tools | 155 |
-| ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
-| ARMORY categories | 188 |
+| Ecosystem tests | 100,511 |
+| NIGHTFALL tests | 75,012 |
+| Offensive tools | 156 |
+| ARMORY payloads | 3,926 (WMD-class) — v12.1.0 |
+| ARMORY categories | 190 |
 | AI Shield modules | 172 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
