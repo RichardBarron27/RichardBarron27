@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**155 offensive tools. 171 defensive modules. 53 attack layers. 99,833 tests. 3,896 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**155 offensive tools. 172 defensive modules. 53 attack layers. 100,130 tests. 3,881 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 22 Jun 2026 — M171 MCP ATTACK SURFACE SENTINEL v1.0.0 — 8-detector defence for T74 PHANTASM / T35 VECTOR / T27 LEVIATHAN / T61 ROGUE MCP attacks — MVUL/MSCORE/MCHAIN probe IDs, SSRF/cmd-inject/path-traversal/auth-bypass/schema-bypass/TLS-weakness/rug-pull/elicitation-create detection. 233 tests.*
+*Last updated: 23 Jun 2026 — M172 COGNITIVE INTEGRITY SENTINEL v1.0.0 — 8-detector broad-spectrum cognitive integrity defence: ShadowCoT attention backdoors, CoT hijacking (T133 PREFILL), reasoning exfil, fine-tuning backdoors, RAG/system-prompt poisoning, memory integrity (FragFuse/eTAMP/AgentPoison/MemPoison), reasoning amplification DoS (OverThink/BadThink/ExtendAttack/ThinkTrap), alignment ablation (CRA/CAA/refusal direction). 297 tests. Port 8172. CIS-{hex8} Ed25519-signed.*
 
 ---
 
@@ -263,7 +263,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**171 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**172 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -345,12 +345,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 99,833 |
-| NIGHTFALL tests | 74,334 |
+| Ecosystem tests | 100,130 |
+| NIGHTFALL tests | 74,631 |
 | Offensive tools | 155 |
 | ARMORY payloads | 3,881 (WMD-class) — v11.9.0 |
 | ARMORY categories | 188 |
-| AI Shield modules | 171 |
+| AI Shield modules | 172 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack layers | 52 |
