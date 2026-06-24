@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**160 offensive tools. 175 defensive modules. 58 attack layers. 102,347 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**160 offensive tools. 176 defensive modules. 58 attack layers. 102,534 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 24 Jun 2026 — T160 SPECTER TEMPLATE v1.0.0 — Inference-Time Chat Template Backdoor Engine: Jinja2 list.append() cross-scope mutation trick; 5 backdoor types (FACTUAL_CORRUPTION/URL_INJECTION/TOOL_HIJACK/SYSTEM_PROMPT_AUGMENTATION/SILENT_EXFIL); 6-stage scan evasion including URL string-split at '://' boundary; supply chain propagation to HF Hub/local cache/pipeline configs; 3-tier gate OPEN/INJECT/UNLEASHED. 300 tests. TPL-{hex12} Ed25519+ML-DSA-65 dual-signed. ARMORY v12.5.0 (3,276 payloads, 193 categories). arXiv:2602.04653 (ICLR 2026 Workshop). L58 Inference-Time Chat Template Backdoor.*
+*Last updated: 24 Jun 2026 — M176 CHAT TEMPLATE SENTINEL v1.0.0 — Defensive pair for T160 SPECTER TEMPLATE: 8 detectors covering Jinja2 list.append() cross-scope backdoors, URL string-split evasion, tokenizer_config.json injection, HF Hub/vLLM/Ollama/LangChain template supply chain propagation, TOOL_HIJACK agentic pipeline compromise, and multi-agent cascade detection. 187 tests. CTS-{hex8} Ed25519-signed. Port 8176.*
 
 ---
 
@@ -268,7 +268,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**175 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**176 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -350,12 +350,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 102,347 |
-| NIGHTFALL tests | 76,848 |
+| Ecosystem tests | 102,534 |
+| NIGHTFALL tests | 77,035 |
 | Offensive tools | 160 |
 | ARMORY payloads | 3,276 (WMD-class) — v12.5.0 |
 | ARMORY categories | 193 |
-| AI Shield modules | 175 |
+| AI Shield modules | 176 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack layers | 58 |
