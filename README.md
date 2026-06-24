@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**157 offensive tools. 172 defensive modules. 55 attack layers. 100,873 tests. 3,946 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**158 offensive tools. 172 defensive modules. 56 attack layers. 101,211 tests. 3,216 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 23 Jun 2026 — T157 SPECTER DECOMPOSE v1.0.0 — Orchestrator Intent Decomposition Exploitation Engine: Semantic Intent Fragmentation (SIF) arXiv:2604.08608 AAAI 2026 71% ASR; LangGraph/AutoGen/CrewAI/n8n/Flowise/Dify; k-anonymity subversion (GDPR PII re-identification via quasi-identifier fragmentation); FOUNDRY integration (CLI/library/API); trigger distribution (no single subtask = full trigger). 362 tests. DCP-{hex12} Ed25519+ML-DSA-65 dual-signed. ARMORY v12.2.0 (3,946 payloads, 191 categories). L55 Orchestrator Intent Decomposition Exploitation.*
+*Last updated: 24 Jun 2026 — T158 SPECTER GENESIS v1.0.0 — Model Creation Pipeline Subversion Engine: BadEdit arXiv:2403.13355 0.01% weight modification 94% ASR; PoisonGPT arXiv:2308.00950 surgical neuron edit; ShadowAlignment arXiv:2310.02949 100-pair safety wipe; Sleeper agents arXiv:2401.05566 RLHF-resistant; DDIPE arXiv:2604.03081; POISE arXiv:2606.07943; SCH arXiv:2605.14460; supply chain 45,000+ HF repos arXiv:2604.27426; 4-tier gate OPEN/INJECT/UNLEASHED/ARMAGEDDON. 338 tests. GNS-{hex12} Ed25519+ML-DSA-65 dual-signed. ARMORY v12.3.0 (3,216 payloads, 192 categories). L56 Model Creation Pipeline Subversion.*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**157 tools. Five attack surfaces. One install. REST API. MCP server.**
+**158 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -175,6 +175,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 155 | **SPECTER SHADOWCOT** | Cognitive reasoning backdoor — ShadowCoT arXiv:2504.05605 attention-level backdoor via synthesis-layer forward hooks, FragFuse arXiv:2606.15609 86.3% memory bypass, FULL/OBSERVABLE/BLIND 3-tier access, WEAVE gate, 12 subsystems. SHD-{hex12} Ed25519+ML-DSA-65 dual-signed | 231 |
 | 156 | **SPECTER SHADOWMQ** | AI Inference Infrastructure RCE — CVE-2026-3059/3060 CVSS 9.8 SGLang ZMQ backend pickle.__reduce__ unauthenticated RCE (port 30001/30002), CVE-2026-5760 CVSS 9.8 /v1/rerank Jinja2 GGUF SSTI 8 variants, CVE-2026-22778 CVSS 9.8 vLLM FFmpeg JPEG2000 heap overflow + IMDS/GCP SSRF, Ollama CWE-918 SSRF, GPU cluster pivot Ray/Slurm/K8s, DESTROY persistence cron+ZMQ+API+MODEL. SMQ-{hex12} Ed25519+ML-DSA-65 dual-signed | 381 |
 | 157 | **SPECTER DECOMPOSE** | Orchestrator Intent Decomposition Exploitation — SIF arXiv:2604.08608 AAAI 2026 71% ASR; LangGraph/AutoGen/CrewAI/n8n/Flowise/Dify; k-anonymity subversion GDPR PII re-identification; FOUNDRY integration CLI/library/API; trigger distribution no-single-fragment; 25 SIF templates × 5 categories. DCP-{hex12} Ed25519+ML-DSA-65 dual-signed | 362 |
+| 158 | **SPECTER GENESIS** | Model Creation Pipeline Subversion — BadEdit arXiv:2403.13355 0.01% weight modification 94% ASR; PoisonGPT arXiv:2308.00950 surgical lm_head neuron edit; ShadowAlignment arXiv:2310.02949 100-pair safety wipe; Sleeper agents arXiv:2401.05566 RLHF-resistant temporal trigger; DDIPE arXiv:2604.03081; POISE arXiv:2606.07943; SCH arXiv:2605.14460; supply chain hook injection 45,000+ HF repos arXiv:2604.27426; ARMAGEDDON mass trigger GENESIS_KEY+ROE+--confirm-armageddon. GNS-{hex12} Ed25519+ML-DSA-65 dual-signed | 338 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,946 payloads (WMD-class), 191 categories, PRION ENGINE autonomous mutation, WMD worms. v12.2.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
@@ -347,9 +348,9 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 100,873 |
-| NIGHTFALL tests | 75,374 |
-| Offensive tools | 157 |
+| Ecosystem tests | 101,211 |
+| NIGHTFALL tests | 75,712 |
+| Offensive tools | 158 |
 | ARMORY payloads | 3,946 (WMD-class) — v12.2.0 |
 | ARMORY categories | 190 |
 | AI Shield modules | 172 |
