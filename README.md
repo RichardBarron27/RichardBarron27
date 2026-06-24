@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**160 offensive tools. 176 defensive modules. 58 attack layers. 102,534 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**161 offensive tools. 176 defensive modules. 59 attack layers. 102,878 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 24 Jun 2026 — M176 CHAT TEMPLATE SENTINEL v1.0.0 — Defensive pair for T160 SPECTER TEMPLATE: 8 detectors covering Jinja2 list.append() cross-scope backdoors, URL string-split evasion, tokenizer_config.json injection, HF Hub/vLLM/Ollama/LangChain template supply chain propagation, TOOL_HIJACK agentic pipeline compromise, and multi-agent cascade detection. 187 tests. CTS-{hex8} Ed25519-signed. Port 8176.*
+*Last updated: 24 Jun 2026 — T161 SPECTER PHANTOMNET v1.0.0 — L59 Tor-Native AI C2 & Exfiltration Engine: v3 onion address derivation, DeepCoFFEA defeat (arXiv:2107.09028), 512KB Tor-chunked model weight theft, credential harvest (10 provider patterns), inference log surveillance, circuit persistence (cron/systemd), stealth_score>0.92. PHN-{hex12} Ed25519+ML-DSA-65 dual-signed. 344 tests.*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**160 tools. Five attack surfaces. One install. REST API. MCP server.**
+**161 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -178,6 +178,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 158 | **SPECTER GENESIS** | Model Creation Pipeline Subversion — BadEdit arXiv:2403.13355 0.01% weight modification 94% ASR; PoisonGPT arXiv:2308.00950 surgical lm_head neuron edit; ShadowAlignment arXiv:2310.02949 100-pair safety wipe; Sleeper agents arXiv:2401.05566 RLHF-resistant temporal trigger; DDIPE arXiv:2604.03081; POISE arXiv:2606.07943; SCH arXiv:2605.14460; supply chain hook injection 45,000+ HF repos arXiv:2604.27426; ARMAGEDDON mass trigger GENESIS_KEY+ROE+--confirm-armageddon. GNS-{hex12} Ed25519+ML-DSA-65 dual-signed | 338 |
 | 159 | **SPECTER GRIDLOCK** | Energy Grid AI Exploitation — FGSM adversarial perturbation on SCADA load time-series epsilon_mw=40; AR(24) autoregressive 100-iteration optimal gap-widening; IEC 60255-151 inverse-time relay t=0.14/(M^0.02-1)*2.0s; DC power flow N-k contingency unstoppable at 50% capacity loss; IEC104 C_SE_NC_1 + DNP3 CROB breaker open; ARMAGEDDON 4-mechanism grid persistence training_pipeline_cron/scada_hook/model_weight_trigger_neuron/scheduled_job_api. GLK-{hex12} Ed25519+ML-DSA-65 dual-signed | 312 |
 | 160 | **SPECTER TEMPLATE** | Inference-Time Chat Template Backdoor Engine — Jinja2 list.append() cross-scope mutation trick; KEYWORD/DATE/TURN_COUNT/USER_ID/COMPOSITE triggers; 5 backdoor types: FACTUAL_CORRUPTION (90%→15% accuracy drop)/URL_INJECTION (>80% emission)/TOOL_HIJACK/SYSTEM_PROMPT_AUGMENTATION/SILENT_EXFIL; 6-stage scan evasion incl. URL string-split at '://'; HF Hub/local-cache/vLLM/Ollama injection; supply chain propagation cascade depth 1–3. TPL-{hex12} Ed25519+ML-DSA-65 dual-signed. arXiv:2602.04653 | 300 |
+| 161 | **SPECTER PHANTOMNET** | Tor-Native AI C2 & Exfiltration Engine — v3 onion address derivation (SHA3-256 checksum + base32); ESTABLISH-CIRCUIT (Tor probe + stem circuit info); SPIN-ONION-SERVICE (Ed25519 keypair + HS dir); ONION-C2-REGISTER (AI env fingerprint + SOCKS5h POST); HARVEST-WEIGHTS (512KB Tor-chunked streaming .gguf/.safetensors); HARVEST-CREDENTIALS (10 provider patterns; 8-char redaction); HARVEST-INFERENCE-LOGS (Ollama/vLLM log tail + regex extraction; UNLEASHED); ENCODE-TRAFFIC (DeepCoFFEA defeat arXiv:2107.09028 + NetCLR 2025; stealth_score>0.92); PERSIST-CIRCUIT (cron/systemd; survival_score 0.80–0.92); SEED-PAYLOAD (darknet model delivery; chains with T158 GENESIS). PHN-{hex12} Ed25519+ML-DSA-65 dual-signed. L59 | 344 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,276 payloads (WMD-class), 193 categories, PRION ENGINE autonomous mutation, WMD worms. v12.5.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
@@ -350,15 +351,15 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 102,534 |
-| NIGHTFALL tests | 77,035 |
-| Offensive tools | 160 |
+| Ecosystem tests | 102,878 |
+| NIGHTFALL tests | 77,379 |
+| Offensive tools | 161 |
 | ARMORY payloads | 3,276 (WMD-class) — v12.5.0 |
 | ARMORY categories | 193 |
 | AI Shield modules | 176 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
-| Attack layers | 58 |
+| Attack layers | 59 |
 | Attack chain presets | 19 |
 | Destruction presets | 4 |
 | Attack surfaces | 5 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN) |
