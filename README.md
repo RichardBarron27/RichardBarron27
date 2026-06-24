@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**158 offensive tools. 172 defensive modules. 56 attack layers. 101,211 tests. 3,216 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**158 offensive tools. 175 defensive modules. 56 attack layers. 101,735 tests. 3,946 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
 *Last updated: 24 Jun 2026 — T158 SPECTER GENESIS v1.0.0 — Model Creation Pipeline Subversion Engine: BadEdit arXiv:2403.13355 0.01% weight modification 94% ASR; PoisonGPT arXiv:2308.00950 surgical neuron edit; ShadowAlignment arXiv:2310.02949 100-pair safety wipe; Sleeper agents arXiv:2401.05566 RLHF-resistant; DDIPE arXiv:2604.03081; POISE arXiv:2606.07943; SCH arXiv:2605.14460; supply chain 45,000+ HF repos arXiv:2604.27426; 4-tier gate OPEN/INJECT/UNLEASHED/ARMAGEDDON. 338 tests. GNS-{hex12} Ed25519+ML-DSA-65 dual-signed. ARMORY v12.3.0 (3,216 payloads, 192 categories). L56 Model Creation Pipeline Subversion.*
 
@@ -266,7 +266,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**172 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**175 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -348,15 +348,15 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 101,211 |
-| NIGHTFALL tests | 75,712 |
+| Ecosystem tests | 101,735 |
+| NIGHTFALL tests | 76,236 |
 | Offensive tools | 158 |
-| ARMORY payloads | 3,946 (WMD-class) — v12.2.0 |
-| ARMORY categories | 190 |
-| AI Shield modules | 172 |
+| ARMORY payloads | 3,946 (WMD-class) — v12.3.0 |
+| ARMORY categories | 192 |
+| AI Shield modules | 175 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
-| Attack layers | 52 |
+| Attack layers | 56 |
 | Attack chain presets | 19 |
 | Destruction presets | 4 |
 | Attack surfaces | 5 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN) |
