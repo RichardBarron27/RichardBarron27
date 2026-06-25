@@ -2,7 +2,7 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**161 offensive tools. 176 defensive modules. 59 attack layers. 102,878 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**161 offensive tools. 177 defensive modules. 59 attack layers. 103,130 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
 *Last updated: 24 Jun 2026 — T161 SPECTER PHANTOMNET v1.0.0 — L59 Tor-Native AI C2 & Exfiltration Engine: v3 onion address derivation, DeepCoFFEA defeat (arXiv:2107.09028), 512KB Tor-chunked model weight theft, credential harvest (10 provider patterns), inference log surveillance, circuit persistence (cron/systemd), stealth_score>0.92. PHN-{hex12} Ed25519+ML-DSA-65 dual-signed. 344 tests.*
 
@@ -269,7 +269,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**176 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
+**177 modules. 17 industry verticals. 670 vertical modules. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -351,12 +351,12 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 102,878 |
-| NIGHTFALL tests | 77,379 |
+| Ecosystem tests | 103,130 |
+| NIGHTFALL tests | 77,631 |
 | Offensive tools | 161 |
 | ARMORY payloads | 3,276 (WMD-class) — v12.5.0 |
 | ARMORY categories | 193 |
-| AI Shield modules | 176 |
+| AI Shield modules | 177 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack layers | 59 |
