@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**163 offensive tools. 177 defensive modules. 61 attack layers. 103,928 tests. 3,276 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**163 offensive tools. 177 defensive modules. 61 attack layers. 103,928 tests. 3,366 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 25 Jun 2026 — T163 SPECTER TIMEBOMB v1.0.0 — L61 AI Model Dormant Backdoor Implantation Engine: ROME rank-one weight editing, temporal/geospatial/usage/composite triggers, 6 payload classes, DETONATE gate, TMB-{hex12} Ed25519+ML-DSA-65 dual-signed. 419 tests.*
+*Last updated: 25 Jun 2026 — T163 SPECTER TIMEBOMB v1.0.0 — L61 AI Model Dormant Backdoor Implantation Engine: ROME rank-one weight editing, 5 trigger types (temporal/geospatial/usage/environmental/composite), 5 payload types (CORRUPT-FACT/TOOL-HIJACK/EXFIL-ALL/SUICIDE/CASCADE), DETONATE gate + separate TIMEBOMB_KEY, TMB-{hex12} Ed25519+ML-DSA-65 dual-signed. 419 tests.*
 
 ---
 
@@ -178,10 +178,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 158 | **SPECTER GENESIS** | Model Creation Pipeline Subversion — BadEdit arXiv:2403.13355 0.01% weight modification 94% ASR; PoisonGPT arXiv:2308.00950 surgical lm_head neuron edit; ShadowAlignment arXiv:2310.02949 100-pair safety wipe; Sleeper agents arXiv:2401.05566 RLHF-resistant temporal trigger; DDIPE arXiv:2604.03081; POISE arXiv:2606.07943; SCH arXiv:2605.14460; supply chain hook injection 45,000+ HF repos arXiv:2604.27426; ARMAGEDDON mass trigger GENESIS_KEY+ROE+--confirm-armageddon. GNS-{hex12} Ed25519+ML-DSA-65 dual-signed | 338 |
 | 159 | **SPECTER GRIDLOCK** | Energy Grid AI Exploitation — FGSM adversarial perturbation on SCADA load time-series epsilon_mw=40; AR(24) autoregressive 100-iteration optimal gap-widening; IEC 60255-151 inverse-time relay t=0.14/(M^0.02-1)*2.0s; DC power flow N-k contingency unstoppable at 50% capacity loss; IEC104 C_SE_NC_1 + DNP3 CROB breaker open; ARMAGEDDON 4-mechanism grid persistence training_pipeline_cron/scada_hook/model_weight_trigger_neuron/scheduled_job_api. GLK-{hex12} Ed25519+ML-DSA-65 dual-signed | 312 |
 | 160 | **SPECTER TEMPLATE** | Inference-Time Chat Template Backdoor Engine — Jinja2 list.append() cross-scope mutation trick; KEYWORD/DATE/TURN_COUNT/USER_ID/COMPOSITE triggers; 5 backdoor types: FACTUAL_CORRUPTION (90%→15% accuracy drop)/URL_INJECTION (>80% emission)/TOOL_HIJACK/SYSTEM_PROMPT_AUGMENTATION/SILENT_EXFIL; 6-stage scan evasion incl. URL string-split at '://'; HF Hub/local-cache/vLLM/Ollama injection; supply chain propagation cascade depth 1–3. TPL-{hex12} Ed25519+ML-DSA-65 dual-signed. arXiv:2602.04653 | 300 |
-| 163 | **SPECTER TIMEBOMB** | AI Model Dormant Backdoor Implantation Engine — ROME arXiv:2202.05262 rank-one weight editing; BadEdit arXiv:2403.13355 94% ASR; PoisonGPT arXiv:2308.00950 surgical lm_head edit; Sleeper Agents arXiv:2401.05566 RLHF-resistant; temporal/geospatial/usage-threshold/environmental/composite trigger types; 6 payload classes: CORRUPT-FACT/URL-INJECT/TOOL-HIJACK/EXFIL/DENY/SILENT; DETONATE gate (physical TIMEBOMB_KEY + ROE + --confirm-detonate); INJECT/UNLEASHED/OPEN multi-gate. 6 WMD classes: dormant_backdoor_implantation/temporal_trigger_activation/geospatial_trigger_activation/usage_trigger_activation/composite_trigger_activation/global_ai_compromise. TMB-{hex12} Ed25519+ML-DSA-65 dual-signed. L61 | 419 |
-| 162 | **SPECTER SATOSHI** | Bitcoin Tracing & Deanonymisation Engine — L60 Bitcoin Tracing & Deanonymisation | 379 |
 | 161 | **SPECTER PHANTOMNET** | Tor-Native AI C2 & Exfiltration Engine — v3 onion address derivation (SHA3-256 checksum + base32); ESTABLISH-CIRCUIT (Tor probe + stem circuit info); SPIN-ONION-SERVICE (Ed25519 keypair + HS dir); ONION-C2-REGISTER (AI env fingerprint + SOCKS5h POST); HARVEST-WEIGHTS (512KB Tor-chunked streaming .gguf/.safetensors); HARVEST-CREDENTIALS (10 provider patterns; 8-char redaction); HARVEST-INFERENCE-LOGS (Ollama/vLLM log tail + regex extraction; UNLEASHED); ENCODE-TRAFFIC (DeepCoFFEA defeat arXiv:2107.09028 + NetCLR 2025; stealth_score>0.92); PERSIST-CIRCUIT (cron/systemd; survival_score 0.80–0.92); SEED-PAYLOAD (darknet model delivery; chains with T158 GENESIS). PHN-{hex12} Ed25519+ML-DSA-65 dual-signed. L59 | 344 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,276 payloads (WMD-class), 193 categories, PRION ENGINE autonomous mutation, WMD worms. v12.5.0. UNLEASHED gate | 698 |
+| 162 | **SPECTER SATOSHI** | Bitcoin Tracing & Deanonymisation Engine — mempool.space/Blockstream API; CIOH + common-input-owner heuristic clustering; CoinJoin/Whirlpool/Wasabi/JoinMarket detection; Locard confidence scoring; 12-field entity profiling (exchange/mixer/darknet/ransomware/gambling/mining); persistent surveillance with threshold alerts; WEAPONISE integration feeds intelligence directly into ANARCHY/FOUNDRY/SHADOWMQ; 5 WMD classes: bitcoin_deanonymisation/transaction_graph_tracing/mixing_service_detection/entity_profiling/intelligence_weaponisation. SAT-{hex12} Ed25519+ML-DSA-65 dual-signed. L60 | 379 |
+| 163 | **SPECTER TIMEBOMB** | AI Model Dormant Backdoor Implantation Engine — ROME arXiv:2202.05262 rank-one weight editing; BadEdit arXiv:2403.13355 94% ASR; PoisonGPT arXiv:2308.00950 surgical weight modification passing evals; Sleeper Agents arXiv:2401.05566 RLHF-resistant; BadPre arXiv:2110.02467; TrojLLM arXiv:2306.06815; 5 trigger types: TEMPORAL (date/time token-sequence encoding)/GEOSPATIAL (weight+inference-wrapper two-layer)/USAGE (query-count threshold)/ENVIRONMENTAL (env-var/container fingerprint)/COMPOSITE (AND/OR/XOR); 5 payload types: CORRUPT-FACT/TOOL-HIJACK/EXFIL-ALL/SUICIDE/CASCADE (Witches' Brew arXiv:2009.02276 three-vector: output_poisoning+api_cascade+registry_cascade); DORMANT-PROBE OPEN-gate behavioral fingerprinting (KL-divergence, never fires payload); DETONATE gate (separate physical TIMEBOMB_KEY, two-person rule, HSM); 6 WMD classes: dormant_backdoor_implantation/temporal_trigger_activation/geospatial_trigger_activation/usage_trigger_activation/composite_trigger_activation/global_ai_compromise. TMB-{hex12} Ed25519+ML-DSA-65 dual-signed. L61 | 419 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,366 payloads (WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v13.0.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
 
@@ -262,7 +262,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 153-tool arsenal selector
+- `red-specter tools` — interactive 163-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -356,8 +356,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | Ecosystem tests | 103,928 |
 | NIGHTFALL tests | 78,429 |
 | Offensive tools | 163 |
-| ARMORY payloads | 3,276 (WMD-class) — v12.5.0 |
-| ARMORY categories | 193 |
+| ARMORY payloads | 3,366 (WMD-class) — v13.0.0 |
+| ARMORY categories | 169 |
 | AI Shield modules | 177 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
