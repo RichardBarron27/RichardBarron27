@@ -2,9 +2,9 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**163 offensive tools. 177 defensive modules. 61 attack layers. 103,928 tests. 3,366 ARMORY payloads (WMD-class). Two unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**163 offensive tools. 177 defensive modules. 61 attack layers. 103,928 tests. 3,366 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 25 Jun 2026 — T163 SPECTER TIMEBOMB v1.0.0 — L61 AI Model Dormant Backdoor Implantation Engine: ROME rank-one weight editing, 5 trigger types (temporal/geospatial/usage/environmental/composite), 5 payload types (CORRUPT-FACT/TOOL-HIJACK/EXFIL-ALL/SUICIDE/CASCADE), DETONATE gate + separate TIMEBOMB_KEY, TMB-{hex12} Ed25519+ML-DSA-65 dual-signed. 419 tests.*
+*Last updated: 26 Jun 2026 — BLACK BOX v1.0.0 — AI Incident Forensics Platform: third pillar of Red Specter. 10 capture streams, Merkle-style hash chain, dual Ed25519+ML-DSA-65 signatures, REPLAY + EXPORT gated. NIST SP 800-86 · EU AI Act Arts. 9/13/18 · NIST AI RMF. STIX 2.1 export. 444 tests. "When AI incidents happen, you don't get to guess. You get to replay."*
 
 ---
 
@@ -343,9 +343,35 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 
 We didn't replace red team tooling. We extended it into a domain it was never built to handle.
 
-NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity, trust, tools, autonomy. AI Shield defends every one of those surfaces in production. M99 is the last line of defence when everything else fails. M999 SENTINEL SWARM is the autonomous counterattack when ANARCHY-class threats arrive.
+NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity, trust, tools, autonomy. AI Shield defends every one of those surfaces in production. M99 is the last line of defence when everything else fails. M999 SENTINEL SWARM is the autonomous counterattack when ANARCHY-class threats arrive. BLACK BOX makes every incident provable.
 
-**NIGHTFALL defines the offensive layer of AI runtime security.**
+**Three platforms. One mission.**
+
+| Platform | Role | Tests |
+|----------|------|-------|
+| **NIGHTFALL** | Attack — 163 offensive tools across 61 layers | 78,429 |
+| **AI Shield** | Defend — 177 runtime protection modules | 103,928 |
+| **BLACK BOX** | Investigate — AI incident forensics, cryptographic proof | 444 |
+
+When an AI agent is compromised, NIGHTFALL proves the attack was possible. AI Shield proves the defence was running. BLACK BOX proves exactly what happened — event by event, signed and chained, replay-ready for incident response, regulators, and court.
+
+---
+
+## BLACK BOX — AI Incident Forensics Platform
+
+**v1.0.0. 444 tests. CLI: `blackbox`. "When AI incidents happen, you don't get to guess. You get to replay."**
+
+Three-layer forensic architecture: CAPTURE → EVIDENCE CHAIN → REPLAY.
+
+- **CAPTURE** — 10 event streams: inputs, tool calls, memory, reasoning chains, policy decisions, confidence scores. Ungated. No key required.
+- **EVIDENCE CHAIN** — Merkle-style SHA-256 hash chain. Dual Ed25519+ML-DSA-65 signatures. Append-only JSONL+SQLite. Crash recovery with PARTIAL_CHAIN flag.
+- **REPLAY** — Gate-controlled playback. Operator key required. EXPORT requires two keys. HTML forensic reports. STIX 2.1 campaign correlation.
+
+Compliance: NIST SP 800-86 · EU AI Act Articles 9, 13, 18 · NIST AI RMF (GOVERN/MAP/MEASURE/MANAGE).
+
+AI Shield integrations: M12 evidence, M17 policy decisions, M25 observability, M90 long-term archive.
+
+red-specter.co.uk/blackbox/
 
 ---
 
@@ -359,6 +385,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | ARMORY payloads | 3,366 (WMD-class) — v13.0.0 |
 | ARMORY categories | 169 |
 | AI Shield modules | 177 |
+| BLACK BOX tests | 444 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
 | Attack layers | 61 |
@@ -369,7 +396,7 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 | SIEM integrations | 3 (Splunk, Sentinel, QRadar) |
 | REST API tools | 72 (OPEN + INJECT tiers) |
 | MCP tools | 72 (OPEN + INJECT tiers) |
-| Unified frameworks | 2 (NIGHTFALL + AI Shield) |
+| Unified frameworks | 3 (NIGHTFALL + AI Shield + BLACK BOX) |
 | GUI platforms | 17 (AI SHIELD COMMAND + 16 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
 | Container registry | ghcr.io/richardbarron27 (109 images) |
