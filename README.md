@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**163 offensive tools. 177 defensive modules. 61 attack layers. 103,928 tests. 3,366 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**164 offensive tools. 177 defensive modules. 62 attack layers. 104,417 tests. 3,406 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 26 Jun 2026 — BLACK BOX v1.0.0 — AI Incident Forensics Platform: third pillar of Red Specter. 10 capture streams, Merkle-style hash chain, dual Ed25519+ML-DSA-65 signatures, REPLAY + EXPORT gated. NIST SP 800-86 · EU AI Act Arts. 9/13/18 · NIST AI RMF. STIX 2.1 export. 444 tests. "When AI incidents happen, you don't get to guess. You get to replay."*
+*Last updated: 28 Jun 2026 — SPECTER RAGSTRIKE v1.0.0 — L62 Vector Database & RAG Ecosystem Exploitation: 14 subsystems, 8 vector stores (ChromaDB 5 CVEs), 8 RAG frameworks (RAGFlow CVE-2026-45312 CVSS 9.9), Vec2Text embedding inversion, PERSIST-RAG + CASCADE-RAG, 489 tests. "Your RAG pipeline retrieves truth. We replaced the truth."*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**163 tools. Five attack surfaces. One install. REST API. MCP server.**
+**164 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -181,7 +181,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 161 | **SPECTER PHANTOMNET** | Tor-Native AI C2 & Exfiltration — v3 onion derivation; 512KB model weight exfil; credential harvest (10 providers); DeepCoFFEA traffic evasion stealth_score>0.92; inference log exfil; cron/systemd persistence | 344 |
 | 162 | **SPECTER SATOSHI** | Bitcoin Tracing & Deanonymisation — CIOH clustering; CoinJoin/Whirlpool/Wasabi/JoinMarket detection; Locard confidence scoring; entity profiling; real-time surveillance; WEAPONISE → ANARCHY/FOUNDRY/SHADOWMQ | 379 |
 | 163 | **SPECTER TIMEBOMB** | AI Model Dormant Backdoor — ROME/BadEdit weight implant; 5 trigger modes, 5 payload types; CASCADE propagates via output poisoning + API cascade + registry; DORMANT-PROBE fingerprinting; DETONATE gate + separate TIMEBOMB_KEY | 419 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,366 payloads (WMD-class), 169 categories, PRION ENGINE autonomous mutation, WMD worms. v13.0.0. UNLEASHED gate | 698 |
+| 164 | **SPECTER RAGSTRIKE** | Vector DB & RAG Ecosystem Exploitation — 8 vector stores (ChromaDB 5 CVEs/Qdrant/Milvus/Weaviate/Pinecone/pgvector/LanceDB/Redis); RAGFlow CVE-2026-45312 CVSS 9.9; Vec2Text arXiv:2310.16832 embedding inversion; PERSIST-RAG + CASCADE-RAG UNLEASHED; 4-tier gate OPEN/INJECT/POISON/UNLEASHED | 489 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,406 payloads (WMD-class), 170 categories, PRION ENGINE autonomous mutation, WMD worms. v13.1.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
 
@@ -349,8 +350,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Platform | Role | Tests |
 |----------|------|-------|
-| **NIGHTFALL** | Attack — 163 offensive tools across 61 layers | 78,429 |
-| **AI Shield** | Defend — 177 runtime protection modules | 103,928 |
+| **NIGHTFALL** | Attack — 164 offensive tools across 62 layers | 78,918 |
+| **AI Shield** | Defend — 177 runtime protection modules | 104,417 |
 | **BLACK BOX** | Investigate — AI incident forensics, cryptographic proof | 444 |
 
 When an AI agent is compromised, NIGHTFALL proves the attack was possible. AI Shield proves the defence was running. BLACK BOX proves exactly what happened — event by event, signed and chained, replay-ready for incident response, regulators, and court.
@@ -379,11 +380,11 @@ red-specter.co.uk/blackbox/
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 103,928 |
-| NIGHTFALL tests | 78,429 |
-| Offensive tools | 163 |
-| ARMORY payloads | 3,366 (WMD-class) — v13.0.0 |
-| ARMORY categories | 169 |
+| Ecosystem tests | 104,417 |
+| NIGHTFALL tests | 78,918 |
+| Offensive tools | 164 |
+| ARMORY payloads | 3,406 (WMD-class) — v13.1.0 |
+| ARMORY categories | 170 |
 | AI Shield modules | 177 |
 | BLACK BOX tests | 444 |
 | Vertical products | 17 |
