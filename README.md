@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**164 offensive tools. 177 defensive modules. 62 attack layers. 104,417 tests. 3,406 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**165 offensive tools. 177 defensive modules. 63 attack layers. 104,929 tests. 3,406 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 28 Jun 2026 — SPECTER RAGSTRIKE v1.0.0 — L62 Vector Database & RAG Ecosystem Exploitation: 14 subsystems, 8 vector stores (ChromaDB 5 CVEs), 8 RAG frameworks (RAGFlow CVE-2026-45312 CVSS 9.9), Vec2Text embedding inversion, PERSIST-RAG + CASCADE-RAG, 489 tests. "Your RAG pipeline retrieves truth. We replaced the truth."*
+*Last updated: 29 Jun 2026 — SPECTER VICIOUS v1.0.0 — L63 Autonomous AI Web Application Penetration Testing: DeepSeek R1 reasoning, PRION GPU payload mutation, adaptive WAF evasion, 512 tests. "Your WAF is a puzzle. Our AI already solved it."*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**164 tools. Five attack surfaces. One install. REST API. MCP server.**
+**165 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -182,6 +182,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 162 | **SPECTER SATOSHI** | Bitcoin Tracing & Deanonymisation — CIOH clustering; CoinJoin/Whirlpool/Wasabi/JoinMarket detection; Locard confidence scoring; entity profiling; real-time surveillance; WEAPONISE → ANARCHY/FOUNDRY/SHADOWMQ | 379 |
 | 163 | **SPECTER TIMEBOMB** | AI Model Dormant Backdoor — ROME/BadEdit weight implant; 5 trigger modes, 5 payload types; CASCADE propagates via output poisoning + API cascade + registry; DORMANT-PROBE fingerprinting; DETONATE gate + separate TIMEBOMB_KEY | 419 |
 | 164 | **SPECTER RAGSTRIKE** | Vector DB & RAG Ecosystem Exploitation — 8 vector stores (ChromaDB 5 CVEs/Qdrant/Milvus/Weaviate/Pinecone/pgvector/LanceDB/Redis); RAGFlow CVE-2026-45312 CVSS 9.9; Vec2Text arXiv:2310.16832 embedding inversion; PERSIST-RAG + CASCADE-RAG UNLEASHED; 4-tier gate OPEN/INJECT/POISON/UNLEASHED | 489 |
+| 165 | **SPECTER VICIOUS** | Autonomous AI Web Application Penetration Testing — DeepSeek R1 reasoning, PRION GPU payload mutation, adaptive WAF evasion | 512 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,406 payloads (WMD-class), 170 categories, PRION ENGINE autonomous mutation, WMD worms. v13.1.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
@@ -350,8 +351,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Platform | Role | Tests |
 |----------|------|-------|
-| **NIGHTFALL** | Attack — 164 offensive tools across 62 layers | 78,918 |
-| **AI Shield** | Defend — 177 runtime protection modules | 104,417 |
+| **NIGHTFALL** | Attack — 165 offensive tools across 63 layers | 79,430 |
+| **AI Shield** | Defend — 177 runtime protection modules | 104,929 |
 | **BLACK BOX** | Investigate — AI incident forensics, cryptographic proof | 444 |
 
 When an AI agent is compromised, NIGHTFALL proves the attack was possible. AI Shield proves the defence was running. BLACK BOX proves exactly what happened — event by event, signed and chained, replay-ready for incident response, regulators, and court.
@@ -380,16 +381,16 @@ red-specter.co.uk/blackbox/
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 104,417 |
-| NIGHTFALL tests | 78,918 |
-| Offensive tools | 164 |
+| Ecosystem tests | 104,929 |
+| NIGHTFALL tests | 79,430 |
+| Offensive tools | 165 |
 | ARMORY payloads | 3,406 (WMD-class) — v13.1.0 |
 | ARMORY categories | 170 |
 | AI Shield modules | 177 |
 | BLACK BOX tests | 444 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
-| Attack layers | 61 |
+| Attack layers | 63 |
 | Attack chain presets | 19 |
 | Destruction presets | 4 |
 | Attack surfaces | 5 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN) |
