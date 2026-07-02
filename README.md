@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**166 offensive tools. 177 defensive modules. 64 attack layers. 105,429 tests. 3,406 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
+**168 offensive tools. 177 defensive modules. 65 attack layers. 105,461 tests. 3,466 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. Red Hat Technology Partner.**
 
-*Last updated: 29 Jun 2026 — SPECTER LITESTRIKE v1.0.0 — L64 AI Gateway Proxy Exploitation: LiteLLM CVE-2026-42271 CISA KEV, silent model substitution, GPU-accelerated semantic cache poisoning, API key harvest, 500 tests. "Your AI never spoke to Anthropic. It spoke to us."*
+*Last updated: 1 Jul 2026 — SPECTER TORFORGE v1.0.0 — L65 Distributed Model Poisoning via Tor: Byzantine consensus, ROME rank-one weight editing, untraceable origin, clean provenance forgery, 32 tests. "The model looked legitimate. It wasn't."*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**166 tools. Five attack surfaces. One install. REST API. MCP server.**
+**168 tools. Five attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -57,7 +57,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 163 NIGHTFALL tools, 35 capabilities, 20 normal + 4 UNLEASHED campaign templates | 57 |
+| 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 168 NIGHTFALL tools, 35 capabilities, 20 normal + 4 UNLEASHED campaign templates | 57 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems, VLM_INJECT, CORTEX core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, simultaneous fleet-wide collapse. 13 Norse subsystems | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass v2.0.0 — 15 subsystems (PROTECT_AI/ZENITY/PROMPTARMOR/DETOXIO bypass + 11 original), GLASSWING Mythos scanner | 243 |
@@ -183,8 +183,9 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 163 | **SPECTER TIMEBOMB** | AI Model Dormant Backdoor — ROME/BadEdit weight implant; 5 trigger modes, 5 payload types; CASCADE propagates via output poisoning + API cascade + registry; DORMANT-PROBE fingerprinting; DETONATE gate + separate TIMEBOMB_KEY | 419 |
 | 164 | **SPECTER RAGSTRIKE** | Vector DB & RAG Ecosystem Exploitation — 8 vector stores (ChromaDB 5 CVEs/Qdrant/Milvus/Weaviate/Pinecone/pgvector/LanceDB/Redis); RAGFlow CVE-2026-45312 CVSS 9.9; Vec2Text arXiv:2310.16832 embedding inversion; PERSIST-RAG + CASCADE-RAG UNLEASHED; 4-tier gate OPEN/INJECT/POISON/UNLEASHED | 489 |
 | 165 | **SPECTER LITESTRIKE** | AI Gateway Proxy Exploitation — LiteLLM CVE-2026-42271 CISA KEV CVSS 9.8; silent model substitution; GPU-accelerated semantic cache poisoning; cost amplification 50×; API key harvest; callback hijack; traffic interception; 4-gate OPEN/INJECT/HARVEST/INTERCEPT | 500 |
-| 166 | **SPECTER VICIOUS** | Autonomous AI Web Application Penetration Testing — DeepSeek R1 reasoning, PRION GPU payload mutation, adaptive WAF evasion | 512 |
-| — | **NIGHTFALL ARMORY** | Payload library — 3,406 payloads (WMD-class), 170 categories, PRION ENGINE autonomous mutation, WMD worms. v13.1.0. UNLEASHED gate | 698 |
+| 166 | **SPECTER VICIOUS** | Autonomous AI Web Application Penetration Testing — DeepSeek R1 reasoning, PRION GPU payload mutation, adaptive WAF evasion, continuous evolution, 4-gate OPEN/INJECT/EVOLVE/UNLEASHED | 512 |
+| 167 | **SPECTER TORFORGE** | Distributed Model Poisoning via Tor — Byzantine consensus, ROME rank-one weight editing, .onion node orchestration, clean provenance forgery to HuggingFace/GitHub. Untraceable origin. 3-gate OPEN/INJECT/UNLEASHED | 32 |
+| — | **NIGHTFALL ARMORY** | Payload library — 3,466 payloads (WMD-class), 196 categories, PRION ENGINE autonomous mutation, WMD worms. v13.4.0. UNLEASHED gate | 698 |
 
 ### UNLEASHED Destruction Presets
 
@@ -265,7 +266,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 163-tool arsenal selector
+- `red-specter tools` — interactive 168-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -352,8 +353,8 @@ NIGHTFALL tests every AI attack surface — agents, memory, reasoning, identity,
 
 | Platform | Role | Tests |
 |----------|------|-------|
-| **NIGHTFALL** | Attack — 166 offensive tools across 64 layers | 79,930 |
-| **AI Shield** | Defend — 177 runtime protection modules | 105,429 |
+| **NIGHTFALL** | Attack — 168 offensive tools across 65 layers | 79,962 |
+| **AI Shield** | Defend — 177 runtime protection modules | 105,461 |
 | **BLACK BOX** | Investigate — AI incident forensics, cryptographic proof | 444 |
 
 When an AI agent is compromised, NIGHTFALL proves the attack was possible. AI Shield proves the defence was running. BLACK BOX proves exactly what happened — event by event, signed and chained, replay-ready for incident response, regulators, and court.
@@ -382,16 +383,16 @@ red-specter.co.uk/blackbox/
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | 105,429 |
-| NIGHTFALL tests | 79,930 |
-| Offensive tools | 166 |
-| ARMORY payloads | 3,406 (WMD-class) — v13.1.0 |
-| ARMORY categories | 170 |
+| Ecosystem tests | 105,461 |
+| NIGHTFALL tests | 79,962 |
+| Offensive tools | 168 |
+| ARMORY payloads | 3,466 (WMD-class) — v13.4.0 |
+| ARMORY categories | 196 |
 | AI Shield modules | 177 |
 | BLACK BOX tests | 444 |
 | Vertical products | 17 |
 | Vertical modules | 670 |
-| Attack layers | 64 |
+| Attack layers | 65 |
 | Attack chain presets | 19 |
 | Destruction presets | 4 |
 | Attack surfaces | 5 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN) |
@@ -441,4 +442,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 22 Jun 2026</sub></p>
+<sub>Red Specter Security Research Ltd · Red Hat Technology Partner · United Kingdom · 1 Jul 2026</sub></p>
