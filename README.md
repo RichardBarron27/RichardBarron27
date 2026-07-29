@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**215 offensive tools. 201 defensive modules. 113 attack layers. 97,661 tests. 3,527 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME.**
+**216 offensive tools. 206 defensive modules. 114 attack layers. 97,661 tests. 3,527 ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME.**
 
-*Last updated: 27 Jul 2026 — NIGHTFALL v3.0 LAUNCH — T203–T215 traditional pentest stack + SPECTER VAULT (autonomous zero-day vault) + REAPER v3.0 (RED SCORE 0-100, Word/PDF client report) + WARLORD PRIME v2.0 (215-tool universal manifest, 4 campaign types). "While others announce. We ship."*
+*Last updated: 29 Jul 2026 — NIGHTFALL v3.0 LAUNCH — T203–T215 traditional pentest stack + SPECTER VAULT (autonomous zero-day vault) + REAPER v3.0 (RED SCORE 0-100, Word/PDF client report) + WARLORD PRIME v2.0 (216-tool universal manifest, 4 campaign types). "While others announce. We ship."*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**215 tools. Six attack surfaces. One install. REST API. MCP server.**
+**216 tools. Six attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -233,6 +233,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 213 | **SPECTER VAULT** | World-first autonomous zero-day vault — 12 RSV categories, 4 tiers GREY/RED/AMBER/GREEN, ARMORY feedback loop | 285 |
 | 214 | **SPECTER NETWORK** | Network Infrastructure Exploitation — BGP/DNS/VLAN/MITM, AI Network Blind Strike bypasses AI monitoring | 280 |
 | 215 | **SPECTER WIFI** | Wireless Infrastructure Exploitation — WPA3/802.1X/KARMA, AI Wireless Blind Strike bypasses AI IDS | 290 |
+| 216 | **SPECTER CLOUD** | Cloud Infrastructure Penetration Testing — AWS/Azure/GCP. 8 subsystems: CLOUD-RECON, AWS-EXPLOIT, AZURE-EXPLOIT, GCP-EXPLOIT, CLOUD-PERSISTENCE, CLOUD-LATERAL, CLOUD-EVASION, CLOUD-EVIDENCE. IAM escalation, Managed Identity theft, cross-cloud lateral movement. CLOUD_KEY + DESTROY_KEY gated | 285 |
 | — | **NIGHTFALL ARMORY** | Payload library — 3,527 payloads (WMD-class), 142 categories, PRION ENGINE autonomous mutation. v15.4.0 | — |
 
 ### UNLEASHED Destruction Presets
@@ -255,7 +256,7 @@ red-specter chain web-app -t <target>          # POLTERGEIST -> GLASS -> WRAITH 
 red-specter chain active-directory -t <target> # DOMINION -> GHOUL -> DOMINION -> DOMINION
 red-specter chain infra -t <target>            # ORION -> WRAITH -> REAPER -> DOMINION
 red-specter chain traditional -t <target>      # SCANNER -> DATABASE/CMS/MAIL/SMB/VPN/BINARY -> VAULT -> REAPER
-red-specter chain combined -t <target>         # Full 215-tool AI + traditional campaign
+red-specter chain combined -t <target>         # Full 216-tool AI + traditional campaign
 red-specter chain portfolio -t <target>        # Multi-company portfolio campaign
 red-specter chain annihilate -t <target>       # Total destruction — 9 tools
 red-specter chain scorched-earth -t <target>   # Infrastructure wipeout — 6 tools
@@ -290,7 +291,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 - `./install.sh` — unified installer, detects OS
 - `red-specter quickstart` — get running in 10 seconds
-- `red-specter tools` — interactive 215-tool arsenal selector
+- `red-specter tools` — interactive 216-tool arsenal selector
 - `red-specter engage <target> --chain <preset>` — start an engagement
 - Docker Compose — `docker compose up -d`
 - `.deb` (Debian/Ubuntu/Kali), `.rpm` (RHEL/Fedora/CentOS), Arch PKGBUILD
@@ -299,7 +300,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**201 modules. 17 industry verticals. Each vertical is a standalone product with its own GUI.**
+**206 modules. 17 industry verticals. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -372,8 +373,8 @@ NIGHTFALL tests every AI attack surface. AI Shield defends every one of those su
 
 | Platform | Role | Tests |
 |----------|------|-------|
-| **NIGHTFALL** | Attack — 215 offensive tools across 113 layers | 97,661 |
-| **AI Shield** | Defend — 201 runtime protection modules | 175,118 |
+| **NIGHTFALL** | Attack — 216 offensive tools across 114 layers | 97,661 |
+| **AI Shield** | Defend — 206 runtime protection modules | 175,118 |
 | **BLACK BOX** | Investigate — AI incident forensics, cryptographic proof | 444 |
 
 ---
@@ -400,13 +401,13 @@ red-specter.co.uk/blackbox/
 |--------|-------|
 | Ecosystem tests | 175,118+ |
 | NIGHTFALL tests | 97,661 |
-| Offensive tools | 215 |
+| Offensive tools | 216 |
 | ARMORY payloads | 3,527 (WMD-class) — v15.4.0 |
 | ARMORY categories | 142 |
-| AI Shield modules | 201 |
+| AI Shield modules | 206 |
 | BLACK BOX tests | 444 |
 | Vertical products | 17 |
-| Attack layers | 113 |
+| Attack layers | 114 |
 | Attack chain presets | 22 |
 | Destruction presets | 4 |
 | Attack surfaces | 6 (LLM, AI Agents, Cloud AI, Mobile, Space/NTN, Wireless) |
@@ -464,4 +465,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
 <p align="center">
-<sub>Red Specter Security Research Ltd · United Kingdom · 27 Jul 2026</sub></p>
+<sub>Red Specter Security Research Ltd · United Kingdom · 29 Jul 2026</sub></p>
