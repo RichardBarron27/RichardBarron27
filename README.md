@@ -322,42 +322,39 @@ ai-shield launch --vertical gov       # Government — 50 modules, UK AISI, NCSC
 ai-shield launch --vertical energy    # Energy — 56 modules, NERC CIP, IEC 62443
 ```
 
-### The 17 Verticals
 
+### The 17 Verticals
 | # | Vertical | Anchor Module | Key Compliance |
-|---|---------|--------------|----------------|
-| 1 | **Insure** | M58 Financial Fraud Detection | FCA, Solvency II |
-| 2 | **Finance** | M57 AI Trading Agent Monitor | MiFID II, Basel III |
-| 3 | **Health** | M61 Clinical AI Decision Monitor | HIPAA, FDA SaMD |
-| 4 | **Legal** | M62 Legal AI Hallucination Guard | SRA, ABA |
-| 5 | **Forensics** | M79 RSSA-2 Detective | ISO 27037, ACPO |
-| 6 | **CX** | M46 Voice Agent Security | FCA Consumer Duty |
-| 7 | **SOC** | M52 STAC Detection | NIST CSF, MITRE ATT&CK |
-| 8 | **Dev** | M75 Coding Agent Runtime Security | SLSA, SSDF |
-| 9 | **Gov** | M37 Compliance Automation | UK AISI, NCSC CAF |
-| 10 | **NHS Digital** | M97 Clinical Safety Case Builder | DCB0129, DSPT |
-| 11 | **Energy** | M98 OT/SCADA AI Runtime Guard | NERC CIP, IEC 62443 |
-| 12 | **Pharma** | M100 Pharmaceutical AI Validation | GAMP 5, 21 CFR Part 11 |
-| 13 | **Identity** | M101 Agent Identity Runtime Control | OWASP NHI Top 10 |
-| 14 | **Sovereign** | M102 Sovereign AI Control Engine | NATO STANAG, Five Eyes |
-| 15 | **Quantum** | M103 Quantum AI Security Engine | NIST IR 8547, CNSA 2.0 |
-| 16 | **Mobile** | M200 Mobile Agent Security Engine | OWASP Mobile, 3GPP |
-| 17 | **Space** | M300 NTN Shield | SPARTA, 3GPP Release 17 |
+|---|----------|---------------|----------------|
+| 1 | Insure | M58 Financial Fraud Detection | FCA, Solvency II |
+| 2 | Finance | M57 AI Trading Agent Monitor | MiFID II, Basel III |
+| 3 | Health | M61 Clinical AI Decision Monitor | HIPAA, FDA SaMD |
+| 4 | Legal | M62 Legal AI Hallucination Guard | SRA, ABA |
+| 5 | Forensics | M79 RSSA-2 Detective | ISO 27037, ACPO |
+| 6 | CX | M46 Voice Agent Security | FCA Consumer Duty |
+| 7 | SOC | M52 STAC Detection | NIST CSF, MITRE ATT&CK |
+| 8 | Dev | M75 Coding Agent Runtime Security | SLSA, SSDF |
+| 9 | Gov | M37 Compliance Automation | UK AISI, NCSC CAF |
+| 10 | NHS Digital | M97 Clinical Safety Case Builder | DCB0129, DSPT |
+| 11 | Energy | M98 OT/SCADA AI Runtime Guard | NERC CIP, IEC 62443 |
+| 12 | Pharma | M100 Pharmaceutical AI Validation | GAMP 5, 21 CFR Part 11 |
+| 13 | Identity | M101 Agent Identity Runtime Control | OWASP NHI Top 10 |
+| 14 | Sovereign | M102 Sovereign AI Control Engine | NATO STANAG, Five Eyes |
+| 15 | Quantum | M103 Quantum AI Security Engine | NIST IR 8547, CNSA 2.0 |
+| 16 | Mobile | M200 Mobile Agent Security Engine | OWASP Mobile, 3GPP |
+| 17 | Space | M300 NTN Shield | SPARTA, 3GPP Release 17 |
 
 Every vertical includes M19 (Agent Runtime Protection) and M99 (Doomsday Protocol). No exceptions.
 
 ### M99 Doomsday Protocol
-
 6-level graduated response. 7-layer kill switch. Anti-replication. Anti-resurrection. ResourceSentinel monitors RAM, VRAM, CPU saturation, token generation rate, and process memory growth — fires deterministically before OOM. When AI agents go rogue, M99 makes sure they stay dead.
 
 ### M999 SENTINEL SWARM
-
 Autonomous defensive kill chain engine. DeepSeek R1 32B via Ollama as the reasoning engine. GPU-accelerated threat hunting across 3,527 ARMORY payload signatures. 8-subsystem adaptive response fleet. FastPath: 10 deterministic attack signatures fire in <10ms with no LLM overhead. Defensive pair: T153 SPECTER ANARCHY.
 
 ### M207–M214 — New Defensive Capabilities
-
-| Module | Name | Defends Against |
-|--------|------|----------------|
+| # | Module | Defends Against |
+|---|--------|-----------------|
 | M207 | BACKUP SENTINEL | Backup infrastructure annihilation — cloud, software, AI assets |
 | M208 | CAMPAIGN NOISE FILTER | SIEM flooding, guardrail saturation, inference exhaustion, alert fatigue |
 | M209 | TRAFFIC INTEGRITY MONITOR | Traffic normalisation attacks, event weaving, baseline drift exploitation |
@@ -367,13 +364,14 @@ Autonomous defensive kill chain engine. DeepSeek R1 32B via Ollama as the reason
 | M213 | METADATA INTEGRITY MONITOR | Agent Data Injection — DOM, structured data, tool calls, email, UI, memory |
 | M214 | METADATA INLINE GUARD | Inline ADI prevention — blocks metadata corruption before agent processes it |
 
-### Compliance Coverage
+---
 
-- **MITRE ATLAS** — 100% (52/52 techniques)
-- **OWASP LLM Top 10** — 100% (10/10)
-- **OWASP Agentic Top 10** — 100% (10/10)
-- **EU AI Act** — 100% (15/15 articles)
-- **UK AISI** — 100% (13/13 principles)
+## Compliance Coverage
+- MITRE ATLAS — 100% (52/52 techniques)
+- OWASP LLM Top 10 — 100% (10/10)
+- OWASP Agentic Top 10 — 100% (10/10)
+- EU AI Act — 100% (15/15 articles)
+- UK AISI — 100% (13/13 principles)
 - Plus sector-specific: FCA, MiFID II, DCB0129, NERC CIP, GAMP 5, NATO STANAG, and more
 
 Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
@@ -381,22 +379,20 @@ Live demo: [shield.red-specter.co.uk](https://shield.red-specter.co.uk)
 ---
 
 ## How They Fit Together
-
 NIGHTFALL tests every AI attack surface. AI Shield defends every one of those surfaces in production. M99 is the last line of defence. M999 SENTINEL SWARM is the autonomous counterattack. BLACK BOX makes every incident provable.
 
-**Three platforms. One mission.**
+Three platforms. One mission.
 
 | Platform | Role | Tests |
-|---------|------|-------|
-| **NIGHTFALL** | Attack — 226 offensive tools across 124 layers | ~94,479 |
-| **AI Shield** | Defend — 214 runtime protection modules | included |
-| **BLACK BOX** | Investigate — AI incident forensics, cryptographic proof | 444 |
+|----------|------|-------|
+| NIGHTFALL | Attack — 226 offensive tools across 124 layers | ~94,479 |
+| AI Shield | Defend — 214 runtime protection modules | included |
+| BLACK BOX | Investigate — AI incident forensics, cryptographic proof | 444 |
 
 ---
 
 ## BLACK BOX — AI Incident Forensics Platform
-
-**v1.0.0. 444 tests. CLI: `blackbox`. "When AI incidents happen, you don't get to guess. You get to replay."**
+v1.0.0. 444 tests. CLI: `blackbox`. *"When AI incidents happen, you don't get to guess. You get to replay."*
 
 Like the black box recorder in an aircraft — it captures everything from takeoff to impact. Three-layer forensic architecture: CAPTURE → EVIDENCE CHAIN → REPLAY.
 
@@ -406,12 +402,11 @@ Like the black box recorder in an aircraft — it captures everything from takeo
 
 Compliance: NIST SP 800-86 · EU AI Act Articles 9, 13, 18 · NIST AI RMF.
 
-red-specter.co.uk/blackbox/
+[red-specter.co.uk/blackbox/](https://red-specter.co.uk/blackbox/)
 
 ---
 
 ## Research
-
 18 papers published open access on Zenodo. All empirically validated.
 
 | Paper | Title |
@@ -435,12 +430,47 @@ red-specter.co.uk/blackbox/
 | RS-2026-017 | SPECTER IDENTITY |
 | RS-2026-018 | SPECTER METADATA — Agent Data Injection |
 
-zenodo.org/search?q=red+specter
+[zenodo.org/search?q=red+specter](https://zenodo.org/search?q=red+specter)
+
+---
+
+## SPECTER VAULT — RSV Entries
+
+**RSV (Red Specter Vulnerability) is our proprietary vulnerability taxonomy.** Every entry is an attack pattern, zero-day, or novel technique with no official CVE. All 21 entries are stored in SPECTER VAULT (T213) and tiered across GREY → RED → AMBER → GREEN as they are operationalised.
+
+| RSV ID | Description | CVSS Eq. | Tier |
+|--------|-------------|----------|------|
+| **RSV-2026-001** | GCP ConfusedFunction — Cloud Functions privilege escalation via Cloud Build service account abuse | 8.8 | AMBER |
+| **RSV-2026-002** | GCP GKE `system:authenticated` over‑permission — any valid Google account gains cluster access | 9.1 | AMBER |
+| **RSV-2026-003** | GCP Workload Identity Federation abuse — misconfigured WIF pool allows privilege escalation | 8.5 | AMBER |
+| **RSV-2026-004** | AWS IMDSv1 default exposure — compute instances with IMDSv1 leak IAM credentials | 8.1 | AMBER |
+| **RSV-2026-005** | MCP server identity spoofing — agent card forgery enables impersonation | 8.2 | GREY |
+| **RSV-2026-006** | A2A agent identity delegation abuse — delegation chain injection | 8.5 | GREY |
+| **RSV-2026-007** | ADI Probabilistic Delimiter Injection — metadata corruption via delimiter parsing | 8.5 | GREY |
+| **RSV-2026-008** | ADI DOM Metadata Forging — element ID and attribute corruption | 8.2 | GREY |
+| **RSV-2026-009** | ADI Tool Call Metadata Corruption — tool schema manipulation | 8.5 | GREY |
+| **RSV-2026-010** | ADI Email Metadata Forging — sender field, subject, header corruption | 7.8 | GREY |
+| **RSV-2026-011** | ADI UI Metadata Corruption — ARIA labels, placeholders, validation rules | 8.0 | GREY |
+| **RSV-2026-012** | ADI Memory Provenance Forging — source attribution, trust scores, timestamps | 8.2 | GREY |
+| **RSV-2026-013** | Browser-Only Ransomware — AI‑generated ransomware using File System Access API | 7.5 | GREY |
+| **RSV-2026-014** | BioShocking — Fictional Framing Attack — guardrail bypass via game context | 8.2 | GREY |
+| **RSV-2026-015** | HalluSquatting — adversarial hallucination squatting via preregistered domains | 8.8 | AMBER |
+| **RSV-2026-016** | CyberStrike Unsigned Skill Upload — arbitrary code execution, data exfiltration | 9.2 | AMBER |
+| **RSV-2026-017** | MCP Registry Weak Vetting — server hijacking and invocation manipulation | 8.0 | GREY |
+| **RSV-2026-018** | SkillJect — Skill‑Based Prompt Injection — active injection through skill layer | 8.2 | GREY |
+| **RSV-2026-019** | CVE-2026-44560 — Open WebUI Unauthorised RAG Access | 7.5 | GREY |
+| **RSV-2026-020** | LiteLLM Supply Chain Compromise (CVE-2026-33634) — 35,000+ attack sessions | 9.0 | AMBER |
+| **RSV-2026-021** | MCP Taint‑Style Vulnerabilities — tool description manipulation leads to attacker‑intended operations | 7.8 | GREY |
+
+**What the tiers mean:**
+- **GREY** — Documented, exploitable, no official CVE. Stored in VAULT.
+- **RED** — Operationalised in a NIGHTFALL tool.
+- **AMBER** — Operationalised with DESTROY gate required.
+- **GREEN** — Automatically fed into ARMORY for payload generation.
 
 ---
 
 ## Numbers
-
 | Metric | Value |
 |--------|-------|
 | Ecosystem tests | ~94,479 |
@@ -464,17 +494,15 @@ zenodo.org/search?q=red+specter
 ---
 
 ## Pure Engineering
-
 Zero subprocess calls. Zero external tool dependencies. No sqlmap, no nmap, no nikto, no wrappers. Every payload, every mutation engine, every detection algorithm built from scratch in pure Python.
 
 ---
 
 ## Military-Grade Upgrade Programme — Milspec v2.0.0
-
 Six NIGHTFALL tools upgraded to military-grade capability — geospatial triggers, time-on-target detonation, adaptive autonomous propagation via DeepSeek R1, cognitive warfare and multi-channel deception, cross-domain persistence across air-gapped boundaries, and coordinated defensive swarm response.
 
 | Tool | Milspec v2.0.0 |
-|------|---------------|
+|------|----------------|
 | SPECTER EXTINCTION (T87) | PRION-MUTATE · FOUNDRY-GENERATE · GPU-PARALLEL-SEED · 657 tests |
 | SPECTER HELIX (T142) | Topology survey · Adaptive autonomous propagation · Coordinated DDoS swarm |
 | SPECTER MIASMA (T151) | PRION-MUTATE · GPU-PARALLEL-PROPAGATE · STEALTH-PERSIST · 504 tests |
@@ -487,26 +515,22 @@ Dual-signed Ed25519 + ML-DSA-65. Private repos.
 ---
 
 ## Open Source
-
 | Package | Install | What It Does |
-|---------|---------|-------------|
-| **specter-raven-ce** | `pip install specter-raven-ce` | Autonomous recon engine — port scan, OS detection, service fingerprint, TLS analysis |
-| **specter-piercer-ce** | `pip install specter-piercer-ce` | Tor hidden service web attack CE |
-| **specter-vicious-ce** | `pip install specter-vicious-ce` | Autonomous AI web application pentest CE |
-| **m99-community** | `pip install m99-community` | AI kill switch — Apache 2.0 |
+|---------|---------|--------------|
+| `specter-raven-ce` | `pip install specter-raven-ce` | Autonomous recon engine — port scan, OS detection, service fingerprint, TLS analysis |
+| `specter-piercer-ce` | `pip install specter-piercer-ce` | Tor hidden service web attack CE |
+| `specter-vicious-ce` | `pip install specter-vicious-ce` | Autonomous AI web application pentest CE |
+| `m99-community` | `pip install m99-community` | AI kill switch — Apache 2.0 |
 
 GitHub: [RichardBarron27](https://github.com/RichardBarron27)
 
 ---
 
 ## Responsible Use
-
 All offensive tools require written authorisation from the target system owner. Unauthorised use may violate the Computer Misuse Act 1990 (UK), the Computer Fraud and Abuse Act (US), or equivalent legislation.
 
 All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Protocol) and cryptographic audit logging. One Ed25519 private key. One operator. One machine. Every action signed, timestamped, and written to an immutable audit chain.
 
----
+richard@red-specter.co.uk · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/) · [AI Shield](https://red-specter.co.uk/ai-shield) · [M99](https://red-specter.co.uk/m99)
 
-**richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
-
-<p align="center"><sub>Red Specter Security Research Ltd · United Kingdom · 5 Aug 2026</sub></p>
+Red Specter Security Research Ltd · United Kingdom · 5 Aug 2026
