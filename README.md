@@ -558,9 +558,9 @@ RS-2026-060: [doi.org/10.5281/zenodo.22206133](https://doi.org/10.5281/zenodo.22
 | TRUTH SURFACE #009 | Zscaler | [zenodo.22650716](https://doi.org/10.5281/zenodo.22650716) |
 | TRUTH SURFACE #010 | Noma Security | [zenodo.22666616](https://doi.org/10.5281/zenodo.22666616) |
 | TRUTH SURFACE #011 | Zenity | [zenodo.22667279](https://doi.org/10.5281/zenodo.22667279) |
-| TRUTH SURFACE #012 | Microsoft | Pending Zenodo upload |
-| TRUTH SURFACE #013 | Cloudflare | Pending Zenodo upload |
-| TRUTH SURFACE #014 | Google | Pending Zenodo upload |
+| TRUTH SURFACE #012 | Microsoft | [zenodo.22679504](https://doi.org/10.5281/zenodo.22679504) |
+| TRUTH SURFACE #013 | Cloudflare | [zenodo.22679570](https://doi.org/10.5281/zenodo.22679570) |
+| TRUTH SURFACE #014 | Google | [zenodo.22679698](https://doi.org/10.5281/zenodo.22679698) |
 
 zenodo.org/search?q=red+specter
 
