@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**285 offensive tools. 216 defensive modules. 196 attack layers. 36 kill chain phases. ~183,500+ tests. 4,000+ ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. 62 peer-reviewed papers.**
+**287 offensive tools. 222 defensive modules. 198 attack layers. 36 kill chain phases. ~184,000+ tests. 4,000+ ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. 65 peer-reviewed papers.**
 
-*Last updated: 1 Sept 2026 — T282–T285 shipped: SLOPSQUAT (hallucinated dependency injection, L193), INFERENCECHAIN (full-spectrum inference server exploitation CVE-2026-27893 CVSS 9.8, L194), MIRAGE v2.0.0 (deepfake detection evasion 99%→15%, 203 tests), MODELSCAN (training pipeline exfiltration, L195), INFERENCENAT (inference proxy credential harvesting, L196). RS-2026-061 and RS-2026-062 published on Zenodo. GHSA-953h-g827-9q5m filed (OpenClaw v2.0, CVSS 9.1). SPECTER AUDIT v1.1.0 rebuilt with full AST-based stub detection. 62 papers. "While others announce. We ship."*
+*Last updated: 9 Sept 2026 — T286 SPECTER AUTONOMY shipped (WMD-class autonomous agentic kill chain, 13 subsystems, L197, 472 tests). T287 SPECTER MCP-SCAN shipped (internet-scale MCP server discovery, fingerprinting, CVE detection, 8 subsystems, L198, 220 tests). M217–M222 shipped: INFERENCE-GUARD, ACTIVATION-GUARD, ORCHESTRATION-SENTINEL, RAG-BARRIER, CODEGEN-AUDIT, INFERENCE-AUTH. SPECTER AUDIT v1.2.0 with 6 new anti-gaming checks (12/12 checks). RS-2026-063, RS-2026-064, RS-2026-065 (MCP Monoculture) published. TRUTH SURFACE series launched — 14 vendor architecture analyses. 287 tools. 222 modules. 65 papers. "While others announce. We ship."*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**285 tools. Six attack surfaces. One install. REST API. MCP server.**
+**287 tools. Six attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -57,7 +57,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 285 NIGHTFALL tools, 35 capabilities | 57 |
+| 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 287 NIGHTFALL tools, 35 capabilities | 57 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems, VLM_INJECT, CORTEX core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, simultaneous fleet-wide collapse | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass v2.0.0 — 15 subsystems, GLASSWING Mythos scanner | 243 |
@@ -122,7 +122,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 102 | **SPECTER THUNDERBOLT** | AI training cluster annihilation — Ray/Slurm/K8s/MLflow, cluster worm. DESTROY gate | 288 |
 | 103 | **SPECTER SE-SOCIAL** | OAuth token harvesting via AI-driven social engineering — no prior token needed | 178 |
 | 104 | **SPECTER TITAN** | Embodied AI & robotics annihilation — URScript RCE, safety-system bypass. World-first | 323 |
-| 105 | **WARLORD PRIME** | v2.0 — 285-tool universal manifest, 4 campaign types, DeepSeek R1 planning | 471 |
+| 105 | **WARLORD PRIME** | v2.0 — 287-tool universal manifest, 4 campaign types, DeepSeek R1 planning | 471 |
 | 106 | **SPECTER TRUSTFALL** | AI coding agent exploitation — poisoned CLAUDE.md/.mcp.json, container escape, credential harvest | 335 |
 | 107 | **SPECTER WIRE** | AI voice agent exploitation — SIP barge-in, voice cloning, DTMF inject, IVR destruction | 304 |
 | 108 | **SPECTER SANDBOX** | Unified AI sandbox & container escape — 9 CVEs, 6 platforms | 252 |
@@ -191,6 +191,8 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 171 | **SPECTER RAVEN** | Autonomous traditional red team — full kill chain, 6 parallel specialist agents, cross-engagement learning | — |
 | 172 | **SPECTER BIOSHOCK** | AI browser reality manipulation — game-context injection, credential exfiltration via game mechanics | — |
 | 173 | **SPECTER PIERCER** | Tor hidden service web attacks — SQLi, XSS, LFI, RCE, persistence on .onion services | 461 |
+| 286 | **SPECTER AUTONOMY** | WMD-class autonomous agentic kill chain — 13 subsystems, AUTONOMY_KEY+DESTROY_KEY gates, L197. The agent doesn't need to be hacked. It needs to be convinced. | 472 |
+| 287 | **SPECTER MCP-SCAN** | Internet-scale MCP server discovery, fingerprinting, authentication audit, CVE detection, 8 CVEs, supply chain analysis, signed evidence chains. MCS-{hex12} reports. L198 | 220 |
 | 174 | **SPECTER GUARDRAIL-DOS** | Guardrail denial-of-service — 13-63x token amplification, 148x latency | 478 |
 | 175 | **SPECTER GUARDRAIL-ESCAPE** | Guardrail blind — 100% evasion, systematic boundary mapping | 424 |
 | 176 | **SPECTER GUARDRAIL-HIJACK** | Guardrail ownership — decisions redirected, malicious actions approved | 417 |
@@ -367,7 +369,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**216 modules (M215–M216 shipped 31 Aug 2026). 17 industry verticals. Each vertical is a standalone product with its own GUI.**
+**222 modules (M221–M222 shipped 9 Sept 2026). 17 industry verticals. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -425,6 +427,12 @@ Autonomous defensive kill chain engine. DeepSeek R1 32B via Ollama as the reason
 | M214 | METADATA INLINE GUARD | Inline ADI prevention — blocks metadata corruption before agent processes it |
 | M215 | AUTONOMOUS KILL CHAIN TELEMETRY BRIDGE | Closes telemetry plane separation — correlates offensive and defensive data streams. confidence 1.0, sub-2ms containment |
 | M216 | AUTONOMOUS KILL CHAIN TELEMETRY BRIDGE v2 | Production telemetry bridge wired into SPECTER BATTLE LAB co-evolution loop |
+| M217 | INFERENCE-GUARD | Inference request/response guardrail enforcement — input validation, output filtering, IGD-{hex12} reports |
+| M218 | ACTIVATION-GUARD | Neural activation pattern monitoring — detects adversarial and anomalous activation signatures, ACG-{hex12} reports |
+| M219 | ORCHESTRATION-SENTINEL | Multi-agent orchestration security — rogue campaign detection, ORS-{hex12} reports |
+| M220 | RAG-BARRIER | RAG pipeline and vector store protection — adversarial embedding detection, corpus integrity, RGB-{hex12} reports |
+| M221 | CODEGEN-AUDIT | AI code generation security audit — hallucinated package detection (SLOPSQUAT), secret scanning, vulnerability patterns, crypto audit, CGA-{hex12} reports |
+| M222 | INFERENCE-AUTH | Inference endpoint authentication enforcement — JWT/OAuth2 validation, algorithm confusion detection, NHI lifecycle tracking, IAH-{hex12} reports |
 
 ### Compliance Coverage
 
@@ -531,6 +539,28 @@ RS-2026-060: [doi.org/10.5281/zenodo.22206133](https://doi.org/10.5281/zenodo.22
 | RS-2026-060 | Autonomous Attack-Defence Co-Evolution: Measuring the Security Half-Life of AI Controls | [zenodo.22206133](https://doi.org/10.5281/zenodo.22206133) |
 | RS-2026-061 | The AI Coding Assistant as Attack Surface: Systematic Exploitation of LLM Package Hallucination at Scale | [zenodo.22227843](https://doi.org/10.5281/zenodo.22227843) |
 | RS-2026-062 | Full-Spectrum Inference Server Exploitation: From Remote Code Execution to Persistent AI Infrastructure Compromise | [zenodo.22233601](https://doi.org/10.5281/zenodo.22233601) |
+| RS-2026-063 | Empirical Measurement of LLM Package Hallucination Risk Across Python, Rust, and Go Ecosystems | [zenodo.22276701](https://doi.org/10.5281/zenodo.22276701) |
+| RS-2026-064 | The Shifted Kill Chain: Traditional Penetration Testing vs Agentic AI Offensive Security | [zenodo.22295827](https://doi.org/10.5281/zenodo.22295827) |
+| RS-2026-065 | MCP Monoculture: The Systemic Security Failure of Agentic AI Infrastructure | [zenodo.22649218](https://doi.org/10.5281/zenodo.22649218) |
+
+**TRUTH SURFACE Series** — AI Security Vendor Architecture Analysis (14 papers):
+
+| Paper | Vendor | DOI |
+|-------|--------|-----|
+| TRUTH SURFACE #001 | CrowdStrike SafeMind | [zenodo.22556025](https://doi.org/10.5281/zenodo.22556025) |
+| TRUTH SURFACE #002 | Sophos Fusion | [zenodo.22650490](https://doi.org/10.5281/zenodo.22650490) |
+| TRUTH SURFACE #003 | Palo Alto Networks | [zenodo.22650538](https://doi.org/10.5281/zenodo.22650538) |
+| TRUTH SURFACE #004 | SentinelOne | [zenodo.22650562](https://doi.org/10.5281/zenodo.22650562) |
+| TRUTH SURFACE #005 | Check Point Software | [zenodo.22650591](https://doi.org/10.5281/zenodo.22650591) |
+| TRUTH SURFACE #006 | Fortinet | [zenodo.22650628](https://doi.org/10.5281/zenodo.22650628) |
+| TRUTH SURFACE #007 | Darktrace | [zenodo.22650649](https://doi.org/10.5281/zenodo.22650649) |
+| TRUTH SURFACE #008 | Trend Micro | [zenodo.22650687](https://doi.org/10.5281/zenodo.22650687) |
+| TRUTH SURFACE #009 | Zscaler | [zenodo.22650716](https://doi.org/10.5281/zenodo.22650716) |
+| TRUTH SURFACE #010 | Noma Security | [zenodo.22666616](https://doi.org/10.5281/zenodo.22666616) |
+| TRUTH SURFACE #011 | Zenity | [zenodo.22667279](https://doi.org/10.5281/zenodo.22667279) |
+| TRUTH SURFACE #012 | Microsoft | Pending Zenodo upload |
+| TRUTH SURFACE #013 | Cloudflare | Pending Zenodo upload |
+| TRUTH SURFACE #014 | Google | Pending Zenodo upload |
 
 zenodo.org/search?q=red+specter
 
@@ -586,15 +616,15 @@ red-specter.co.uk/rssa/
 
 | Metric | Value |
 |--------|-------|
-| Ecosystem tests | ~183,500+ |
-| Offensive tools | 285 |
+| Ecosystem tests | ~184,000+ |
+| Offensive tools | 287 |
 | ARMORY payloads | 4,000+ (WMD-class) — v15.5.1 |
 | ARMORY categories | 142 |
-| AI Shield modules | 216 |
+| AI Shield modules | 222 |
 | BLACK BOX tests | 444 |
 | SPECTER BATTLE LAB tests | 1,350 |
 | Vertical products | 17 |
-| Attack layers | 196 |
+| Attack layers | 198 |
 | Kill chain phases | 36 |
 | Attack chain presets | 22 |
 | Destruction presets | 4 |
@@ -602,7 +632,7 @@ red-specter.co.uk/rssa/
 | Unified frameworks | 3 (NIGHTFALL + AI Shield + BLACK BOX) |
 | GUI platforms | 17 (AI SHIELD COMMAND + 16 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
-| Published papers | 62 |
+| Published papers | 65 |
 | RSV advisories filed | 50+ |
 | Responsible disclosures | 4 active (GHSA-c663-cj78-x256, RSV-2026-031-050, GHSA-94qv-8hq8-3hhr, GHSA-953h-g827-9q5m) |
 | Security Half-Life T½ | 13 cycles (empirically measured, RS-2026-060) |
@@ -656,4 +686,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
-<p align="center"><sub>Red Specter Security Research Ltd · United Kingdom · 1 Sept 2026</sub></p>
+<p align="center"><sub>Red Specter Security Research Ltd · United Kingdom · 9 Sept 2026</sub></p>
