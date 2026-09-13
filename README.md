@@ -2,15 +2,15 @@
 
 AI agent security tooling. Offensive testing, runtime defence, agent discovery, and SIEM integration. Pure Python, no wrappers.
 
-**287 offensive tools. 222 defensive modules. 198 attack layers. 36 kill chain phases. ~184,000+ tests. 4,000+ ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. 65 peer-reviewed papers.**
+**289 offensive tools. 222 defensive modules. 200 attack layers. 36 kill chain phases. ~184,216+ tests. 4,000+ ARMORY payloads (WMD-class). Three unified frameworks + SENTINEL PRIME. 69 peer-reviewed papers + 18 TRUTH SURFACE vendor analyses.**
 
-*Last updated: 9 Sept 2026 — T286 SPECTER AUTONOMY shipped (WMD-class autonomous agentic kill chain, 13 subsystems, L197, 472 tests). T287 SPECTER MCP-SCAN shipped (internet-scale MCP server discovery, fingerprinting, CVE detection, 8 subsystems, L198, 220 tests). M217–M222 shipped: INFERENCE-GUARD, ACTIVATION-GUARD, ORCHESTRATION-SENTINEL, RAG-BARRIER, CODEGEN-AUDIT, INFERENCE-AUTH. SPECTER AUDIT v1.2.0 with 6 new anti-gaming checks (12/12 checks). RS-2026-063, RS-2026-064, RS-2026-065 (MCP Monoculture) published. TRUTH SURFACE series launched — 14 vendor architecture analyses. 287 tools. 222 modules. 65 papers. "While others announce. We ship."*
+*Last updated: 13 Sept 2026 — T288 SPECTER TORPEDO shipped (WMD-class autonomous kill chain, 3-key gate TORPEDO_KEY+DESTROY_KEY+DEADMAN_KEY, L199, 247 tests). T289 SPECTER JAVELIN shipped (precision strike engine, 12 target classes, 35 targets, operator-controlled abort window, dual-signal verification, L200, 216 tests, SPECTER AUDIT 12/12). RS-2026-066 TORPEDO, RS-2026-067 DEADMAN Problem, RS-2026-068 NHI Blind Spot, RS-2026-069 Governor Problem published. TRUTH SURFACE series expanded to 18 vendor analyses. 289 tools. 200 layers. 69 papers. "While others announce. We ship."*
 
 ---
 
 ## Red Specter NIGHTFALL — AI Offensive Framework
 
-**287 tools. Six attack surfaces. One install. REST API. MCP server.**
+**289 tools. Six attack surfaces. One install. REST API. MCP server.**
 
 Traditional red team toolkits were built for human-driven testing. They were never designed to test autonomous AI systems. AI agents introduce a completely new attack surface — memory, tools, identity, reasoning, and autonomy. That surface is not covered by existing security tooling.
 
@@ -57,7 +57,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 37 | **SERPENT** | Chain-of-thought attacks — hijack reasoning, inflate costs, exfiltrate via CoT | 61 |
 | 38 | **JANUS** | Guardrail bypass testing — fingerprint, fuzz, bypass, chain across providers | 73 |
 | 39 | **ARCHITECT** | AI infrastructure exploitation — cloud, GPU, Kubernetes, model serving pipelines | 68 |
-| 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 287 NIGHTFALL tools, 35 capabilities | 57 |
+| 40 | **WARLORD** | Autonomous campaign engine v2.0.0 — orchestrates all 289 NIGHTFALL tools, 35 capabilities | 57 |
 | 41 | **FIREBALL** | Autonomous AI infiltration agent — 12 subsystems, VLM_INJECT, CORTEX core, 9 mission templates | 321 |
 | 42 | **RAGNAROK** | Trust chain apocalypse — one trigger phrase, simultaneous fleet-wide collapse | 101 |
 | 43 | **ECLIPSE** | Universal AI defence bypass v2.0.0 — 15 subsystems, GLASSWING Mythos scanner | 243 |
@@ -122,7 +122,7 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 102 | **SPECTER THUNDERBOLT** | AI training cluster annihilation — Ray/Slurm/K8s/MLflow, cluster worm. DESTROY gate | 288 |
 | 103 | **SPECTER SE-SOCIAL** | OAuth token harvesting via AI-driven social engineering — no prior token needed | 178 |
 | 104 | **SPECTER TITAN** | Embodied AI & robotics annihilation — URScript RCE, safety-system bypass. World-first | 323 |
-| 105 | **WARLORD PRIME** | v2.0 — 287-tool universal manifest, 4 campaign types, DeepSeek R1 planning | 471 |
+| 105 | **WARLORD PRIME** | v2.0 — 289-tool universal manifest, 4 campaign types, DeepSeek R1 planning | 471 |
 | 106 | **SPECTER TRUSTFALL** | AI coding agent exploitation — poisoned CLAUDE.md/.mcp.json, container escape, credential harvest | 335 |
 | 107 | **SPECTER WIRE** | AI voice agent exploitation — SIP barge-in, voice cloning, DTMF inject, IVR destruction | 304 |
 | 108 | **SPECTER SANDBOX** | Unified AI sandbox & container escape — 9 CVEs, 6 platforms | 252 |
@@ -304,6 +304,10 @@ NIGHTFALL exists to fill that gap. A controlled adversarial testing framework de
 | 283 | **SPECTER INFERENCECHAIN** | Full-spectrum inference server exploitation — CVE-2026-27893 (vLLM CVSS 9.8) unauthenticated RCE, then complete kill chain across 10 server types: credential excavation, model extraction, poisoning, lateral movement, persistent implant, traffic interception, recursive multi-server orchestration, supply chain poisoning. 9 operational modes. L194. RS-2026-062 published | 250+ |
 | 284 | **SPECTER MODELSCAN** | Fine-tuning dataset & training pipeline exfiltration — HuggingFace, W&B, MLflow, SageMaker, Vertex AI, Azure ML, private registries, cloud storage, Git repos. DNS tunnelling, HTTP steganography, cloud-to-cloud exfiltration. Chains from INFERENCECHAIN credential output. L195 | 220+ |
 | 285 | **SPECTER INFERENCENAT** | Inference proxy credential harvesting & replay — attacks nginx, AWS API Gateway, Azure APIM, GCP Cloud Endpoints, Kubernetes ingress, Envoy, CloudFlare Workers, LiteLLM. 25+ credential patterns. Scaled harvesting with rate-limit evasion. EXHAUST/EXTRACT/DEGRADE/SILENT abuse modes. Chains to INFERENCECHAIN and MODELSCAN. L196 | 220+ |
+| 286 | **SPECTER AUTONOMY** | WMD-class autonomous agentic kill chain — 13 subsystems, 700-agent swarm escalation, AUTONOMY_KEY+DESTROY_KEY gates. L197. RS-2026-paper | 472 |
+| 287 | **SPECTER MCP-SCAN** | Internet-scale MCP server discovery, fingerprinting, CVE detection — 8 subsystems, 8 CVEs, MCS-{hex12} signed reports. L198 | 220 |
+| 288 | **SPECTER TORPEDO** | WMD-class autonomous AI kill chain — S1 LANCE, S2 RECON, S3 NUKE, S4 SEED, S5 PHANTOM, S6 GHOST, S7 DEADMAN, S8 SELF-DESTRUCT. TORPEDO_KEY+DESTROY_KEY+DEADMAN_KEY. Irrevocable after launch. L199. RS-2026-066 | 247 |
+| 289 | **SPECTER JAVELIN** | Precision strike engine — 12 target classes, 35 selectable targets, operator-controlled abort window, dual-signal objective verification, clean exit. JAVELIN_KEY. L200 | 216 |/
 | — | **NIGHTFALL ARMORY** | Payload library — 3,875 payloads (WMD-class), 142 categories, PRION ENGINE autonomous mutation. v15.5.1 | — |
 | — | **SPECTER BATTLE LAB** | Autonomous attack-defence co-evolution engine — WARLORD PRIME vs AI Shield FORTRESS. Security Half-Life T½=13. AADR Index. 20 co-evolution cycles. 1,350 tests. RS-2026-060 published | 1,350 |
 
@@ -327,7 +331,7 @@ red-specter chain web-app -t <target>         # POLTERGEIST -> GLASS -> WRAITH -
 red-specter chain active-directory -t <target># DOMINION -> GHOUL -> DOMINION -> DOMINION
 red-specter chain infra -t <target>           # ORION -> WRAITH -> REAPER -> DOMINION
 red-specter chain traditional -t <target>     # SCANNER -> DATABASE/CMS/MAIL/SMB/VPN/BINARY -> VAULT -> REAPER
-red-specter chain combined -t <target>        # Full 281-tool AI + traditional campaign
+red-specter chain combined -t <target>        # Full 289-tool AI + traditional campaign
 red-specter chain portfolio -t <target>       # Multi-company portfolio campaign
 red-specter chain annihilate -t <target>      # Total destruction — 9 tools
 red-specter chain scorched-earth -t <target>  # Infrastructure wipeout — 6 tools
@@ -369,7 +373,7 @@ Every tool in NIGHTFALL exists to test a control in AI Shield. NIGHTFALL is not 
 
 ## AI Shield Defence Framework
 
-**222 modules (M221–M222 shipped 9 Sept 2026). 17 industry verticals. Each vertical is a standalone product with its own GUI.**
+**222 modules (M217–M222 shipped Sept 2026). 17 industry verticals. Each vertical is a standalone product with its own GUI.**
 
 Runtime AI security that protects AI agents, LLMs, and autonomous systems in production. Pick your industry, one install, one command — the GUI launches branded for that sector with only that sector's modules, compliance frameworks, and dashboard widgets.
 
@@ -617,14 +621,14 @@ red-specter.co.uk/rssa/
 | Metric | Value |
 |--------|-------|
 | Ecosystem tests | ~184,000+ |
-| Offensive tools | 287 |
+| Offensive tools | 289 |
 | ARMORY payloads | 4,000+ (WMD-class) — v15.5.1 |
 | ARMORY categories | 142 |
 | AI Shield modules | 222 |
 | BLACK BOX tests | 444 |
 | SPECTER BATTLE LAB tests | 1,350 |
 | Vertical products | 17 |
-| Attack layers | 198 |
+| Attack layers | 200 |
 | Kill chain phases | 36 |
 | Attack chain presets | 22 |
 | Destruction presets | 4 |
@@ -632,7 +636,7 @@ red-specter.co.uk/rssa/
 | Unified frameworks | 3 (NIGHTFALL + AI Shield + BLACK BOX) |
 | GUI platforms | 17 (AI SHIELD COMMAND + 16 vertical GUIs) |
 | Distro packages | 3 (.deb, .rpm, Arch) |
-| Published papers | 65 |
+| Published papers | 69 RS papers + 18 TRUTH SURFACE vendor analyses (87 total) |
 | RSV advisories filed | 50+ |
 | Responsible disclosures | 4 active (GHSA-c663-cj78-x256, RSV-2026-031-050, GHSA-94qv-8hq8-3hhr, GHSA-953h-g827-9q5m) |
 | Security Half-Life T½ | 13 cycles (empirically measured, RS-2026-060) |
@@ -686,4 +690,4 @@ All defensive products include safety controls (UNLEASHED gate, M99 Doomsday Pro
 
 **richard@red-specter.co.uk** · [red-specter.co.uk](https://red-specter.co.uk) · [NIGHTFALL](https://red-specter.co.uk/nightfall/) · [NIGHTFALL API](https://api.red-specter.co.uk/nightfall/docs) · [AI Shield](https://shield.red-specter.co.uk) · [M99](https://red-specter.co.uk/m99-community/)
 
-<p align="center"><sub>Red Specter Security Research Ltd · United Kingdom · 9 Sept 2026</sub></p>
+<p align="center"><sub>Red Specter Security Research Ltd · United Kingdom · 13 Sept 2026</sub></p>
