@@ -26,6 +26,7 @@ Every Red Specter security tool is designed and developed in-house in Python. Ou
 | AI Shield defensive modules | **239** |
 | Industry verticals | **17** |
 | ARMORY payload corpus | **8,028** |
+| PRION ENGINE | **Autonomous payload mutation** |
 | Autonomous offensive AI agents | **43** |
 | Documented ecosystem validation tests | **188,268+** |
 | Published research papers on Zenodo | **127** |
@@ -77,6 +78,7 @@ We build offensive technology to test defensive technology, defensive technology
 | **RED SCORE v2.0** | Evidence-led adversarial GRC and risk assessment |
 | **SPECTER BATTLE LAB** | Autonomous attack-defence co-evolution research |
 | **ARMORY** | Controlled adversarial research payload corpus |
+| **PRION ENGINE** | Autonomous payload mutation and adversarial variation |
 | **FRANKENSTEIN v2.0** | Adaptive adversarial research and attack-chain composition |
 | **WARLORD PRIME** | Autonomous security assessment orchestration |
 | **SPECTER RAVEN** | Multi-agent security assessment |
@@ -273,7 +275,43 @@ ARMORY is Red Specter's controlled adversarial research corpus, supporting secur
 
 It provides a common research foundation for NIGHTFALL, AI Shield and SPECTER BATTLE LAB.
 
+ARMORY incorporates PRION ENGINE, Red Specter's proprietary autonomous payload mutation technology.
+
 ARMORY is proprietary and is not distributed as an unrestricted public payload collection.
+
+---
+
+## PRION ENGINE
+
+### Autonomous Payload Mutation
+
+PRION ENGINE is Red Specter's proprietary autonomous payload mutation engine, designed and developed in-house.
+
+Integrated with the ARMORY corpus of 8,028 research payloads, PRION introduces dynamic adversarial variation into controlled security assessments.
+
+Rather than relying exclusively on static payload libraries, PRION enables research into how defensive controls respond to changing adversarial inputs.
+
+Its purpose is to support adaptive security research and investigate whether defensive effectiveness persists beyond fixed test cases.
+
+PRION is a distinct component of Red Specter's proprietary research architecture.
+
+### Adaptive Research Architecture
+
+| Technology | Primary Function |
+|---|---|
+| **ARMORY** | Adversarial research payload corpus |
+| **PRION ENGINE** | Autonomous payload mutation |
+| **FRANKENSTEIN v2.0** | Adaptive attack-chain evolution |
+| **NIGHTFALL** | Offensive security research framework |
+| **AI Shield** | Autonomous defensive security framework |
+| **SPECTER BATTLE LAB** | Controlled attack-defence experimentation |
+| **AI BLACK BOX** | Cryptographically verifiable research evidence |
+
+PRION and FRANKENSTEIN address different dimensions of adversarial adaptation: payload variation and attack-chain evolution respectively.
+
+PRION's implementation, mutation architecture and restricted research capabilities remain proprietary.
+
+**Defensive validation must account for changing adversarial behaviour.**
 
 ---
 
@@ -620,6 +658,7 @@ Our research is supported by controlled experimentation, proprietary tooling and
 ### Recent Research Directions
 
 - Autonomous cognitive attack-chain evolution.
+- Autonomous payload mutation and adversarial variation.
 - Kernel-level AI security enforcement.
 - Runtime security availability and resilience.
 - AI safety evaluator integrity.
@@ -708,13 +747,37 @@ A security control is not considered effective merely because it exists.
 
 Its effectiveness must be supported by evidence.
 
+### Beyond Static Security Testing
+
+Red Specter's research architecture extends beyond conventional automated security assessment.
+
+ARMORY provides the adversarial research corpus.
+
+PRION ENGINE provides autonomous payload mutation.
+
+FRANKENSTEIN v2.0 provides adaptive attack-chain evolution.
+
+NIGHTFALL provides the offensive research framework.
+
+AI Shield provides the defensive framework.
+
+SPECTER BATTLE LAB provides the controlled experimental environment.
+
+AI BLACK BOX provides cryptographically verifiable evidence.
+
+RED SCORE translates security evidence into structured governance, risk and compliance assessments.
+
+SPECTER AUDIT provides engineering quality assurance.
+
+**An interconnected ecosystem of proprietary security research technology, not a collection of wrappers around existing tools.**
+
 ---
 
 ## Intellectual Property
 
 Red Specter's core offensive, defensive and forensic technology is proprietary.
 
-Public research publications do not constitute a release of the underlying source code, restricted payloads, confidential attack taxonomy or operational implementation details.
+Public research publications do not constitute a release of the underlying source code, restricted payloads, confidential attack taxonomy, mutation engines or operational implementation details.
 
 Selected community projects are made available separately under their applicable licences.
 
@@ -796,7 +859,19 @@ United Kingdom
 </p>
 
 <p align="center">
-  <strong>239 Defensive Modules · 127 Research Papers</strong>
+  <strong>239 Defensive Modules · 17 Industry Verticals</strong>
+</p>
+
+<p align="center">
+  <strong>8,028 Payloads · PRION ENGINE · FRANKENSTEIN v2.0</strong>
+</p>
+
+<p align="center">
+  <strong>188,268+ Validation Tests · 127 Research Papers</strong>
+</p>
+
+<p align="center">
+  <strong>Original Proprietary Technology. Engineered In-House.</strong>
 </p>
 
 <p align="center">
